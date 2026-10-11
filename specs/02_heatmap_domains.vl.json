@@ -1,42 +1,43 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Heatmap - % of children developmentally vulnerable in each of the five AEDC domains, by neighbourhood disadvantage quintile, Australia 2024.",
+  "description": "Heatmap - share of children developmentally vulnerable in each of the five AEDC skill areas, by neighbourhood disadvantage fifth, Australia 2024. Sequential orange = child vulnerability (same colour as the maps).",
   "data": {"url": "data/aedc_by_seifa.csv"},
   "transform": [
     {"filter": "datum.state == 'Australia' && datum.year == 2024 && datum.seifa_quintile != 'All children'"},
     {"filter": {"field": "domain", "oneOf": ["Physical health", "Social competence", "Emotional maturity", "Language & thinking", "Communication"]}},
     {"calculate": "toNumber(substring(datum.seifa_quintile, 9, 10))", "as": "q"},
-    {"calculate": "['', 'Most disadvantaged', '2', '3', '4', 'Least disadvantaged'][datum.q]", "as": "q_label"}
+    {"calculate": "['', 'Poorest fifth', 'Second', 'Middle', 'Fourth', 'Richest fifth'][datum.q]", "as": "Neighbourhood"},
+    {"calculate": "{'Physical health':'Physical health','Social competence':'Social skills','Emotional maturity':'Emotional maturity','Language & thinking':'Language and thinking','Communication':'Communication'}[datum.domain]", "as": "Skill area"}
   ],
-  "width": 560,
-  "height": 230,
+  "width": 470,
+  "height": 250,
   "encoding": {
-    "x": {"field": "q_label", "type": "ordinal", "sort": {"field": "q"}, "title": "Neighbourhood disadvantage (fifths of Australia)",
+    "x": {"field": "Neighbourhood", "type": "ordinal", "sort": {"field": "q"}, "title": "Neighbourhood disadvantage, in fifths of Australia",
       "axis": {"labelAngle": 0, "orient": "top", "domain": false, "ticks": false, "labelPadding": 6}},
-    "y": {"field": "domain", "type": "nominal", "title": null,
-      "sort": ["Language & thinking", "Physical health", "Social competence", "Communication", "Emotional maturity"],
+    "y": {"field": "Skill area", "type": "nominal", "title": null,
+      "sort": ["Language and thinking", "Physical health", "Social skills", "Communication", "Emotional maturity"],
       "axis": {"domain": false, "ticks": false, "labelPadding": 8}}
   },
   "layer": [
     {
-      "mark": {"type": "rect", "stroke": "#fcfcfb", "strokeWidth": 2, "cornerRadius": 3},
+      "mark": {"type": "rect", "stroke": "#fffbf4", "strokeWidth": 2.5, "cornerRadius": 3},
       "encoding": {
-        "color": {"field": "pct_vulnerable", "type": "quantitative", "title": "% of children vulnerable",
-          "scale": {"range": ["#e6f0fc", "#86b6ef", "#2a78d6", "#104281"], "domain": [3, 9, 13, 17]},
-          "legend": {"orient": "bottom", "gradientLength": 220, "format": ".0f"}},
+        "color": {"field": "pct_vulnerable", "type": "quantitative", "title": "Children vulnerable (%)",
+          "scale": {"domain": [3, 8, 12, 17], "range": ["#fbe9d6", "#f2b37b", "#d9691e", "#7a3410"], "interpolate": "lab"},
+          "legend": {"orient": "bottom", "gradientLength": 240, "format": ".0f"}},
         "tooltip": [
-          {"field": "domain", "title": "Development area"},
-          {"field": "q_label", "title": "Neighbourhood"},
-          {"field": "pct_vulnerable", "title": "% vulnerable", "format": ".1f"},
-          {"field": "n_vulnerable", "title": "Children vulnerable", "format": ","}
+          {"field": "Skill area", "title": "Skill area"},
+          {"field": "Neighbourhood", "title": "Neighbourhood"},
+          {"field": "pct_vulnerable", "title": "Children vulnerable (%)", "format": ".1f"},
+          {"field": "n_vulnerable", "title": "Number of children vulnerable", "format": ",d"}
         ]
       }
     },
     {
-      "mark": {"type": "text", "fontSize": 13, "fontWeight": 600},
+      "mark": {"type": "text", "fontSize": 15, "fontWeight": 600},
       "encoding": {
         "text": {"field": "pct_vulnerable", "type": "quantitative", "format": ".1f"},
-        "color": {"condition": {"test": "datum.pct_vulnerable >= 11", "value": "#ffffff"}, "value": "#0b0b0b"}
+        "color": {"condition": {"test": "datum.pct_vulnerable >= 11", "value": "#ffffff"}, "value": "#2b2118"}
       }
     }
   ]

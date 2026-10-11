@@ -1,48 +1,51 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Scatterplot with trend - each council area's disadvantage score (SEIFA IRSD 2021) against the % of 25-34 year olds who finished Year 12. Circle size = population. Hover to identify an area; extreme areas are labelled.",
-  "data": {"url": "data/lga.csv", "format": {"parse": {"irsd_score": "number", "irsd_decile": "number", "aedc_vuln1_pct_2024": "number", "aedc_children_2024": "number", "y12_pct_25_34": "number", "population": "number"}}},
+  "description": "Scatterplot with LOESS trend - each council area's disadvantage score (ABS SEIFA IRSD 2021) against the share of 25-34 year olds who finished Year 12. Circle size = population. Navy = Year 12 completion (same colour as the Year 12 map). Hover to identify an area; a few extreme areas are labelled, offset so labels do not cover circles.",
+  "data": {"url": "data/lga.csv", "format": {"parse": {"irsd_score": "number", "y12_pct_25_34": "number", "population": "number"}}},
   "transform": [
-    {"filter": "datum.y12_pct_25_34 > 0 && datum.irsd_score > 0"}
+    {"filter": "datum.y12_pct_25_34 > 0 && datum.irsd_score > 0"},
+    {"calculate": "{'NSW':'New South Wales','VIC':'Victoria','QLD':'Queensland','SA':'South Australia','WA':'Western Australia','TAS':'Tasmania','NT':'Northern Territory','ACT':'Australian Capital Territory'}[datum.state]", "as": "State"}
   ],
-  "width": 620,
+  "width": 570,
   "height": 380,
   "encoding": {
-    "x": {"field": "irsd_score", "type": "quantitative", "title": "Area disadvantage score (SEIFA)  ← more disadvantaged  ·  more advantaged →",
+    "x": {"field": "irsd_score", "type": "quantitative", "title": "Area disadvantage score (lower is more disadvantaged)",
       "scale": {"domain": [400, 1150]}, "axis": {"grid": true}},
-    "y": {"field": "y12_pct_25_34", "type": "quantitative", "title": "% of 25–34 year olds who finished Year 12",
+    "y": {"field": "y12_pct_25_34", "type": "quantitative", "title": "Young adults who finished Year 12 (%)",
       "scale": {"domain": [0, 100]}, "axis": {"grid": true, "labelExpr": "datum.value + '%'"}}
   },
   "layer": [
     {
       "params": [{"name": "pt", "select": {"type": "point", "on": "pointerover", "clear": "pointerout", "fields": ["lga_code"], "nearest": true}}],
-      "mark": {"type": "circle", "stroke": "#fcfcfb", "strokeWidth": 0.8},
+      "mark": {"type": "circle"},
       "encoding": {
-        "size": {"field": "population", "type": "quantitative", "title": "Population", "scale": {"range": [12, 500]},
-          "legend": {"values": [10000, 100000, 1000000], "format": ",.0f", "orient": "bottom-right", "direction": "vertical", "symbolFillColor": "#86b6ef", "symbolStrokeColor": "#fcfcfb"}},
-        "color": {"condition": {"param": "pt", "empty": false, "value": "#eb6834"}, "value": "#2a78d6"},
-        "opacity": {"condition": {"param": "pt", "empty": false, "value": 1}, "value": 0.55},
+        "size": {"field": "population", "type": "quantitative", "title": "Population", "scale": {"range": [14, 520]},
+          "legend": {"values": [10000, 100000, 1000000], "format": ",.0f", "orient": "bottom-right", "direction": "vertical", "symbolFillColor": "#6f9bd0", "symbolStrokeColor": "#fffbf4"}},
+        "color": {"value": "#2a5f9e"},
+        "opacity": {"condition": {"param": "pt", "empty": false, "value": 1}, "value": 0.5},
+        "stroke": {"condition": {"param": "pt", "empty": false, "value": "#1d1712"}, "value": "#fffbf4"},
+        "strokeWidth": {"condition": {"param": "pt", "empty": false, "value": 2}, "value": 0.8},
         "tooltip": [
           {"field": "lga_name", "title": "Council area"},
-          {"field": "state", "title": "State"},
-          {"field": "irsd_score", "title": "Disadvantage score"},
-          {"field": "y12_pct_25_34", "title": "Finished Year 12 (25–34)", "format": ".1f"},
-          {"field": "population", "title": "Population", "format": ","}
+          {"field": "State", "title": "State"},
+          {"field": "irsd_score", "title": "Area disadvantage score"},
+          {"field": "y12_pct_25_34", "title": "Aged 25 to 34 who finished Year 12 (%)", "format": ".1f"},
+          {"field": "population", "title": "Population", "format": ",d"}
         ]
       }
     },
     {
       "transform": [{"loess": "y12_pct_25_34", "on": "irsd_score", "bandwidth": 0.5}],
-      "mark": {"type": "line", "color": "#0b0b0b", "strokeWidth": 2, "opacity": 0.8}
+      "mark": {"type": "line", "color": "#7a4a1e", "strokeWidth": 2.5}
     },
     {
-      "transform": [{"filter": {"field": "lga_name", "oneOf": ["East Arnhem", "Cherbourg", "Woorabinda", "Fairfield", "Brimbank", "Ku-ring-gai", "Blacktown"]}}],
-      "mark": {"type": "text", "align": "left", "dx": 7, "dy": -6, "fontSize": 11, "color": "#52514e"},
+      "transform": [{"filter": {"field": "lga_name", "oneOf": ["Aurukun", "Yarrabah", "Fairfield", "Ku-ring-gai"]}}],
+      "mark": {"type": "text", "align": "left", "dx": 10, "dy": -10, "fontSize": 13, "color": "#2b2118"},
       "encoding": {"text": {"field": "lga_name"}}
     },
     {
-      "data": {"values": [{"x": 640, "y": 52, "t": "Trend line"}]},
-      "mark": {"type": "text", "align": "center", "angle": -14, "fontSize": 11, "fontStyle": "italic", "color": "#52514e"},
+      "data": {"values": [{"x": 700, "y": 30, "t": "Trend: completion rises as disadvantage falls"}]},
+      "mark": {"type": "text", "align": "left", "fontSize": 13, "fontStyle": "italic", "color": "#7a4a1e"},
       "encoding": {"x": {"field": "x", "type": "quantitative"}, "y": {"field": "y", "type": "quantitative"}, "text": {"field": "t"}}
     }
   ]

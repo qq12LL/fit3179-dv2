@@ -1,97 +1,586 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "MAP 3 - Choropleth of the % of 25-34 year olds who completed Year 12 (or equivalent), by Local Government Area, 2021 Census. Insets zoom into Greater Sydney and Greater Melbourne, where small council areas are invisible on the national map.",
+  "description": "MAP 3 - Choropleth (normalised data) of the share of 25-34 year olds who completed Year 12, by council area, 2021 Census. Sequential navy (no neutral midpoint, so not diverging). Insets zoom into Greater Sydney and Greater Melbourne, where small council areas are invisible on the national map. City labels sit in the ocean so they do not cover any area. Ocean layer and graticule added; the annotation sits in the ocean.",
   "hconcat": [
     {
       "width": 600,
       "height": 500,
-      "projection": {"type": "conicEqualArea", "parallels": [-18, -36], "rotate": [-132, 0, 0]},
+      "projection": {
+        "type": "conicEqualArea",
+        "parallels": [
+          -18,
+          -36
+        ],
+        "rotate": [
+          -132,
+          0,
+          0
+        ],
+        "fit": {
+          "type": "Feature",
+          "properties": {},
+          "geometry": {
+            "type": "MultiPoint",
+            "coordinates": [
+              [
+                112.3,
+                -9.6
+              ],
+              [
+                154.2,
+                -43.9
+              ]
+            ]
+          }
+        }
+      },
       "layer": [
         {
-          "data": {"url": "data/australia_lga_2021.topo.json", "format": {"type": "topojson", "feature": "lga"}},
+          "data": {
+            "sphere": true
+          },
+          "mark": {
+            "type": "geoshape",
+            "fill": "#e3ecef",
+            "stroke": null,
+            "clip": true
+          }
+        },
+        {
+          "data": {
+            "graticule": {
+              "step": [
+                10,
+                10
+              ]
+            }
+          },
+          "mark": {
+            "type": "geoshape",
+            "filled": false,
+            "stroke": "#ffffff",
+            "strokeWidth": 0.8,
+            "clip": true
+          }
+        },
+        {
+          "data": {
+            "url": "data/australia_lga_2021.topo.json",
+            "format": {
+              "type": "topojson",
+              "feature": "lga"
+            }
+          },
           "transform": [
-            {"calculate": "datum.properties.lga_code", "as": "lga_code"},
-            {"lookup": "lga_code", "from": {"data": {"url": "data/lga.csv", "format": {"parse": {"irsd_score": "number", "irsd_decile": "number", "aedc_vuln1_pct_2024": "number", "aedc_children_2024": "number", "y12_pct_25_34": "number", "population": "number"}}}, "key": "lga_code", "fields": ["lga_name", "state", "y12_pct_25_34", "irsd_decile"]}}
+            {
+              "calculate": "datum.properties.lga_code",
+              "as": "lga_code"
+            },
+            {
+              "lookup": "lga_code",
+              "from": {
+                "data": {
+                  "url": "data/lga.csv",
+                  "format": {
+                    "parse": {
+                      "y12_pct_25_34": "number",
+                      "irsd_decile": "number"
+                    }
+                  }
+                },
+                "key": "lga_code",
+                "fields": [
+                  "lga_name",
+                  "state",
+                  "y12_pct_25_34",
+                  "irsd_decile"
+                ]
+              }
+            },
+            {
+              "calculate": "{'NSW':'New South Wales','VIC':'Victoria','QLD':'Queensland','SA':'South Australia','WA':'Western Australia','TAS':'Tasmania','NT':'Northern Territory','ACT':'Australian Capital Territory'}[datum.state]",
+              "as": "State"
+            }
           ],
-          "mark": {"type": "geoshape", "stroke": "#ffffff", "strokeWidth": 0.25},
+          "mark": {
+            "type": "geoshape",
+            "stroke": "#fffbf4",
+            "strokeWidth": 0.25
+          },
           "encoding": {
             "color": {
-              "condition": {"test": "!(datum.y12_pct_25_34 > 0)", "value": "#e7e6e2"},
-              "field": "y12_pct_25_34", "type": "quantitative", "title": "% of 25–34 year olds who finished Year 12 (grey = not reported)",
-              "scale": {"domain": [40, 55, 70, 85, 100], "range": ["#c2541f", "#f0b394", "#ecebe7", "#86b6ef", "#104281"], "clamp": true, "interpolate": "lab"},
-              "legend": {"orient": "bottom", "direction": "horizontal", "gradientLength": 260, "titleLimit": 400, "values": [40, 55, 70, 85, 100], "labelExpr": "datum.value + '%'"}
+              "condition": {
+                "test": "!(datum.y12_pct_25_34 > 0)",
+                "value": "#c9c2b8"
+              },
+              "field": "y12_pct_25_34",
+              "type": "quantitative",
+              "title": "Young adults who finished Year 12 (%)",
+              "scale": {
+                "domain": [
+                  25,
+                  50,
+                  70,
+                  85,
+                  100
+                ],
+                "range": [
+                  "#eef3f9",
+                  "#bcd0ea",
+                  "#6f9bd0",
+                  "#2a5f9e",
+                  "#12305a"
+                ],
+                "clamp": true,
+                "interpolate": "lab"
+              },
+              "legend": {
+                "orient": "bottom",
+                "direction": "horizontal",
+                "gradientLength": 300,
+                "values": [
+                  25,
+                  40,
+                  55,
+                  70,
+                  85,
+                  100
+                ],
+                "labelExpr": "datum.value + '%'"
+              }
             },
             "tooltip": [
-              {"field": "lga_name", "title": "Council area"},
-              {"field": "state", "title": "State"},
-              {"field": "y12_pct_25_34", "title": "Finished Year 12 (25–34 yrs)", "format": ".1f"},
-              {"field": "irsd_decile", "title": "Disadvantage decile (1 = most)"}
+              {
+                "field": "lga_name",
+                "title": "Council area"
+              },
+              {
+                "field": "State",
+                "title": "State"
+              },
+              {
+                "field": "y12_pct_25_34",
+                "title": "Aged 25 to 34 who finished Year 12 (%)",
+                "format": ".1f"
+              },
+              {
+                "field": "irsd_decile",
+                "title": "Disadvantage decile (1 is most disadvantaged)"
+              }
             ]
           }
         },
         {
-          "data": {"url": "data/australia_lga_2021.topo.json", "format": {"type": "topojson", "feature": "states"}},
-          "mark": {"type": "geoshape", "filled": false, "stroke": "#3a3a38", "strokeWidth": 0.8}
+          "data": {
+            "url": "data/australia_lga_2021.topo.json",
+            "format": {
+              "type": "topojson",
+              "feature": "states"
+            }
+          },
+          "mark": {
+            "type": "geoshape",
+            "filled": false,
+            "stroke": "#5a4a3a",
+            "strokeWidth": 0.9
+          }
         },
         {
-          "data": {"values": [
-            {"lon": 151.05, "lat": -33.85, "label": "Sydney ▸"},
-            {"lon": 145.0, "lat": -37.85, "label": "Melbourne ▸"}
-          ]},
-          "mark": {"type": "text", "align": "left", "dx": 8, "fontSize": 11, "fontWeight": 700, "color": "#0b0b0b"},
-          "encoding": {"longitude": {"field": "lon", "type": "quantitative"}, "latitude": {"field": "lat", "type": "quantitative"}, "text": {"field": "label"}}
+          "data": {
+            "values": [
+              {
+                "lon": 152.3,
+                "lat": -35.6,
+                "label": "Sydney ▸ inset",
+                "align": "left"
+              },
+              {
+                "lon": 140.2,
+                "lat": -40.6,
+                "label": "Melbourne ▸ inset",
+                "align": "center"
+              }
+            ]
+          },
+          "mark": {
+            "type": "text",
+            "fontSize": 13,
+            "fontWeight": 700,
+            "color": "#2b2118",
+            "align": {
+              "expr": "datum.align"
+            }
+          },
+          "encoding": {
+            "longitude": {
+              "field": "lon",
+              "type": "quantitative"
+            },
+            "latitude": {
+              "field": "lat",
+              "type": "quantitative"
+            },
+            "text": {
+              "field": "label"
+            }
+          }
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "t": "Lowest completion:|remote Northern Territory",
+                "lon": 113.2,
+                "lat": -12.4,
+                "align": "left",
+                "lon2": 133.5,
+                "lat2": -13.5
+              }
+            ]
+          },
+          "mark": {
+            "type": "rule",
+            "color": "#2b2118",
+            "strokeWidth": 1,
+            "strokeDash": [
+              3,
+              2
+            ]
+          },
+          "encoding": {
+            "longitude": {
+              "field": "lon",
+              "type": "quantitative"
+            },
+            "latitude": {
+              "field": "lat",
+              "type": "quantitative"
+            },
+            "longitude2": {
+              "field": "lon2"
+            },
+            "latitude2": {
+              "field": "lat2"
+            }
+          }
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "t": "Lowest completion:|remote Northern Territory",
+                "lon": 113.2,
+                "lat": -12.4,
+                "align": "left",
+                "lon2": 133.5,
+                "lat2": -13.5
+              }
+            ]
+          },
+          "mark": {
+            "type": "circle",
+            "size": 22,
+            "color": "#2b2118",
+            "opacity": 1
+          },
+          "encoding": {
+            "longitude": {
+              "field": "lon2",
+              "type": "quantitative"
+            },
+            "latitude": {
+              "field": "lat2",
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "t": "Lowest completion:|remote Northern Territory",
+                "lon": 113.2,
+                "lat": -12.4,
+                "align": "left",
+                "lon2": 133.5,
+                "lat2": -13.5
+              }
+            ]
+          },
+          "mark": {
+            "type": "text",
+            "fontSize": 13,
+            "fontWeight": 700,
+            "color": "#2b2118",
+            "lineBreak": "|",
+            "lineHeight": 16,
+            "baseline": "bottom",
+            "dy": -7,
+            "align": {
+              "expr": "datum.align"
+            }
+          },
+          "encoding": {
+            "longitude": {
+              "field": "lon",
+              "type": "quantitative"
+            },
+            "latitude": {
+              "field": "lat",
+              "type": "quantitative"
+            },
+            "text": {
+              "field": "t"
+            }
+          }
         }
       ]
     },
     {
       "vconcat": [
         {
-          "title": {"text": "Greater Sydney", "fontSize": 13},
-          "width": 230,
+          "title": {
+            "text": "Greater Sydney",
+            "fontSize": 16
+          },
+          "width": 240,
           "height": 230,
-          "projection": {"type": "conicEqualArea", "parallels": [-18, -36], "rotate": [-151, 0, 0], "fit": {"type": "Feature", "properties": {}, "geometry": {"type": "MultiPoint", "coordinates": [[150.62, -33.55], [151.33, -34.12]]}}},
-          "data": {"url": "data/australia_lga_2021.topo.json", "format": {"type": "topojson", "feature": "lga"}},
+          "projection": {
+            "type": "conicEqualArea",
+            "parallels": [
+              -18,
+              -36
+            ],
+            "rotate": [
+              -151,
+              0,
+              0
+            ],
+            "fit": {
+              "type": "Feature",
+              "properties": {},
+              "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                  [
+                    150.62,
+                    -33.55
+                  ],
+                  [
+                    151.33,
+                    -34.12
+                  ]
+                ]
+              }
+            }
+          },
+          "data": {
+            "url": "data/australia_lga_2021.topo.json",
+            "format": {
+              "type": "topojson",
+              "feature": "lga"
+            }
+          },
           "transform": [
-            {"calculate": "datum.properties.lga_code", "as": "lga_code"},
-            {"filter": "datum.properties.cx > 149.9 && datum.properties.cx < 151.8 && datum.properties.cy > -34.6 && datum.properties.cy < -33.1"},
-            {"lookup": "lga_code", "from": {"data": {"url": "data/lga.csv", "format": {"parse": {"irsd_score": "number", "irsd_decile": "number", "aedc_vuln1_pct_2024": "number", "aedc_children_2024": "number", "y12_pct_25_34": "number", "population": "number"}}}, "key": "lga_code", "fields": ["lga_name", "y12_pct_25_34", "irsd_decile"]}}
+            {
+              "calculate": "datum.properties.lga_code",
+              "as": "lga_code"
+            },
+            {
+              "filter": "datum.properties.cx > 149.9 && datum.properties.cx < 151.8 && datum.properties.cy > -34.6 && datum.properties.cy < -33.1"
+            },
+            {
+              "lookup": "lga_code",
+              "from": {
+                "data": {
+                  "url": "data/lga.csv",
+                  "format": {
+                    "parse": {
+                      "y12_pct_25_34": "number",
+                      "irsd_decile": "number"
+                    }
+                  }
+                },
+                "key": "lga_code",
+                "fields": [
+                  "lga_name",
+                  "y12_pct_25_34",
+                  "irsd_decile"
+                ]
+              }
+            }
           ],
-          "mark": {"type": "geoshape", "stroke": "#ffffff", "strokeWidth": 0.5, "clip": true},
+          "mark": {
+            "type": "geoshape",
+            "stroke": "#fffbf4",
+            "strokeWidth": 0.6,
+            "clip": true
+          },
           "encoding": {
             "color": {
-              "condition": {"test": "!(datum.y12_pct_25_34 > 0)", "value": "#e7e6e2"},
-              "field": "y12_pct_25_34", "type": "quantitative",
-              "scale": {"domain": [40, 55, 70, 85, 100], "range": ["#c2541f", "#f0b394", "#ecebe7", "#86b6ef", "#104281"], "clamp": true, "interpolate": "lab"}, "legend": null
+              "condition": {
+                "test": "!(datum.y12_pct_25_34 > 0)",
+                "value": "#c9c2b8"
+              },
+              "field": "y12_pct_25_34",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  25,
+                  50,
+                  70,
+                  85,
+                  100
+                ],
+                "range": [
+                  "#eef3f9",
+                  "#bcd0ea",
+                  "#6f9bd0",
+                  "#2a5f9e",
+                  "#12305a"
+                ],
+                "clamp": true,
+                "interpolate": "lab"
+              },
+              "legend": null
             },
             "tooltip": [
-              {"field": "lga_name", "title": "Council area"},
-              {"field": "y12_pct_25_34", "title": "Finished Year 12 (25–34 yrs)", "format": ".1f"},
-              {"field": "irsd_decile", "title": "Disadvantage decile (1 = most)"}
+              {
+                "field": "lga_name",
+                "title": "Council area"
+              },
+              {
+                "field": "y12_pct_25_34",
+                "title": "Aged 25 to 34 who finished Year 12 (%)",
+                "format": ".1f"
+              },
+              {
+                "field": "irsd_decile",
+                "title": "Disadvantage decile (1 is most disadvantaged)"
+              }
             ]
           }
         },
         {
-          "title": {"text": "Greater Melbourne", "fontSize": 13},
-          "width": 230,
+          "title": {
+            "text": "Greater Melbourne",
+            "fontSize": 16
+          },
+          "width": 240,
           "height": 230,
-          "projection": {"type": "conicEqualArea", "parallels": [-18, -36], "rotate": [-145, 0, 0], "fit": {"type": "Feature", "properties": {}, "geometry": {"type": "MultiPoint", "coordinates": [[144.55, -37.55], [145.5, -38.15]]}}},
-          "data": {"url": "data/australia_lga_2021.topo.json", "format": {"type": "topojson", "feature": "lga"}},
+          "projection": {
+            "type": "conicEqualArea",
+            "parallels": [
+              -18,
+              -36
+            ],
+            "rotate": [
+              -145,
+              0,
+              0
+            ],
+            "fit": {
+              "type": "Feature",
+              "properties": {},
+              "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                  [
+                    144.55,
+                    -37.55
+                  ],
+                  [
+                    145.5,
+                    -38.15
+                  ]
+                ]
+              }
+            }
+          },
+          "data": {
+            "url": "data/australia_lga_2021.topo.json",
+            "format": {
+              "type": "topojson",
+              "feature": "lga"
+            }
+          },
           "transform": [
-            {"calculate": "datum.properties.lga_code", "as": "lga_code"},
-            {"filter": "datum.properties.cx > 144.3 && datum.properties.cx < 145.8 && datum.properties.cy > -38.5 && datum.properties.cy < -37.3"},
-            {"lookup": "lga_code", "from": {"data": {"url": "data/lga.csv", "format": {"parse": {"irsd_score": "number", "irsd_decile": "number", "aedc_vuln1_pct_2024": "number", "aedc_children_2024": "number", "y12_pct_25_34": "number", "population": "number"}}}, "key": "lga_code", "fields": ["lga_name", "y12_pct_25_34", "irsd_decile"]}}
+            {
+              "calculate": "datum.properties.lga_code",
+              "as": "lga_code"
+            },
+            {
+              "filter": "datum.properties.cx > 144.3 && datum.properties.cx < 145.8 && datum.properties.cy > -38.5 && datum.properties.cy < -37.3"
+            },
+            {
+              "lookup": "lga_code",
+              "from": {
+                "data": {
+                  "url": "data/lga.csv",
+                  "format": {
+                    "parse": {
+                      "y12_pct_25_34": "number",
+                      "irsd_decile": "number"
+                    }
+                  }
+                },
+                "key": "lga_code",
+                "fields": [
+                  "lga_name",
+                  "y12_pct_25_34",
+                  "irsd_decile"
+                ]
+              }
+            }
           ],
-          "mark": {"type": "geoshape", "stroke": "#ffffff", "strokeWidth": 0.5, "clip": true},
+          "mark": {
+            "type": "geoshape",
+            "stroke": "#fffbf4",
+            "strokeWidth": 0.6,
+            "clip": true
+          },
           "encoding": {
             "color": {
-              "condition": {"test": "!(datum.y12_pct_25_34 > 0)", "value": "#e7e6e2"},
-              "field": "y12_pct_25_34", "type": "quantitative",
-              "scale": {"domain": [40, 55, 70, 85, 100], "range": ["#c2541f", "#f0b394", "#ecebe7", "#86b6ef", "#104281"], "clamp": true, "interpolate": "lab"}, "legend": null
+              "condition": {
+                "test": "!(datum.y12_pct_25_34 > 0)",
+                "value": "#c9c2b8"
+              },
+              "field": "y12_pct_25_34",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  25,
+                  50,
+                  70,
+                  85,
+                  100
+                ],
+                "range": [
+                  "#eef3f9",
+                  "#bcd0ea",
+                  "#6f9bd0",
+                  "#2a5f9e",
+                  "#12305a"
+                ],
+                "clamp": true,
+                "interpolate": "lab"
+              },
+              "legend": null
             },
             "tooltip": [
-              {"field": "lga_name", "title": "Council area"},
-              {"field": "y12_pct_25_34", "title": "Finished Year 12 (25–34 yrs)", "format": ".1f"},
-              {"field": "irsd_decile", "title": "Disadvantage decile (1 = most)"}
+              {
+                "field": "lga_name",
+                "title": "Council area"
+              },
+              {
+                "field": "y12_pct_25_34",
+                "title": "Aged 25 to 34 who finished Year 12 (%)",
+                "format": ".1f"
+              },
+              {
+                "field": "irsd_decile",
+                "title": "Disadvantage decile (1 is most disadvantaged)"
+              }
             ]
           }
         }
@@ -99,5 +588,5 @@
       "spacing": 18
     }
   ],
-  "spacing": 16
+  "spacing": 24
 }

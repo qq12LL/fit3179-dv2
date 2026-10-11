@@ -1,55 +1,52 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Multi-line chart - share of domestic university students from equity groups, 2011-2024, with the 25% 'fair share' line for low-SES students. Hover for exact values.",
+  "description": "Multi-line chart - share of domestic university students from equity groups, 2011-2024, with the 25% fair-share line for students from low socio-economic areas. Colours match the rest of the page: purple = low socio-economic (area disadvantage), ochre = First Nations, teal = remoteness (regional lighter, remote darker). Every line is labelled directly.",
   "data": {"url": "data/uni_equity.csv"},
   "transform": [
     {"filter": {"field": "group", "oneOf": ["Low SES", "Regional", "First Nations", "Remote"]}},
-    {"calculate": "{'Low SES':'Low-SES areas','Regional':'Regional areas','First Nations':'First Nations','Remote':'Remote areas'}[datum.group]", "as": "series"}
+    {"calculate": "{'Low SES':'Low socio-economic areas','Regional':'Regional areas','First Nations':'First Nations','Remote':'Remote areas'}[datum.group]", "as": "Group"}
   ],
-  "width": 600,
-  "height": 300,
+  "width": 410,
+  "height": 320,
   "encoding": {
-    "x": {"field": "year", "type": "ordinal", "title": null, "axis": {"labelAngle": 0, "domain": true, "grid": false}},
-    "y": {"field": "share_pct", "type": "quantitative", "title": "% of domestic university students", "scale": {"domain": [0, 30]},
+    "x": {"field": "year", "type": "quantitative", "title": "Year", "scale": {"domain": [2011, 2024], "nice": false},
+      "axis": {"format": "d", "values": [2011, 2013, 2015, 2017, 2019, 2021, 2024], "grid": false, "labelFlush": true}},
+    "y": {"field": "share_pct", "type": "quantitative", "title": "Share of domestic university students (%)", "scale": {"domain": [0, 30]},
       "axis": {"grid": true, "labelExpr": "datum.value + '%'", "values": [0, 5, 10, 15, 20, 25, 30]}}
   },
   "layer": [
     {
-      "mark": {"type": "rule", "strokeDash": [5, 4], "color": "#eb6834", "strokeWidth": 1.5},
+      "mark": {"type": "rule", "strokeDash": [6, 4], "color": "#6e4fa3", "strokeWidth": 1.6},
       "encoding": {"y": {"datum": 25}, "x": null}
     },
     {
-      "data": {"values": [{"year": 2011, "y": 25, "t": "Low-SES fair share (25%)"}]},
-      "mark": {"type": "text", "align": "left", "dy": -8, "fontSize": 11, "fontWeight": 600, "color": "#c2541f"},
-      "encoding": {"x": {"field": "year", "type": "ordinal"}, "y": {"field": "y", "type": "quantitative"}, "text": {"field": "t"}}
+      "data": {"values": [{"year": 2011.2, "y": 25, "t": "Fair share for low socio-economic areas: 25%"}]},
+      "mark": {"type": "text", "align": "left", "dy": -10, "fontSize": 13, "fontWeight": 600, "color": "#6e4fa3"},
+      "encoding": {"x": {"field": "year", "type": "quantitative"}, "y": {"field": "y", "type": "quantitative"}, "text": {"field": "t"}}
     },
     {
-      "mark": {"type": "line", "strokeWidth": 2.5, "point": {"size": 30, "filled": true}},
+      "mark": {"type": "line", "strokeWidth": 3, "point": {"size": 36, "filled": true}},
       "encoding": {
-        "color": {"field": "series", "type": "nominal", "title": null,
-          "scale": {"domain": ["Low-SES areas", "Regional areas", "First Nations", "Remote areas"], "range": ["#2a78d6", "#1baf7a", "#4a3aa7", "#e87ba4"]},
-          "legend": {"orient": "top"}}
-      }
-    },
-    {
-      "transform": [{"filter": "datum.year == 2024"}],
-      "mark": {"type": "text", "align": "left", "dx": 8, "fontSize": 12, "fontWeight": 600},
-      "encoding": {
-        "text": {"field": "share_pct", "type": "quantitative", "format": ".1f"},
-        "color": {"field": "series", "type": "nominal", "legend": null}
-      }
-    },
-    {
-      "params": [{"name": "hoveryear", "select": {"type": "point", "on": "pointerover", "nearest": true, "fields": ["year"], "clear": "pointerout"}}],
-      "mark": {"type": "rule", "strokeWidth": 14, "color": "#000000"},
-      "encoding": {
-        "opacity": {"condition": {"param": "hoveryear", "empty": false, "value": 0.06}, "value": 0},
-        "y": null,
+        "color": {"field": "Group", "type": "nominal", "legend": null,
+          "scale": {"domain": ["Low socio-economic areas", "First Nations", "Regional areas", "Remote areas"], "range": ["#6e4fa3", "#c27c1a", "#3f95a3", "#1d4f58"]}},
         "tooltip": [
           {"field": "year", "title": "Year"},
-          {"field": "series", "title": "Group"},
-          {"field": "share_pct", "title": "% of uni students", "format": ".1f"}
+          {"field": "Group", "title": "Group"},
+          {"field": "share_pct", "title": "Share of university students (%)", "format": ".1f"}
         ]
+      }
+    },
+    {
+      "transform": [
+        {"filter": "datum.year == 2024"},
+        {"calculate": "{'Low SES':'Low socio-economic','Regional':'Regional','First Nations':'First Nations','Remote':'Remote'}[datum.group] + ' ' + format(datum.share_pct, '.1f') + '%'", "as": "end_label"},
+        {"calculate": "datum.group == 'First Nations' ? toNumber(datum.share_pct) + 0.9 : datum.group == 'Remote' ? toNumber(datum.share_pct) - 0.9 : toNumber(datum.share_pct)", "as": "label_y"}
+      ],
+      "mark": {"type": "text", "align": "left", "dx": 10, "fontSize": 13, "fontWeight": 700},
+      "encoding": {
+        "y": {"field": "label_y", "type": "quantitative"},
+        "text": {"field": "end_label"},
+        "color": {"field": "Group", "type": "nominal", "legend": null}
       }
     }
   ]

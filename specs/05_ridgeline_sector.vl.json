@@ -1,33 +1,29 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Ridgeline plot - distribution (density) of school ICSEA for Government, Catholic and Independent schools, 2025. The dashed line marks the Australian average of 1000.",
+  "description": "Ridgeline plot - distribution (density) of school advantage scores (ICSEA) for Government, Catholic and Independent schools, 2025. One neutral colour: rows are labelled directly, so colour is not needed to tell sectors apart. Dashed line = national average of 1000.",
   "data": {"url": "data/schools.csv"},
   "transform": [
     {"filter": "isValid(datum.icsea) && datum.icsea > 0"},
-    {"density": "icsea", "groupby": ["sector"], "extent": [500, 1250], "steps": 150, "as": ["icsea", "density"]},
-    {"calculate": "indexof(['Government','Catholic','Independent'], datum.sector)", "as": "order"}
+    {"density": "icsea", "groupby": ["sector"], "extent": [500, 1250], "steps": 150, "as": ["icsea", "density"]}
   ],
   "facet": {
     "row": {"field": "sector", "type": "nominal", "title": null, "sort": ["Government", "Catholic", "Independent"],
-      "header": {"labelAngle": 0, "labelAlign": "left", "labelOrient": "left", "labelPadding": 6, "labelFontWeight": 600, "labelFontSize": 13}}
+      "header": {"labelAngle": 0, "labelAlign": "left", "labelOrient": "left", "labelPadding": 8, "labelFontWeight": 600, "labelFontSize": 15}}
   },
   "spec": {
-    "width": 560,
-    "height": 64,
+    "width": 480,
+    "height": 70,
     "layer": [
       {
-        "mark": {"type": "area", "interpolate": "monotone", "fillOpacity": 0.85, "stroke": "#fcfcfb", "strokeWidth": 1.5},
+        "mark": {"type": "area", "interpolate": "monotone", "fill": "#8a6f55", "fillOpacity": 0.8, "stroke": "#fffbf4", "strokeWidth": 1.5},
         "encoding": {
-          "x": {"field": "icsea", "type": "quantitative", "title": "School ICSEA (Australian average = 1000)", "scale": {"domain": [500, 1250]},
-            "axis": {"grid": false, "values": [500, 600, 700, 800, 900, 1000, 1100, 1200]}},
-          "y": {"field": "density", "type": "quantitative", "stack": null, "axis": null, "scale": {"range": [64, -36]}},
-          "color": {"field": "sector", "type": "nominal", "legend": null,
-            "scale": {"domain": ["Government", "Catholic", "Independent"], "range": ["#2a78d6", "#eb6834", "#1baf7a"]}},
-          "tooltip": [{"field": "sector", "title": "Sector"}]
+          "x": {"field": "icsea", "type": "quantitative", "title": "School advantage score (national average: 1,000)", "scale": {"domain": [500, 1250]},
+            "axis": {"grid": false, "values": [500, 600, 700, 800, 900, 1000, 1100, 1200], "format": ",d"}},
+          "y": {"field": "density", "type": "quantitative", "stack": null, "axis": null, "scale": {"range": [70, -40]}}
         }
       },
       {
-        "mark": {"type": "rule", "color": "#52514e", "strokeDash": [4, 3], "strokeWidth": 1},
+        "mark": {"type": "rule", "color": "#2b2118", "strokeDash": [4, 3], "strokeWidth": 1.2},
         "encoding": {"x": {"datum": 1000}}
       }
     ]

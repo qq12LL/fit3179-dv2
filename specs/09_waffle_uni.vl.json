@@ -1,36 +1,38 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Waffle chart - out of every 100 Australian domestic university students in 2024, how many come from low-SES areas or are First Nations, compared with their 'fair share' (share of the population). Each square = 1 student in 100.",
+  "description": "Waffle chart - out of every 100 domestic university students in 2024, how many come from low socio-economic areas (purple, same as area disadvantage) or are First Nations (ochre), compared with each group's fair share of the population. Each square = 1 student in 100.",
   "data": {"url": "data/uni_share_2024.csv"},
   "transform": [
     {"calculate": "sequence(1, 101)", "as": "cell"},
     {"flatten": ["cell"]},
     {"calculate": "(datum.cell - 1) % 10", "as": "col"},
     {"calculate": "floor((datum.cell - 1) / 10)", "as": "row"},
-    {"calculate": "datum.cell <= round(datum.uni_share_pct) ? 'At university' : datum.cell <= round(datum.population_share_pct) ? 'Missing (gap to fair share)' : 'All other students'", "as": "status"},
-    {"calculate": "datum.label + '|' + datum.uni_share_pct + ' in 100  ·  fair share: ' + datum.population_share_pct", "as": "header"}
+    {"calculate": "datum.group == 'Low SES' ? 'Students from low socio-economic areas' : 'First Nations students'", "as": "Group"},
+    {"calculate": "datum.cell <= round(datum.uni_share_pct) ? datum.Group : datum.cell <= round(datum.population_share_pct) ? 'Missing compared with fair share' : 'All other students'", "as": "status"},
+    {"calculate": "(datum.group == 'Low SES' ? 'Low socio-economic areas' : 'First Nations students') + '|' + datum.uni_share_pct + ' in 100, fair share ' + format(datum.population_share_pct, '.3~')", "as": "header"}
   ],
   "facet": {
     "column": {"field": "header", "type": "nominal", "title": null, "sort": {"field": "group", "order": "descending"},
-      "header": {"labelExpr": "split(datum.value, '|')", "labelFontSize": 13, "labelFontWeight": 600, "labelLimit": 0, "labelPadding": 10, "labelAlign": "left", "labelAnchor": "start"}}
+      "header": {"labelExpr": "split(datum.value, '|')", "labelFontSize": 15, "labelFontWeight": 600, "labelLimit": 0, "labelPadding": 10, "labelAlign": "left", "labelAnchor": "start"}}
   },
   "spec": {
     "width": 230,
     "height": 230,
-    "mark": {"type": "rect", "cornerRadius": 2, "strokeWidth": 1.5},
+    "mark": {"type": "rect", "cornerRadius": 2, "strokeWidth": 1.6},
     "encoding": {
-      "x": {"field": "col", "type": "ordinal", "axis": null, "scale": {"paddingInner": 0.18}},
-      "y": {"field": "row", "type": "ordinal", "axis": null, "sort": "descending", "scale": {"paddingInner": 0.18}},
+      "x": {"field": "col", "type": "ordinal", "axis": null, "scale": {"paddingInner": 0.2}},
+      "y": {"field": "row", "type": "ordinal", "axis": null, "sort": "descending", "scale": {"paddingInner": 0.2}},
       "color": {"field": "status", "type": "nominal", "title": null,
-        "scale": {"domain": ["At university", "Missing (gap to fair share)", "All other students"], "range": ["#2a78d6", "#fbe1d6", "#e3e2de"]},
-        "legend": {"orient": "top"}},
-      "stroke": {"condition": {"test": "datum.status == 'Missing (gap to fair share)'", "value": "#eb6834"}, "value": null},
+        "scale": {"domain": ["Students from low socio-economic areas", "First Nations students", "Missing compared with fair share", "All other students"],
+                  "range": ["#6e4fa3", "#c27c1a", "#fffbf4", "#e9e0d2"]},
+        "legend": {"orient": "top", "columns": 2, "symbolStrokeColor": "#4a3b2e", "symbolStrokeWidth": 1}},
+      "stroke": {"condition": {"test": "datum.status == 'Missing compared with fair share'", "value": "#4a3b2e"}, "value": null},
       "tooltip": [
-        {"field": "label", "title": "Group"},
-        {"field": "uni_share_pct", "title": "% of uni students (2024)"},
-        {"field": "population_share_pct", "title": "% of population (fair share)"}
+        {"field": "Group", "title": "Group"},
+        {"field": "uni_share_pct", "title": "Share of university students in 2024 (%)"},
+        {"field": "population_share_pct", "title": "Share of the population (%)"}
       ]
     }
   },
-  "spacing": 72
+  "spacing": 90
 }

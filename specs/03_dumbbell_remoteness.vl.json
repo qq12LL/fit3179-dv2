@@ -1,49 +1,49 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Dumbbell / dot strip - % of children developmentally vulnerable by remoteness of where they live, for each AEDC domain, Australia 2024. The bar spans Major Cities to Very Remote.",
+  "description": "Dumbbell / dot strip - share of children developmentally vulnerable by remoteness of where they live, for each AEDC skill area, Australia 2024. Teal ordinal ramp = remoteness (same colours as the university line chart). The bar spans Major Cities to Very Remote.",
   "data": {"url": "data/aedc_by_remoteness.csv"},
   "transform": [
     {"filter": "datum.state == 'Australia' && datum.year == 2024 && datum.remoteness != 'All children' && datum.domain != 'Two or more domains'"},
-    {"calculate": "replace(datum.remoteness, ' of Australia', '')", "as": "area"},
-    {"calculate": "replace(datum.area, ' Australia', '')", "as": "area"},
-    {"calculate": "indexof(['Major Cities','Inner Regional','Outer Regional','Remote','Very Remote'], datum.area)", "as": "area_order"}
+    {"calculate": "replace(replace(datum.remoteness, ' of Australia', ''), ' Australia', '')", "as": "area"},
+    {"calculate": "indexof(['Major Cities','Inner Regional','Outer Regional','Remote','Very Remote'], datum.area)", "as": "area_order"},
+    {"calculate": "['Major cities','Inner regional','Outer regional','Remote','Very remote'][datum.area_order]", "as": "Where the child lives"},
+    {"calculate": "{'One or more domains':'Any skill area','Physical health':'Physical health','Social competence':'Social skills','Emotional maturity':'Emotional maturity','Language & thinking':'Language and thinking','Communication':'Communication'}[datum.domain]", "as": "Skill area"}
   ],
-  "width": 560,
-  "height": 260,
+  "width": 470,
+  "height": 280,
   "encoding": {
-    "y": {"field": "domain", "type": "nominal", "title": null,
-      "sort": ["One or more domains", "Language & thinking", "Physical health", "Communication", "Social competence", "Emotional maturity"],
-      "axis": {"domain": false, "ticks": false, "labelPadding": 8, "labelFontWeight": {"expr": "datum.value == 'One or more domains' ? 700 : 400"}}},
-    "x": {"field": "pct_vulnerable", "type": "quantitative", "title": "% of children developmentally vulnerable",
+    "y": {"field": "Skill area", "type": "nominal", "title": null,
+      "sort": ["Any skill area", "Language and thinking", "Physical health", "Communication", "Social skills", "Emotional maturity"],
+      "axis": {"domain": false, "ticks": false, "labelPadding": 8, "labelFontWeight": {"expr": "datum.value == 'Any skill area' ? 700 : 400"}}},
+    "x": {"field": "pct_vulnerable", "type": "quantitative", "title": "Children developmentally vulnerable (%)",
       "scale": {"domain": [0, 50]}, "axis": {"grid": true, "tickCount": 5}}
   },
   "layer": [
     {
       "transform": [
         {"filter": "datum.area == 'Major Cities' || datum.area == 'Very Remote'"},
-        {"aggregate": [{"op": "min", "field": "pct_vulnerable", "as": "lo"}, {"op": "max", "field": "pct_vulnerable", "as": "hi"}], "groupby": ["domain"]}
+        {"aggregate": [{"op": "min", "field": "pct_vulnerable", "as": "lo"}, {"op": "max", "field": "pct_vulnerable", "as": "hi"}], "groupby": ["Skill area"]}
       ],
-      "mark": {"type": "rule", "strokeWidth": 6, "color": "#ebeae6", "strokeCap": "round"},
+      "mark": {"type": "rule", "strokeWidth": 7, "color": "#ece2d2", "strokeCap": "round"},
       "encoding": {"x": {"field": "lo", "type": "quantitative"}, "x2": {"field": "hi"}}
     },
     {
-      "mark": {"type": "circle", "size": 110, "opacity": 1, "stroke": "#fcfcfb", "strokeWidth": 1.5},
+      "mark": {"type": "circle", "size": 150, "opacity": 1, "stroke": "#fffbf4", "strokeWidth": 1.5},
       "encoding": {
-        "color": {"field": "area", "type": "ordinal", "title": "Where the child lives",
-          "sort": {"field": "area_order"},
-          "scale": {"domain": ["Major Cities", "Inner Regional", "Outer Regional", "Remote", "Very Remote"],
-                    "range": ["#86b6ef", "#5598e7", "#2a78d6", "#1c5cab", "#0d366b"]}},
+        "color": {"field": "Where the child lives", "type": "ordinal", "title": "Where the child lives",
+          "scale": {"domain": ["Major cities", "Inner regional", "Outer regional", "Remote", "Very remote"],
+                    "range": ["#b9dde2", "#7cbcc6", "#3f95a3", "#2a6c78", "#1d4f58"]}},
         "order": {"field": "area_order"},
         "tooltip": [
-          {"field": "domain", "title": "Development area"},
-          {"field": "area", "title": "Where the child lives"},
-          {"field": "pct_vulnerable", "title": "% vulnerable", "format": ".1f"}
+          {"field": "Skill area", "title": "Skill area"},
+          {"field": "Where the child lives", "title": "Where the child lives"},
+          {"field": "pct_vulnerable", "title": "Children vulnerable (%)", "format": ".1f"}
         ]
       }
     },
     {
       "transform": [{"filter": "datum.area == 'Very Remote' || datum.area == 'Major Cities'"}],
-      "mark": {"type": "text", "dy": -13, "fontSize": 11, "color": "#52514e"},
+      "mark": {"type": "text", "dy": -15, "fontSize": 13, "color": "#4a3b2e"},
       "encoding": {"text": {"field": "pct_vulnerable", "type": "quantitative", "format": ".0f"}}
     }
   ]

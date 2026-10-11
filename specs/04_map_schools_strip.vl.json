@@ -1,115 +1,629 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "MAP 2 - Proportional symbol map of every Australian school on the mainland and Tasmania (2025): circle area = enrolments, colour = ICSEA (socio-educational advantage, average 1000). Linked below to a jittered strip plot of ICSEA by remoteness: drag across the strip plot to highlight those schools on the map. Dropdown filters by sector.",
+  "description": "MAP 2 - Proportional symbol map (absolute data) of every school on the mainland and Tasmania, 2025: circle area = students enrolled, colour = school advantage score (ICSEA, diverging around the national average of 1000). Linked to a jittered strip plot beside it (so the colour legend is always in view): drag across the strip plot to highlight those schools on the map. Dropdown filters by sector. Ocean layer, graticule and ocean-placed annotations.",
   "params": [
-    {"name": "sector", "value": "All sectors",
-     "bind": {"input": "select", "options": ["All sectors", "Government", "Catholic", "Independent"], "name": "School sector  "}}
-  ],
-  "vconcat": [
     {
-      "width": 660,
-      "height": 540,
-      "projection": {"type": "conicEqualArea", "parallels": [-18, -36], "rotate": [-132, 0, 0]},
+      "name": "sector",
+      "value": "All sectors",
+      "bind": {
+        "input": "select",
+        "options": [
+          "All sectors",
+          "Government",
+          "Catholic",
+          "Independent"
+        ],
+        "name": "School sector"
+      }
+    }
+  ],
+  "hconcat": [
+    {
+      "width": 470,
+      "height": 440,
+      "projection": {
+        "type": "conicEqualArea",
+        "parallels": [
+          -18,
+          -36
+        ],
+        "rotate": [
+          -132,
+          0,
+          0
+        ],
+        "fit": {
+          "type": "Feature",
+          "properties": {},
+          "geometry": {
+            "type": "MultiPoint",
+            "coordinates": [
+              [
+                112.3,
+                -9.6
+              ],
+              [
+                154.2,
+                -43.9
+              ]
+            ]
+          }
+        }
+      },
       "layer": [
         {
-          "data": {"url": "data/australia_lga_2021.topo.json", "format": {"type": "topojson", "feature": "states"}},
-          "mark": {"type": "geoshape", "fill": "#efeee9", "stroke": "#ffffff", "strokeWidth": 1.2}
+          "data": {
+            "sphere": true
+          },
+          "mark": {
+            "type": "geoshape",
+            "fill": "#e3ecef",
+            "stroke": null,
+            "clip": true
+          }
         },
         {
-          "data": {"url": "data/schools.csv"},
+          "data": {
+            "graticule": {
+              "step": [
+                10,
+                10
+              ]
+            }
+          },
+          "mark": {
+            "type": "geoshape",
+            "filled": false,
+            "stroke": "#ffffff",
+            "strokeWidth": 0.8,
+            "clip": true
+          }
+        },
+        {
+          "data": {
+            "url": "data/australia_lga_2021.topo.json",
+            "format": {
+              "type": "topojson",
+              "feature": "states"
+            }
+          },
+          "mark": {
+            "type": "geoshape",
+            "fill": "#efe6d8",
+            "stroke": "#fffbf4",
+            "strokeWidth": 1.3
+          }
+        },
+        {
+          "data": {
+            "url": "data/schools.csv"
+          },
           "transform": [
-            {"filter": "isValid(datum.icsea) && datum.icsea > 0"},
-            {"filter": "datum.lon > 112 && datum.lon < 154.5 && datum.lat < -9"},
-            {"filter": "sector == 'All sectors' || datum.sector == sector"}
-          ],
-          "mark": {"type": "circle", "strokeWidth": 0.4, "stroke": "#ffffff"},
-          "encoding": {
-            "longitude": {"field": "lon", "type": "quantitative"},
-            "latitude": {"field": "lat", "type": "quantitative"},
-            "size": {"field": "enrolments", "type": "quantitative", "title": "Students enrolled",
-              "scale": {"range": [4, 260], "domain": [0, 3000], "clamp": true},
-              "legend": {"values": [100, 1000, 2500], "symbolFillColor": "#c3c2b7", "symbolStrokeColor": "#ffffff", "orient": "bottom-left", "direction": "vertical", "offset": 6}},
-            "color": {
-              "condition": {"param": "brush", "field": "icsea", "type": "quantitative", "title": "School ICSEA",
-                "scale": {"domain": [700, 900, 1000, 1100, 1200], "range": ["#b8322f", "#e9a59c", "#ecebe7", "#86b6ef", "#1c5cab"], "clamp": true, "interpolate": "lab"},
-                "legend": {"orient": "top-right", "direction": "vertical", "gradientLength": 120, "values": [700, 800, 900, 1000, 1100, 1200]}},
-              "value": "#dddcd7"
+            {
+              "filter": "isValid(datum.icsea) && datum.icsea > 0"
             },
-            "opacity": {"condition": {"param": "brush", "value": 0.85}, "value": 0.25},
-            "order": {"field": "enrolments", "sort": "descending"},
+            {
+              "filter": "datum.lon > 112 && datum.lon < 154.5 && datum.lat < -9"
+            },
+            {
+              "filter": "sector == 'All sectors' || datum.sector == sector"
+            },
+            {
+              "calculate": "{'Major Cities':'Major city','Inner Regional':'Inner regional','Outer Regional':'Outer regional','Remote':'Remote','Very Remote':'Very remote'}[datum.remoteness]",
+              "as": "Location"
+            }
+          ],
+          "mark": {
+            "type": "circle",
+            "strokeWidth": 0.4,
+            "stroke": "#fffbf4"
+          },
+          "encoding": {
+            "longitude": {
+              "field": "lon",
+              "type": "quantitative"
+            },
+            "latitude": {
+              "field": "lat",
+              "type": "quantitative"
+            },
+            "size": {
+              "field": "enrolments",
+              "type": "quantitative",
+              "title": "Students enrolled",
+              "scale": {
+                "range": [
+                  5,
+                  280
+                ],
+                "domain": [
+                  0,
+                  3000
+                ],
+                "clamp": true
+              },
+              "legend": {
+                "values": [
+                  100,
+                  1000,
+                  2500
+                ],
+                "format": ",d",
+                "symbolFillColor": "#c9b79c",
+                "symbolStrokeColor": "#fffbf4",
+                "orient": "top",
+                "direction": "horizontal"
+              }
+            },
+            "color": {
+              "condition": {
+                "param": "brush",
+                "field": "icsea",
+                "type": "quantitative",
+                "title": "School advantage score",
+                "scale": {
+                  "domain": [
+                    700,
+                    900,
+                    1000,
+                    1100,
+                    1200
+                  ],
+                  "range": [
+                    "#4b2f80",
+                    "#b8a8d8",
+                    "#e9e3da",
+                    "#8fb2dc",
+                    "#1f4f8c"
+                  ],
+                  "clamp": true,
+                  "interpolate": "lab"
+                },
+                "legend": {
+                  "orient": "top",
+                  "direction": "horizontal",
+                  "gradientLength": 220,
+                  "values": [
+                    700,
+                    800,
+                    900,
+                    1000,
+                    1100,
+                    1200
+                  ],
+                  "format": ",d"
+                }
+              },
+              "value": "#ddd3c4"
+            },
+            "opacity": {
+              "condition": {
+                "param": "brush",
+                "value": 0.85
+              },
+              "value": 0.25
+            },
+            "order": {
+              "field": "enrolments",
+              "sort": "descending"
+            },
             "tooltip": [
-              {"field": "name", "title": "School"},
-              {"field": "suburb", "title": "Suburb"},
-              {"field": "state", "title": "State"},
-              {"field": "sector", "title": "Sector"},
-              {"field": "remoteness", "title": "Location"},
-              {"field": "icsea", "title": "ICSEA"},
-              {"field": "enrolments", "title": "Students", "format": ","}
+              {
+                "field": "name",
+                "title": "School"
+              },
+              {
+                "field": "suburb",
+                "title": "Suburb"
+              },
+              {
+                "field": "sector",
+                "title": "Sector"
+              },
+              {
+                "field": "Location",
+                "title": "Location"
+              },
+              {
+                "field": "icsea",
+                "title": "School advantage score",
+                "format": ",d"
+              },
+              {
+                "field": "enrolments",
+                "title": "Students enrolled",
+                "format": ",d"
+              }
             ]
+          }
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "t": "Outback schools:|small, mostly disadvantaged",
+                "lon": 113.2,
+                "lat": -13.2,
+                "align": "left",
+                "lon2": 129.5,
+                "lat2": -20.5
+              },
+              {
+                "t": "City schools: large,|mostly advantaged",
+                "lon": 137.6,
+                "lat": -40.9,
+                "align": "right",
+                "lon2": 144.95,
+                "lat2": -37.82
+              }
+            ]
+          },
+          "mark": {
+            "type": "rule",
+            "color": "#2b2118",
+            "strokeWidth": 1,
+            "strokeDash": [
+              3,
+              2
+            ]
+          },
+          "encoding": {
+            "longitude": {
+              "field": "lon",
+              "type": "quantitative"
+            },
+            "latitude": {
+              "field": "lat",
+              "type": "quantitative"
+            },
+            "longitude2": {
+              "field": "lon2"
+            },
+            "latitude2": {
+              "field": "lat2"
+            }
+          }
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "t": "Outback schools:|small, mostly disadvantaged",
+                "lon": 113.2,
+                "lat": -13.2,
+                "align": "left",
+                "lon2": 129.5,
+                "lat2": -20.5
+              },
+              {
+                "t": "City schools: large,|mostly advantaged",
+                "lon": 137.6,
+                "lat": -40.9,
+                "align": "right",
+                "lon2": 144.95,
+                "lat2": -37.82
+              }
+            ]
+          },
+          "mark": {
+            "type": "circle",
+            "size": 22,
+            "color": "#2b2118",
+            "opacity": 1
+          },
+          "encoding": {
+            "longitude": {
+              "field": "lon2",
+              "type": "quantitative"
+            },
+            "latitude": {
+              "field": "lat2",
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "t": "Outback schools:|small, mostly disadvantaged",
+                "lon": 113.2,
+                "lat": -13.2,
+                "align": "left",
+                "lon2": 129.5,
+                "lat2": -20.5
+              },
+              {
+                "t": "City schools: large,|mostly advantaged",
+                "lon": 137.6,
+                "lat": -40.9,
+                "align": "right",
+                "lon2": 144.95,
+                "lat2": -37.82
+              }
+            ]
+          },
+          "mark": {
+            "type": "text",
+            "fontSize": 13,
+            "fontWeight": 700,
+            "color": "#2b2118",
+            "lineBreak": "|",
+            "lineHeight": 16,
+            "baseline": "bottom",
+            "dy": -7,
+            "align": {
+              "expr": "datum.align"
+            }
+          },
+          "encoding": {
+            "longitude": {
+              "field": "lon",
+              "type": "quantitative"
+            },
+            "latitude": {
+              "field": "lat",
+              "type": "quantitative"
+            },
+            "text": {
+              "field": "t"
+            }
           }
         }
       ]
     },
     {
-      "width": 660,
-      "height": 250,
-      "data": {"url": "data/schools.csv"},
+      "width": 360,
+      "height": 440,
+      "data": {
+        "url": "data/schools.csv"
+      },
       "transform": [
-        {"filter": "isValid(datum.icsea) && datum.icsea > 0"},
-        {"filter": "sector == 'All sectors' || datum.sector == sector"},
-        {"calculate": "sqrt(-2 * log(random())) * cos(2 * PI * random())", "as": "jitter"}
+        {
+          "filter": "isValid(datum.icsea) && datum.icsea > 0"
+        },
+        {
+          "filter": "sector == 'All sectors' || datum.sector == sector"
+        },
+        {
+          "calculate": "{'Major Cities':'Major city','Inner Regional':'Inner regional','Outer Regional':'Outer regional','Remote':'Remote','Very Remote':'Very remote'}[datum.remoteness]",
+          "as": "Location"
+        },
+        {
+          "calculate": "sqrt(-2 * log(random())) * cos(2 * PI * random())",
+          "as": "jitter"
+        }
       ],
       "encoding": {
-        "y": {"field": "remoteness", "type": "nominal", "title": null,
-          "sort": ["Major Cities", "Inner Regional", "Outer Regional", "Remote", "Very Remote"],
-          "axis": {"domain": false, "ticks": false, "labelPadding": 8, "grid": false}},
-        "x": {"field": "icsea", "type": "quantitative", "title": "School ICSEA  (← more disadvantaged  ·  Australian average = 1000  ·  more advantaged →)",
-          "scale": {"domain": [500, 1250]}, "axis": {"grid": true, "values": [500, 600, 700, 800, 900, 1000, 1100, 1200]}}
+        "y": {
+          "field": "Location",
+          "type": "nominal",
+          "title": null,
+          "sort": [
+            "Major city",
+            "Inner regional",
+            "Outer regional",
+            "Remote",
+            "Very remote"
+          ],
+          "axis": {
+            "domain": false,
+            "ticks": false,
+            "labelPadding": 8,
+            "grid": false
+          }
+        },
+        "x": {
+          "field": "icsea",
+          "type": "quantitative",
+          "title": "School advantage score (average: 1,000)",
+          "scale": {
+            "domain": [
+              500,
+              1250
+            ]
+          },
+          "axis": {
+            "grid": true,
+            "values": [
+              500,
+              600,
+              700,
+              800,
+              900,
+              1000,
+              1100,
+              1200
+            ],
+            "format": ",d"
+          }
+        }
       },
       "layer": [
         {
-          "params": [{"name": "brush", "select": {"type": "interval", "encodings": ["x"]}}],
-          "mark": {"type": "circle", "size": 9},
+          "params": [
+            {
+              "name": "brush",
+              "select": {
+                "type": "interval",
+                "encodings": [
+                  "x"
+                ]
+              }
+            }
+          ],
+          "mark": {
+            "type": "circle",
+            "size": 10
+          },
           "encoding": {
-            "yOffset": {"field": "jitter", "type": "quantitative", "scale": {"domain": [-3, 3]}},
-            "color": {
-              "condition": {"param": "brush", "field": "icsea", "type": "quantitative",
-                "scale": {"domain": [700, 900, 1000, 1100, 1200], "range": ["#b8322f", "#e9a59c", "#ecebe7", "#86b6ef", "#1c5cab"], "clamp": true, "interpolate": "lab"}, "legend": null},
-              "value": "#dddcd7"
+            "yOffset": {
+              "field": "jitter",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  -3,
+                  3
+                ]
+              }
             },
-            "opacity": {"value": 0.6},
+            "color": {
+              "condition": {
+                "param": "brush",
+                "field": "icsea",
+                "type": "quantitative",
+                "scale": {
+                  "domain": [
+                    700,
+                    900,
+                    1000,
+                    1100,
+                    1200
+                  ],
+                  "range": [
+                    "#4b2f80",
+                    "#b8a8d8",
+                    "#e9e3da",
+                    "#8fb2dc",
+                    "#1f4f8c"
+                  ],
+                  "clamp": true,
+                  "interpolate": "lab"
+                },
+                "legend": null
+              },
+              "value": "#ddd3c4"
+            },
+            "opacity": {
+              "value": 0.65
+            },
             "tooltip": [
-              {"field": "name", "title": "School"},
-              {"field": "state", "title": "State"},
-              {"field": "sector", "title": "Sector"},
-              {"field": "icsea", "title": "ICSEA"}
+              {
+                "field": "name",
+                "title": "School"
+              },
+              {
+                "field": "sector",
+                "title": "Sector"
+              },
+              {
+                "field": "Location",
+                "title": "Location"
+              },
+              {
+                "field": "icsea",
+                "title": "School advantage score",
+                "format": ",d"
+              }
             ]
           }
         },
         {
-          "transform": [{"aggregate": [{"op": "median", "field": "icsea", "as": "med"}, {"op": "count", "as": "n"}], "groupby": ["remoteness"]}],
-          "mark": {"type": "tick", "color": "#0b0b0b", "thickness": 2.5, "size": 34},
+          "transform": [
+            {
+              "aggregate": [
+                {
+                  "op": "median",
+                  "field": "icsea",
+                  "as": "med"
+                },
+                {
+                  "op": "count",
+                  "as": "n"
+                }
+              ],
+              "groupby": [
+                "Location"
+              ]
+            }
+          ],
+          "mark": {
+            "type": "tick",
+            "color": "#1d1712",
+            "thickness": 3,
+            "size": 36
+          },
           "encoding": {
-            "x": {"field": "med", "type": "quantitative"},
+            "x": {
+              "field": "med",
+              "type": "quantitative"
+            },
             "tooltip": [
-              {"field": "remoteness", "title": "Location"},
-              {"field": "med", "title": "Median ICSEA"},
-              {"field": "n", "title": "Schools", "format": ","}
+              {
+                "field": "Location",
+                "title": "Location"
+              },
+              {
+                "field": "med",
+                "title": "Median school advantage score",
+                "format": ",d"
+              },
+              {
+                "field": "n",
+                "title": "Number of schools",
+                "format": ",d"
+              }
             ]
           }
         },
         {
-          "transform": [{"aggregate": [{"op": "median", "field": "icsea", "as": "med"}], "groupby": ["remoteness"]}],
-          "mark": {"type": "text", "dy": -22, "fontSize": 11, "fontWeight": 700, "color": "#0b0b0b"},
-          "encoding": {"x": {"field": "med", "type": "quantitative"}, "text": {"field": "med", "type": "quantitative", "format": ".0f"}}
+          "transform": [
+            {
+              "aggregate": [
+                {
+                  "op": "median",
+                  "field": "icsea",
+                  "as": "med"
+                }
+              ],
+              "groupby": [
+                "Location"
+              ]
+            }
+          ],
+          "mark": {
+            "type": "text",
+            "dy": -24,
+            "fontSize": 13,
+            "fontWeight": 700,
+            "color": "#1d1712"
+          },
+          "encoding": {
+            "x": {
+              "field": "med",
+              "type": "quantitative"
+            },
+            "text": {
+              "field": "med",
+              "type": "quantitative",
+              "format": ",d"
+            }
+          }
         },
         {
-          "mark": {"type": "rule", "color": "#52514e", "strokeDash": [4, 3], "strokeWidth": 1},
-          "encoding": {"x": {"datum": 1000}, "y": null}
+          "mark": {
+            "type": "rule",
+            "color": "#4a3b2e",
+            "strokeDash": [
+              4,
+              3
+            ],
+            "strokeWidth": 1.2
+          },
+          "encoding": {
+            "x": {
+              "datum": 1000
+            },
+            "y": null
+          }
         }
       ]
     }
   ],
-  "spacing": 10,
-  "resolve": {"scale": {"color": "independent"}}
+  "spacing": 28,
+  "resolve": {
+    "scale": {
+      "color": "independent"
+    }
+  }
 }
