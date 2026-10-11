@@ -23,9 +23,25 @@
     console.warn("Could not load shared chart config", e);
   }
 
+  // Map layers that are only decoration (ocean, grid lines, state outlines) sit on top of or
+  // around the council areas. Vega-Lite makes every map shape respond to the mouse, so an
+  // outline layer drawn on top would block the council-area tooltips underneath.
+  // This switches mouse events off for any map shape that has no tooltip of its own.
+  function makeDecorationNonInteractive(vgSpec) {
+    (function walk(node) {
+      (node.marks || []).forEach((m) => {
+        const hasTooltip = m.encode && m.encode.update && m.encode.update.tooltip;
+        if (m.type === "shape" && !hasTooltip) m.interactive = false;
+        walk(m);
+      });
+    })(vgSpec);
+    return vgSpec;
+  }
+
   for (const [el, spec, renderer, bind] of charts) {
     vegaEmbed(el, spec, {
       config,
+      patch: makeDecorationNonInteractive,
       bind: bind || undefined, // where to put dropdowns (above the chart)
       renderer: renderer || "svg",
       actions: { export: true, source: false, compiled: false, editor: true },
