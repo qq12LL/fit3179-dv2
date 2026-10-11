@@ -1,0 +1,115 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "MAP 2 - Proportional symbol map of every Australian school on the mainland and Tasmania (2025): circle area = enrolments, colour = ICSEA (socio-educational advantage, average 1000). Linked below to a jittered strip plot of ICSEA by remoteness: drag across the strip plot to highlight those schools on the map. Dropdown filters by sector.",
+  "params": [
+    {"name": "sector", "value": "All sectors",
+     "bind": {"input": "select", "options": ["All sectors", "Government", "Catholic", "Independent"], "name": "School sector  "}}
+  ],
+  "vconcat": [
+    {
+      "width": 660,
+      "height": 540,
+      "projection": {"type": "conicEqualArea", "parallels": [-18, -36], "rotate": [-132, 0, 0]},
+      "layer": [
+        {
+          "data": {"url": "data/australia_lga_2021.topo.json", "format": {"type": "topojson", "feature": "states"}},
+          "mark": {"type": "geoshape", "fill": "#efeee9", "stroke": "#ffffff", "strokeWidth": 1.2}
+        },
+        {
+          "data": {"url": "data/schools.csv"},
+          "transform": [
+            {"filter": "isValid(datum.icsea) && datum.icsea > 0"},
+            {"filter": "datum.lon > 112 && datum.lon < 154.5 && datum.lat < -9"},
+            {"filter": "sector == 'All sectors' || datum.sector == sector"}
+          ],
+          "mark": {"type": "circle", "strokeWidth": 0.4, "stroke": "#ffffff"},
+          "encoding": {
+            "longitude": {"field": "lon", "type": "quantitative"},
+            "latitude": {"field": "lat", "type": "quantitative"},
+            "size": {"field": "enrolments", "type": "quantitative", "title": "Students enrolled",
+              "scale": {"range": [4, 260], "domain": [0, 3000], "clamp": true},
+              "legend": {"values": [100, 1000, 2500], "symbolFillColor": "#c3c2b7", "symbolStrokeColor": "#ffffff", "orient": "bottom-left", "direction": "vertical", "offset": 6}},
+            "color": {
+              "condition": {"param": "brush", "field": "icsea", "type": "quantitative", "title": "School ICSEA",
+                "scale": {"domain": [700, 900, 1000, 1100, 1200], "range": ["#b8322f", "#e9a59c", "#ecebe7", "#86b6ef", "#1c5cab"], "clamp": true, "interpolate": "lab"},
+                "legend": {"orient": "top-right", "direction": "vertical", "gradientLength": 120, "values": [700, 800, 900, 1000, 1100, 1200]}},
+              "value": "#dddcd7"
+            },
+            "opacity": {"condition": {"param": "brush", "value": 0.85}, "value": 0.25},
+            "order": {"field": "enrolments", "sort": "descending"},
+            "tooltip": [
+              {"field": "name", "title": "School"},
+              {"field": "suburb", "title": "Suburb"},
+              {"field": "state", "title": "State"},
+              {"field": "sector", "title": "Sector"},
+              {"field": "remoteness", "title": "Location"},
+              {"field": "icsea", "title": "ICSEA"},
+              {"field": "enrolments", "title": "Students", "format": ","}
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "width": 660,
+      "height": 250,
+      "data": {"url": "data/schools.csv"},
+      "transform": [
+        {"filter": "isValid(datum.icsea) && datum.icsea > 0"},
+        {"filter": "sector == 'All sectors' || datum.sector == sector"},
+        {"calculate": "sqrt(-2 * log(random())) * cos(2 * PI * random())", "as": "jitter"}
+      ],
+      "encoding": {
+        "y": {"field": "remoteness", "type": "nominal", "title": null,
+          "sort": ["Major Cities", "Inner Regional", "Outer Regional", "Remote", "Very Remote"],
+          "axis": {"domain": false, "ticks": false, "labelPadding": 8, "grid": false}},
+        "x": {"field": "icsea", "type": "quantitative", "title": "School ICSEA  (← more disadvantaged  ·  Australian average = 1000  ·  more advantaged →)",
+          "scale": {"domain": [500, 1250]}, "axis": {"grid": true, "values": [500, 600, 700, 800, 900, 1000, 1100, 1200]}}
+      },
+      "layer": [
+        {
+          "params": [{"name": "brush", "select": {"type": "interval", "encodings": ["x"]}}],
+          "mark": {"type": "circle", "size": 9},
+          "encoding": {
+            "yOffset": {"field": "jitter", "type": "quantitative", "scale": {"domain": [-3, 3]}},
+            "color": {
+              "condition": {"param": "brush", "field": "icsea", "type": "quantitative",
+                "scale": {"domain": [700, 900, 1000, 1100, 1200], "range": ["#b8322f", "#e9a59c", "#ecebe7", "#86b6ef", "#1c5cab"], "clamp": true, "interpolate": "lab"}, "legend": null},
+              "value": "#dddcd7"
+            },
+            "opacity": {"value": 0.6},
+            "tooltip": [
+              {"field": "name", "title": "School"},
+              {"field": "state", "title": "State"},
+              {"field": "sector", "title": "Sector"},
+              {"field": "icsea", "title": "ICSEA"}
+            ]
+          }
+        },
+        {
+          "transform": [{"aggregate": [{"op": "median", "field": "icsea", "as": "med"}, {"op": "count", "as": "n"}], "groupby": ["remoteness"]}],
+          "mark": {"type": "tick", "color": "#0b0b0b", "thickness": 2.5, "size": 34},
+          "encoding": {
+            "x": {"field": "med", "type": "quantitative"},
+            "tooltip": [
+              {"field": "remoteness", "title": "Location"},
+              {"field": "med", "title": "Median ICSEA"},
+              {"field": "n", "title": "Schools", "format": ","}
+            ]
+          }
+        },
+        {
+          "transform": [{"aggregate": [{"op": "median", "field": "icsea", "as": "med"}], "groupby": ["remoteness"]}],
+          "mark": {"type": "text", "dy": -22, "fontSize": 11, "fontWeight": 700, "color": "#0b0b0b"},
+          "encoding": {"x": {"field": "med", "type": "quantitative"}, "text": {"field": "med", "type": "quantitative", "format": ".0f"}}
+        },
+        {
+          "mark": {"type": "rule", "color": "#52514e", "strokeDash": [4, 3], "strokeWidth": 1},
+          "encoding": {"x": {"datum": 1000}, "y": null}
+        }
+      ]
+    }
+  ],
+  "spacing": 10,
+  "resolve": {"scale": {"color": "independent"}}
+}

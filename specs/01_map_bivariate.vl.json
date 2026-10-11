@@ -1,0 +1,301 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "MAP 1 - Bivariate choropleth: area disadvantage (SEIFA IRSD 2021) x share of children developmentally vulnerable on one or more AEDC domains (2024), by Local Government Area.",
+  "hconcat": [
+    {
+      "width": 620,
+      "height": 520,
+      "projection": {
+        "type": "conicEqualArea",
+        "parallels": [
+          -18,
+          -36
+        ],
+        "rotate": [
+          -132,
+          0,
+          0
+        ]
+      },
+      "layer": [
+        {
+          "data": {
+            "url": "data/australia_lga_2021.topo.json",
+            "format": {
+              "type": "topojson",
+              "feature": "lga"
+            }
+          },
+          "transform": [
+            {
+              "calculate": "datum.properties.lga_code",
+              "as": "lga_code"
+            },
+            {
+              "lookup": "lga_code",
+              "from": {
+                "data": {
+                  "url": "data/lga.csv",
+                  "format": {
+                    "parse": {
+                      "irsd_decile": "number",
+                      "aedc_vuln1_pct_2024": "number",
+                      "aedc_children_2024": "number"
+                    }
+                  }
+                },
+                "key": "lga_code",
+                "fields": [
+                  "lga_name",
+                  "state",
+                  "irsd_decile",
+                  "aedc_vuln1_pct_2024",
+                  "aedc_children_2024"
+                ]
+              }
+            },
+            {
+              "calculate": "datum.irsd_decile <= 3 ? 2 : datum.irsd_decile <= 7 ? 1 : 0",
+              "as": "dis_class"
+            },
+            {
+              "calculate": "datum.aedc_vuln1_pct_2024 > 0 ? (datum.aedc_vuln1_pct_2024 >= 28 ? 2 : datum.aedc_vuln1_pct_2024 >= 21 ? 1 : 0) : -1",
+              "as": "vul_class"
+            },
+            {
+              "calculate": "datum.vul_class < 0 ? 'NA' : datum.dis_class + '-' + datum.vul_class",
+              "as": "biv"
+            },
+            {
+              "calculate": "['Least disadvantaged (deciles 8-10)','Middle (deciles 4-7)','Most disadvantaged (deciles 1-3)'][datum.dis_class]",
+              "as": "dis_label"
+            },
+            {
+              "calculate": "datum.vul_class < 0 ? 'Not published (too few children)' : format(datum.aedc_vuln1_pct_2024, '.1f') + '%'",
+              "as": "vul_label"
+            }
+          ],
+          "mark": {
+            "type": "geoshape",
+            "stroke": "#ffffff",
+            "strokeWidth": 0.25
+          },
+          "encoding": {
+            "color": {
+              "field": "biv",
+              "type": "nominal",
+              "legend": null,
+              "scale": {
+                "domain": [
+                  "0-0",
+                  "0-1",
+                  "0-2",
+                  "1-0",
+                  "1-1",
+                  "1-2",
+                  "2-0",
+                  "2-1",
+                  "2-2",
+                  "NA"
+                ],
+                "range": [
+                  "#e8e8e8",
+                  "#ace4e4",
+                  "#5ac8c8",
+                  "#dfb0d6",
+                  "#a5add3",
+                  "#5698b9",
+                  "#be64ac",
+                  "#8c62aa",
+                  "#3b4994",
+                  "#f4f3f0"
+                ]
+              }
+            },
+            "strokeWidth": {
+              "condition": {
+                "param": "hover",
+                "empty": false,
+                "value": 1.5
+              },
+              "value": 0.25
+            },
+            "stroke": {
+              "condition": {
+                "param": "hover",
+                "empty": false,
+                "value": "#111111"
+              },
+              "value": "#ffffff"
+            },
+            "tooltip": [
+              {
+                "field": "lga_name",
+                "title": "Council area"
+              },
+              {
+                "field": "state",
+                "title": "State"
+              },
+              {
+                "field": "dis_label",
+                "title": "Area disadvantage"
+              },
+              {
+                "field": "vul_label",
+                "title": "Children vulnerable (2024)"
+              }
+            ]
+          },
+          "params": [
+            {
+              "name": "hover",
+              "select": {
+                "type": "point",
+                "on": "pointerover",
+                "clear": "pointerout",
+                "fields": [
+                  "lga_code"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "data": {
+            "url": "data/australia_lga_2021.topo.json",
+            "format": {
+              "type": "topojson",
+              "feature": "states"
+            }
+          },
+          "mark": {
+            "type": "geoshape",
+            "filled": false,
+            "stroke": "#3a3a38",
+            "strokeWidth": 0.8
+          }
+        }
+      ]
+    },
+    {
+      "width": 132,
+      "height": 132,
+      "data": {
+        "values": [
+          {
+            "d": 0,
+            "v": 0,
+            "c": "#e8e8e8"
+          },
+          {
+            "d": 0,
+            "v": 1,
+            "c": "#ace4e4"
+          },
+          {
+            "d": 0,
+            "v": 2,
+            "c": "#5ac8c8"
+          },
+          {
+            "d": 1,
+            "v": 0,
+            "c": "#dfb0d6"
+          },
+          {
+            "d": 1,
+            "v": 1,
+            "c": "#a5add3"
+          },
+          {
+            "d": 1,
+            "v": 2,
+            "c": "#5698b9"
+          },
+          {
+            "d": 2,
+            "v": 0,
+            "c": "#be64ac"
+          },
+          {
+            "d": 2,
+            "v": 1,
+            "c": "#8c62aa"
+          },
+          {
+            "d": 2,
+            "v": 2,
+            "c": "#3b4994"
+          }
+        ]
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "rect",
+            "stroke": "#ffffff",
+            "strokeWidth": 2
+          },
+          "encoding": {
+            "x": {
+              "field": "v",
+              "type": "ordinal",
+              "title": "Children vulnerable →",
+              "axis": {
+                "labelExpr": "['< 21%','21–28%','28%+'][datum.value]",
+                "labelAngle": 0,
+                "domain": false,
+                "ticks": false,
+                "titlePadding": 8
+              }
+            },
+            "y": {
+              "field": "d",
+              "type": "ordinal",
+              "sort": "descending",
+              "title": "Area disadvantage →",
+              "axis": {
+                "labelExpr": "['Low','Mid','High'][datum.value]",
+                "domain": false,
+                "ticks": false,
+                "titlePadding": 8
+              }
+            },
+            "color": {
+              "field": "c",
+              "type": "nominal",
+              "scale": null
+            }
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": "datum.d == 2 && datum.v == 2"
+            }
+          ],
+          "mark": {
+            "type": "text",
+            "color": "#ffffff",
+            "fontWeight": "bold",
+            "fontSize": 11,
+            "text": "Both"
+          },
+          "encoding": {
+            "x": {
+              "field": "v",
+              "type": "ordinal"
+            },
+            "y": {
+              "field": "d",
+              "type": "ordinal",
+              "sort": "descending"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "spacing": 24
+}

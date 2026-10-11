@@ -1,0 +1,2269 @@
+state,seifa_quintile,domain,year,n_valid,n_vulnerable,pct_vulnerable
+Australia,All children,Communication,2009,247178,22699,9.2
+Australia,All children,Communication,2012,273855,24520,9.0
+Australia,All children,Communication,2015,286913,24475,8.5
+Australia,All children,Communication,2018,293868,24232,8.2
+Australia,All children,Communication,2021,288002,24064,8.4
+Australia,All children,Communication,2024,267833,23743,8.9
+Australia,All children,Emotional maturity,2009,246171,21822,8.9
+Australia,All children,Emotional maturity,2012,272682,20845,7.6
+Australia,All children,Emotional maturity,2015,285801,23866,8.4
+Australia,All children,Emotional maturity,2018,292806,24677,8.4
+Australia,All children,Emotional maturity,2021,286995,24271,8.5
+Australia,All children,Emotional maturity,2024,266364,26563,10.0
+Australia,All children,Language & thinking,2009,246779,21930,8.9
+Australia,All children,Language & thinking,2012,273896,18564,6.8
+Australia,All children,Language & thinking,2015,286648,18533,6.5
+Australia,All children,Language & thinking,2018,293578,19417,6.6
+Australia,All children,Language & thinking,2021,287697,21107,7.3
+Australia,All children,Language & thinking,2024,267351,20698,7.7
+Australia,All children,One or more domains,2009,246395,58029,23.6
+Australia,All children,One or more domains,2012,272282,59933,22.0
+Australia,All children,One or more domains,2015,286041,62960,22.0
+Australia,All children,One or more domains,2018,292976,63448,21.7
+Australia,All children,One or more domains,2021,287164,63264,22.0
+Australia,All children,One or more domains,2024,266711,62787,23.5
+Australia,All children,Physical health,2009,247203,23041,9.3
+Australia,All children,Physical health,2012,273922,25479,9.3
+Australia,All children,Physical health,2015,286913,27711,9.7
+Australia,All children,Physical health,2018,293894,28247,9.6
+Australia,All children,Physical health,2021,288024,28341,9.8
+Australia,All children,Physical health,2024,267862,26890,10.0
+Australia,All children,Social competence,2009,247161,23419,9.5
+Australia,All children,Social competence,2012,273534,25367,9.3
+Australia,All children,Social competence,2015,286848,28351,9.9
+Australia,All children,Social competence,2018,293878,28673,9.8
+Australia,All children,Social competence,2021,287995,27788,9.6
+Australia,All children,Social competence,2024,267774,28704,10.7
+Australia,All children,Two or more domains,2009,246845,29222,11.8
+Australia,All children,Two or more domains,2012,273275,29543,10.8
+Australia,All children,Two or more domains,2015,286616,31754,11.1
+Australia,All children,Two or more domains,2018,293619,32434,11.0
+Australia,All children,Two or more domains,2021,287737,32718,11.4
+Australia,All children,Two or more domains,2024,267396,33322,12.5
+Australia,Quintile 1 (most disadvantaged),Communication,2009,50783,7213,14.2
+Australia,Quintile 1 (most disadvantaged),Communication,2012,53733,8334,15.5
+Australia,Quintile 1 (most disadvantaged),Communication,2015,53895,7962,14.8
+Australia,Quintile 1 (most disadvantaged),Communication,2018,55536,8129,14.6
+Australia,Quintile 1 (most disadvantaged),Communication,2021,55475,8102,14.6
+Australia,Quintile 1 (most disadvantaged),Communication,2024,50729,7662,15.1
+Australia,Quintile 1 (most disadvantaged),Emotional maturity,2009,50531,6030,11.9
+Australia,Quintile 1 (most disadvantaged),Emotional maturity,2012,53447,6003,11.2
+Australia,Quintile 1 (most disadvantaged),Emotional maturity,2015,53663,6417,12.0
+Australia,Quintile 1 (most disadvantaged),Emotional maturity,2018,55276,6695,12.1
+Australia,Quintile 1 (most disadvantaged),Emotional maturity,2021,55234,6810,12.3
+Australia,Quintile 1 (most disadvantaged),Emotional maturity,2024,50380,7016,13.9
+Australia,Quintile 1 (most disadvantaged),Language & thinking,2009,50675,7084,14.0
+Australia,Quintile 1 (most disadvantaged),Language & thinking,2012,53691,6811,12.7
+Australia,Quintile 1 (most disadvantaged),Language & thinking,2015,53846,6652,12.4
+Australia,Quintile 1 (most disadvantaged),Language & thinking,2018,55464,7155,12.9
+Australia,Quintile 1 (most disadvantaged),Language & thinking,2021,55408,7804,14.1
+Australia,Quintile 1 (most disadvantaged),Language & thinking,2024,50605,7567,15.0
+Australia,Quintile 1 (most disadvantaged),One or more domains,2009,50623,16233,32.1
+Australia,Quintile 1 (most disadvantaged),One or more domains,2012,53467,17774,33.2
+Australia,Quintile 1 (most disadvantaged),One or more domains,2015,53764,17502,32.6
+Australia,Quintile 1 (most disadvantaged),One or more domains,2018,55368,17909,32.3
+Australia,Quintile 1 (most disadvantaged),One or more domains,2021,55305,18411,33.3
+Australia,Quintile 1 (most disadvantaged),One or more domains,2024,50548,17534,34.7
+Australia,Quintile 1 (most disadvantaged),Physical health,2009,50786,6708,13.2
+Australia,Quintile 1 (most disadvantaged),Physical health,2012,53739,8051,15.0
+Australia,Quintile 1 (most disadvantaged),Physical health,2015,53900,8282,15.4
+Australia,Quintile 1 (most disadvantaged),Physical health,2018,55544,8581,15.4
+Australia,Quintile 1 (most disadvantaged),Physical health,2021,55494,8928,16.1
+Australia,Quintile 1 (most disadvantaged),Physical health,2024,50741,8357,16.5
+Australia,Quintile 1 (most disadvantaged),Social competence,2009,50769,6770,13.3
+Australia,Quintile 1 (most disadvantaged),Social competence,2012,53671,7674,14.3
+Australia,Quintile 1 (most disadvantaged),Social competence,2015,53886,8179,15.2
+Australia,Quintile 1 (most disadvantaged),Social competence,2018,55534,8323,15.0
+Australia,Quintile 1 (most disadvantaged),Social competence,2021,55484,8352,15.1
+Australia,Quintile 1 (most disadvantaged),Social competence,2024,50711,8210,16.2
+Australia,Quintile 1 (most disadvantaged),Two or more domains,2009,50687,8926,17.6
+Australia,Quintile 1 (most disadvantaged),Two or more domains,2012,53562,9752,18.2
+Australia,Quintile 1 (most disadvantaged),Two or more domains,2015,53821,9899,18.4
+Australia,Quintile 1 (most disadvantaged),Two or more domains,2018,55464,10263,18.5
+Australia,Quintile 1 (most disadvantaged),Two or more domains,2021,55419,10659,19.2
+Australia,Quintile 1 (most disadvantaged),Two or more domains,2024,50592,10250,20.3
+Australia,Quintile 2,Communication,2009,47041,4911,10.4
+Australia,Quintile 2,Communication,2012,51723,5371,10.4
+Australia,Quintile 2,Communication,2015,53269,5354,10.1
+Australia,Quintile 2,Communication,2018,55391,5326,9.6
+Australia,Quintile 2,Communication,2021,55350,5310,9.6
+Australia,Quintile 2,Communication,2024,51517,5175,10.0
+Australia,Quintile 2,Emotional maturity,2009,46865,4500,9.6
+Australia,Quintile 2,Emotional maturity,2012,51482,4436,8.6
+Australia,Quintile 2,Emotional maturity,2015,53057,4934,9.3
+Australia,Quintile 2,Emotional maturity,2018,55232,5082,9.2
+Australia,Quintile 2,Emotional maturity,2021,55143,5186,9.4
+Australia,Quintile 2,Emotional maturity,2024,51238,5682,11.1
+Australia,Quintile 2,Language & thinking,2009,46960,4882,10.4
+Australia,Quintile 2,Language & thinking,2012,51728,4144,8.0
+Australia,Quintile 2,Language & thinking,2015,53218,4160,7.8
+Australia,Quintile 2,Language & thinking,2018,55342,4312,7.8
+Australia,Quintile 2,Language & thinking,2021,55304,4900,8.9
+Australia,Quintile 2,Language & thinking,2024,51422,4587,8.9
+Australia,Quintile 2,One or more domains,2009,46913,12236,26.1
+Australia,Quintile 2,One or more domains,2012,51442,12756,24.8
+Australia,Quintile 2,One or more domains,2015,53100,13168,24.8
+Australia,Quintile 2,One or more domains,2018,55256,13330,24.1
+Australia,Quintile 2,One or more domains,2021,55196,13656,24.7
+Australia,Quintile 2,One or more domains,2024,51309,13484,26.3
+Australia,Quintile 2,Physical health,2009,47047,4896,10.4
+Australia,Quintile 2,Physical health,2012,51715,5482,10.6
+Australia,Quintile 2,Physical health,2015,53272,5892,11.1
+Australia,Quintile 2,Physical health,2018,55400,6009,10.8
+Australia,Quintile 2,Physical health,2021,55351,6151,11.1
+Australia,Quintile 2,Physical health,2024,51521,5755,11.2
+Australia,Quintile 2,Social competence,2009,47037,4966,10.6
+Australia,Quintile 2,Social competence,2012,51676,5458,10.6
+Australia,Quintile 2,Social competence,2015,53252,5882,11.0
+Australia,Quintile 2,Social competence,2018,55402,5955,10.7
+Australia,Quintile 2,Social competence,2021,55349,6042,10.9
+Australia,Quintile 2,Social competence,2024,51499,6159,12.0
+Australia,Quintile 2,Two or more domains,2009,46993,6299,13.4
+Australia,Quintile 2,Two or more domains,2012,51616,6433,12.5
+Australia,Quintile 2,Two or more domains,2015,53216,6846,12.9
+Australia,Quintile 2,Two or more domains,2018,55352,6980,12.6
+Australia,Quintile 2,Two or more domains,2021,55301,7201,13.0
+Australia,Quintile 2,Two or more domains,2024,51424,7250,14.1
+Australia,Quintile 3,Communication,2009,47758,4140,8.7
+Australia,Quintile 3,Communication,2012,52955,4364,8.2
+Australia,Quintile 3,Communication,2015,56667,4437,7.8
+Australia,Quintile 3,Communication,2018,59341,4327,7.3
+Australia,Quintile 3,Communication,2021,59338,4456,7.5
+Australia,Quintile 3,Communication,2024,55902,4455,8.0
+Australia,Quintile 3,Emotional maturity,2009,47572,4164,8.8
+Australia,Quintile 3,Emotional maturity,2012,52729,3775,7.2
+Australia,Quintile 3,Emotional maturity,2015,56461,4519,8.0
+Australia,Quintile 3,Emotional maturity,2018,59131,4673,7.9
+Australia,Quintile 3,Emotional maturity,2021,59148,4680,7.9
+Australia,Quintile 3,Emotional maturity,2024,55612,5294,9.5
+Australia,Quintile 3,Language & thinking,2009,47688,4040,8.5
+Australia,Quintile 3,Language & thinking,2012,52987,3261,6.2
+Australia,Quintile 3,Language & thinking,2015,56612,3267,5.8
+Australia,Quintile 3,Language & thinking,2018,59280,3470,5.9
+Australia,Quintile 3,Language & thinking,2021,59271,3775,6.4
+Australia,Quintile 3,Language & thinking,2024,55804,3750,6.7
+Australia,Quintile 3,One or more domains,2009,47595,10954,23.0
+Australia,Quintile 3,One or more domains,2012,52640,10948,20.8
+Australia,Quintile 3,One or more domains,2015,56489,11815,20.9
+Australia,Quintile 3,One or more domains,2018,59173,12022,20.3
+Australia,Quintile 3,One or more domains,2021,59180,12107,20.5
+Australia,Quintile 3,One or more domains,2024,55660,12276,22.1
+Australia,Quintile 3,Physical health,2009,47765,4300,9.0
+Australia,Quintile 3,Physical health,2012,52978,4475,8.4
+Australia,Quintile 3,Physical health,2015,56663,5053,8.9
+Australia,Quintile 3,Physical health,2018,59348,5199,8.8
+Australia,Quintile 3,Physical health,2021,59340,5157,8.7
+Australia,Quintile 3,Physical health,2024,55907,4977,8.9
+Australia,Quintile 3,Social competence,2009,47762,4378,9.2
+Australia,Quintile 3,Social competence,2012,52891,4512,8.5
+Australia,Quintile 3,Social competence,2015,56649,5284,9.3
+Australia,Quintile 3,Social competence,2018,59346,5432,9.2
+Australia,Quintile 3,Social competence,2021,59336,5222,8.8
+Australia,Quintile 3,Social competence,2024,55887,5569,10.0
+Australia,Quintile 3,Two or more domains,2009,47699,5417,11.4
+Australia,Quintile 3,Two or more domains,2012,52838,5198,9.8
+Australia,Quintile 3,Two or more domains,2015,56609,5775,10.2
+Australia,Quintile 3,Two or more domains,2018,59287,5928,10.0
+Australia,Quintile 3,Two or more domains,2021,59274,6015,10.1
+Australia,Quintile 3,Two or more domains,2024,55827,6335,11.3
+Australia,Quintile 4,Communication,2009,48883,3491,7.1
+Australia,Quintile 4,Communication,2012,55708,3668,6.6
+Australia,Quintile 4,Communication,2015,59800,3686,6.2
+Australia,Quintile 4,Communication,2018,62875,3777,6.0
+Australia,Quintile 4,Communication,2021,60050,3645,6.1
+Australia,Quintile 4,Communication,2024,56464,3762,6.7
+Australia,Quintile 4,Emotional maturity,2009,48691,3744,7.7
+Australia,Quintile 4,Emotional maturity,2012,55501,3546,6.4
+Australia,Quintile 4,Emotional maturity,2015,59544,4116,6.9
+Australia,Quintile 4,Emotional maturity,2018,62648,4548,7.3
+Australia,Quintile 4,Emotional maturity,2021,59848,4204,7.0
+Australia,Quintile 4,Emotional maturity,2024,56171,4781,8.5
+Australia,Quintile 4,Language & thinking,2009,48806,3291,6.7
+Australia,Quintile 4,Language & thinking,2012,55716,2578,4.6
+Australia,Quintile 4,Language & thinking,2015,59730,2526,4.2
+Australia,Quintile 4,Language & thinking,2018,62815,2712,4.3
+Australia,Quintile 4,Language & thinking,2021,59986,2814,4.7
+Australia,Quintile 4,Language & thinking,2024,56375,2902,5.1
+Australia,Quintile 4,One or more domains,2009,48724,9771,20.1
+Australia,Quintile 4,One or more domains,2012,55383,9916,17.9
+Australia,Quintile 4,One or more domains,2015,59575,10662,17.9
+Australia,Quintile 4,One or more domains,2018,62658,11198,17.9
+Australia,Quintile 4,One or more domains,2021,59875,10616,17.7
+Australia,Quintile 4,One or more domains,2024,56209,10851,19.3
+Australia,Quintile 4,Physical health,2009,48887,3741,7.7
+Australia,Quintile 4,Physical health,2012,55724,4055,7.3
+Australia,Quintile 4,Physical health,2015,59793,4447,7.4
+Australia,Quintile 4,Physical health,2018,62879,4707,7.5
+Australia,Quintile 4,Physical health,2021,60048,4482,7.5
+Australia,Quintile 4,Physical health,2024,56467,4358,7.7
+Australia,Quintile 4,Social competence,2009,48882,3903,8.0
+Australia,Quintile 4,Social competence,2012,55634,4242,7.6
+Australia,Quintile 4,Social competence,2015,59781,4728,7.9
+Australia,Quintile 4,Social competence,2018,62876,4933,7.8
+Australia,Quintile 4,Social competence,2021,60039,4476,7.5
+Australia,Quintile 4,Social competence,2024,56463,4865,8.6
+Australia,Quintile 4,Two or more domains,2009,48808,4617,9.5
+Australia,Quintile 4,Two or more domains,2012,55609,4600,8.3
+Australia,Quintile 4,Two or more domains,2015,59742,4973,8.3
+Australia,Quintile 4,Two or more domains,2018,62831,5269,8.4
+Australia,Quintile 4,Two or more domains,2021,59988,5016,8.4
+Australia,Quintile 4,Two or more domains,2024,56398,5410,9.6
+Australia,Quintile 5 (least disadvantaged),Communication,2009,52062,2886,5.5
+Australia,Quintile 5 (least disadvantaged),Communication,2012,59187,2720,4.6
+Australia,Quintile 5 (least disadvantaged),Communication,2015,62469,2965,4.7
+Australia,Quintile 5 (least disadvantaged),Communication,2018,60221,2618,4.3
+Australia,Quintile 5 (least disadvantaged),Communication,2021,57543,2506,4.4
+Australia,Quintile 5 (least disadvantaged),Communication,2024,52875,2646,5.0
+Australia,Quintile 5 (least disadvantaged),Emotional maturity,2009,51866,3307,6.4
+Australia,Quintile 5 (least disadvantaged),Emotional maturity,2012,58979,3030,5.1
+Australia,Quintile 5 (least disadvantaged),Emotional maturity,2015,62270,3793,6.1
+Australia,Quintile 5 (least disadvantaged),Emotional maturity,2018,60019,3619,6.0
+Australia,Quintile 5 (least disadvantaged),Emotional maturity,2021,57380,3356,5.8
+Australia,Quintile 5 (least disadvantaged),Emotional maturity,2024,52622,3752,7.1
+Australia,Quintile 5 (least disadvantaged),Language & thinking,2009,51999,2553,4.9
+Australia,Quintile 5 (least disadvantaged),Language & thinking,2012,59226,1715,2.9
+Australia,Quintile 5 (least disadvantaged),Language & thinking,2015,62429,1867,3.0
+Australia,Quintile 5 (least disadvantaged),Language & thinking,2018,60174,1705,2.8
+Australia,Quintile 5 (least disadvantaged),Language & thinking,2021,57482,1767,3.1
+Australia,Quintile 5 (least disadvantaged),Language & thinking,2024,52800,1844,3.5
+Australia,Quintile 5 (least disadvantaged),One or more domains,2009,51893,8663,16.7
+Australia,Quintile 5 (least disadvantaged),One or more domains,2012,58808,8394,14.3
+Australia,Quintile 5 (least disadvantaged),One or more domains,2015,62305,9637,15.5
+Australia,Quintile 5 (least disadvantaged),One or more domains,2018,60020,8848,14.7
+Australia,Quintile 5 (least disadvantaged),One or more domains,2021,57363,8392,14.6
+Australia,Quintile 5 (least disadvantaged),One or more domains,2024,52641,8529,16.2
+Australia,Quintile 5 (least disadvantaged),Physical health,2009,52066,3326,6.4
+Australia,Quintile 5 (least disadvantaged),Physical health,2012,59217,3349,5.7
+Australia,Quintile 5 (least disadvantaged),Physical health,2015,62472,3966,6.3
+Australia,Quintile 5 (least disadvantaged),Physical health,2018,60219,3684,6.1
+Australia,Quintile 5 (least disadvantaged),Physical health,2021,57545,3572,6.2
+Australia,Quintile 5 (least disadvantaged),Physical health,2024,52880,3384,6.4
+Australia,Quintile 5 (least disadvantaged),Social competence,2009,52059,3331,6.4
+Australia,Quintile 5 (least disadvantaged),Social competence,2012,59115,3412,5.8
+Australia,Quintile 5 (least disadvantaged),Social competence,2015,62468,4186,6.7
+Australia,Quintile 5 (least disadvantaged),Social competence,2018,60216,3955,6.6
+Australia,Quintile 5 (least disadvantaged),Social competence,2021,57541,3645,6.3
+Australia,Quintile 5 (least disadvantaged),Social competence,2024,52868,3851,7.3
+Australia,Quintile 5 (least disadvantaged),Two or more domains,2009,52007,3874,7.4
+Australia,Quintile 5 (least disadvantaged),Two or more domains,2012,59101,3476,5.9
+Australia,Quintile 5 (least disadvantaged),Two or more domains,2015,62417,4166,6.7
+Australia,Quintile 5 (least disadvantaged),Two or more domains,2018,60183,3911,6.5
+Australia,Quintile 5 (least disadvantaged),Two or more domains,2021,57509,3765,6.5
+Australia,Quintile 5 (least disadvantaged),Two or more domains,2024,52811,4015,7.6
+New South Wales,All children,Physical health,2009,82960,7176,8.6
+New South Wales,All children,Physical health,2012,89481,7393,8.3
+New South Wales,All children,Physical health,2015,91262,7772,8.5
+New South Wales,All children,Physical health,2018,93551,7978,8.5
+New South Wales,All children,Physical health,2021,90430,8513,9.4
+New South Wales,All children,Physical health,2024,84420,7774,9.2
+New South Wales,Quintile 1 (most disadvantaged),Physical health,2009,20321,2299,11.3
+New South Wales,Quintile 1 (most disadvantaged),Physical health,2012,21116,2730,12.9
+New South Wales,Quintile 1 (most disadvantaged),Physical health,2015,20627,2647,12.8
+New South Wales,Quintile 1 (most disadvantaged),Physical health,2018,19278,2536,13.2
+New South Wales,Quintile 1 (most disadvantaged),Physical health,2021,19449,2891,14.9
+New South Wales,Quintile 1 (most disadvantaged),Physical health,2024,17838,2528,14.2
+New South Wales,Quintile 2,Physical health,2009,15911,1474,9.3
+New South Wales,Quintile 2,Physical health,2012,16729,1561,9.3
+New South Wales,Quintile 2,Physical health,2015,17067,1553,9.1
+New South Wales,Quintile 2,Physical health,2018,17438,1683,9.7
+New South Wales,Quintile 2,Physical health,2021,16536,1796,10.9
+New South Wales,Quintile 2,Physical health,2024,15654,1629,10.4
+New South Wales,Quintile 3,Physical health,2009,14239,1267,8.9
+New South Wales,Quintile 3,Physical health,2012,15142,1120,7.4
+New South Wales,Quintile 3,Physical health,2015,15815,1216,7.7
+New South Wales,Quintile 3,Physical health,2018,16379,1279,7.8
+New South Wales,Quintile 3,Physical health,2021,15911,1352,8.5
+New South Wales,Quintile 3,Physical health,2024,15065,1264,8.4
+New South Wales,Quintile 4,Physical health,2009,13989,1077,7.7
+New South Wales,Quintile 4,Physical health,2012,15636,991,6.3
+New South Wales,Quintile 4,Physical health,2015,16129,1126,7.0
+New South Wales,Quintile 4,Physical health,2018,16969,1138,6.7
+New South Wales,Quintile 4,Physical health,2021,16247,1107,6.8
+New South Wales,Quintile 4,Physical health,2024,15366,1136,7.4
+New South Wales,Quintile 5 (least disadvantaged),Physical health,2009,18343,1048,5.7
+New South Wales,Quintile 5 (least disadvantaged),Physical health,2012,20702,977,4.7
+New South Wales,Quintile 5 (least disadvantaged),Physical health,2015,21348,1219,5.7
+New South Wales,Quintile 5 (least disadvantaged),Physical health,2018,23359,1321,5.7
+New South Wales,Quintile 5 (least disadvantaged),Physical health,2021,22191,1347,6.1
+New South Wales,Quintile 5 (least disadvantaged),Physical health,2024,20413,1202,5.9
+Victoria,All children,Physical health,2009,57499,4403,7.7
+Victoria,All children,Physical health,2012,64061,4965,7.8
+Victoria,All children,Physical health,2015,67871,5335,7.9
+Victoria,All children,Physical health,2018,71892,5904,8.2
+Victoria,All children,Physical health,2021,69290,5604,8.1
+Victoria,All children,Physical health,2024,62386,5302,8.5
+Victoria,Quintile 1 (most disadvantaged),Physical health,2009,10096,1152,11.4
+Victoria,Quintile 1 (most disadvantaged),Physical health,2012,10840,1498,13.8
+Victoria,Quintile 1 (most disadvantaged),Physical health,2015,10942,1539,14.1
+Victoria,Quintile 1 (most disadvantaged),Physical health,2018,11774,1694,14.4
+Victoria,Quintile 1 (most disadvantaged),Physical health,2021,10864,1555,14.3
+Victoria,Quintile 1 (most disadvantaged),Physical health,2024,9365,1401,15.0
+Victoria,Quintile 2,Physical health,2009,10420,937,9.0
+Victoria,Quintile 2,Physical health,2012,11536,1127,9.8
+Victoria,Quintile 2,Physical health,2015,11689,1115,9.5
+Victoria,Quintile 2,Physical health,2018,12591,1206,9.6
+Victoria,Quintile 2,Physical health,2021,13268,1290,9.7
+Victoria,Quintile 2,Physical health,2024,11657,1180,10.1
+Victoria,Quintile 3,Physical health,2009,12035,920,7.6
+Victoria,Quintile 3,Physical health,2012,13700,933,6.8
+Victoria,Quintile 3,Physical health,2015,14812,1068,7.2
+Victoria,Quintile 3,Physical health,2018,15922,1204,7.6
+Victoria,Quintile 3,Physical health,2021,15843,1132,7.1
+Victoria,Quintile 3,Physical health,2024,14454,1099,7.6
+Victoria,Quintile 4,Physical health,2009,12753,767,6.0
+Victoria,Quintile 4,Physical health,2012,14588,829,5.7
+Victoria,Quintile 4,Physical health,2015,16261,912,5.6
+Victoria,Quintile 4,Physical health,2018,17430,1098,6.3
+Victoria,Quintile 4,Physical health,2021,16661,1013,6.1
+Victoria,Quintile 4,Physical health,2024,15298,1019,6.7
+Victoria,Quintile 5 (least disadvantaged),Physical health,2009,12048,619,5.1
+Victoria,Quintile 5 (least disadvantaged),Physical health,2012,13270,566,4.3
+Victoria,Quintile 5 (least disadvantaged),Physical health,2015,14052,692,4.9
+Victoria,Quintile 5 (least disadvantaged),Physical health,2018,14122,698,4.9
+Victoria,Quintile 5 (least disadvantaged),Physical health,2021,12622,611,4.8
+Victoria,Quintile 5 (least disadvantaged),Physical health,2024,11506,591,5.1
+Queensland,All children,Physical health,2009,52761,5809,11.0
+Queensland,All children,Physical health,2012,58209,6759,11.6
+Queensland,All children,Physical health,2015,62161,7705,12.4
+Queensland,All children,Physical health,2018,61844,7581,12.3
+Queensland,All children,Physical health,2021,61441,7148,11.6
+Queensland,All children,Physical health,2024,58027,6616,11.4
+Queensland,Quintile 1 (most disadvantaged),Physical health,2009,10193,1616,15.9
+Queensland,Quintile 1 (most disadvantaged),Physical health,2012,10724,1855,17.3
+Queensland,Quintile 1 (most disadvantaged),Physical health,2015,11125,2087,18.8
+Queensland,Quintile 1 (most disadvantaged),Physical health,2018,12398,2262,18.2
+Queensland,Quintile 1 (most disadvantaged),Physical health,2021,12954,2310,17.8
+Queensland,Quintile 1 (most disadvantaged),Physical health,2024,12115,2231,18.4
+Queensland,Quintile 2,Physical health,2009,10665,1257,11.8
+Queensland,Quintile 2,Physical health,2012,11842,1530,12.9
+Queensland,Quintile 2,Physical health,2015,12485,1823,14.6
+Queensland,Quintile 2,Physical health,2018,12972,1742,13.4
+Queensland,Quintile 2,Physical health,2021,12497,1587,12.7
+Queensland,Quintile 2,Physical health,2024,11796,1467,12.4
+Queensland,Quintile 3,Physical health,2009,11151,1122,10.1
+Queensland,Quintile 3,Physical health,2012,12284,1311,10.7
+Queensland,Quintile 3,Physical health,2015,13460,1549,11.5
+Queensland,Quintile 3,Physical health,2018,12981,1459,11.2
+Queensland,Quintile 3,Physical health,2021,13383,1384,10.3
+Queensland,Quintile 3,Physical health,2024,12880,1244,9.7
+Queensland,Quintile 4,Physical health,2009,10880,981,9.0
+Queensland,Quintile 4,Physical health,2012,12263,1174,9.6
+Queensland,Quintile 4,Physical health,2015,13218,1285,9.7
+Queensland,Quintile 4,Physical health,2018,13568,1317,9.7
+Queensland,Quintile 4,Physical health,2021,12531,1146,9.1
+Queensland,Quintile 4,Physical health,2024,11950,1006,8.4
+Queensland,Quintile 5 (least disadvantaged),Physical health,2009,9626,796,8.3
+Queensland,Quintile 5 (least disadvantaged),Physical health,2012,10897,864,7.9
+Queensland,Quintile 5 (least disadvantaged),Physical health,2015,11672,939,8.0
+Queensland,Quintile 5 (least disadvantaged),Physical health,2018,9830,783,8.0
+Queensland,Quintile 5 (least disadvantaged),Physical health,2021,10029,717,7.1
+Queensland,Quintile 5 (least disadvantaged),Physical health,2024,9208,661,7.2
+South Australia,All children,Physical health,2009,15062,1503,10.0
+South Australia,All children,Physical health,2012,17445,1783,10.2
+South Australia,All children,Physical health,2015,18530,1993,10.8
+South Australia,All children,Physical health,2018,19184,2072,10.8
+South Australia,All children,Physical health,2021,18948,2023,10.7
+South Australia,All children,Physical health,2024,17639,1921,10.9
+South Australia,Quintile 1 (most disadvantaged),Physical health,2009,3556,522,14.7
+South Australia,Quintile 1 (most disadvantaged),Physical health,2012,4170,697,16.7
+South Australia,Quintile 1 (most disadvantaged),Physical health,2015,4340,707,16.3
+South Australia,Quintile 1 (most disadvantaged),Physical health,2018,4940,808,16.4
+South Australia,Quintile 1 (most disadvantaged),Physical health,2021,4949,844,17.1
+South Australia,Quintile 1 (most disadvantaged),Physical health,2024,4597,813,17.7
+South Australia,Quintile 2,Physical health,2009,3438,399,11.6
+South Australia,Quintile 2,Physical health,2012,4124,407,9.9
+South Australia,Quintile 2,Physical health,2015,4385,524,11.9
+South Australia,Quintile 2,Physical health,2018,4482,519,11.6
+South Australia,Quintile 2,Physical health,2021,4020,423,10.5
+South Australia,Quintile 2,Physical health,2024,3822,413,10.8
+South Australia,Quintile 3,Physical health,2009,2982,276,9.3
+South Australia,Quintile 3,Physical health,2012,3331,281,8.4
+South Australia,Quintile 3,Physical health,2015,3735,328,8.8
+South Australia,Quintile 3,Physical health,2018,3950,333,8.4
+South Australia,Quintile 3,Physical health,2021,3978,360,9.0
+South Australia,Quintile 3,Physical health,2024,3651,328,9.0
+South Australia,Quintile 4,Physical health,2009,2927,197,6.7
+South Australia,Quintile 4,Physical health,2012,3342,254,7.6
+South Australia,Quintile 4,Physical health,2015,3523,270,7.7
+South Australia,Quintile 4,Physical health,2018,3622,258,7.1
+South Australia,Quintile 4,Physical health,2021,3605,253,7.0
+South Australia,Quintile 4,Physical health,2024,3337,225,6.7
+South Australia,Quintile 5 (least disadvantaged),Physical health,2009,2159,109,5.0
+South Australia,Quintile 5 (least disadvantaged),Physical health,2012,2478,144,5.8
+South Australia,Quintile 5 (least disadvantaged),Physical health,2015,2547,164,6.4
+South Australia,Quintile 5 (least disadvantaged),Physical health,2018,2190,154,7.0
+South Australia,Quintile 5 (least disadvantaged),Physical health,2021,2396,143,6.0
+South Australia,Quintile 5 (least disadvantaged),Physical health,2024,2232,142,6.4
+Western Australia,All children,Physical health,2009,26127,2646,10.1
+Western Australia,All children,Physical health,2012,30834,3012,9.8
+Western Australia,All children,Physical health,2015,32502,3206,9.9
+Western Australia,All children,Physical health,2018,32899,2929,8.9
+Western Australia,All children,Physical health,2021,33805,3178,9.4
+Western Australia,All children,Physical health,2024,32521,3412,10.5
+Western Australia,Quintile 1 (most disadvantaged),Physical health,2009,3712,614,16.5
+Western Australia,Quintile 1 (most disadvantaged),Physical health,2012,3899,713,18.3
+Western Australia,Quintile 1 (most disadvantaged),Physical health,2015,3886,721,18.6
+Western Australia,Quintile 1 (most disadvantaged),Physical health,2018,4329,710,16.4
+Western Australia,Quintile 1 (most disadvantaged),Physical health,2021,4685,767,16.4
+Western Australia,Quintile 1 (most disadvantaged),Physical health,2024,4409,799,18.1
+Western Australia,Quintile 2,Physical health,2009,4601,595,12.9
+Western Australia,Quintile 2,Physical health,2012,5318,643,12.1
+Western Australia,Quintile 2,Physical health,2015,5482,659,12.0
+Western Australia,Quintile 2,Physical health,2018,5755,622,10.8
+Western Australia,Quintile 2,Physical health,2021,6771,769,11.4
+Western Australia,Quintile 2,Physical health,2024,6526,778,11.9
+Western Australia,Quintile 3,Physical health,2009,4947,458,9.3
+Western Australia,Quintile 3,Physical health,2012,5900,565,9.6
+Western Australia,Quintile 3,Physical health,2015,6159,608,9.9
+Western Australia,Quintile 3,Physical health,2018,7418,636,8.6
+Western Australia,Quintile 3,Physical health,2021,7614,618,8.1
+Western Australia,Quintile 3,Physical health,2024,7421,727,9.8
+Western Australia,Quintile 4,Physical health,2009,5902,486,8.2
+Western Australia,Quintile 4,Physical health,2012,7228,568,7.9
+Western Australia,Quintile 4,Physical health,2015,7858,610,7.8
+Western Australia,Quintile 4,Physical health,2018,8365,584,7.0
+Western Australia,Quintile 4,Physical health,2021,8023,641,8.0
+Western Australia,Quintile 4,Physical health,2024,7881,664,8.4
+Western Australia,Quintile 5 (least disadvantaged),Physical health,2009,6900,488,7.1
+Western Australia,Quintile 5 (least disadvantaged),Physical health,2012,8462,519,6.1
+Western Australia,Quintile 5 (least disadvantaged),Physical health,2015,8958,588,6.6
+Western Australia,Quintile 5 (least disadvantaged),Physical health,2018,6827,359,5.3
+Western Australia,Quintile 5 (least disadvantaged),Physical health,2021,6680,377,5.6
+Western Australia,Quintile 5 (least disadvantaged),Physical health,2024,6236,435,7.0
+Tasmania,All children,Physical health,2009,5705,568,10.0
+Tasmania,All children,Physical health,2012,6121,605,9.9
+Tasmania,All children,Physical health,2015,6159,618,10.0
+Tasmania,All children,Physical health,2018,5847,554,9.5
+Tasmania,All children,Physical health,2021,5595,623,11.1
+Tasmania,All children,Physical health,2024,5247,619,11.8
+Tasmania,Quintile 1 (most disadvantaged),Physical health,2009,1890,249,13.2
+Tasmania,Quintile 1 (most disadvantaged),Physical health,2012,1982,297,15.0
+Tasmania,Quintile 1 (most disadvantaged),Physical health,2015,1950,288,14.8
+Tasmania,Quintile 1 (most disadvantaged),Physical health,2018,1944,293,15.1
+Tasmania,Quintile 1 (most disadvantaged),Physical health,2021,1706,302,17.7
+Tasmania,Quintile 1 (most disadvantaged),Physical health,2024,1623,285,17.6
+Tasmania,Quintile 2,Physical health,2009,1391,144,10.4
+Tasmania,Quintile 2,Physical health,2012,1505,125,8.3
+Tasmania,Quintile 2,Physical health,2015,1499,132,8.8
+Tasmania,Quintile 2,Physical health,2018,1407,127,9.0
+Tasmania,Quintile 2,Physical health,2021,1372,145,10.6
+Tasmania,Quintile 2,Physical health,2024,1239,136,11.0
+Tasmania,Quintile 3,Physical health,2009,1247,101,8.1
+Tasmania,Quintile 3,Physical health,2012,1371,112,8.2
+Tasmania,Quintile 3,Physical health,2015,1349,116,8.6
+Tasmania,Quintile 3,Physical health,2018,1294,80,6.2
+Tasmania,Quintile 3,Physical health,2021,1198,96,8.0
+Tasmania,Quintile 3,Physical health,2024,1126,117,10.4
+Tasmania,Quintile 4,Physical health,2009,737,53,7.2
+Tasmania,Quintile 4,Physical health,2012,820,43,5.2
+Tasmania,Quintile 4,Physical health,2015,885,51,5.8
+Tasmania,Quintile 4,Physical health,2018,741,33,4.5
+Tasmania,Quintile 4,Physical health,2021,894,65,7.3
+Tasmania,Quintile 4,Physical health,2024,852,59,6.9
+Tasmania,Quintile 5 (least disadvantaged),Physical health,2009,440,21,4.8
+Tasmania,Quintile 5 (least disadvantaged),Physical health,2012,443,28,6.3
+Tasmania,Quintile 5 (least disadvantaged),Physical health,2015,476,31,6.5
+Tasmania,Quintile 5 (least disadvantaged),Physical health,2018,461,21,4.6
+Tasmania,Quintile 5 (least disadvantaged),Physical health,2021,425,15,3.5
+Tasmania,Quintile 5 (least disadvantaged),Physical health,2024,407,22,5.4
+Northern Territory,All children,Physical health,2009,2891,541,18.7
+Northern Territory,All children,Physical health,2012,3143,472,15.0
+Northern Territory,All children,Physical health,2015,3263,518,15.9
+Northern Territory,All children,Physical health,2018,3193,563,17.6
+Northern Territory,All children,Physical health,2021,2980,544,18.3
+Northern Territory,All children,Physical health,2024,2697,565,20.9
+Northern Territory,Quintile 1 (most disadvantaged),Physical health,2009,944,249,26.4
+Northern Territory,Quintile 1 (most disadvantaged),Physical health,2012,933,251,26.9
+Northern Territory,Quintile 1 (most disadvantaged),Physical health,2015,943,271,28.7
+Northern Territory,Quintile 1 (most disadvantaged),Physical health,2018,805,264,32.8
+Northern Territory,Quintile 1 (most disadvantaged),Physical health,2021,819,243,29.7
+Northern Territory,Quintile 1 (most disadvantaged),Physical health,2024,739,285,38.6
+Northern Territory,Quintile 2,Physical health,2009,398,70,17.6
+Northern Territory,Quintile 2,Physical health,2012,419,52,12.4
+Northern Territory,Quintile 2,Physical health,2015,438,66,15.1
+Northern Territory,Quintile 2,Physical health,2018,449,69,15.4
+Northern Territory,Quintile 2,Physical health,2021,541,87,16.1
+Northern Territory,Quintile 2,Physical health,2024,484,94,19.4
+Northern Territory,Quintile 3,Physical health,2009,534,89,16.7
+Northern Territory,Quintile 3,Physical health,2012,600,70,11.7
+Northern Territory,Quintile 3,Physical health,2015,611,79,12.9
+Northern Territory,Quintile 3,Physical health,2018,588,91,15.5
+Northern Territory,Quintile 3,Physical health,2021,456,63,13.8
+Northern Territory,Quintile 3,Physical health,2024,429,56,13.1
+Northern Territory,Quintile 4,Physical health,2009,518,69,13.3
+Northern Territory,Quintile 4,Physical health,2012,584,48,8.2
+Northern Territory,Quintile 4,Physical health,2015,623,55,8.8
+Northern Territory,Quintile 4,Physical health,2018,644,72,11.2
+Northern Territory,Quintile 4,Physical health,2021,537,65,12.1
+Northern Territory,Quintile 4,Physical health,2024,432,52,12.0
+Northern Territory,Quintile 5 (least disadvantaged),Physical health,2009,460,55,12.0
+Northern Territory,Quintile 5 (least disadvantaged),Physical health,2012,567,39,6.9
+Northern Territory,Quintile 5 (least disadvantaged),Physical health,2015,586,38,6.5
+Northern Territory,Quintile 5 (least disadvantaged),Physical health,2018,684,61,8.9
+Northern Territory,Quintile 5 (least disadvantaged),Physical health,2021,588,68,11.6
+Northern Territory,Quintile 5 (least disadvantaged),Physical health,2024,583,62,10.6
+Australian Capital Territory,All children,Physical health,2009,4198,395,9.4
+Australian Capital Territory,All children,Physical health,2012,4628,490,10.6
+Australian Capital Territory,All children,Physical health,2015,5165,564,10.9
+Australian Capital Territory,All children,Physical health,2018,5484,666,12.1
+Australian Capital Territory,All children,Physical health,2021,5535,708,12.8
+Australian Capital Territory,All children,Physical health,2024,4925,681,13.8
+Australian Capital Territory,Quintile 1 (most disadvantaged),Physical health,2009,74,7,9.5
+Australian Capital Territory,Quintile 1 (most disadvantaged),Physical health,2012,75,10,13.3
+Australian Capital Territory,Quintile 1 (most disadvantaged),Physical health,2015,87,22,25.3
+Australian Capital Territory,Quintile 1 (most disadvantaged),Physical health,2018,76,14,18.4
+Australian Capital Territory,Quintile 1 (most disadvantaged),Physical health,2021,68,16,23.5
+Australian Capital Territory,Quintile 1 (most disadvantaged),Physical health,2024,55,15,27.3
+Australian Capital Territory,Quintile 2,Physical health,2009,223,20,9.0
+Australian Capital Territory,Quintile 2,Physical health,2012,242,37,15.3
+Australian Capital Territory,Quintile 2,Physical health,2015,227,20,8.8
+Australian Capital Territory,Quintile 2,Physical health,2018,306,41,13.4
+Australian Capital Territory,Quintile 2,Physical health,2021,346,54,15.6
+Australian Capital Territory,Quintile 2,Physical health,2024,343,58,16.9
+Australian Capital Territory,Quintile 3,Physical health,2009,630,67,10.6
+Australian Capital Territory,Quintile 3,Physical health,2012,650,83,12.8
+Australian Capital Territory,Quintile 3,Physical health,2015,722,89,12.3
+Australian Capital Territory,Quintile 3,Physical health,2018,816,117,14.3
+Australian Capital Territory,Quintile 3,Physical health,2021,957,152,15.9
+Australian Capital Territory,Quintile 3,Physical health,2024,881,142,16.1
+Australian Capital Territory,Quintile 4,Physical health,2009,1181,111,9.4
+Australian Capital Territory,Quintile 4,Physical health,2012,1263,148,11.7
+Australian Capital Territory,Quintile 4,Physical health,2015,1296,138,10.6
+Australian Capital Territory,Quintile 4,Physical health,2018,1540,207,13.4
+Australian Capital Territory,Quintile 4,Physical health,2021,1550,192,12.4
+Australian Capital Territory,Quintile 4,Physical health,2024,1351,197,14.6
+Australian Capital Territory,Quintile 5 (least disadvantaged),Physical health,2009,2090,190,9.1
+Australian Capital Territory,Quintile 5 (least disadvantaged),Physical health,2012,2398,212,8.8
+Australian Capital Territory,Quintile 5 (least disadvantaged),Physical health,2015,2833,295,10.4
+Australian Capital Territory,Quintile 5 (least disadvantaged),Physical health,2018,2746,287,10.5
+Australian Capital Territory,Quintile 5 (least disadvantaged),Physical health,2021,2614,294,11.2
+Australian Capital Territory,Quintile 5 (least disadvantaged),Physical health,2024,2295,269,11.7
+New South Wales,All children,Social competence,2009,82946,7280,8.8
+New South Wales,All children,Social competence,2012,89373,7578,8.5
+New South Wales,All children,Social competence,2015,91245,8359,9.2
+New South Wales,All children,Social competence,2018,93541,8568,9.2
+New South Wales,All children,Social competence,2021,90422,8458,9.4
+New South Wales,All children,Social competence,2024,84379,8368,9.9
+New South Wales,Quintile 1 (most disadvantaged),Social competence,2009,20316,2356,11.6
+New South Wales,Quintile 1 (most disadvantaged),Social competence,2012,21101,2730,12.9
+New South Wales,Quintile 1 (most disadvantaged),Social competence,2015,20621,2710,13.1
+New South Wales,Quintile 1 (most disadvantaged),Social competence,2018,19274,2601,13.5
+New South Wales,Quintile 1 (most disadvantaged),Social competence,2021,19448,2764,14.2
+New South Wales,Quintile 1 (most disadvantaged),Social competence,2024,17822,2579,14.5
+New South Wales,Quintile 2,Social competence,2009,15909,1508,9.5
+New South Wales,Quintile 2,Social competence,2012,16712,1526,9.1
+New South Wales,Quintile 2,Social competence,2015,17060,1631,9.6
+New South Wales,Quintile 2,Social competence,2018,17438,1740,10.0
+New South Wales,Quintile 2,Social competence,2021,16536,1733,10.5
+New South Wales,Quintile 2,Social competence,2024,15638,1705,10.9
+New South Wales,Quintile 3,Social competence,2009,14236,1222,8.6
+New South Wales,Quintile 3,Social competence,2012,15123,1140,7.5
+New South Wales,Quintile 3,Social competence,2015,15814,1327,8.4
+New South Wales,Quintile 3,Social competence,2018,16378,1448,8.8
+New South Wales,Quintile 3,Social competence,2021,15910,1369,8.6
+New South Wales,Quintile 3,Social competence,2024,15060,1430,9.5
+New South Wales,Quintile 4,Social competence,2009,13988,1051,7.5
+New South Wales,Quintile 4,Social competence,2012,15602,1069,6.9
+New South Wales,Quintile 4,Social competence,2015,16127,1228,7.6
+New South Wales,Quintile 4,Social competence,2018,16966,1225,7.2
+New South Wales,Quintile 4,Social competence,2021,16243,1151,7.1
+New South Wales,Quintile 4,Social competence,2024,15364,1217,7.9
+New South Wales,Quintile 5 (least disadvantaged),Social competence,2009,18340,1134,6.2
+New South Wales,Quintile 5 (least disadvantaged),Social competence,2012,20679,1098,5.3
+New South Wales,Quintile 5 (least disadvantaged),Social competence,2015,21347,1438,6.7
+New South Wales,Quintile 5 (least disadvantaged),Social competence,2018,23357,1531,6.6
+New South Wales,Quintile 5 (least disadvantaged),Social competence,2021,22189,1422,6.4
+New South Wales,Quintile 5 (least disadvantaged),Social competence,2024,20411,1427,7.0
+Victoria,All children,Social competence,2009,57487,4825,8.4
+Victoria,All children,Social competence,2012,63896,5151,8.1
+Victoria,All children,Social competence,2015,67860,5934,8.7
+Victoria,All children,Social competence,2018,71902,6331,8.8
+Victoria,All children,Social competence,2021,69283,6253,9.0
+Victoria,All children,Social competence,2024,62382,6600,10.6
+Victoria,Quintile 1 (most disadvantaged),Social competence,2009,10093,1280,12.7
+Victoria,Quintile 1 (most disadvantaged),Social competence,2012,10811,1448,13.4
+Victoria,Quintile 1 (most disadvantaged),Social competence,2015,10940,1628,14.9
+Victoria,Quintile 1 (most disadvantaged),Social competence,2018,11775,1715,14.6
+Victoria,Quintile 1 (most disadvantaged),Social competence,2021,10863,1754,16.1
+Victoria,Quintile 1 (most disadvantaged),Social competence,2024,9361,1596,17.0
+Victoria,Quintile 2,Social competence,2009,10420,1018,9.8
+Victoria,Quintile 2,Social competence,2012,11524,1139,9.9
+Victoria,Quintile 2,Social competence,2015,11685,1173,10.0
+Victoria,Quintile 2,Social competence,2018,12595,1243,9.9
+Victoria,Quintile 2,Social competence,2021,13266,1452,10.9
+Victoria,Quintile 2,Social competence,2024,11657,1458,12.5
+Victoria,Quintile 3,Social competence,2009,12033,964,8.0
+Victoria,Quintile 3,Social competence,2012,13657,994,7.3
+Victoria,Quintile 3,Social competence,2015,14809,1234,8.3
+Victoria,Quintile 3,Social competence,2018,15925,1302,8.2
+Victoria,Quintile 3,Social competence,2021,15842,1297,8.2
+Victoria,Quintile 3,Social competence,2024,14454,1459,10.1
+Victoria,Quintile 4,Social competence,2009,12749,880,6.9
+Victoria,Quintile 4,Social competence,2012,14553,943,6.5
+Victoria,Quintile 4,Social competence,2015,16260,1126,6.9
+Victoria,Quintile 4,Social competence,2018,17432,1270,7.3
+Victoria,Quintile 4,Social competence,2021,16659,1115,6.7
+Victoria,Quintile 4,Social competence,2024,15300,1319,8.6
+Victoria,Quintile 5 (least disadvantaged),Social competence,2009,12045,674,5.6
+Victoria,Quintile 5 (least disadvantaged),Social competence,2012,13226,611,4.6
+Victoria,Quintile 5 (least disadvantaged),Social competence,2015,14051,758,5.4
+Victoria,Quintile 5 (least disadvantaged),Social competence,2018,14122,793,5.6
+Victoria,Quintile 5 (least disadvantaged),Social competence,2021,12621,630,5.0
+Victoria,Quintile 5 (least disadvantaged),Social competence,2024,11504,754,6.6
+Queensland,All children,Social competence,2009,52755,6398,12.1
+Queensland,All children,Social competence,2012,58186,6717,11.5
+Queensland,All children,Social competence,2015,62136,7719,12.4
+Queensland,All children,Social competence,2018,61838,7388,11.9
+Queensland,All children,Social competence,2021,61435,6536,10.6
+Queensland,All children,Social competence,2024,58017,6714,11.6
+Queensland,Quintile 1 (most disadvantaged),Social competence,2009,10191,1757,17.2
+Queensland,Quintile 1 (most disadvantaged),Social competence,2012,10718,1704,15.9
+Queensland,Quintile 1 (most disadvantaged),Social competence,2015,11122,1991,17.9
+Queensland,Quintile 1 (most disadvantaged),Social competence,2018,12396,2119,17.1
+Queensland,Quintile 1 (most disadvantaged),Social competence,2021,12948,1918,14.8
+Queensland,Quintile 1 (most disadvantaged),Social competence,2024,12113,1990,16.4
+Queensland,Quintile 2,Social competence,2009,10662,1370,12.8
+Queensland,Quintile 2,Social competence,2012,11845,1595,13.5
+Queensland,Quintile 2,Social competence,2015,12478,1792,14.4
+Queensland,Quintile 2,Social competence,2018,12971,1701,13.1
+Queensland,Quintile 2,Social competence,2021,12498,1515,12.1
+Queensland,Quintile 2,Social competence,2024,11796,1515,12.8
+Queensland,Quintile 3,Social competence,2009,11151,1291,11.6
+Queensland,Quintile 3,Social competence,2012,12280,1319,10.7
+Queensland,Quintile 3,Social competence,2015,13454,1606,11.9
+Queensland,Quintile 3,Social competence,2018,12978,1452,11.2
+Queensland,Quintile 3,Social competence,2021,13382,1283,9.6
+Queensland,Quintile 3,Social competence,2024,12872,1329,10.3
+Queensland,Quintile 4,Social competence,2009,10879,1125,10.3
+Queensland,Quintile 4,Social competence,2012,12252,1221,10.0
+Queensland,Quintile 4,Social competence,2015,13210,1322,10.0
+Queensland,Quintile 4,Social competence,2018,13568,1324,9.8
+Queensland,Quintile 4,Social competence,2021,12531,1089,8.7
+Queensland,Quintile 4,Social competence,2024,11949,1138,9.5
+Queensland,Quintile 5 (least disadvantaged),Social competence,2009,9626,817,8.5
+Queensland,Quintile 5 (least disadvantaged),Social competence,2012,10892,853,7.8
+Queensland,Quintile 5 (least disadvantaged),Social competence,2015,11672,988,8.5
+Queensland,Quintile 5 (least disadvantaged),Social competence,2018,9830,777,7.9
+Queensland,Quintile 5 (least disadvantaged),Social competence,2021,10029,728,7.3
+Queensland,Quintile 5 (least disadvantaged),Social competence,2024,9209,732,7.9
+South Australia,All children,Social competence,2009,15059,1518,10.1
+South Australia,All children,Social competence,2012,17418,1965,11.3
+South Australia,All children,Social competence,2015,18528,2004,10.8
+South Australia,All children,Social competence,2018,19181,2200,11.5
+South Australia,All children,Social competence,2021,18947,2125,11.2
+South Australia,All children,Social competence,2024,17638,1978,11.2
+South Australia,Quintile 1 (most disadvantaged),Social competence,2009,3555,482,13.6
+South Australia,Quintile 1 (most disadvantaged),Social competence,2012,4169,749,18.0
+South Australia,Quintile 1 (most disadvantaged),Social competence,2015,4340,700,16.1
+South Australia,Quintile 1 (most disadvantaged),Social competence,2018,4937,814,16.5
+South Australia,Quintile 1 (most disadvantaged),Social competence,2021,4950,819,16.5
+South Australia,Quintile 1 (most disadvantaged),Social competence,2024,4596,746,16.2
+South Australia,Quintile 2,Social competence,2009,3436,382,11.1
+South Australia,Quintile 2,Social competence,2012,4113,476,11.6
+South Australia,Quintile 2,Social competence,2015,4385,519,11.8
+South Australia,Quintile 2,Social competence,2018,4481,521,11.6
+South Australia,Quintile 2,Social competence,2021,4020,426,10.6
+South Australia,Quintile 2,Social competence,2024,3821,437,11.4
+South Australia,Quintile 3,Social competence,2009,2982,296,9.9
+South Australia,Quintile 3,Social competence,2012,3325,323,9.7
+South Australia,Quintile 3,Social competence,2015,3733,350,9.4
+South Australia,Quintile 3,Social competence,2018,3950,404,10.2
+South Australia,Quintile 3,Social competence,2021,3978,398,10.0
+South Australia,Quintile 3,Social competence,2024,3651,353,9.7
+South Australia,Quintile 4,Social competence,2009,2927,233,8.0
+South Australia,Quintile 4,Social competence,2012,3340,259,7.8
+South Australia,Quintile 4,Social competence,2015,3523,270,7.7
+South Australia,Quintile 4,Social competence,2018,3622,296,8.2
+South Australia,Quintile 4,Social competence,2021,3604,305,8.5
+South Australia,Quintile 4,Social competence,2024,3338,274,8.2
+South Australia,Quintile 5 (least disadvantaged),Social competence,2009,2159,125,5.8
+South Australia,Quintile 5 (least disadvantaged),Social competence,2012,2471,158,6.4
+South Australia,Quintile 5 (least disadvantaged),Social competence,2015,2547,165,6.5
+South Australia,Quintile 5 (least disadvantaged),Social competence,2018,2191,165,7.5
+South Australia,Quintile 5 (least disadvantaged),Social competence,2021,2395,177,7.4
+South Australia,Quintile 5 (least disadvantaged),Social competence,2024,2232,168,7.5
+Western Australia,All children,Social competence,2009,26125,2014,7.7
+Western Australia,All children,Social competence,2012,30799,2589,8.4
+Western Australia,All children,Social competence,2015,32496,2721,8.4
+Western Australia,All children,Social competence,2018,32894,2431,7.4
+Western Australia,All children,Social competence,2021,33802,2577,7.6
+Western Australia,All children,Social competence,2024,32499,3221,9.9
+Western Australia,Quintile 1 (most disadvantaged),Social competence,2009,3710,447,12.0
+Western Australia,Quintile 1 (most disadvantaged),Social competence,2012,3892,564,14.5
+Western Australia,Quintile 1 (most disadvantaged),Social competence,2015,3885,569,14.6
+Western Australia,Quintile 1 (most disadvantaged),Social competence,2018,4328,528,12.2
+Western Australia,Quintile 1 (most disadvantaged),Social competence,2021,4685,561,12.0
+Western Australia,Quintile 1 (most disadvantaged),Social competence,2024,4403,728,16.5
+Western Australia,Quintile 2,Social competence,2009,4599,476,10.4
+Western Australia,Quintile 2,Social competence,2012,5314,528,9.9
+Western Australia,Quintile 2,Social competence,2015,5481,546,10.0
+Western Australia,Quintile 2,Social competence,2018,5755,514,8.9
+Western Australia,Quintile 2,Social competence,2021,6770,611,9.0
+Western Australia,Quintile 2,Social competence,2024,6522,755,11.6
+Western Australia,Quintile 3,Social competence,2009,4948,357,7.2
+Western Australia,Quintile 3,Social competence,2012,5899,503,8.5
+Western Australia,Quintile 3,Social competence,2015,6157,532,8.6
+Western Australia,Quintile 3,Social competence,2018,7417,555,7.5
+Western Australia,Quintile 3,Social competence,2021,7613,587,7.7
+Western Australia,Quintile 3,Social competence,2024,7416,685,9.2
+Western Australia,Quintile 4,Social competence,2009,5903,389,6.6
+Western Australia,Quintile 4,Social competence,2012,7224,546,7.6
+Western Australia,Quintile 4,Social competence,2015,7857,538,6.8
+Western Australia,Quintile 4,Social competence,2018,8363,509,6.1
+Western Australia,Quintile 4,Social competence,2021,8022,498,6.2
+Western Australia,Quintile 4,Social competence,2024,7878,624,7.9
+Western Australia,Quintile 5 (least disadvantaged),Social competence,2009,6900,339,4.9
+Western Australia,Quintile 5 (least disadvantaged),Social competence,2012,8443,443,5.2
+Western Australia,Quintile 5 (least disadvantaged),Social competence,2015,8957,515,5.7
+Western Australia,Quintile 5 (least disadvantaged),Social competence,2018,6826,304,4.5
+Western Australia,Quintile 5 (least disadvantaged),Social competence,2021,6680,315,4.7
+Western Australia,Quintile 5 (least disadvantaged),Social competence,2024,6232,423,6.8
+Tasmania,All children,Social competence,2009,5706,495,8.7
+Tasmania,All children,Social competence,2012,6104,503,8.2
+Tasmania,All children,Social competence,2015,6159,528,8.6
+Tasmania,All children,Social competence,2018,5848,513,8.8
+Tasmania,All children,Social competence,2021,5595,519,9.3
+Tasmania,All children,Social competence,2024,5247,663,12.6
+Tasmania,Quintile 1 (most disadvantaged),Social competence,2009,1890,207,11.0
+Tasmania,Quintile 1 (most disadvantaged),Social competence,2012,1974,236,12.0
+Tasmania,Quintile 1 (most disadvantaged),Social competence,2015,1950,239,12.3
+Tasmania,Quintile 1 (most disadvantaged),Social competence,2018,1945,255,13.1
+Tasmania,Quintile 1 (most disadvantaged),Social competence,2021,1706,235,13.8
+Tasmania,Quintile 1 (most disadvantaged),Social competence,2024,1623,303,18.7
+Tasmania,Quintile 2,Social competence,2009,1391,113,8.1
+Tasmania,Quintile 2,Social competence,2012,1507,111,7.4
+Tasmania,Quintile 2,Social competence,2015,1499,133,8.9
+Tasmania,Quintile 2,Social competence,2018,1407,122,8.7
+Tasmania,Quintile 2,Social competence,2021,1372,138,10.1
+Tasmania,Quintile 2,Social competence,2024,1239,135,10.9
+Tasmania,Quintile 3,Social competence,2009,1248,99,7.9
+Tasmania,Quintile 3,Social competence,2012,1361,95,7.0
+Tasmania,Quintile 3,Social competence,2015,1349,91,6.7
+Tasmania,Quintile 3,Social competence,2018,1294,78,6.0
+Tasmania,Quintile 3,Social competence,2021,1198,77,6.4
+Tasmania,Quintile 3,Social competence,2024,1126,132,11.7
+Tasmania,Quintile 4,Social competence,2009,737,49,6.6
+Tasmania,Quintile 4,Social competence,2012,820,40,4.9
+Tasmania,Quintile 4,Social competence,2015,885,41,4.6
+Tasmania,Quintile 4,Social competence,2018,741,36,4.9
+Tasmania,Quintile 4,Social competence,2021,894,49,5.5
+Tasmania,Quintile 4,Social competence,2024,852,60,7.0
+Tasmania,Quintile 5 (least disadvantaged),Social competence,2009,440,27,6.1
+Tasmania,Quintile 5 (least disadvantaged),Social competence,2012,442,21,4.8
+Tasmania,Quintile 5 (least disadvantaged),Social competence,2015,476,24,5.0
+Tasmania,Quintile 5 (least disadvantaged),Social competence,2018,461,22,4.8
+Tasmania,Quintile 5 (least disadvantaged),Social competence,2021,425,20,4.7
+Tasmania,Quintile 5 (least disadvantaged),Social competence,2024,407,33,8.1
+Northern Territory,All children,Social competence,2009,2886,517,17.9
+Northern Territory,All children,Social competence,2012,3139,468,14.9
+Northern Territory,All children,Social competence,2015,3260,603,18.5
+Northern Territory,All children,Social competence,2018,3190,568,17.8
+Northern Territory,All children,Social competence,2021,2977,645,21.7
+Northern Territory,All children,Social competence,2024,2692,592,22.0
+Northern Territory,Quintile 1 (most disadvantaged),Social competence,2009,940,237,25.2
+Northern Territory,Quintile 1 (most disadvantaged),Social competence,2012,931,235,25.2
+Northern Territory,Quintile 1 (most disadvantaged),Social competence,2015,941,327,34.8
+Northern Territory,Quintile 1 (most disadvantaged),Social competence,2018,803,277,34.5
+Northern Territory,Quintile 1 (most disadvantaged),Social competence,2021,816,290,35.5
+Northern Territory,Quintile 1 (most disadvantaged),Social competence,2024,738,256,34.7
+Northern Territory,Quintile 2,Social competence,2009,397,74,18.6
+Northern Territory,Quintile 2,Social competence,2012,419,55,13.1
+Northern Territory,Quintile 2,Social competence,2015,437,67,15.3
+Northern Territory,Quintile 2,Social competence,2018,449,74,16.5
+Northern Territory,Quintile 2,Social competence,2021,541,111,20.5
+Northern Territory,Quintile 2,Social competence,2024,484,110,22.7
+Northern Territory,Quintile 3,Social competence,2009,534,83,15.5
+Northern Territory,Quintile 3,Social competence,2012,598,71,11.9
+Northern Territory,Quintile 3,Social competence,2015,611,72,11.8
+Northern Territory,Quintile 3,Social competence,2018,588,74,12.6
+Northern Territory,Quintile 3,Social competence,2021,456,76,16.7
+Northern Territory,Quintile 3,Social competence,2024,428,73,17.1
+Northern Territory,Quintile 4,Social competence,2009,518,66,12.7
+Northern Territory,Quintile 4,Social competence,2012,584,58,9.9
+Northern Territory,Quintile 4,Social competence,2015,623,85,13.6
+Northern Territory,Quintile 4,Social competence,2018,644,63,9.8
+Northern Territory,Quintile 4,Social competence,2021,537,73,13.6
+Northern Territory,Quintile 4,Social competence,2024,431,65,15.1
+Northern Territory,Quintile 5 (least disadvantaged),Social competence,2009,460,48,10.4
+Northern Territory,Quintile 5 (least disadvantaged),Social competence,2012,567,41,7.2
+Northern Territory,Quintile 5 (least disadvantaged),Social competence,2015,586,41,7.0
+Northern Territory,Quintile 5 (least disadvantaged),Social competence,2018,683,72,10.5
+Northern Territory,Quintile 5 (least disadvantaged),Social competence,2021,588,76,12.9
+Northern Territory,Quintile 5 (least disadvantaged),Social competence,2024,581,78,13.4
+Australian Capital Territory,All children,Social competence,2009,4197,372,8.9
+Australian Capital Territory,All children,Social competence,2012,4619,396,8.6
+Australian Capital Territory,All children,Social competence,2015,5164,483,9.4
+Australian Capital Territory,All children,Social competence,2018,5484,674,12.3
+Australian Capital Territory,All children,Social competence,2021,5534,675,12.2
+Australian Capital Territory,All children,Social competence,2024,4920,568,11.5
+Australian Capital Territory,Quintile 1 (most disadvantaged),Social competence,2009,74,4,5.4
+Australian Capital Territory,Quintile 1 (most disadvantaged),Social competence,2012,75,8,10.7
+Australian Capital Territory,Quintile 1 (most disadvantaged),Social competence,2015,87,15,17.2
+Australian Capital Territory,Quintile 1 (most disadvantaged),Social competence,2018,76,14,18.4
+Australian Capital Territory,Quintile 1 (most disadvantaged),Social competence,2021,68,11,16.2
+Australian Capital Territory,Quintile 1 (most disadvantaged),Social competence,2024,55,12,21.8
+Australian Capital Territory,Quintile 2,Social competence,2009,223,25,11.2
+Australian Capital Territory,Quintile 2,Social competence,2012,242,28,11.6
+Australian Capital Territory,Quintile 2,Social competence,2015,227,21,9.3
+Australian Capital Territory,Quintile 2,Social competence,2018,306,40,13.1
+Australian Capital Territory,Quintile 2,Social competence,2021,346,56,16.2
+Australian Capital Territory,Quintile 2,Social competence,2024,342,44,12.9
+Australian Capital Territory,Quintile 3,Social competence,2009,630,66,10.5
+Australian Capital Territory,Quintile 3,Social competence,2012,648,67,10.3
+Australian Capital Territory,Quintile 3,Social competence,2015,722,72,10.0
+Australian Capital Territory,Quintile 3,Social competence,2018,816,119,14.6
+Australian Capital Territory,Quintile 3,Social competence,2021,957,135,14.1
+Australian Capital Territory,Quintile 3,Social competence,2024,880,108,12.3
+Australian Capital Territory,Quintile 4,Social competence,2009,1181,110,9.3
+Australian Capital Territory,Quintile 4,Social competence,2012,1259,106,8.4
+Australian Capital Territory,Quintile 4,Social competence,2015,1296,118,9.1
+Australian Capital Territory,Quintile 4,Social competence,2018,1540,210,13.6
+Australian Capital Territory,Quintile 4,Social competence,2021,1549,196,12.7
+Australian Capital Territory,Quintile 4,Social competence,2024,1351,168,12.4
+Australian Capital Territory,Quintile 5 (least disadvantaged),Social competence,2009,2089,167,8.0
+Australian Capital Territory,Quintile 5 (least disadvantaged),Social competence,2012,2395,187,7.8
+Australian Capital Territory,Quintile 5 (least disadvantaged),Social competence,2015,2832,257,9.1
+Australian Capital Territory,Quintile 5 (least disadvantaged),Social competence,2018,2746,291,10.6
+Australian Capital Territory,Quintile 5 (least disadvantaged),Social competence,2021,2614,277,10.6
+Australian Capital Territory,Quintile 5 (least disadvantaged),Social competence,2024,2292,236,10.3
+New South Wales,All children,Emotional maturity,2009,82616,6144,7.4
+New South Wales,All children,Emotional maturity,2012,88988,5487,6.2
+New South Wales,All children,Emotional maturity,2015,90803,6176,6.8
+New South Wales,All children,Emotional maturity,2018,93167,6306,6.8
+New South Wales,All children,Emotional maturity,2021,90053,6550,7.3
+New South Wales,All children,Emotional maturity,2024,83827,6784,8.1
+New South Wales,Quintile 1 (most disadvantaged),Emotional maturity,2009,20234,1920,9.5
+New South Wales,Quintile 1 (most disadvantaged),Emotional maturity,2012,20975,1870,8.9
+New South Wales,Quintile 1 (most disadvantaged),Emotional maturity,2015,20502,1879,9.2
+New South Wales,Quintile 1 (most disadvantaged),Emotional maturity,2018,19205,1732,9.0
+New South Wales,Quintile 1 (most disadvantaged),Emotional maturity,2021,19336,1978,10.2
+New South Wales,Quintile 1 (most disadvantaged),Emotional maturity,2024,17679,1928,10.9
+New South Wales,Quintile 2,Emotional maturity,2009,15865,1268,8.0
+New South Wales,Quintile 2,Emotional maturity,2012,16644,1111,6.7
+New South Wales,Quintile 2,Emotional maturity,2015,16971,1189,7.0
+New South Wales,Quintile 2,Emotional maturity,2018,17385,1285,7.4
+New South Wales,Quintile 2,Emotional maturity,2021,16455,1317,8.0
+New South Wales,Quintile 2,Emotional maturity,2024,15544,1411,9.1
+New South Wales,Quintile 3,Emotional maturity,2009,14178,1046,7.4
+New South Wales,Quintile 3,Emotional maturity,2012,15060,829,5.5
+New South Wales,Quintile 3,Emotional maturity,2015,15742,1017,6.5
+New South Wales,Quintile 3,Emotional maturity,2018,16303,1063,6.5
+New South Wales,Quintile 3,Emotional maturity,2021,15861,1082,6.8
+New South Wales,Quintile 3,Emotional maturity,2024,14956,1176,7.9
+New South Wales,Quintile 4,Emotional maturity,2009,13932,917,6.6
+New South Wales,Quintile 4,Emotional maturity,2012,15542,760,4.9
+New South Wales,Quintile 4,Emotional maturity,2015,16052,926,5.8
+New South Wales,Quintile 4,Emotional maturity,2018,16890,969,5.7
+New South Wales,Quintile 4,Emotional maturity,2021,16180,983,6.1
+New South Wales,Quintile 4,Emotional maturity,2024,15271,1078,7.1
+New South Wales,Quintile 5 (least disadvantaged),Emotional maturity,2009,18254,979,5.4
+New South Wales,Quintile 5 (least disadvantaged),Emotional maturity,2012,20612,900,4.4
+New South Wales,Quintile 5 (least disadvantaged),Emotional maturity,2015,21262,1144,5.4
+New South Wales,Quintile 5 (least disadvantaged),Emotional maturity,2018,23256,1244,5.3
+New South Wales,Quintile 5 (least disadvantaged),Emotional maturity,2021,22127,1177,5.3
+New South Wales,Quintile 5 (least disadvantaged),Emotional maturity,2024,20294,1188,5.9
+Victoria,All children,Emotional maturity,2009,57222,4734,8.3
+Victoria,All children,Emotional maturity,2012,63775,4566,7.2
+Victoria,All children,Emotional maturity,2015,67617,5408,8.0
+Victoria,All children,Emotional maturity,2018,71609,5791,8.1
+Victoria,All children,Emotional maturity,2021,69003,5342,7.7
+Victoria,All children,Emotional maturity,2024,62028,6128,9.9
+Victoria,Quintile 1 (most disadvantaged),Emotional maturity,2009,10027,1192,11.9
+Victoria,Quintile 1 (most disadvantaged),Emotional maturity,2012,10793,1202,11.1
+Victoria,Quintile 1 (most disadvantaged),Emotional maturity,2015,10902,1345,12.3
+Victoria,Quintile 1 (most disadvantaged),Emotional maturity,2018,11703,1475,12.6
+Victoria,Quintile 1 (most disadvantaged),Emotional maturity,2021,10788,1302,12.1
+Victoria,Quintile 1 (most disadvantaged),Emotional maturity,2024,9301,1356,14.6
+Victoria,Quintile 2,Emotional maturity,2009,10371,945,9.1
+Victoria,Quintile 2,Emotional maturity,2012,11506,982,8.5
+Victoria,Quintile 2,Emotional maturity,2015,11647,1097,9.4
+Victoria,Quintile 2,Emotional maturity,2018,12548,1137,9.1
+Victoria,Quintile 2,Emotional maturity,2021,13212,1232,9.3
+Victoria,Quintile 2,Emotional maturity,2024,11577,1334,11.5
+Victoria,Quintile 3,Emotional maturity,2009,11982,906,7.6
+Victoria,Quintile 3,Emotional maturity,2012,13625,873,6.4
+Victoria,Quintile 3,Emotional maturity,2015,14755,1126,7.6
+Victoria,Quintile 3,Emotional maturity,2018,15865,1171,7.4
+Victoria,Quintile 3,Emotional maturity,2021,15785,1153,7.3
+Victoria,Quintile 3,Emotional maturity,2024,14371,1330,9.3
+Victoria,Quintile 4,Emotional maturity,2009,12701,919,7.2
+Victoria,Quintile 4,Emotional maturity,2012,14534,869,6.0
+Victoria,Quintile 4,Emotional maturity,2015,16190,1016,6.3
+Victoria,Quintile 4,Emotional maturity,2018,17369,1202,6.9
+Victoria,Quintile 4,Emotional maturity,2021,16608,1003,6.0
+Victoria,Quintile 4,Emotional maturity,2024,15215,1269,8.3
+Victoria,Quintile 5 (least disadvantaged),Emotional maturity,2009,11995,763,6.4
+Victoria,Quintile 5 (least disadvantaged),Emotional maturity,2012,13193,635,4.8
+Victoria,Quintile 5 (least disadvantaged),Emotional maturity,2015,14010,810,5.8
+Victoria,Quintile 5 (least disadvantaged),Emotional maturity,2018,14071,799,5.7
+Victoria,Quintile 5 (least disadvantaged),Emotional maturity,2021,12579,650,5.2
+Victoria,Quintile 5 (least disadvantaged),Emotional maturity,2024,11460,826,7.2
+Queensland,All children,Emotional maturity,2009,52588,5802,11.0
+Queensland,All children,Emotional maturity,2012,57988,5368,9.3
+Queensland,All children,Emotional maturity,2015,61959,6266,10.1
+Queensland,All children,Emotional maturity,2018,61628,6448,10.5
+Queensland,All children,Emotional maturity,2021,61244,6110,10.0
+Queensland,All children,Emotional maturity,2024,57789,6662,11.5
+Queensland,Quintile 1 (most disadvantaged),Emotional maturity,2009,10150,1504,14.8
+Queensland,Quintile 1 (most disadvantaged),Emotional maturity,2012,10677,1331,12.5
+Queensland,Quintile 1 (most disadvantaged),Emotional maturity,2015,11089,1559,14.1
+Queensland,Quintile 1 (most disadvantaged),Emotional maturity,2018,12334,1782,14.4
+Queensland,Quintile 1 (most disadvantaged),Emotional maturity,2021,12913,1755,13.6
+Queensland,Quintile 1 (most disadvantaged),Emotional maturity,2024,12047,1875,15.6
+Queensland,Quintile 2,Emotional maturity,2009,10623,1234,11.6
+Queensland,Quintile 2,Emotional maturity,2012,11778,1253,10.6
+Queensland,Quintile 2,Emotional maturity,2015,12443,1450,11.7
+Queensland,Quintile 2,Emotional maturity,2018,12927,1447,11.2
+Queensland,Quintile 2,Emotional maturity,2021,12459,1347,10.8
+Queensland,Quintile 2,Emotional maturity,2024,11758,1479,12.6
+Queensland,Quintile 3,Emotional maturity,2009,11119,1251,11.3
+Queensland,Quintile 3,Emotional maturity,2012,12239,1088,8.9
+Queensland,Quintile 3,Emotional maturity,2015,13423,1262,9.4
+Queensland,Quintile 3,Emotional maturity,2018,12934,1238,9.6
+Queensland,Quintile 3,Emotional maturity,2021,13337,1196,9.0
+Queensland,Quintile 3,Emotional maturity,2024,12828,1379,10.7
+Queensland,Quintile 4,Emotional maturity,2009,10843,1014,9.4
+Queensland,Quintile 4,Emotional maturity,2012,12229,981,8.0
+Queensland,Quintile 4,Emotional maturity,2015,13163,1144,8.7
+Queensland,Quintile 4,Emotional maturity,2018,13525,1221,9.0
+Queensland,Quintile 4,Emotional maturity,2021,12483,1101,8.8
+Queensland,Quintile 4,Emotional maturity,2024,11904,1163,9.8
+Queensland,Quintile 5 (least disadvantaged),Emotional maturity,2009,9607,764,8.0
+Queensland,Quintile 5 (least disadvantaged),Emotional maturity,2012,10866,692,6.4
+Queensland,Quintile 5 (least disadvantaged),Emotional maturity,2015,11642,829,7.1
+Queensland,Quintile 5 (least disadvantaged),Emotional maturity,2018,9814,750,7.6
+Queensland,Quintile 5 (least disadvantaged),Emotional maturity,2021,10005,708,7.1
+Queensland,Quintile 5 (least disadvantaged),Emotional maturity,2024,9174,760,8.3
+South Australia,All children,Emotional maturity,2009,14988,1541,10.3
+South Australia,All children,Emotional maturity,2012,17370,1610,9.3
+South Australia,All children,Emotional maturity,2015,18472,1793,9.7
+South Australia,All children,Emotional maturity,2018,19114,2064,10.8
+South Australia,All children,Emotional maturity,2021,18885,1950,10.3
+South Australia,All children,Emotional maturity,2024,17575,1998,11.4
+South Australia,Quintile 1 (most disadvantaged),Emotional maturity,2009,3540,509,14.4
+South Australia,Quintile 1 (most disadvantaged),Emotional maturity,2012,4152,595,14.3
+South Australia,Quintile 1 (most disadvantaged),Emotional maturity,2015,4326,581,13.4
+South Australia,Quintile 1 (most disadvantaged),Emotional maturity,2018,4919,754,15.3
+South Australia,Quintile 1 (most disadvantaged),Emotional maturity,2021,4937,725,14.7
+South Australia,Quintile 1 (most disadvantaged),Emotional maturity,2024,4580,739,16.1
+South Australia,Quintile 2,Emotional maturity,2009,3424,368,10.7
+South Australia,Quintile 2,Emotional maturity,2012,4100,388,9.5
+South Australia,Quintile 2,Emotional maturity,2015,4366,455,10.4
+South Australia,Quintile 2,Emotional maturity,2018,4470,459,10.3
+South Australia,Quintile 2,Emotional maturity,2021,4006,408,10.2
+South Australia,Quintile 2,Emotional maturity,2024,3808,432,11.3
+South Australia,Quintile 3,Emotional maturity,2009,2963,316,10.7
+South Australia,Quintile 3,Emotional maturity,2012,3319,274,8.3
+South Australia,Quintile 3,Emotional maturity,2015,3724,343,9.2
+South Australia,Quintile 3,Emotional maturity,2018,3937,381,9.7
+South Australia,Quintile 3,Emotional maturity,2021,3961,375,9.5
+South Australia,Quintile 3,Emotional maturity,2024,3643,365,10.0
+South Australia,Quintile 4,Emotional maturity,2009,2912,209,7.2
+South Australia,Quintile 4,Emotional maturity,2012,3329,223,6.7
+South Australia,Quintile 4,Emotional maturity,2015,3516,246,7.0
+South Australia,Quintile 4,Emotional maturity,2018,3607,299,8.3
+South Australia,Quintile 4,Emotional maturity,2021,3595,282,7.8
+South Australia,Quintile 4,Emotional maturity,2024,3328,278,8.4
+South Australia,Quintile 5 (least disadvantaged),Emotional maturity,2009,2149,139,6.5
+South Australia,Quintile 5 (least disadvantaged),Emotional maturity,2012,2470,130,5.3
+South Australia,Quintile 5 (least disadvantaged),Emotional maturity,2015,2540,168,6.6
+South Australia,Quintile 5 (least disadvantaged),Emotional maturity,2018,2181,171,7.8
+South Australia,Quintile 5 (least disadvantaged),Emotional maturity,2021,2386,160,6.7
+South Australia,Quintile 5 (least disadvantaged),Emotional maturity,2024,2216,184,8.3
+Western Australia,All children,Emotional maturity,2009,26021,2301,8.8
+Western Australia,All children,Emotional maturity,2012,30678,2559,8.3
+Western Australia,All children,Emotional maturity,2015,32393,2751,8.5
+Western Australia,All children,Emotional maturity,2018,32798,2518,7.7
+Western Australia,All children,Emotional maturity,2021,33736,2635,7.8
+Western Australia,All children,Emotional maturity,2024,32342,3316,10.3
+Western Australia,Quintile 1 (most disadvantaged),Emotional maturity,2009,3697,492,13.3
+Western Australia,Quintile 1 (most disadvantaged),Emotional maturity,2012,3875,554,14.3
+Western Australia,Quintile 1 (most disadvantaged),Emotional maturity,2015,3878,548,14.1
+Western Australia,Quintile 1 (most disadvantaged),Emotional maturity,2018,4311,499,11.6
+Western Australia,Quintile 1 (most disadvantaged),Emotional maturity,2021,4679,582,12.4
+Western Australia,Quintile 1 (most disadvantaged),Emotional maturity,2024,4370,645,14.8
+Western Australia,Quintile 2,Emotional maturity,2009,4578,492,10.7
+Western Australia,Quintile 2,Emotional maturity,2012,5287,511,9.7
+Western Australia,Quintile 2,Emotional maturity,2015,5467,539,9.9
+Western Australia,Quintile 2,Emotional maturity,2018,5743,520,9.1
+Western Australia,Quintile 2,Emotional maturity,2021,6755,596,8.8
+Western Australia,Quintile 2,Emotional maturity,2024,6494,746,11.5
+Western Australia,Quintile 3,Emotional maturity,2009,4926,423,8.6
+Western Australia,Quintile 3,Emotional maturity,2012,5865,503,8.6
+Western Australia,Quintile 3,Emotional maturity,2015,6137,551,9.0
+Western Australia,Quintile 3,Emotional maturity,2018,7396,565,7.6
+Western Australia,Quintile 3,Emotional maturity,2021,7598,594,7.8
+Western Australia,Quintile 3,Emotional maturity,2024,7388,735,9.9
+Western Australia,Quintile 4,Emotional maturity,2009,5876,460,7.8
+Western Australia,Quintile 4,Emotional maturity,2012,7200,529,7.3
+Western Australia,Quintile 4,Emotional maturity,2015,7827,552,7.1
+Western Australia,Quintile 4,Emotional maturity,2018,8335,559,6.7
+Western Australia,Quintile 4,Emotional maturity,2021,8009,532,6.6
+Western Australia,Quintile 4,Emotional maturity,2024,7835,717,9.2
+Western Australia,Quintile 5 (least disadvantaged),Emotional maturity,2009,6879,423,6.1
+Western Australia,Quintile 5 (least disadvantaged),Emotional maturity,2012,8425,457,5.4
+Western Australia,Quintile 5 (least disadvantaged),Emotional maturity,2015,8926,541,6.1
+Western Australia,Quintile 5 (least disadvantaged),Emotional maturity,2018,6811,351,5.2
+Western Australia,Quintile 5 (least disadvantaged),Emotional maturity,2021,6663,327,4.9
+Western Australia,Quintile 5 (least disadvantaged),Emotional maturity,2024,6207,465,7.5
+Tasmania,All children,Emotional maturity,2009,5690,484,8.5
+Tasmania,All children,Emotional maturity,2012,6149,501,8.1
+Tasmania,All children,Emotional maturity,2015,6158,545,8.9
+Tasmania,All children,Emotional maturity,2018,5836,535,9.2
+Tasmania,All children,Emotional maturity,2021,5590,573,10.3
+Tasmania,All children,Emotional maturity,2024,5239,616,11.8
+Tasmania,Quintile 1 (most disadvantaged),Emotional maturity,2009,1884,209,11.1
+Tasmania,Quintile 1 (most disadvantaged),Emotional maturity,2012,1989,213,10.7
+Tasmania,Quintile 1 (most disadvantaged),Emotional maturity,2015,1950,231,11.8
+Tasmania,Quintile 1 (most disadvantaged),Emotional maturity,2018,1937,230,11.9
+Tasmania,Quintile 1 (most disadvantaged),Emotional maturity,2021,1704,235,13.8
+Tasmania,Quintile 1 (most disadvantaged),Emotional maturity,2024,1620,248,15.3
+Tasmania,Quintile 2,Emotional maturity,2009,1388,112,8.1
+Tasmania,Quintile 2,Emotional maturity,2012,1511,124,8.2
+Tasmania,Quintile 2,Emotional maturity,2015,1499,126,8.4
+Tasmania,Quintile 2,Emotional maturity,2018,1404,139,9.9
+Tasmania,Quintile 2,Emotional maturity,2021,1370,155,11.3
+Tasmania,Quintile 2,Emotional maturity,2024,1238,143,11.6
+Tasmania,Quintile 3,Emotional maturity,2009,1243,85,6.8
+Tasmania,Quintile 3,Emotional maturity,2012,1374,95,6.9
+Tasmania,Quintile 3,Emotional maturity,2015,1349,108,8.0
+Tasmania,Quintile 3,Emotional maturity,2018,1293,79,6.1
+Tasmania,Quintile 3,Emotional maturity,2021,1198,109,9.1
+Tasmania,Quintile 3,Emotional maturity,2024,1126,138,12.3
+Tasmania,Quintile 4,Emotional maturity,2009,735,52,7.1
+Tasmania,Quintile 4,Emotional maturity,2012,824,44,5.3
+Tasmania,Quintile 4,Emotional maturity,2015,885,55,6.2
+Tasmania,Quintile 4,Emotional maturity,2018,741,55,7.4
+Tasmania,Quintile 4,Emotional maturity,2021,893,55,6.2
+Tasmania,Quintile 4,Emotional maturity,2024,849,67,7.9
+Tasmania,Quintile 5 (least disadvantaged),Emotional maturity,2009,440,26,5.9
+Tasmania,Quintile 5 (least disadvantaged),Emotional maturity,2012,451,25,5.5
+Tasmania,Quintile 5 (least disadvantaged),Emotional maturity,2015,475,25,5.3
+Tasmania,Quintile 5 (least disadvantaged),Emotional maturity,2018,461,32,6.9
+Tasmania,Quintile 5 (least disadvantaged),Emotional maturity,2021,425,19,4.5
+Tasmania,Quintile 5 (least disadvantaged),Emotional maturity,2024,406,20,4.9
+Northern Territory,All children,Emotional maturity,2009,2858,440,15.4
+Northern Territory,All children,Emotional maturity,2012,3114,421,13.5
+Northern Territory,All children,Emotional maturity,2015,3247,504,15.5
+Northern Territory,All children,Emotional maturity,2018,3174,472,14.9
+Northern Territory,All children,Emotional maturity,2021,2964,526,17.7
+Northern Territory,All children,Emotional maturity,2024,2666,493,18.5
+Northern Territory,Quintile 1 (most disadvantaged),Emotional maturity,2009,925,194,21.0
+Northern Territory,Quintile 1 (most disadvantaged),Emotional maturity,2012,912,231,25.3
+Northern Territory,Quintile 1 (most disadvantaged),Emotional maturity,2015,929,263,28.3
+Northern Territory,Quintile 1 (most disadvantaged),Emotional maturity,2018,791,213,26.9
+Northern Territory,Quintile 1 (most disadvantaged),Emotional maturity,2021,809,221,27.3
+Northern Territory,Quintile 1 (most disadvantaged),Emotional maturity,2024,728,216,29.7
+Northern Territory,Quintile 2,Emotional maturity,2009,393,57,14.5
+Northern Territory,Quintile 2,Emotional maturity,2012,415,42,10.1
+Northern Territory,Quintile 2,Emotional maturity,2015,437,59,13.5
+Northern Territory,Quintile 2,Emotional maturity,2018,449,60,13.4
+Northern Territory,Quintile 2,Emotional maturity,2021,541,87,16.1
+Northern Territory,Quintile 2,Emotional maturity,2024,478,83,17.4
+Northern Territory,Quintile 3,Emotional maturity,2009,532,76,14.3
+Northern Territory,Quintile 3,Emotional maturity,2012,598,59,9.9
+Northern Territory,Quintile 3,Emotional maturity,2015,611,59,9.7
+Northern Territory,Quintile 3,Emotional maturity,2018,588,76,12.9
+Northern Territory,Quintile 3,Emotional maturity,2021,454,56,12.3
+Northern Territory,Quintile 3,Emotional maturity,2024,424,60,14.2
+Northern Territory,Quintile 4,Emotional maturity,2009,513,58,11.3
+Northern Territory,Quintile 4,Emotional maturity,2012,583,46,7.9
+Northern Territory,Quintile 4,Emotional maturity,2015,622,63,10.1
+Northern Territory,Quintile 4,Emotional maturity,2018,641,60,9.4
+Northern Territory,Quintile 4,Emotional maturity,2021,535,76,14.2
+Northern Territory,Quintile 4,Emotional maturity,2024,429,50,11.7
+Northern Territory,Quintile 5 (least disadvantaged),Emotional maturity,2009,459,47,10.2
+Northern Territory,Quintile 5 (least disadvantaged),Emotional maturity,2012,566,38,6.7
+Northern Territory,Quintile 5 (least disadvantaged),Emotional maturity,2015,586,50,8.5
+Northern Territory,Quintile 5 (least disadvantaged),Emotional maturity,2018,682,57,8.4
+Northern Territory,Quintile 5 (least disadvantaged),Emotional maturity,2021,587,73,12.4
+Northern Territory,Quintile 5 (least disadvantaged),Emotional maturity,2024,579,76,13.1
+Australian Capital Territory,All children,Emotional maturity,2009,4188,376,9.0
+Australian Capital Territory,All children,Emotional maturity,2012,4620,333,7.2
+Australian Capital Territory,All children,Emotional maturity,2015,5152,423,8.2
+Australian Capital Territory,All children,Emotional maturity,2018,5480,543,9.9
+Australian Capital Territory,All children,Emotional maturity,2021,5520,585,10.6
+Australian Capital Territory,All children,Emotional maturity,2024,4898,566,11.6
+Australian Capital Territory,Quintile 1 (most disadvantaged),Emotional maturity,2009,74,10,13.5
+Australian Capital Territory,Quintile 1 (most disadvantaged),Emotional maturity,2012,74,7,9.5
+Australian Capital Territory,Quintile 1 (most disadvantaged),Emotional maturity,2015,87,11,12.6
+Australian Capital Territory,Quintile 1 (most disadvantaged),Emotional maturity,2018,76,10,13.2
+Australian Capital Territory,Quintile 1 (most disadvantaged),Emotional maturity,2021,68,12,17.6
+Australian Capital Territory,Quintile 1 (most disadvantaged),Emotional maturity,2024,55,9,16.4
+Australian Capital Territory,Quintile 2,Emotional maturity,2009,223,24,10.8
+Australian Capital Territory,Quintile 2,Emotional maturity,2012,241,25,10.4
+Australian Capital Territory,Quintile 2,Emotional maturity,2015,227,19,8.4
+Australian Capital Territory,Quintile 2,Emotional maturity,2018,306,35,11.4
+Australian Capital Territory,Quintile 2,Emotional maturity,2021,345,44,12.8
+Australian Capital Territory,Quintile 2,Emotional maturity,2024,341,54,15.8
+Australian Capital Territory,Quintile 3,Emotional maturity,2009,629,61,9.7
+Australian Capital Territory,Quintile 3,Emotional maturity,2012,649,54,8.3
+Australian Capital Territory,Quintile 3,Emotional maturity,2015,720,53,7.4
+Australian Capital Territory,Quintile 3,Emotional maturity,2018,815,100,12.3
+Australian Capital Territory,Quintile 3,Emotional maturity,2021,954,115,12.1
+Australian Capital Territory,Quintile 3,Emotional maturity,2024,876,111,12.7
+Australian Capital Territory,Quintile 4,Emotional maturity,2009,1179,115,9.8
+Australian Capital Territory,Quintile 4,Emotional maturity,2012,1260,94,7.5
+Australian Capital Territory,Quintile 4,Emotional maturity,2015,1289,114,8.8
+Australian Capital Territory,Quintile 4,Emotional maturity,2018,1540,183,11.9
+Australian Capital Territory,Quintile 4,Emotional maturity,2021,1545,172,11.1
+Australian Capital Territory,Quintile 4,Emotional maturity,2024,1340,159,11.9
+Australian Capital Territory,Quintile 5 (least disadvantaged),Emotional maturity,2009,2083,166,8.0
+Australian Capital Territory,Quintile 5 (least disadvantaged),Emotional maturity,2012,2396,153,6.4
+Australian Capital Territory,Quintile 5 (least disadvantaged),Emotional maturity,2015,2829,226,8.0
+Australian Capital Territory,Quintile 5 (least disadvantaged),Emotional maturity,2018,2743,215,7.8
+Australian Capital Territory,Quintile 5 (least disadvantaged),Emotional maturity,2021,2608,242,9.3
+Australian Capital Territory,Quintile 5 (least disadvantaged),Emotional maturity,2024,2286,233,10.2
+New South Wales,All children,Language & thinking,2009,82899,4855,5.9
+New South Wales,All children,Language & thinking,2012,89450,4251,4.8
+New South Wales,All children,Language & thinking,2015,91199,4360,4.8
+New South Wales,All children,Language & thinking,2018,93491,4884,5.2
+New South Wales,All children,Language & thinking,2021,90344,5576,6.2
+New South Wales,All children,Language & thinking,2024,84264,5867,7.0
+New South Wales,Quintile 1 (most disadvantaged),Language & thinking,2009,20299,1823,9.0
+New South Wales,Quintile 1 (most disadvantaged),Language & thinking,2012,21072,1873,8.9
+New South Wales,Quintile 1 (most disadvantaged),Language & thinking,2015,20603,1747,8.5
+New South Wales,Quintile 1 (most disadvantaged),Language & thinking,2018,19263,1916,9.9
+New South Wales,Quintile 1 (most disadvantaged),Language & thinking,2021,19417,2306,11.9
+New South Wales,Quintile 1 (most disadvantaged),Language & thinking,2024,17780,2386,13.4
+New South Wales,Quintile 2,Language & thinking,2009,15898,1053,6.6
+New South Wales,Quintile 2,Language & thinking,2012,16728,929,5.6
+New South Wales,Quintile 2,Language & thinking,2015,17052,885,5.2
+New South Wales,Quintile 2,Language & thinking,2018,17422,1060,6.1
+New South Wales,Quintile 2,Language & thinking,2021,16523,1203,7.3
+New South Wales,Quintile 2,Language & thinking,2024,15626,1222,7.8
+New South Wales,Quintile 3,Language & thinking,2009,14229,843,5.9
+New South Wales,Quintile 3,Language & thinking,2012,15138,600,4.0
+New South Wales,Quintile 3,Language & thinking,2015,15803,663,4.2
+New South Wales,Quintile 3,Language & thinking,2018,16357,754,4.6
+New South Wales,Quintile 3,Language & thinking,2021,15891,863,5.4
+New South Wales,Quintile 3,Language & thinking,2024,15044,873,5.8
+New South Wales,Quintile 4,Language & thinking,2009,13984,635,4.5
+New South Wales,Quintile 4,Language & thinking,2012,15643,455,2.9
+New South Wales,Quintile 4,Language & thinking,2015,16125,548,3.4
+New South Wales,Quintile 4,Language & thinking,2018,16962,606,3.6
+New South Wales,Quintile 4,Language & thinking,2021,16232,609,3.8
+New South Wales,Quintile 4,Language & thinking,2024,15348,714,4.7
+New South Wales,Quintile 5 (least disadvantaged),Language & thinking,2009,18332,493,2.7
+New South Wales,Quintile 5 (least disadvantaged),Language & thinking,2012,20713,387,1.9
+New South Wales,Quintile 5 (least disadvantaged),Language & thinking,2015,21340,499,2.3
+New South Wales,Quintile 5 (least disadvantaged),Language & thinking,2018,23359,526,2.3
+New South Wales,Quintile 5 (least disadvantaged),Language & thinking,2021,22185,581,2.6
+New South Wales,Quintile 5 (least disadvantaged),Language & thinking,2024,20382,663,3.3
+Victoria,All children,Language & thinking,2009,57424,3512,6.1
+Victoria,All children,Language & thinking,2012,64195,3915,6.1
+Victoria,All children,Language & thinking,2015,67828,4292,6.3
+Victoria,All children,Language & thinking,2018,71848,4608,6.4
+Victoria,All children,Language & thinking,2021,69231,4993,7.2
+Victoria,All children,Language & thinking,2024,62278,4562,7.3
+Victoria,Quintile 1 (most disadvantaged),Language & thinking,2009,10075,1123,11.1
+Victoria,Quintile 1 (most disadvantaged),Language & thinking,2012,10871,1318,12.1
+Victoria,Quintile 1 (most disadvantaged),Language & thinking,2015,10936,1480,13.5
+Victoria,Quintile 1 (most disadvantaged),Language & thinking,2018,11764,1519,12.9
+Victoria,Quintile 1 (most disadvantaged),Language & thinking,2021,10851,1529,14.1
+Victoria,Quintile 1 (most disadvantaged),Language & thinking,2024,9338,1331,14.3
+Victoria,Quintile 2,Language & thinking,2009,10405,774,7.4
+Victoria,Quintile 2,Language & thinking,2012,11576,917,7.9
+Victoria,Quintile 2,Language & thinking,2015,11682,950,8.1
+Victoria,Quintile 2,Language & thinking,2018,12583,999,7.9
+Victoria,Quintile 2,Language & thinking,2021,13258,1239,9.3
+Victoria,Quintile 2,Language & thinking,2024,11631,1079,9.3
+Victoria,Quintile 3,Language & thinking,2009,12019,656,5.5
+Victoria,Quintile 3,Language & thinking,2012,13728,745,5.4
+Victoria,Quintile 3,Language & thinking,2015,14804,837,5.7
+Victoria,Quintile 3,Language & thinking,2018,15909,950,6.0
+Victoria,Quintile 3,Language & thinking,2021,15828,1076,6.8
+Victoria,Quintile 3,Language & thinking,2024,14433,1001,6.9
+Victoria,Quintile 4,Language & thinking,2009,12738,552,4.3
+Victoria,Quintile 4,Language & thinking,2012,14602,598,4.1
+Victoria,Quintile 4,Language & thinking,2015,16246,634,3.9
+Victoria,Quintile 4,Language & thinking,2018,17420,748,4.3
+Victoria,Quintile 4,Language & thinking,2021,16646,786,4.7
+Victoria,Quintile 4,Language & thinking,2024,15271,772,5.1
+Victoria,Quintile 5 (least disadvantaged),Language & thinking,2009,12040,396,3.3
+Victoria,Quintile 5 (least disadvantaged),Language & thinking,2012,13291,325,2.4
+Victoria,Quintile 5 (least disadvantaged),Language & thinking,2015,14045,382,2.7
+Victoria,Quintile 5 (least disadvantaged),Language & thinking,2018,14119,386,2.7
+Victoria,Quintile 5 (least disadvantaged),Language & thinking,2021,12616,362,2.9
+Victoria,Quintile 5 (least disadvantaged),Language & thinking,2024,11499,368,3.2
+Queensland,All children,Language & thinking,2009,52590,8184,15.6
+Queensland,All children,Language & thinking,2012,58122,5304,9.1
+Queensland,All children,Language & thinking,2015,62126,5000,8.0
+Queensland,All children,Language & thinking,2018,61781,4947,8.0
+Queensland,All children,Language & thinking,2021,61387,5127,8.4
+Queensland,All children,Language & thinking,2024,57966,4849,8.4
+Queensland,Quintile 1 (most disadvantaged),Language & thinking,2009,10157,2488,24.5
+Queensland,Quintile 1 (most disadvantaged),Language & thinking,2012,10701,1684,15.7
+Queensland,Quintile 1 (most disadvantaged),Language & thinking,2015,11115,1609,14.5
+Queensland,Quintile 1 (most disadvantaged),Language & thinking,2018,12389,1789,14.4
+Queensland,Quintile 1 (most disadvantaged),Language & thinking,2021,12941,1873,14.5
+Queensland,Quintile 1 (most disadvantaged),Language & thinking,2024,12091,1850,15.3
+Queensland,Quintile 2,Language & thinking,2009,10629,1882,17.7
+Queensland,Quintile 2,Language & thinking,2012,11818,1260,10.7
+Queensland,Quintile 2,Language & thinking,2015,12476,1304,10.5
+Queensland,Quintile 2,Language & thinking,2018,12962,1228,9.5
+Queensland,Quintile 2,Language & thinking,2021,12495,1257,10.1
+Queensland,Quintile 2,Language & thinking,2024,11791,1113,9.4
+Queensland,Quintile 3,Language & thinking,2009,11117,1593,14.3
+Queensland,Quintile 3,Language & thinking,2012,12263,1025,8.4
+Queensland,Quintile 3,Language & thinking,2015,13453,967,7.2
+Queensland,Quintile 3,Language & thinking,2018,12971,892,6.9
+Queensland,Quintile 3,Language & thinking,2021,13372,933,7.0
+Queensland,Quintile 3,Language & thinking,2024,12862,890,6.9
+Queensland,Quintile 4,Language & thinking,2009,10843,1272,11.7
+Queensland,Quintile 4,Language & thinking,2012,12246,832,6.8
+Queensland,Quintile 4,Language & thinking,2015,13212,681,5.2
+Queensland,Quintile 4,Language & thinking,2018,13558,702,5.2
+Queensland,Quintile 4,Language & thinking,2021,12527,686,5.5
+Queensland,Quintile 4,Language & thinking,2024,11943,662,5.5
+Queensland,Quintile 5 (least disadvantaged),Language & thinking,2009,9599,899,9.4
+Queensland,Quintile 5 (least disadvantaged),Language & thinking,2012,10895,485,4.5
+Queensland,Quintile 5 (least disadvantaged),Language & thinking,2015,11669,426,3.7
+Queensland,Quintile 5 (least disadvantaged),Language & thinking,2018,9807,325,3.3
+Queensland,Quintile 5 (least disadvantaged),Language & thinking,2021,10005,375,3.7
+Queensland,Quintile 5 (least disadvantaged),Language & thinking,2024,9201,326,3.5
+South Australia,All children,Language & thinking,2009,15040,923,6.1
+South Australia,All children,Language & thinking,2012,17432,1188,6.8
+South Australia,All children,Language & thinking,2015,18466,1263,6.8
+South Australia,All children,Language & thinking,2018,19108,1375,7.2
+South Australia,All children,Language & thinking,2021,18890,1494,7.9
+South Australia,All children,Language & thinking,2024,17596,1299,7.4
+South Australia,Quintile 1 (most disadvantaged),Language & thinking,2009,3553,366,10.3
+South Australia,Quintile 1 (most disadvantaged),Language & thinking,2012,4159,548,13.2
+South Australia,Quintile 1 (most disadvantaged),Language & thinking,2015,4335,544,12.5
+South Australia,Quintile 1 (most disadvantaged),Language & thinking,2018,4915,643,13.1
+South Australia,Quintile 1 (most disadvantaged),Language & thinking,2021,4937,717,14.5
+South Australia,Quintile 1 (most disadvantaged),Language & thinking,2024,4586,645,14.1
+South Australia,Quintile 2,Language & thinking,2009,3429,217,6.3
+South Australia,Quintile 2,Language & thinking,2012,4118,282,6.8
+South Australia,Quintile 2,Language & thinking,2015,4370,343,7.8
+South Australia,Quintile 2,Language & thinking,2018,4470,321,7.2
+South Australia,Quintile 2,Language & thinking,2021,4007,307,7.7
+South Australia,Quintile 2,Language & thinking,2024,3808,260,6.8
+South Australia,Quintile 3,Language & thinking,2009,2978,164,5.5
+South Australia,Quintile 3,Language & thinking,2012,3334,175,5.2
+South Australia,Quintile 3,Language & thinking,2015,3722,183,4.9
+South Australia,Quintile 3,Language & thinking,2018,3937,224,5.7
+South Australia,Quintile 3,Language & thinking,2021,3963,229,5.8
+South Australia,Quintile 3,Language & thinking,2024,3642,205,5.6
+South Australia,Quintile 4,Language & thinking,2009,2923,114,3.9
+South Australia,Quintile 4,Language & thinking,2012,3343,113,3.4
+South Australia,Quintile 4,Language & thinking,2015,3500,120,3.4
+South Australia,Quintile 4,Language & thinking,2018,3605,114,3.2
+South Australia,Quintile 4,Language & thinking,2021,3594,164,4.6
+South Australia,Quintile 4,Language & thinking,2024,3331,128,3.8
+South Australia,Quintile 5 (least disadvantaged),Language & thinking,2009,2157,62,2.9
+South Australia,Quintile 5 (least disadvantaged),Language & thinking,2012,2478,70,2.8
+South Australia,Quintile 5 (least disadvantaged),Language & thinking,2015,2539,73,2.9
+South Australia,Quintile 5 (least disadvantaged),Language & thinking,2018,2181,73,3.3
+South Australia,Quintile 5 (least disadvantaged),Language & thinking,2021,2389,77,3.2
+South Australia,Quintile 5 (least disadvantaged),Language & thinking,2024,2229,61,2.7
+Western Australia,All children,Language & thinking,2009,26079,3132,12.0
+Western Australia,All children,Language & thinking,2012,30798,2636,8.6
+Western Australia,All children,Language & thinking,2015,32459,2153,6.6
+Western Australia,All children,Language & thinking,2018,32860,2158,6.6
+Western Australia,All children,Language & thinking,2021,33751,2416,7.2
+Western Australia,All children,Language & thinking,2024,32454,2700,8.3
+Western Australia,Quintile 1 (most disadvantaged),Language & thinking,2009,3703,759,20.5
+Western Australia,Quintile 1 (most disadvantaged),Language & thinking,2012,3895,737,18.9
+Western Australia,Quintile 1 (most disadvantaged),Language & thinking,2015,3882,574,14.8
+Western Australia,Quintile 1 (most disadvantaged),Language & thinking,2018,4325,640,14.8
+Western Australia,Quintile 1 (most disadvantaged),Language & thinking,2021,4675,716,15.3
+Western Australia,Quintile 1 (most disadvantaged),Language & thinking,2024,4396,744,16.9
+Western Australia,Quintile 2,Language & thinking,2009,4590,740,16.1
+Western Australia,Quintile 2,Language & thinking,2012,5317,579,10.9
+Western Australia,Quintile 2,Language & thinking,2015,5478,467,8.5
+Western Australia,Quintile 2,Language & thinking,2018,5748,496,8.6
+Western Australia,Quintile 2,Language & thinking,2021,6763,632,9.3
+Western Australia,Quintile 2,Language & thinking,2024,6509,679,10.4
+Western Australia,Quintile 3,Language & thinking,2009,4941,576,11.7
+Western Australia,Quintile 3,Language & thinking,2012,5894,540,9.2
+Western Australia,Quintile 3,Language & thinking,2015,6151,415,6.7
+Western Australia,Quintile 3,Language & thinking,2018,7415,442,6.0
+Western Australia,Quintile 3,Language & thinking,2021,7606,470,6.2
+Western Australia,Quintile 3,Language & thinking,2024,7404,572,7.7
+Western Australia,Quintile 4,Language & thinking,2009,5891,539,9.1
+Western Australia,Quintile 4,Language & thinking,2012,7218,448,6.2
+Western Australia,Quintile 4,Language & thinking,2015,7848,393,5.0
+Western Australia,Quintile 4,Language & thinking,2018,8346,370,4.4
+Western Australia,Quintile 4,Language & thinking,2021,8012,389,4.9
+Western Australia,Quintile 4,Language & thinking,2024,7866,440,5.6
+Western Australia,Quintile 5 (least disadvantaged),Language & thinking,2009,6889,514,7.5
+Western Australia,Quintile 5 (least disadvantaged),Language & thinking,2012,8447,325,3.8
+Western Australia,Quintile 5 (least disadvantaged),Language & thinking,2015,8941,289,3.2
+Western Australia,Quintile 5 (least disadvantaged),Language & thinking,2018,6821,195,2.9
+Western Australia,Quintile 5 (least disadvantaged),Language & thinking,2021,6663,202,3.0
+Western Australia,Quintile 5 (least disadvantaged),Language & thinking,2024,6231,259,4.2
+Tasmania,All children,Language & thinking,2009,5704,442,7.7
+Tasmania,All children,Language & thinking,2012,6166,439,7.1
+Tasmania,All children,Language & thinking,2015,6159,465,7.5
+Tasmania,All children,Language & thinking,2018,5829,468,8.0
+Tasmania,All children,Language & thinking,2021,5592,514,9.2
+Tasmania,All children,Language & thinking,2024,5239,479,9.1
+Tasmania,Quintile 1 (most disadvantaged),Language & thinking,2009,1888,206,10.9
+Tasmania,Quintile 1 (most disadvantaged),Language & thinking,2012,1989,239,12.0
+Tasmania,Quintile 1 (most disadvantaged),Language & thinking,2015,1950,213,10.9
+Tasmania,Quintile 1 (most disadvantaged),Language & thinking,2018,1936,250,12.9
+Tasmania,Quintile 1 (most disadvantaged),Language & thinking,2021,1706,249,14.6
+Tasmania,Quintile 1 (most disadvantaged),Language & thinking,2024,1620,247,15.2
+Tasmania,Quintile 2,Language & thinking,2009,1391,114,8.2
+Tasmania,Quintile 2,Language & thinking,2012,1511,99,6.6
+Tasmania,Quintile 2,Language & thinking,2015,1499,125,8.3
+Tasmania,Quintile 2,Language & thinking,2018,1403,109,7.8
+Tasmania,Quintile 2,Language & thinking,2021,1371,137,10.0
+Tasmania,Quintile 2,Language & thinking,2024,1239,98,7.9
+Tasmania,Quintile 3,Language & thinking,2009,1248,70,5.6
+Tasmania,Quintile 3,Language & thinking,2012,1382,66,4.8
+Tasmania,Quintile 3,Language & thinking,2015,1349,82,6.1
+Tasmania,Quintile 3,Language & thinking,2018,1289,63,4.9
+Tasmania,Quintile 3,Language & thinking,2021,1198,78,6.5
+Tasmania,Quintile 3,Language & thinking,2024,1125,88,7.8
+Tasmania,Quintile 4,Language & thinking,2009,737,35,4.7
+Tasmania,Quintile 4,Language & thinking,2012,830,27,3.3
+Tasmania,Quintile 4,Language & thinking,2015,885,26,2.9
+Tasmania,Quintile 4,Language & thinking,2018,741,29,3.9
+Tasmania,Quintile 4,Language & thinking,2021,892,40,4.5
+Tasmania,Quintile 4,Language & thinking,2024,849,32,3.8
+Tasmania,Quintile 5 (least disadvantaged),Language & thinking,2009,440,17,3.9
+Tasmania,Quintile 5 (least disadvantaged),Language & thinking,2012,454,8,1.8
+Tasmania,Quintile 5 (least disadvantaged),Language & thinking,2015,476,19,4.0
+Tasmania,Quintile 5 (least disadvantaged),Language & thinking,2018,460,17,3.7
+Tasmania,Quintile 5 (least disadvantaged),Language & thinking,2021,425,10,2.4
+Tasmania,Quintile 5 (least disadvantaged),Language & thinking,2024,406,14,3.4
+Northern Territory,All children,Language & thinking,2009,2860,644,22.5
+Northern Territory,All children,Language & thinking,2012,3124,649,20.8
+Northern Territory,All children,Language & thinking,2015,3247,697,21.5
+Northern Territory,All children,Language & thinking,2018,3182,625,19.6
+Northern Territory,All children,Language & thinking,2021,2973,630,21.2
+Northern Territory,All children,Language & thinking,2024,2694,589,21.9
+Northern Territory,Quintile 1 (most disadvantaged),Language & thinking,2009,927,315,34.0
+Northern Territory,Quintile 1 (most disadvantaged),Language & thinking,2012,929,408,43.9
+Northern Territory,Quintile 1 (most disadvantaged),Language & thinking,2015,938,469,50.0
+Northern Territory,Quintile 1 (most disadvantaged),Language & thinking,2018,796,390,49.0
+Northern Territory,Quintile 1 (most disadvantaged),Language & thinking,2021,813,401,49.3
+Northern Territory,Quintile 1 (most disadvantaged),Language & thinking,2024,739,351,47.5
+Northern Territory,Quintile 2,Language & thinking,2009,396,89,22.5
+Northern Territory,Quintile 2,Language & thinking,2012,419,60,14.3
+Northern Territory,Quintile 2,Language & thinking,2015,434,74,17.1
+Northern Territory,Quintile 2,Language & thinking,2018,448,68,15.2
+Northern Territory,Quintile 2,Language & thinking,2021,541,83,15.3
+Northern Territory,Quintile 2,Language & thinking,2024,483,97,20.1
+Northern Territory,Quintile 3,Language & thinking,2009,527,96,18.2
+Northern Territory,Quintile 3,Language & thinking,2012,598,73,12.2
+Northern Territory,Quintile 3,Language & thinking,2015,609,70,11.5
+Northern Territory,Quintile 3,Language & thinking,2018,588,71,12.1
+Northern Territory,Quintile 3,Language & thinking,2021,456,47,10.3
+Northern Territory,Quintile 3,Language & thinking,2024,428,49,11.4
+Northern Territory,Quintile 4,Language & thinking,2009,515,81,15.7
+Northern Territory,Quintile 4,Language & thinking,2012,575,58,10.1
+Northern Territory,Quintile 4,Language & thinking,2015,619,51,8.2
+Northern Territory,Quintile 4,Language & thinking,2018,645,45,7.0
+Northern Territory,Quintile 4,Language & thinking,2021,536,40,7.5
+Northern Territory,Quintile 4,Language & thinking,2024,432,44,10.2
+Northern Territory,Quintile 5 (least disadvantaged),Language & thinking,2009,458,56,12.2
+Northern Territory,Quintile 5 (least disadvantaged),Language & thinking,2012,564,39,6.9
+Northern Territory,Quintile 5 (least disadvantaged),Language & thinking,2015,585,27,4.6
+Northern Territory,Quintile 5 (least disadvantaged),Language & thinking,2018,682,42,6.2
+Northern Territory,Quintile 5 (least disadvantaged),Language & thinking,2021,588,37,6.3
+Northern Territory,Quintile 5 (least disadvantaged),Language & thinking,2024,583,34,5.8
+Australian Capital Territory,All children,Language & thinking,2009,4183,238,5.7
+Australian Capital Territory,All children,Language & thinking,2012,4609,182,3.9
+Australian Capital Territory,All children,Language & thinking,2015,5164,303,5.9
+Australian Capital Territory,All children,Language & thinking,2018,5479,352,6.4
+Australian Capital Territory,All children,Language & thinking,2021,5529,357,6.5
+Australian Capital Territory,All children,Language & thinking,2024,4860,353,7.3
+Australian Capital Territory,Quintile 1 (most disadvantaged),Language & thinking,2009,73,4,5.5
+Australian Capital Territory,Quintile 1 (most disadvantaged),Language & thinking,2012,75,4,5.3
+Australian Capital Territory,Quintile 1 (most disadvantaged),Language & thinking,2015,87,16,18.4
+Australian Capital Territory,Quintile 1 (most disadvantaged),Language & thinking,2018,76,8,10.5
+Australian Capital Territory,Quintile 1 (most disadvantaged),Language & thinking,2021,68,13,19.1
+Australian Capital Territory,Quintile 1 (most disadvantaged),Language & thinking,2024,55,13,23.6
+Australian Capital Territory,Quintile 2,Language & thinking,2009,222,13,5.9
+Australian Capital Territory,Quintile 2,Language & thinking,2012,241,18,7.5
+Australian Capital Territory,Quintile 2,Language & thinking,2015,227,12,5.3
+Australian Capital Territory,Quintile 2,Language & thinking,2018,306,31,10.1
+Australian Capital Territory,Quintile 2,Language & thinking,2021,346,42,12.1
+Australian Capital Territory,Quintile 2,Language & thinking,2024,335,39,11.6
+Australian Capital Territory,Quintile 3,Language & thinking,2009,629,42,6.7
+Australian Capital Territory,Quintile 3,Language & thinking,2012,650,37,5.7
+Australian Capital Territory,Quintile 3,Language & thinking,2015,721,50,6.9
+Australian Capital Territory,Quintile 3,Language & thinking,2018,814,74,9.1
+Australian Capital Territory,Quintile 3,Language & thinking,2021,957,79,8.3
+Australian Capital Territory,Quintile 3,Language & thinking,2024,866,72,8.3
+Australian Capital Territory,Quintile 4,Language & thinking,2009,1175,63,5.4
+Australian Capital Territory,Quintile 4,Language & thinking,2012,1259,47,3.7
+Australian Capital Territory,Quintile 4,Language & thinking,2015,1295,73,5.6
+Australian Capital Territory,Quintile 4,Language & thinking,2018,1538,98,6.4
+Australian Capital Territory,Quintile 4,Language & thinking,2021,1547,100,6.5
+Australian Capital Territory,Quintile 4,Language & thinking,2024,1335,110,8.2
+Australian Capital Territory,Quintile 5 (least disadvantaged),Language & thinking,2009,2084,116,5.6
+Australian Capital Territory,Quintile 5 (least disadvantaged),Language & thinking,2012,2384,76,3.2
+Australian Capital Territory,Quintile 5 (least disadvantaged),Language & thinking,2015,2834,152,5.4
+Australian Capital Territory,Quintile 5 (least disadvantaged),Language & thinking,2018,2745,141,5.1
+Australian Capital Territory,Quintile 5 (least disadvantaged),Language & thinking,2021,2611,123,4.7
+Australian Capital Territory,Quintile 5 (least disadvantaged),Language & thinking,2024,2269,119,5.2
+New South Wales,All children,Communication,2009,82948,7599,9.2
+New South Wales,All children,Communication,2012,89460,7590,8.5
+New South Wales,All children,Communication,2015,91263,7360,8.1
+New South Wales,All children,Communication,2018,93541,7448,8.0
+New South Wales,All children,Communication,2021,90427,7618,8.4
+New South Wales,All children,Communication,2024,84398,7350,8.7
+New South Wales,Quintile 1 (most disadvantaged),Communication,2009,20320,2660,13.1
+New South Wales,Quintile 1 (most disadvantaged),Communication,2012,21116,2976,14.1
+New South Wales,Quintile 1 (most disadvantaged),Communication,2015,20625,2683,13.0
+New South Wales,Quintile 1 (most disadvantaged),Communication,2018,19274,2617,13.6
+New South Wales,Quintile 1 (most disadvantaged),Communication,2021,19443,2836,14.6
+New South Wales,Quintile 1 (most disadvantaged),Communication,2024,17834,2581,14.5
+New South Wales,Quintile 2,Communication,2009,15909,1612,10.1
+New South Wales,Quintile 2,Communication,2012,16728,1658,9.9
+New South Wales,Quintile 2,Communication,2015,17066,1547,9.1
+New South Wales,Quintile 2,Communication,2018,17438,1636,9.4
+New South Wales,Quintile 2,Communication,2021,16537,1601,9.7
+New South Wales,Quintile 2,Communication,2024,15646,1513,9.7
+New South Wales,Quintile 3,Communication,2009,14232,1311,9.2
+New South Wales,Quintile 3,Communication,2012,15138,1162,7.7
+New South Wales,Quintile 3,Communication,2015,15818,1176,7.4
+New South Wales,Quintile 3,Communication,2018,16374,1174,7.2
+New South Wales,Quintile 3,Communication,2021,15912,1247,7.8
+New South Wales,Quintile 3,Communication,2024,15061,1217,8.1
+New South Wales,Quintile 4,Communication,2009,13988,1035,7.4
+New South Wales,Quintile 4,Communication,2012,15629,927,5.9
+New South Wales,Quintile 4,Communication,2015,16130,947,5.9
+New South Wales,Quintile 4,Communication,2018,16966,990,5.8
+New South Wales,Quintile 4,Communication,2021,16249,957,5.9
+New South Wales,Quintile 4,Communication,2024,15363,1030,6.7
+New South Wales,Quintile 5 (least disadvantaged),Communication,2009,18342,973,5.3
+New South Wales,Quintile 5 (least disadvantaged),Communication,2012,20693,846,4.1
+New South Wales,Quintile 5 (least disadvantaged),Communication,2015,21348,984,4.6
+New South Wales,Quintile 5 (least disadvantaged),Communication,2018,23361,1007,4.3
+New South Wales,Quintile 5 (least disadvantaged),Communication,2021,22190,962,4.3
+New South Wales,Quintile 5 (least disadvantaged),Communication,2024,20410,1000,4.9
+Victoria,All children,Communication,2009,57491,4773,8.3
+Victoria,All children,Communication,2012,64038,5110,8.0
+Victoria,All children,Communication,2015,67864,5131,7.6
+Victoria,All children,Communication,2018,71893,5312,7.4
+Victoria,All children,Communication,2021,69275,5134,7.4
+Victoria,All children,Communication,2024,62382,5137,8.2
+Victoria,Quintile 1 (most disadvantaged),Communication,2009,10090,1552,15.4
+Victoria,Quintile 1 (most disadvantaged),Communication,2012,10840,1759,16.2
+Victoria,Quintile 1 (most disadvantaged),Communication,2015,10939,1696,15.5
+Victoria,Quintile 1 (most disadvantaged),Communication,2018,11775,1693,14.4
+Victoria,Quintile 1 (most disadvantaged),Communication,2021,10860,1570,14.5
+Victoria,Quintile 1 (most disadvantaged),Communication,2024,9362,1436,15.3
+Victoria,Quintile 2,Communication,2009,10419,1027,9.9
+Victoria,Quintile 2,Communication,2012,11543,1118,9.7
+Victoria,Quintile 2,Communication,2015,11688,1064,9.1
+Victoria,Quintile 2,Communication,2018,12590,1145,9.1
+Victoria,Quintile 2,Communication,2021,13265,1216,9.2
+Victoria,Quintile 2,Communication,2024,11659,1193,10.2
+Victoria,Quintile 3,Communication,2009,12034,853,7.1
+Victoria,Quintile 3,Communication,2012,13684,963,7.0
+Victoria,Quintile 3,Communication,2015,14811,1015,6.9
+Victoria,Quintile 3,Communication,2018,15921,1038,6.5
+Victoria,Quintile 3,Communication,2021,15839,1071,6.8
+Victoria,Quintile 3,Communication,2024,14456,1123,7.8
+Victoria,Quintile 4,Communication,2009,12754,748,5.9
+Victoria,Quintile 4,Communication,2012,14583,789,5.4
+Victoria,Quintile 4,Communication,2015,16260,855,5.3
+Victoria,Quintile 4,Communication,2018,17432,930,5.3
+Victoria,Quintile 4,Communication,2021,16658,855,5.1
+Victoria,Quintile 4,Communication,2024,15296,877,5.7
+Victoria,Quintile 5 (least disadvantaged),Communication,2009,12047,580,4.8
+Victoria,Quintile 5 (least disadvantaged),Communication,2012,13261,468,3.5
+Victoria,Quintile 5 (least disadvantaged),Communication,2015,14051,491,3.5
+Victoria,Quintile 5 (least disadvantaged),Communication,2018,14122,497,3.5
+Victoria,Quintile 5 (least disadvantaged),Communication,2021,12621,419,3.3
+Victoria,Quintile 5 (least disadvantaged),Communication,2024,11503,497,4.3
+Queensland,All children,Communication,2009,52754,5523,10.5
+Queensland,All children,Communication,2012,58203,6239,10.7
+Queensland,All children,Communication,2015,62163,6533,10.5
+Queensland,All children,Communication,2018,61833,6248,10.1
+Queensland,All children,Communication,2021,61450,5596,9.1
+Queensland,All children,Communication,2024,58029,5147,8.9
+Queensland,Quintile 1 (most disadvantaged),Communication,2009,10191,1604,15.7
+Queensland,Quintile 1 (most disadvantaged),Communication,2012,10723,1814,16.9
+Queensland,Quintile 1 (most disadvantaged),Communication,2015,11122,1881,16.9
+Queensland,Quintile 1 (most disadvantaged),Communication,2018,12397,2013,16.2
+Queensland,Quintile 1 (most disadvantaged),Communication,2021,12953,1835,14.2
+Queensland,Quintile 1 (most disadvantaged),Communication,2024,12114,1758,14.5
+Queensland,Quintile 2,Communication,2009,10662,1261,11.8
+Queensland,Quintile 2,Communication,2012,11840,1438,12.1
+Queensland,Quintile 2,Communication,2015,12485,1600,12.8
+Queensland,Quintile 2,Communication,2018,12965,1494,11.5
+Queensland,Quintile 2,Communication,2021,12500,1276,10.2
+Queensland,Quintile 2,Communication,2024,11799,1170,9.9
+Queensland,Quintile 3,Communication,2009,11152,1105,9.9
+Queensland,Quintile 3,Communication,2012,12284,1258,10.2
+Queensland,Quintile 3,Communication,2015,13461,1298,9.6
+Queensland,Quintile 3,Communication,2018,12980,1166,9.0
+Queensland,Quintile 3,Communication,2021,13383,1097,8.2
+Queensland,Quintile 3,Communication,2024,12879,946,7.3
+Queensland,Quintile 4,Communication,2009,10878,908,8.3
+Queensland,Quintile 4,Communication,2012,12261,1046,8.5
+Queensland,Quintile 4,Communication,2015,13222,1041,7.9
+Queensland,Quintile 4,Communication,2018,13566,1026,7.6
+Queensland,Quintile 4,Communication,2021,12536,877,7.0
+Queensland,Quintile 4,Communication,2024,11950,821,6.9
+Queensland,Quintile 5 (least disadvantaged),Communication,2009,9626,617,6.4
+Queensland,Quintile 5 (least disadvantaged),Communication,2012,10896,665,6.1
+Queensland,Quintile 5 (least disadvantaged),Communication,2015,11672,698,6.0
+Queensland,Quintile 5 (least disadvantaged),Communication,2018,9830,538,5.5
+Queensland,Quintile 5 (least disadvantaged),Communication,2021,10031,506,5.0
+Queensland,Quintile 5 (least disadvantaged),Communication,2024,9209,446,4.8
+South Australia,All children,Communication,2009,15061,1200,8.0
+South Australia,All children,Communication,2012,17439,1552,8.9
+South Australia,All children,Communication,2015,18527,1518,8.2
+South Australia,All children,Communication,2018,19181,1620,8.4
+South Australia,All children,Communication,2021,18942,1622,8.6
+South Australia,All children,Communication,2024,17637,1548,8.8
+South Australia,Quintile 1 (most disadvantaged),Communication,2009,3558,429,12.1
+South Australia,Quintile 1 (most disadvantaged),Communication,2012,4167,664,15.9
+South Australia,Quintile 1 (most disadvantaged),Communication,2015,4339,565,13.0
+South Australia,Quintile 1 (most disadvantaged),Communication,2018,4937,709,14.4
+South Australia,Quintile 1 (most disadvantaged),Communication,2021,4946,752,15.2
+South Australia,Quintile 1 (most disadvantaged),Communication,2024,4594,682,14.8
+South Australia,Quintile 2,Communication,2009,3436,317,9.2
+South Australia,Quintile 2,Communication,2012,4123,368,8.9
+South Australia,Quintile 2,Communication,2015,4385,428,9.8
+South Australia,Quintile 2,Communication,2018,4482,378,8.4
+South Australia,Quintile 2,Communication,2021,4019,338,8.4
+South Australia,Quintile 2,Communication,2024,3822,327,8.6
+South Australia,Quintile 3,Communication,2009,2981,225,7.5
+South Australia,Quintile 3,Communication,2012,3330,236,7.1
+South Australia,Quintile 3,Communication,2015,3735,260,7.0
+South Australia,Quintile 3,Communication,2018,3950,261,6.6
+South Australia,Quintile 3,Communication,2021,3978,262,6.6
+South Australia,Quintile 3,Communication,2024,3651,259,7.1
+South Australia,Quintile 4,Communication,2009,2927,151,5.2
+South Australia,Quintile 4,Communication,2012,3343,171,5.1
+South Australia,Quintile 4,Communication,2015,3522,161,4.6
+South Australia,Quintile 4,Communication,2018,3621,178,4.9
+South Australia,Quintile 4,Communication,2021,3604,187,5.2
+South Australia,Quintile 4,Communication,2024,3338,181,5.4
+South Australia,Quintile 5 (least disadvantaged),Communication,2009,2159,78,3.6
+South Australia,Quintile 5 (least disadvantaged),Communication,2012,2476,113,4.6
+South Australia,Quintile 5 (least disadvantaged),Communication,2015,2546,104,4.1
+South Australia,Quintile 5 (least disadvantaged),Communication,2018,2191,94,4.3
+South Australia,Quintile 5 (least disadvantaged),Communication,2021,2395,83,3.5
+South Australia,Quintile 5 (least disadvantaged),Communication,2024,2232,99,4.4
+Western Australia,All children,Communication,2009,26130,2325,8.9
+Western Australia,All children,Communication,2012,30837,2797,9.1
+Western Australia,All children,Communication,2015,32505,2612,8.0
+Western Australia,All children,Communication,2018,32897,2311,7.0
+Western Australia,All children,Communication,2021,33805,2717,8.0
+Western Australia,All children,Communication,2024,32520,3157,9.7
+Western Australia,Quintile 1 (most disadvantaged),Communication,2009,3714,526,14.2
+Western Australia,Quintile 1 (most disadvantaged),Communication,2012,3905,637,16.3
+Western Australia,Quintile 1 (most disadvantaged),Communication,2015,3886,614,15.8
+Western Australia,Quintile 1 (most disadvantaged),Communication,2018,4330,586,13.5
+Western Australia,Quintile 1 (most disadvantaged),Communication,2021,4685,643,13.7
+Western Australia,Quintile 1 (most disadvantaged),Communication,2024,4407,752,17.1
+Western Australia,Quintile 2,Communication,2009,4601,507,11.0
+Western Australia,Quintile 2,Communication,2012,5322,640,12.0
+Western Australia,Quintile 2,Communication,2015,5482,542,9.9
+Western Australia,Quintile 2,Communication,2018,5754,511,8.9
+Western Australia,Quintile 2,Communication,2021,6770,670,9.9
+Western Australia,Quintile 2,Communication,2024,6526,767,11.8
+Western Australia,Quintile 3,Communication,2009,4947,444,9.0
+Western Australia,Quintile 3,Communication,2012,5897,557,9.4
+Western Australia,Quintile 3,Communication,2015,6159,492,8.0
+Western Australia,Quintile 3,Communication,2018,7418,513,6.9
+Western Australia,Quintile 3,Communication,2021,7615,562,7.4
+Western Australia,Quintile 3,Communication,2024,7419,685,9.2
+Western Australia,Quintile 4,Communication,2009,5904,453,7.7
+Western Australia,Quintile 4,Communication,2012,7229,555,7.7
+Western Australia,Quintile 4,Communication,2015,7862,506,6.4
+Western Australia,Quintile 4,Communication,2018,8364,453,5.4
+Western Australia,Quintile 4,Communication,2021,8024,538,6.7
+Western Australia,Quintile 4,Communication,2024,7883,606,7.7
+Western Australia,Quintile 5 (least disadvantaged),Communication,2009,6899,393,5.7
+Western Australia,Quintile 5 (least disadvantaged),Communication,2012,8457,405,4.8
+Western Australia,Quintile 5 (least disadvantaged),Communication,2015,8957,445,5.0
+Western Australia,Quintile 5 (least disadvantaged),Communication,2018,6826,242,3.5
+Western Australia,Quintile 5 (least disadvantaged),Communication,2021,6679,300,4.5
+Western Australia,Quintile 5 (least disadvantaged),Communication,2024,6237,341,5.5
+Tasmania,All children,Communication,2009,5707,397,7.0
+Tasmania,All children,Communication,2012,6114,402,6.6
+Tasmania,All children,Communication,2015,6159,394,6.4
+Tasmania,All children,Communication,2018,5846,334,5.7
+Tasmania,All children,Communication,2021,5594,370,6.6
+Tasmania,All children,Communication,2024,5246,391,7.5
+Tasmania,Quintile 1 (most disadvantaged),Communication,2009,1890,170,9.0
+Tasmania,Quintile 1 (most disadvantaged),Communication,2012,1976,200,10.1
+Tasmania,Quintile 1 (most disadvantaged),Communication,2015,1950,183,9.4
+Tasmania,Quintile 1 (most disadvantaged),Communication,2018,1943,172,8.9
+Tasmania,Quintile 1 (most disadvantaged),Communication,2021,1705,185,10.9
+Tasmania,Quintile 1 (most disadvantaged),Communication,2024,1623,180,11.1
+Tasmania,Quintile 2,Communication,2009,1392,102,7.3
+Tasmania,Quintile 2,Communication,2012,1506,78,5.2
+Tasmania,Quintile 2,Communication,2015,1499,93,6.2
+Tasmania,Quintile 2,Communication,2018,1407,77,5.5
+Tasmania,Quintile 2,Communication,2021,1372,87,6.3
+Tasmania,Quintile 2,Communication,2024,1239,86,6.9
+Tasmania,Quintile 3,Communication,2009,1248,72,5.8
+Tasmania,Quintile 3,Communication,2012,1371,80,5.8
+Tasmania,Quintile 3,Communication,2015,1349,72,5.3
+Tasmania,Quintile 3,Communication,2018,1294,45,3.5
+Tasmania,Quintile 3,Communication,2021,1198,56,4.7
+Tasmania,Quintile 3,Communication,2024,1126,69,6.1
+Tasmania,Quintile 4,Communication,2009,737,33,4.5
+Tasmania,Quintile 4,Communication,2012,818,28,3.4
+Tasmania,Quintile 4,Communication,2015,885,32,3.6
+Tasmania,Quintile 4,Communication,2018,741,26,3.5
+Tasmania,Quintile 4,Communication,2021,894,33,3.7
+Tasmania,Quintile 4,Communication,2024,851,45,5.3
+Tasmania,Quintile 5 (least disadvantaged),Communication,2009,440,20,4.5
+Tasmania,Quintile 5 (least disadvantaged),Communication,2012,443,16,3.6
+Tasmania,Quintile 5 (least disadvantaged),Communication,2015,476,14,2.9
+Tasmania,Quintile 5 (least disadvantaged),Communication,2018,461,14,3.0
+Tasmania,Quintile 5 (least disadvantaged),Communication,2021,425,9,2.1
+Tasmania,Quintile 5 (least disadvantaged),Communication,2024,407,11,2.7
+Northern Territory,All children,Communication,2009,2893,507,17.5
+Northern Territory,All children,Communication,2012,3142,454,14.4
+Northern Territory,All children,Communication,2015,3267,530,16.2
+Northern Territory,All children,Communication,2018,3193,532,16.7
+Northern Territory,All children,Communication,2021,2976,500,16.8
+Northern Territory,All children,Communication,2024,2697,487,18.1
+Northern Territory,Quintile 1 (most disadvantaged),Communication,2009,946,265,28.0
+Northern Territory,Quintile 1 (most disadvantaged),Communication,2012,932,271,29.1
+Northern Territory,Quintile 1 (most disadvantaged),Communication,2015,947,331,35.0
+Northern Territory,Quintile 1 (most disadvantaged),Communication,2018,804,329,40.9
+Northern Territory,Quintile 1 (most disadvantaged),Communication,2021,815,267,32.8
+Northern Territory,Quintile 1 (most disadvantaged),Communication,2024,740,259,35.0
+Northern Territory,Quintile 2,Communication,2009,399,64,16.0
+Northern Territory,Quintile 2,Communication,2012,419,40,9.5
+Northern Territory,Quintile 2,Communication,2015,437,59,13.5
+Northern Territory,Quintile 2,Communication,2018,449,58,12.9
+Northern Territory,Quintile 2,Communication,2021,541,73,13.5
+Northern Territory,Quintile 2,Communication,2024,483,84,17.4
+Northern Territory,Quintile 3,Communication,2009,534,66,12.4
+Northern Territory,Quintile 3,Communication,2012,601,57,9.5
+Northern Territory,Quintile 3,Communication,2015,612,60,9.8
+Northern Territory,Quintile 3,Communication,2018,588,57,9.7
+Northern Territory,Quintile 3,Communication,2021,456,53,11.6
+Northern Territory,Quintile 3,Communication,2024,429,46,10.7
+Northern Territory,Quintile 4,Communication,2009,517,60,11.6
+Northern Territory,Quintile 4,Communication,2012,583,46,7.9
+Northern Territory,Quintile 4,Communication,2015,623,42,6.7
+Northern Territory,Quintile 4,Communication,2018,645,43,6.7
+Northern Territory,Quintile 4,Communication,2021,537,41,7.6
+Northern Territory,Quintile 4,Communication,2024,432,47,10.9
+Northern Territory,Quintile 5 (least disadvantaged),Communication,2009,460,45,9.8
+Northern Territory,Quintile 5 (least disadvantaged),Communication,2012,567,32,5.6
+Northern Territory,Quintile 5 (least disadvantaged),Communication,2015,586,28,4.8
+Northern Territory,Quintile 5 (least disadvantaged),Communication,2018,684,40,5.8
+Northern Territory,Quintile 5 (least disadvantaged),Communication,2021,588,48,8.2
+Northern Territory,Quintile 5 (least disadvantaged),Communication,2024,583,40,6.9
+Australian Capital Territory,All children,Communication,2009,4194,375,8.9
+Australian Capital Territory,All children,Communication,2012,4622,376,8.1
+Australian Capital Territory,All children,Communication,2015,5165,397,7.7
+Australian Capital Territory,All children,Communication,2018,5484,427,7.8
+Australian Capital Territory,All children,Communication,2021,5533,507,9.2
+Australian Capital Territory,All children,Communication,2024,4924,526,10.7
+Australian Capital Territory,Quintile 1 (most disadvantaged),Communication,2009,74,7,9.5
+Australian Capital Territory,Quintile 1 (most disadvantaged),Communication,2012,74,13,17.6
+Australian Capital Territory,Quintile 1 (most disadvantaged),Communication,2015,87,9,10.3
+Australian Capital Territory,Quintile 1 (most disadvantaged),Communication,2018,76,10,13.2
+Australian Capital Territory,Quintile 1 (most disadvantaged),Communication,2021,68,14,20.6
+Australian Capital Territory,Quintile 1 (most disadvantaged),Communication,2024,55,14,25.5
+Australian Capital Territory,Quintile 2,Communication,2009,223,21,9.4
+Australian Capital Territory,Quintile 2,Communication,2012,242,31,12.8
+Australian Capital Territory,Quintile 2,Communication,2015,227,21,9.3
+Australian Capital Territory,Quintile 2,Communication,2018,306,27,8.8
+Australian Capital Territory,Quintile 2,Communication,2021,346,49,14.2
+Australian Capital Territory,Quintile 2,Communication,2024,343,35,10.2
+Australian Capital Territory,Quintile 3,Communication,2009,630,64,10.2
+Australian Capital Territory,Quintile 3,Communication,2012,650,51,7.8
+Australian Capital Territory,Quintile 3,Communication,2015,722,64,8.9
+Australian Capital Territory,Quintile 3,Communication,2018,816,73,8.9
+Australian Capital Territory,Quintile 3,Communication,2021,957,108,11.3
+Australian Capital Territory,Quintile 3,Communication,2024,881,110,12.5
+Australian Capital Territory,Quintile 4,Communication,2009,1178,103,8.7
+Australian Capital Territory,Quintile 4,Communication,2012,1262,106,8.4
+Australian Capital Territory,Quintile 4,Communication,2015,1296,102,7.9
+Australian Capital Territory,Quintile 4,Communication,2018,1540,131,8.5
+Australian Capital Territory,Quintile 4,Communication,2021,1548,157,10.1
+Australian Capital Territory,Quintile 4,Communication,2024,1351,155,11.5
+Australian Capital Territory,Quintile 5 (least disadvantaged),Communication,2009,2089,180,8.6
+Australian Capital Territory,Quintile 5 (least disadvantaged),Communication,2012,2394,175,7.3
+Australian Capital Territory,Quintile 5 (least disadvantaged),Communication,2015,2833,201,7.1
+Australian Capital Territory,Quintile 5 (least disadvantaged),Communication,2018,2746,186,6.8
+Australian Capital Territory,Quintile 5 (least disadvantaged),Communication,2021,2614,179,6.8
+Australian Capital Territory,Quintile 5 (least disadvantaged),Communication,2024,2294,212,9.2
+New South Wales,All children,One or more domains,2009,82710,17652,21.3
+New South Wales,All children,One or more domains,2012,88921,17722,19.9
+New South Wales,All children,One or more domains,2015,90956,18378,20.2
+New South Wales,All children,One or more domains,2018,93245,18583,19.9
+New South Wales,All children,One or more domains,2021,90137,19067,21.2
+New South Wales,All children,One or more domains,2024,83968,18329,21.8
+New South Wales,Quintile 1 (most disadvantaged),One or more domains,2009,20265,5639,27.8
+New South Wales,Quintile 1 (most disadvantaged),One or more domains,2012,20997,6221,29.6
+New South Wales,Quintile 1 (most disadvantaged),One or more domains,2015,20549,5851,28.5
+New South Wales,Quintile 1 (most disadvantaged),One or more domains,2018,19232,5546,28.8
+New South Wales,Quintile 1 (most disadvantaged),One or more domains,2021,19361,6041,31.2
+New South Wales,Quintile 1 (most disadvantaged),One or more domains,2024,17729,5616,31.7
+New South Wales,Quintile 2,One or more domains,2009,15873,3653,23.0
+New South Wales,Quintile 2,One or more domains,2012,16635,3666,22.0
+New South Wales,Quintile 2,One or more domains,2015,17002,3686,21.7
+New South Wales,Quintile 2,One or more domains,2018,17395,3856,22.2
+New South Wales,Quintile 2,One or more domains,2021,16480,3902,23.7
+New South Wales,Quintile 2,One or more domains,2024,15576,3727,23.9
+New South Wales,Quintile 3,One or more domains,2009,14190,3051,21.5
+New South Wales,Quintile 3,One or more domains,2012,15032,2782,18.5
+New South Wales,Quintile 3,One or more domains,2015,15750,2962,18.8
+New South Wales,Quintile 3,One or more domains,2018,16322,3068,18.8
+New South Wales,Quintile 3,One or more domains,2021,15865,3189,20.1
+New South Wales,Quintile 3,One or more domains,2024,14977,3068,20.5
+New South Wales,Quintile 4,One or more domains,2009,13951,2573,18.4
+New South Wales,Quintile 4,One or more domains,2012,15518,2420,15.6
+New South Wales,Quintile 4,One or more domains,2015,16084,2738,17.0
+New South Wales,Quintile 4,One or more domains,2018,16901,2787,16.5
+New South Wales,Quintile 4,One or more domains,2021,16197,2717,16.8
+New South Wales,Quintile 4,One or more domains,2024,15295,2791,18.2
+New South Wales,Quintile 5 (least disadvantaged),One or more domains,2009,18278,2706,14.8
+New South Wales,Quintile 5 (least disadvantaged),One or more domains,2012,20584,2591,12.6
+New South Wales,Quintile 5 (least disadvantaged),One or more domains,2015,21297,3093,14.5
+New South Wales,Quintile 5 (least disadvantaged),One or more domains,2018,23267,3282,14.1
+New South Wales,Quintile 5 (least disadvantaged),One or more domains,2021,22138,3187,14.4
+New South Wales,Quintile 5 (least disadvantaged),One or more domains,2024,20307,3101,15.3
+Victoria,All children,One or more domains,2009,57277,11641,20.3
+Victoria,All children,One or more domains,2012,63584,12407,19.5
+Victoria,All children,One or more domains,2015,67670,13465,19.9
+Victoria,All children,One or more domains,2018,71671,14232,19.9
+Victoria,All children,One or more domains,2021,69068,13777,19.9
+Victoria,All children,One or more domains,2024,62121,13858,22.3
+Victoria,Quintile 1 (most disadvantaged),One or more domains,2009,10044,3017,30.0
+Victoria,Quintile 1 (most disadvantaged),One or more domains,2012,10767,3513,32.6
+Victoria,Quintile 1 (most disadvantaged),One or more domains,2015,10917,3595,32.9
+Victoria,Quintile 1 (most disadvantaged),One or more domains,2018,11722,3695,31.5
+Victoria,Quintile 1 (most disadvantaged),One or more domains,2021,10820,3556,32.9
+Victoria,Quintile 1 (most disadvantaged),One or more domains,2024,9332,3203,34.3
+Victoria,Quintile 2,One or more domains,2009,10384,2409,23.2
+Victoria,Quintile 2,One or more domains,2012,11462,2664,23.2
+Victoria,Quintile 2,One or more domains,2015,11660,2741,23.5
+Victoria,Quintile 2,One or more domains,2018,12558,2883,23.0
+Victoria,Quintile 2,One or more domains,2021,13228,3167,23.9
+Victoria,Quintile 2,One or more domains,2024,11602,3125,26.9
+Victoria,Quintile 3,One or more domains,2009,11993,2308,19.2
+Victoria,Quintile 3,One or more domains,2012,13598,2433,17.9
+Victoria,Quintile 3,One or more domains,2015,14767,2801,19.0
+Victoria,Quintile 3,One or more domains,2018,15879,2954,18.6
+Victoria,Quintile 3,One or more domains,2021,15795,2959,18.7
+Victoria,Quintile 3,One or more domains,2024,14393,3064,21.3
+Victoria,Quintile 4,One or more domains,2009,12709,2161,17.0
+Victoria,Quintile 4,One or more domains,2012,14493,2206,15.2
+Victoria,Quintile 4,One or more domains,2015,16198,2474,15.3
+Victoria,Quintile 4,One or more domains,2018,17378,2859,16.5
+Victoria,Quintile 4,One or more domains,2021,16612,2548,15.3
+Victoria,Quintile 4,One or more domains,2024,15223,2765,18.2
+Victoria,Quintile 5 (least disadvantaged),One or more domains,2009,12001,1718,14.3
+Victoria,Quintile 5 (least disadvantaged),One or more domains,2012,13141,1566,11.9
+Victoria,Quintile 5 (least disadvantaged),One or more domains,2015,14014,1826,13.0
+Victoria,Quintile 5 (least disadvantaged),One or more domains,2018,14081,1827,13.0
+Victoria,Quintile 5 (least disadvantaged),One or more domains,2021,12582,1540,12.2
+Victoria,Quintile 5 (least disadvantaged),One or more domains,2024,11467,1673,14.6
+Queensland,All children,One or more domains,2009,52603,15593,29.6
+Queensland,All children,One or more domains,2012,57994,15217,26.2
+Queensland,All children,One or more domains,2015,62027,16220,26.1
+Queensland,All children,One or more domains,2018,61673,15954,25.9
+Queensland,All children,One or more domains,2021,61279,15143,24.7
+Queensland,All children,One or more domains,2024,57860,14675,25.4
+Queensland,Quintile 1 (most disadvantaged),One or more domains,2009,10164,4116,40.5
+Queensland,Quintile 1 (most disadvantaged),One or more domains,2012,10693,3902,36.5
+Queensland,Quintile 1 (most disadvantaged),One or more domains,2015,11111,4080,36.7
+Queensland,Quintile 1 (most disadvantaged),One or more domains,2018,12364,4466,36.1
+Queensland,Quintile 1 (most disadvantaged),One or more domains,2021,12923,4505,34.9
+Queensland,Quintile 1 (most disadvantaged),One or more domains,2024,12090,4355,36.0
+Queensland,Quintile 2,One or more domains,2009,10630,3403,32.0
+Queensland,Quintile 2,One or more domains,2012,11795,3448,29.2
+Queensland,Quintile 2,One or more domains,2015,12449,3704,29.8
+Queensland,Quintile 2,One or more domains,2018,12932,3646,28.2
+Queensland,Quintile 2,One or more domains,2021,12473,3405,27.3
+Queensland,Quintile 2,One or more domains,2024,11771,3262,27.7
+Queensland,Quintile 3,One or more domains,2009,11113,3161,28.4
+Queensland,Quintile 3,One or more domains,2012,12240,3070,25.1
+Queensland,Quintile 3,One or more domains,2015,13437,3350,24.9
+Queensland,Quintile 3,One or more domains,2018,12947,3141,24.3
+Queensland,Quintile 3,One or more domains,2021,13350,3000,22.5
+Queensland,Quintile 3,One or more domains,2024,12833,2961,23.1
+Queensland,Quintile 4,One or more domains,2009,10848,2738,25.2
+Queensland,Quintile 4,One or more domains,2012,12216,2763,22.6
+Queensland,Quintile 4,One or more domains,2015,13180,2851,21.6
+Queensland,Quintile 4,One or more domains,2018,13533,2932,21.7
+Queensland,Quintile 4,One or more domains,2021,12496,2590,20.7
+Queensland,Quintile 4,One or more domains,2024,11910,2502,21.0
+Queensland,Quintile 5 (least disadvantaged),One or more domains,2009,9602,2090,21.8
+Queensland,Quintile 5 (least disadvantaged),One or more domains,2012,10851,1985,18.3
+Queensland,Quintile 5 (least disadvantaged),One or more domains,2015,11651,2189,18.8
+Queensland,Quintile 5 (least disadvantaged),One or more domains,2018,9803,1735,17.7
+Queensland,Quintile 5 (least disadvantaged),One or more domains,2021,9990,1635,16.4
+Queensland,Quintile 5 (least disadvantaged),One or more domains,2024,9178,1577,17.2
+South Australia,All children,One or more domains,2009,15009,3419,22.8
+South Australia,All children,One or more domains,2012,17355,4115,23.7
+South Australia,All children,One or more domains,2015,18451,4338,23.5
+South Australia,All children,One or more domains,2018,19092,4564,23.9
+South Australia,All children,One or more domains,2021,18881,4490,23.8
+South Australia,All children,One or more domains,2024,17580,4299,24.5
+South Australia,Quintile 1 (most disadvantaged),One or more domains,2009,3548,1118,31.5
+South Australia,Quintile 1 (most disadvantaged),One or more domains,2012,4159,1503,36.1
+South Australia,Quintile 1 (most disadvantaged),One or more domains,2015,4329,1440,33.3
+South Australia,Quintile 1 (most disadvantaged),One or more domains,2018,4920,1696,34.5
+South Australia,Quintile 1 (most disadvantaged),One or more domains,2021,4939,1693,34.3
+South Australia,Quintile 1 (most disadvantaged),One or more domains,2024,4586,1627,35.5
+South Australia,Quintile 2,One or more domains,2009,3430,849,24.8
+South Australia,Quintile 2,One or more domains,2012,4101,984,24.0
+South Australia,Quintile 2,One or more domains,2015,4360,1146,26.3
+South Australia,Quintile 2,One or more domains,2018,4469,1085,24.3
+South Australia,Quintile 2,One or more domains,2021,4006,941,23.5
+South Australia,Quintile 2,One or more domains,2024,3808,946,24.8
+South Australia,Quintile 3,One or more domains,2009,2968,673,22.7
+South Australia,Quintile 3,One or more domains,2012,3307,690,20.9
+South Australia,Quintile 3,One or more domains,2015,3724,761,20.4
+South Australia,Quintile 3,One or more domains,2018,3932,814,20.7
+South Australia,Quintile 3,One or more domains,2021,3961,840,21.2
+South Australia,Quintile 3,One or more domains,2024,3643,792,21.7
+South Australia,Quintile 4,One or more domains,2009,2914,491,16.8
+South Australia,Quintile 4,One or more domains,2012,3326,580,17.4
+South Australia,Quintile 4,One or more domains,2015,3502,599,17.1
+South Australia,Quintile 4,One or more domains,2018,3596,609,16.9
+South Australia,Quintile 4,One or more domains,2021,3591,645,18.0
+South Australia,Quintile 4,One or more domains,2024,3325,567,17.1
+South Australia,Quintile 5 (least disadvantaged),One or more domains,2009,2149,288,13.4
+South Australia,Quintile 5 (least disadvantaged),One or more domains,2012,2462,358,14.5
+South Australia,Quintile 5 (least disadvantaged),One or more domains,2015,2536,392,15.5
+South Australia,Quintile 5 (least disadvantaged),One or more domains,2018,2175,360,16.6
+South Australia,Quintile 5 (least disadvantaged),One or more domains,2021,2384,371,15.6
+South Australia,Quintile 5 (least disadvantaged),One or more domains,2024,2218,367,16.5
+Western Australia,All children,One or more domains,2009,26052,6445,24.7
+Western Australia,All children,One or more domains,2012,30631,7048,23.0
+Western Australia,All children,One or more domains,2015,32373,6895,21.3
+Western Australia,All children,One or more domains,2018,32798,6369,19.4
+Western Australia,All children,One or more domains,2021,33716,6852,20.3
+Western Australia,All children,One or more domains,2024,32387,7807,24.1
+Western Australia,Quintile 1 (most disadvantaged),One or more domains,2009,3706,1331,35.9
+Western Australia,Quintile 1 (most disadvantaged),One or more domains,2012,3883,1461,37.6
+Western Australia,Quintile 1 (most disadvantaged),One or more domains,2015,3880,1354,34.9
+Western Australia,Quintile 1 (most disadvantaged),One or more domains,2018,4316,1370,31.7
+Western Australia,Quintile 1 (most disadvantaged),One or more domains,2021,4675,1497,32.0
+Western Australia,Quintile 1 (most disadvantaged),One or more domains,2024,4399,1647,37.4
+Western Australia,Quintile 2,One or more domains,2009,4585,1409,30.7
+Western Australia,Quintile 2,One or more domains,2012,5289,1489,28.2
+Western Australia,Quintile 2,One or more domains,2015,5469,1366,25.0
+Western Australia,Quintile 2,One or more domains,2018,5746,1329,23.1
+Western Australia,Quintile 2,One or more domains,2021,6752,1593,23.6
+Western Australia,Quintile 2,One or more domains,2024,6494,1815,27.9
+Western Australia,Quintile 3,One or more domains,2009,4932,1187,24.1
+Western Australia,Quintile 3,One or more domains,2012,5862,1392,23.7
+Western Australia,Quintile 3,One or more domains,2015,6132,1350,22.0
+Western Australia,Quintile 3,One or more domains,2018,7402,1435,19.4
+Western Australia,Quintile 3,One or more domains,2021,7600,1477,19.4
+Western Australia,Quintile 3,One or more domains,2024,7394,1713,23.2
+Western Australia,Quintile 4,One or more domains,2009,5882,1249,21.2
+Western Australia,Quintile 4,One or more domains,2012,7185,1423,19.8
+Western Australia,Quintile 4,One or more domains,2015,7818,1425,18.2
+Western Australia,Quintile 4,One or more domains,2018,8324,1343,16.1
+Western Australia,Quintile 4,One or more domains,2021,8007,1403,17.5
+Western Australia,Quintile 4,One or more domains,2024,7842,1588,20.2
+Western Australia,Quintile 5 (least disadvantaged),One or more domains,2009,6882,1254,18.2
+Western Australia,Quintile 5 (least disadvantaged),One or more domains,2012,8386,1272,15.2
+Western Australia,Quintile 5 (least disadvantaged),One or more domains,2015,8915,1366,15.3
+Western Australia,Quintile 5 (least disadvantaged),One or more domains,2018,6807,855,12.6
+Western Australia,Quintile 5 (least disadvantaged),One or more domains,2021,6650,872,13.1
+Western Australia,Quintile 5 (least disadvantaged),One or more domains,2024,6210,1026,16.5
+Tasmania,All children,One or more domains,2009,5699,1243,21.8
+Tasmania,All children,One or more domains,2012,6086,1308,21.5
+Tasmania,All children,One or more domains,2015,6159,1296,21.0
+Tasmania,All children,One or more domains,2018,5825,1255,21.5
+Tasmania,All children,One or more domains,2021,5589,1297,23.2
+Tasmania,All children,One or more domains,2024,5234,1355,25.9
+Tasmania,Quintile 1 (most disadvantaged),One or more domains,2009,1888,519,27.5
+Tasmania,Quintile 1 (most disadvantaged),One or more domains,2012,1969,580,29.5
+Tasmania,Quintile 1 (most disadvantaged),One or more domains,2015,1950,541,27.7
+Tasmania,Quintile 1 (most disadvantaged),One or more domains,2018,1935,588,30.4
+Tasmania,Quintile 1 (most disadvantaged),One or more domains,2021,1704,562,33.0
+Tasmania,Quintile 1 (most disadvantaged),One or more domains,2024,1619,580,35.8
+Tasmania,Quintile 2,One or more domains,2009,1392,308,22.1
+Tasmania,Quintile 2,One or more domains,2012,1503,308,20.5
+Tasmania,Quintile 2,One or more domains,2015,1499,319,21.3
+Tasmania,Quintile 2,One or more domains,2018,1401,303,21.6
+Tasmania,Quintile 2,One or more domains,2021,1370,334,24.4
+Tasmania,Quintile 2,One or more domains,2024,1238,306,24.7
+Tasmania,Quintile 3,One or more domains,2009,1244,234,18.8
+Tasmania,Quintile 3,One or more domains,2012,1358,252,18.6
+Tasmania,Quintile 3,One or more domains,2015,1349,249,18.5
+Tasmania,Quintile 3,One or more domains,2018,1288,196,15.2
+Tasmania,Quintile 3,One or more domains,2021,1198,222,18.5
+Tasmania,Quintile 3,One or more domains,2024,1126,265,23.5
+Tasmania,Quintile 4,One or more domains,2009,735,124,16.9
+Tasmania,Quintile 4,One or more domains,2012,815,108,13.3
+Tasmania,Quintile 4,One or more domains,2015,885,129,14.6
+Tasmania,Quintile 4,One or more domains,2018,741,105,14.2
+Tasmania,Quintile 4,One or more domains,2021,892,134,15.0
+Tasmania,Quintile 4,One or more domains,2024,846,147,17.4
+Tasmania,Quintile 5 (least disadvantaged),One or more domains,2009,440,58,13.2
+Tasmania,Quintile 5 (least disadvantaged),One or more domains,2012,441,60,13.6
+Tasmania,Quintile 5 (least disadvantaged),One or more domains,2015,476,58,12.2
+Tasmania,Quintile 5 (least disadvantaged),One or more domains,2018,460,63,13.7
+Tasmania,Quintile 5 (least disadvantaged),One or more domains,2021,425,45,10.6
+Tasmania,Quintile 5 (least disadvantaged),One or more domains,2024,405,57,14.1
+Northern Territory,All children,One or more domains,2009,2865,1109,38.7
+Northern Territory,All children,One or more domains,2012,3117,1106,35.5
+Northern Territory,All children,One or more domains,2015,3248,1207,37.2
+Northern Territory,All children,One or more domains,2018,3190,1141,35.8
+Northern Territory,All children,One or more domains,2021,2973,1164,39.2
+Northern Territory,All children,One or more domains,2024,2685,1096,40.8
+Northern Territory,Quintile 1 (most disadvantaged),One or more domains,2009,934,477,51.1
+Northern Territory,Quintile 1 (most disadvantaged),One or more domains,2012,925,573,61.9
+Northern Territory,Quintile 1 (most disadvantaged),One or more domains,2015,941,609,64.7
+Northern Territory,Quintile 1 (most disadvantaged),One or more domains,2018,803,522,65.0
+Northern Territory,Quintile 1 (most disadvantaged),One or more domains,2021,815,528,64.8
+Northern Territory,Quintile 1 (most disadvantaged),One or more domains,2024,738,480,65.0
+Northern Territory,Quintile 2,One or more domains,2009,397,155,39.0
+Northern Territory,Quintile 2,One or more domains,2012,417,124,29.7
+Northern Territory,Quintile 2,One or more domains,2015,434,156,35.9
+Northern Territory,Quintile 2,One or more domains,2018,449,149,33.2
+Northern Territory,Quintile 2,One or more domains,2021,541,190,35.1
+Northern Territory,Quintile 2,One or more domains,2024,483,195,40.4
+Northern Territory,Quintile 3,One or more domains,2009,526,185,35.2
+Northern Territory,Quintile 3,One or more domains,2012,595,161,27.1
+Northern Territory,Quintile 3,One or more domains,2015,608,171,28.1
+Northern Territory,Quintile 3,One or more domains,2018,588,176,29.9
+Northern Territory,Quintile 3,One or more domains,2021,455,131,28.8
+Northern Territory,Quintile 3,One or more domains,2024,425,131,30.8
+Northern Territory,Quintile 4,One or more domains,2009,513,159,31.0
+Northern Territory,Quintile 4,One or more domains,2012,576,126,21.9
+Northern Territory,Quintile 4,One or more domains,2015,618,148,23.9
+Northern Territory,Quintile 4,One or more domains,2018,645,148,22.9
+Northern Territory,Quintile 4,One or more domains,2021,535,142,26.5
+Northern Territory,Quintile 4,One or more domains,2024,430,114,26.5
+Northern Territory,Quintile 5 (least disadvantaged),One or more domains,2009,458,119,26.0
+Northern Territory,Quintile 5 (least disadvantaged),One or more domains,2012,565,104,18.4
+Northern Territory,Quintile 5 (least disadvantaged),One or more domains,2015,585,103,17.6
+Northern Territory,Quintile 5 (least disadvantaged),One or more domains,2018,682,134,19.6
+Northern Territory,Quintile 5 (least disadvantaged),One or more domains,2021,588,147,25.0
+Northern Territory,Quintile 5 (least disadvantaged),One or more domains,2024,579,153,26.4
+Australian Capital Territory,All children,One or more domains,2009,4180,927,22.2
+Australian Capital Territory,All children,One or more domains,2012,4594,1010,22.0
+Australian Capital Territory,All children,One or more domains,2015,5157,1161,22.5
+Australian Capital Territory,All children,One or more domains,2018,5482,1350,24.6
+Australian Capital Territory,All children,One or more domains,2021,5521,1474,26.7
+Australian Capital Territory,All children,One or more domains,2024,4876,1368,28.1
+Australian Capital Territory,Quintile 1 (most disadvantaged),One or more domains,2009,74,16,21.6
+Australian Capital Territory,Quintile 1 (most disadvantaged),One or more domains,2012,74,21,28.4
+Australian Capital Territory,Quintile 1 (most disadvantaged),One or more domains,2015,87,32,36.8
+Australian Capital Territory,Quintile 1 (most disadvantaged),One or more domains,2018,76,26,34.2
+Australian Capital Territory,Quintile 1 (most disadvantaged),One or more domains,2021,68,29,42.6
+Australian Capital Territory,Quintile 1 (most disadvantaged),One or more domains,2024,55,26,47.3
+Australian Capital Territory,Quintile 2,One or more domains,2009,222,50,22.5
+Australian Capital Territory,Quintile 2,One or more domains,2012,240,73,30.4
+Australian Capital Territory,Quintile 2,One or more domains,2015,227,50,22.0
+Australian Capital Territory,Quintile 2,One or more domains,2018,306,79,25.8
+Australian Capital Territory,Quintile 2,One or more domains,2021,346,124,35.8
+Australian Capital Territory,Quintile 2,One or more domains,2024,337,108,32.0
+Australian Capital Territory,Quintile 3,One or more domains,2009,629,155,24.6
+Australian Capital Territory,Quintile 3,One or more domains,2012,648,168,25.9
+Australian Capital Territory,Quintile 3,One or more domains,2015,722,171,23.7
+Australian Capital Territory,Quintile 3,One or more domains,2018,815,238,29.2
+Australian Capital Territory,Quintile 3,One or more domains,2021,956,289,30.2
+Australian Capital Territory,Quintile 3,One or more domains,2024,869,282,32.5
+Australian Capital Territory,Quintile 4,One or more domains,2009,1172,276,23.5
+Australian Capital Territory,Quintile 4,One or more domains,2012,1254,290,23.1
+Australian Capital Territory,Quintile 4,One or more domains,2015,1290,298,23.1
+Australian Capital Territory,Quintile 4,One or more domains,2018,1540,415,26.9
+Australian Capital Territory,Quintile 4,One or more domains,2021,1545,437,28.3
+Australian Capital Territory,Quintile 4,One or more domains,2024,1338,377,28.2
+Australian Capital Territory,Quintile 5 (least disadvantaged),One or more domains,2009,2083,430,20.6
+Australian Capital Territory,Quintile 5 (least disadvantaged),One or more domains,2012,2378,458,19.3
+Australian Capital Territory,Quintile 5 (least disadvantaged),One or more domains,2015,2831,610,21.5
+Australian Capital Territory,Quintile 5 (least disadvantaged),One or more domains,2018,2745,592,21.6
+Australian Capital Territory,Quintile 5 (least disadvantaged),One or more domains,2021,2606,595,22.8
+Australian Capital Territory,Quintile 5 (least disadvantaged),One or more domains,2024,2277,575,25.3
+New South Wales,All children,Two or more domains,2009,82866,8526,10.3
+New South Wales,All children,Two or more domains,2012,89260,8189,9.2
+New South Wales,All children,Two or more domains,2015,91143,8733,9.6
+New South Wales,All children,Two or more domains,2018,93468,9001,9.6
+New South Wales,All children,Two or more domains,2021,90331,9510,10.5
+New South Wales,All children,Two or more domains,2024,84259,9459,11.2
+New South Wales,Quintile 1 (most disadvantaged),Two or more domains,2009,20293,2910,14.3
+New South Wales,Quintile 1 (most disadvantaged),Two or more domains,2012,21050,3172,15.1
+New South Wales,Quintile 1 (most disadvantaged),Two or more domains,2015,20588,3071,14.9
+New South Wales,Quintile 1 (most disadvantaged),Two or more domains,2018,19259,2967,15.4
+New South Wales,Quintile 1 (most disadvantaged),Two or more domains,2021,19423,3406,17.5
+New South Wales,Quintile 1 (most disadvantaged),Two or more domains,2024,17784,3195,18.0
+New South Wales,Quintile 2,Two or more domains,2009,15900,1823,11.5
+New South Wales,Quintile 2,Two or more domains,2012,16693,1727,10.3
+New South Wales,Quintile 2,Two or more domains,2015,17040,1724,10.1
+New South Wales,Quintile 2,Two or more domains,2018,17424,1896,10.9
+New South Wales,Quintile 2,Two or more domains,2021,16520,1977,12.0
+New South Wales,Quintile 2,Two or more domains,2024,15621,1976,12.6
+New South Wales,Quintile 3,Two or more domains,2009,14220,1439,10.1
+New South Wales,Quintile 3,Two or more domains,2012,15101,1197,7.9
+New South Wales,Quintile 3,Two or more domains,2015,15804,1383,8.8
+New South Wales,Quintile 3,Two or more domains,2018,16356,1470,9.0
+New South Wales,Quintile 3,Two or more domains,2021,15890,1494,9.4
+New South Wales,Quintile 3,Two or more domains,2024,15042,1564,10.4
+New South Wales,Quintile 4,Two or more domains,2009,13972,1196,8.6
+New South Wales,Quintile 4,Two or more domains,2012,15594,1046,6.7
+New South Wales,Quintile 4,Two or more domains,2015,16113,1208,7.5
+New South Wales,Quintile 4,Two or more domains,2018,16955,1237,7.3
+New South Wales,Quintile 4,Two or more domains,2021,16225,1212,7.5
+New South Wales,Quintile 4,Two or more domains,2024,15344,1317,8.6
+New South Wales,Quintile 5 (least disadvantaged),Two or more domains,2009,18324,1146,6.3
+New South Wales,Quintile 5 (least disadvantaged),Two or more domains,2012,20666,1028,5.0
+New South Wales,Quintile 5 (least disadvantaged),Two or more domains,2015,21322,1321,6.2
+New South Wales,Quintile 5 (least disadvantaged),Two or more domains,2018,23346,1403,6.0
+New South Wales,Quintile 5 (least disadvantaged),Two or more domains,2021,22177,1401,6.3
+New South Wales,Quintile 5 (least disadvantaged),Two or more domains,2024,20385,1397,6.9
+Victoria,All children,Two or more domains,2009,57420,5736,10.0
+Victoria,All children,Two or more domains,2012,63889,6053,9.5
+Victoria,All children,Two or more domains,2015,67812,6707,9.9
+Victoria,All children,Two or more domains,2018,71828,7231,10.1
+Victoria,All children,Two or more domains,2021,69217,7085,10.2
+Victoria,All children,Two or more domains,2024,62275,7360,11.8
+Victoria,Quintile 1 (most disadvantaged),Two or more domains,2009,10077,1656,16.4
+Victoria,Quintile 1 (most disadvantaged),Two or more domains,2012,10799,1888,17.5
+Victoria,Quintile 1 (most disadvantaged),Two or more domains,2015,10929,2025,18.5
+Victoria,Quintile 1 (most disadvantaged),Two or more domains,2018,11757,2118,18.0
+Victoria,Quintile 1 (most disadvantaged),Two or more domains,2021,10842,2056,19.0
+Victoria,Quintile 1 (most disadvantaged),Two or more domains,2024,9332,1881,20.2
+Victoria,Quintile 2,Two or more domains,2009,10412,1237,11.9
+Victoria,Quintile 2,Two or more domains,2012,11517,1372,11.9
+Victoria,Quintile 2,Two or more domains,2015,11677,1412,12.1
+Victoria,Quintile 2,Two or more domains,2018,12581,1520,12.1
+Victoria,Quintile 2,Two or more domains,2021,13249,1697,12.8
+Victoria,Quintile 2,Two or more domains,2024,11628,1672,14.4
+Victoria,Quintile 3,Two or more domains,2009,12014,1109,9.2
+Victoria,Quintile 3,Two or more domains,2012,13652,1153,8.4
+Victoria,Quintile 3,Two or more domains,2015,14798,1341,9.1
+Victoria,Quintile 3,Two or more domains,2018,15904,1449,9.1
+Victoria,Quintile 3,Two or more domains,2021,15828,1473,9.3
+Victoria,Quintile 3,Two or more domains,2024,14433,1603,11.1
+Victoria,Quintile 4,Two or more domains,2009,12735,969,7.6
+Victoria,Quintile 4,Two or more domains,2012,14557,1015,7.0
+Victoria,Quintile 4,Two or more domains,2015,16250,1155,7.1
+Victoria,Quintile 4,Two or more domains,2018,17420,1348,7.7
+Victoria,Quintile 4,Two or more domains,2021,16650,1211,7.3
+Victoria,Quintile 4,Two or more domains,2024,15281,1384,9.1
+Victoria,Quintile 5 (least disadvantaged),Two or more domains,2009,12035,754,6.3
+Victoria,Quintile 5 (least disadvantaged),Two or more domains,2012,13237,609,4.6
+Victoria,Quintile 5 (least disadvantaged),Two or more domains,2015,14044,760,5.4
+Victoria,Quintile 5 (least disadvantaged),Two or more domains,2018,14113,789,5.6
+Victoria,Quintile 5 (least disadvantaged),Two or more domains,2021,12616,644,5.1
+Victoria,Quintile 5 (least disadvantaged),Two or more domains,2024,11495,803,7.0
+Queensland,All children,Two or more domains,2009,52670,8307,15.8
+Queensland,All children,Two or more domains,2012,58107,8001,13.8
+Queensland,All children,Two or more domains,2015,62103,8713,14.0
+Queensland,All children,Two or more domains,2018,61781,8576,13.9
+Queensland,All children,Two or more domains,2021,61385,8088,13.2
+Queensland,All children,Two or more domains,2024,57956,7898,13.6
+Queensland,Quintile 1 (most disadvantaged),Two or more domains,2009,10171,2405,23.6
+Queensland,Quintile 1 (most disadvantaged),Two or more domains,2012,10694,2248,21.0
+Queensland,Quintile 1 (most disadvantaged),Two or more domains,2015,11111,2432,21.9
+Queensland,Quintile 1 (most disadvantaged),Two or more domains,2018,12379,2687,21.7
+Queensland,Quintile 1 (most disadvantaged),Two or more domains,2021,12940,2625,20.3
+Queensland,Quintile 1 (most disadvantaged),Two or more domains,2024,12087,2566,21.2
+Queensland,Quintile 2,Two or more domains,2009,10649,1805,16.9
+Queensland,Quintile 2,Two or more domains,2012,11822,1865,15.8
+Queensland,Quintile 2,Two or more domains,2015,12476,2122,17.0
+Queensland,Quintile 2,Two or more domains,2018,12964,2019,15.6
+Queensland,Quintile 2,Two or more domains,2021,12491,1845,14.8
+Queensland,Quintile 2,Two or more domains,2024,11784,1774,15.1
+Queensland,Quintile 3,Two or more domains,2009,11137,1671,15.0
+Queensland,Quintile 3,Two or more domains,2012,12264,1583,12.9
+Queensland,Quintile 3,Two or more domains,2015,13445,1724,12.8
+Queensland,Quintile 3,Two or more domains,2018,12965,1578,12.2
+Queensland,Quintile 3,Two or more domains,2021,13367,1561,11.7
+Queensland,Quintile 3,Two or more domains,2024,12864,1518,11.8
+Queensland,Quintile 4,Two or more domains,2009,10853,1372,12.6
+Queensland,Quintile 4,Two or more domains,2012,12242,1375,11.2
+Queensland,Quintile 4,Two or more domains,2015,13204,1432,10.8
+Queensland,Quintile 4,Two or more domains,2018,13555,1448,10.7
+Queensland,Quintile 4,Two or more domains,2021,12518,1271,10.2
+Queensland,Quintile 4,Two or more domains,2024,11941,1263,10.6
+Queensland,Quintile 5 (least disadvantaged),Two or more domains,2009,9615,1003,10.4
+Queensland,Quintile 5 (least disadvantaged),Two or more domains,2012,10886,898,8.2
+Queensland,Quintile 5 (least disadvantaged),Two or more domains,2015,11667,980,8.4
+Queensland,Quintile 5 (least disadvantaged),Two or more domains,2018,9824,828,8.4
+Queensland,Quintile 5 (least disadvantaged),Two or more domains,2021,10022,782,7.8
+Queensland,Quintile 5 (least disadvantaged),Two or more domains,2024,9202,767,8.3
+South Australia,All children,Two or more domains,2009,15031,1730,11.5
+South Australia,All children,Two or more domains,2012,17399,2126,12.2
+South Australia,All children,Two or more domains,2015,18509,2259,12.2
+South Australia,All children,Two or more domains,2018,19157,2490,13.0
+South Australia,All children,Two or more domains,2021,18921,2411,12.7
+South Australia,All children,Two or more domains,2024,17612,2321,13.2
+South Australia,Quintile 1 (most disadvantaged),Two or more domains,2009,3549,608,17.1
+South Australia,Quintile 1 (most disadvantaged),Two or more domains,2012,4157,878,21.1
+South Australia,Quintile 1 (most disadvantaged),Two or more domains,2015,4335,829,19.1
+South Australia,Quintile 1 (most disadvantaged),Two or more domains,2018,4929,1007,20.4
+South Australia,Quintile 1 (most disadvantaged),Two or more domains,2021,4943,1014,20.5
+South Australia,Quintile 1 (most disadvantaged),Two or more domains,2024,4589,950,20.7
+South Australia,Quintile 2,Two or more domains,2009,3428,436,12.7
+South Australia,Quintile 2,Two or more domains,2012,4110,510,12.4
+South Australia,Quintile 2,Two or more domains,2015,4383,605,13.8
+South Australia,Quintile 2,Two or more domains,2018,4474,587,13.1
+South Australia,Quintile 2,Two or more domains,2021,4015,496,12.4
+South Australia,Quintile 2,Two or more domains,2024,3812,510,13.4
+South Australia,Quintile 3,Two or more domains,2009,2975,331,11.1
+South Australia,Quintile 3,Two or more domains,2012,3324,336,10.1
+South Australia,Quintile 3,Two or more domains,2015,3729,379,10.2
+South Australia,Quintile 3,Two or more domains,2018,3947,433,11.0
+South Australia,Quintile 3,Two or more domains,2021,3970,428,10.8
+South Australia,Quintile 3,Two or more domains,2024,3648,401,11.0
+South Australia,Quintile 4,Two or more domains,2009,2922,231,7.9
+South Australia,Quintile 4,Two or more domains,2012,3336,258,7.7
+South Australia,Quintile 4,Two or more domains,2015,3520,272,7.7
+South Australia,Quintile 4,Two or more domains,2018,3619,298,8.2
+South Australia,Quintile 4,Two or more domains,2021,3601,309,8.6
+South Australia,Quintile 4,Two or more domains,2024,3336,295,8.8
+South Australia,Quintile 5 (least disadvantaged),Two or more domains,2009,2157,124,5.7
+South Australia,Quintile 5 (least disadvantaged),Two or more domains,2012,2472,144,5.8
+South Australia,Quintile 5 (least disadvantaged),Two or more domains,2015,2542,174,6.8
+South Australia,Quintile 5 (least disadvantaged),Two or more domains,2018,2188,165,7.5
+South Australia,Quintile 5 (least disadvantaged),Two or more domains,2021,2392,164,6.9
+South Australia,Quintile 5 (least disadvantaged),Two or more domains,2024,2227,165,7.4
+Western Australia,All children,Two or more domains,2009,26091,3177,12.2
+Western Australia,All children,Two or more domains,2012,30770,3449,11.2
+Western Australia,All children,Two or more domains,2015,32478,3403,10.5
+Western Australia,All children,Two or more domains,2018,32880,3086,9.4
+Western Australia,All children,Two or more domains,2021,33782,3457,10.2
+Western Australia,All children,Two or more domains,2024,32462,4086,12.6
+Western Australia,Quintile 1 (most disadvantaged),Two or more domains,2009,3702,744,20.1
+Western Australia,Quintile 1 (most disadvantaged),Two or more domains,2012,3886,857,22.1
+Western Australia,Quintile 1 (most disadvantaged),Two or more domains,2015,3884,785,20.2
+Western Australia,Quintile 1 (most disadvantaged),Two or more domains,2018,4327,751,17.4
+Western Australia,Quintile 1 (most disadvantaged),Two or more domains,2021,4682,864,18.5
+Western Australia,Quintile 1 (most disadvantaged),Two or more domains,2024,4388,943,21.5
+Western Australia,Quintile 2,Two or more domains,2009,4595,733,16.0
+Western Australia,Quintile 2,Two or more domains,2012,5308,725,13.7
+Western Australia,Quintile 2,Two or more domains,2015,5478,712,13.0
+Western Australia,Quintile 2,Two or more domains,2018,5748,668,11.6
+Western Australia,Quintile 2,Two or more domains,2021,6767,831,12.3
+Western Australia,Quintile 2,Two or more domains,2024,6517,976,15.0
+Western Australia,Quintile 3,Two or more domains,2009,4944,586,11.9
+Western Australia,Quintile 3,Two or more domains,2012,5889,672,11.4
+Western Australia,Quintile 3,Two or more domains,2015,6153,655,10.6
+Western Australia,Quintile 3,Two or more domains,2018,7418,696,9.4
+Western Australia,Quintile 3,Two or more domains,2021,7609,719,9.4
+Western Australia,Quintile 3,Two or more domains,2024,7411,871,11.8
+Western Australia,Quintile 4,Two or more domains,2009,5893,579,9.8
+Western Australia,Quintile 4,Two or more domains,2012,7219,672,9.3
+Western Australia,Quintile 4,Two or more domains,2015,7853,638,8.1
+Western Australia,Quintile 4,Two or more domains,2018,8359,602,7.2
+Western Australia,Quintile 4,Two or more domains,2021,8016,656,8.2
+Western Australia,Quintile 4,Two or more domains,2024,7869,789,10.0
+Western Australia,Quintile 5 (least disadvantaged),Two or more domains,2009,6892,529,7.7
+Western Australia,Quintile 5 (least disadvantaged),Two or more domains,2012,8441,517,6.1
+Western Australia,Quintile 5 (least disadvantaged),Two or more domains,2015,8951,592,6.6
+Western Australia,Quintile 5 (least disadvantaged),Two or more domains,2018,6824,345,5.1
+Western Australia,Quintile 5 (least disadvantaged),Two or more domains,2021,6676,378,5.7
+Western Australia,Quintile 5 (least disadvantaged),Two or more domains,2024,6229,500,8.0
+Tasmania,All children,Two or more domains,2009,5699,617,10.8
+Tasmania,All children,Two or more domains,2012,6104,618,10.1
+Tasmania,All children,Two or more domains,2015,6158,657,10.7
+Tasmania,All children,Two or more domains,2018,5840,625,10.7
+Tasmania,All children,Two or more domains,2021,5594,668,11.9
+Tasmania,All children,Two or more domains,2024,5244,748,14.3
+Tasmania,Quintile 1 (most disadvantaged),Two or more domains,2009,1886,272,14.4
+Tasmania,Quintile 1 (most disadvantaged),Two or more domains,2012,1975,318,16.1
+Tasmania,Quintile 1 (most disadvantaged),Two or more domains,2015,1950,301,15.4
+Tasmania,Quintile 1 (most disadvantaged),Two or more domains,2018,1938,321,16.6
+Tasmania,Quintile 1 (most disadvantaged),Two or more domains,2021,1705,315,18.5
+Tasmania,Quintile 1 (most disadvantaged),Two or more domains,2024,1621,349,21.5
+Tasmania,Quintile 2,Two or more domains,2009,1390,148,10.6
+Tasmania,Quintile 2,Two or more domains,2012,1506,133,8.8
+Tasmania,Quintile 2,Two or more domains,2015,1499,161,10.7
+Tasmania,Quintile 2,Two or more domains,2018,1406,148,10.5
+Tasmania,Quintile 2,Two or more domains,2021,1372,175,12.8
+Tasmania,Quintile 2,Two or more domains,2024,1239,154,12.4
+Tasmania,Quintile 3,Two or more domains,2009,1246,111,8.9
+Tasmania,Quintile 3,Two or more domains,2012,1365,99,7.3
+Tasmania,Quintile 3,Two or more domains,2015,1349,119,8.8
+Tasmania,Quintile 3,Two or more domains,2018,1294,80,6.2
+Tasmania,Quintile 3,Two or more domains,2021,1198,101,8.4
+Tasmania,Quintile 3,Two or more domains,2024,1126,153,13.6
+Tasmania,Quintile 4,Two or more domains,2009,737,53,7.2
+Tasmania,Quintile 4,Two or more domains,2012,818,45,5.5
+Tasmania,Quintile 4,Two or more domains,2015,885,51,5.8
+Tasmania,Quintile 4,Two or more domains,2018,741,50,6.7
+Tasmania,Quintile 4,Two or more domains,2021,894,58,6.5
+Tasmania,Quintile 4,Two or more domains,2024,851,68,8.0
+Tasmania,Quintile 5 (least disadvantaged),Two or more domains,2009,440,33,7.5
+Tasmania,Quintile 5 (least disadvantaged),Two or more domains,2012,440,23,5.2
+Tasmania,Quintile 5 (least disadvantaged),Two or more domains,2015,475,25,5.3
+Tasmania,Quintile 5 (least disadvantaged),Two or more domains,2018,461,26,5.6
+Tasmania,Quintile 5 (least disadvantaged),Two or more domains,2021,425,19,4.5
+Tasmania,Quintile 5 (least disadvantaged),Two or more domains,2024,407,24,5.9
+Northern Territory,All children,Two or more domains,2009,2878,673,23.4
+Northern Territory,All children,Two or more domains,2012,3130,653,20.9
+Northern Territory,All children,Two or more domains,2015,3255,751,23.1
+Northern Territory,All children,Two or more domains,2018,3184,745,23.4
+Northern Territory,All children,Two or more domains,2021,2975,764,25.7
+Northern Territory,All children,Two or more domains,2024,2686,722,26.9
+Northern Territory,Quintile 1 (most disadvantaged),Two or more domains,2009,936,322,34.4
+Northern Territory,Quintile 1 (most disadvantaged),Two or more domains,2012,926,380,41.0
+Northern Territory,Quintile 1 (most disadvantaged),Two or more domains,2015,937,439,46.9
+Northern Territory,Quintile 1 (most disadvantaged),Two or more domains,2018,799,396,49.6
+Northern Territory,Quintile 1 (most disadvantaged),Two or more domains,2021,816,365,44.7
+Northern Territory,Quintile 1 (most disadvantaged),Two or more domains,2024,736,349,47.4
+Northern Territory,Quintile 2,Two or more domains,2009,396,90,22.7
+Northern Territory,Quintile 2,Two or more domains,2012,418,69,16.5
+Northern Territory,Quintile 2,Two or more domains,2015,436,88,20.2
+Northern Territory,Quintile 2,Two or more domains,2018,449,95,21.2
+Northern Territory,Quintile 2,Two or more domains,2021,541,119,22.0
+Northern Territory,Quintile 2,Two or more domains,2024,482,121,25.1
+Northern Territory,Quintile 3,Two or more domains,2009,534,99,18.5
+Northern Territory,Quintile 3,Two or more domains,2012,597,84,14.1
+Northern Territory,Quintile 3,Two or more domains,2015,611,89,14.6
+Northern Territory,Quintile 3,Two or more domains,2018,588,97,16.5
+Northern Territory,Quintile 3,Two or more domains,2021,456,81,17.8
+Northern Territory,Quintile 3,Two or more domains,2024,427,80,18.7
+Northern Territory,Quintile 4,Two or more domains,2009,516,90,17.4
+Northern Territory,Quintile 4,Two or more domains,2012,582,62,10.7
+Northern Territory,Quintile 4,Two or more domains,2015,623,80,12.8
+Northern Territory,Quintile 4,Two or more domains,2018,643,75,11.7
+Northern Territory,Quintile 4,Two or more domains,2021,536,88,16.4
+Northern Territory,Quintile 4,Two or more domains,2024,431,75,17.4
+Northern Territory,Quintile 5 (least disadvantaged),Two or more domains,2009,459,63,13.7
+Northern Territory,Quintile 5 (least disadvantaged),Two or more domains,2012,567,47,8.3
+Northern Territory,Quintile 5 (least disadvantaged),Two or more domains,2015,586,44,7.5
+Northern Territory,Quintile 5 (least disadvantaged),Two or more domains,2018,682,74,10.9
+Northern Territory,Quintile 5 (least disadvantaged),Two or more domains,2021,587,86,14.7
+Northern Territory,Quintile 5 (least disadvantaged),Two or more domains,2024,581,79,13.6
+Australian Capital Territory,All children,Two or more domains,2009,4190,456,10.9
+Australian Capital Territory,All children,Two or more domains,2012,4616,454,9.8
+Australian Capital Territory,All children,Two or more domains,2015,5158,531,10.3
+Australian Capital Territory,All children,Two or more domains,2018,5481,680,12.4
+Australian Capital Territory,All children,Two or more domains,2021,5532,735,13.3
+Australian Capital Territory,All children,Two or more domains,2024,4902,728,14.9
+Australian Capital Territory,Quintile 1 (most disadvantaged),Two or more domains,2009,73,9,12.3
+Australian Capital Territory,Quintile 1 (most disadvantaged),Two or more domains,2012,75,11,14.7
+Australian Capital Territory,Quintile 1 (most disadvantaged),Two or more domains,2015,87,17,19.5
+Australian Capital Territory,Quintile 1 (most disadvantaged),Two or more domains,2018,76,16,21.1
+Australian Capital Territory,Quintile 1 (most disadvantaged),Two or more domains,2021,68,14,20.6
+Australian Capital Territory,Quintile 1 (most disadvantaged),Two or more domains,2024,55,17,30.9
+Australian Capital Territory,Quintile 2,Two or more domains,2009,223,27,12.1
+Australian Capital Territory,Quintile 2,Two or more domains,2012,242,32,13.2
+Australian Capital Territory,Quintile 2,Two or more domains,2015,227,22,9.7
+Australian Capital Territory,Quintile 2,Two or more domains,2018,306,47,15.4
+Australian Capital Territory,Quintile 2,Two or more domains,2021,346,61,17.6
+Australian Capital Territory,Quintile 2,Two or more domains,2024,341,67,19.6
+Australian Capital Territory,Quintile 3,Two or more domains,2009,629,71,11.3
+Australian Capital Territory,Quintile 3,Two or more domains,2012,646,74,11.5
+Australian Capital Territory,Quintile 3,Two or more domains,2015,720,85,11.8
+Australian Capital Territory,Quintile 3,Two or more domains,2018,815,125,15.3
+Australian Capital Territory,Quintile 3,Two or more domains,2021,956,158,16.5
+Australian Capital Territory,Quintile 3,Two or more domains,2024,876,145,16.6
+Australian Capital Territory,Quintile 4,Two or more domains,2009,1180,127,10.8
+Australian Capital Territory,Quintile 4,Two or more domains,2012,1261,127,10.1
+Australian Capital Territory,Quintile 4,Two or more domains,2015,1294,137,10.6
+Australian Capital Territory,Quintile 4,Two or more domains,2018,1539,211,13.7
+Australian Capital Territory,Quintile 4,Two or more domains,2021,1548,211,13.6
+Australian Capital Territory,Quintile 4,Two or more domains,2024,1345,219,16.3
+Australian Capital Territory,Quintile 5 (least disadvantaged),Two or more domains,2009,2085,222,10.6
+Australian Capital Territory,Quintile 5 (least disadvantaged),Two or more domains,2012,2392,210,8.8
+Australian Capital Territory,Quintile 5 (least disadvantaged),Two or more domains,2015,2830,270,9.5
+Australian Capital Territory,Quintile 5 (least disadvantaged),Two or more domains,2018,2745,281,10.2
+Australian Capital Territory,Quintile 5 (least disadvantaged),Two or more domains,2021,2614,291,11.1
+Australian Capital Territory,Quintile 5 (least disadvantaged),Two or more domains,2024,2285,280,12.3

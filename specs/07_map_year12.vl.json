@@ -1,0 +1,103 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "MAP 3 - Choropleth of the % of 25-34 year olds who completed Year 12 (or equivalent), by Local Government Area, 2021 Census. Insets zoom into Greater Sydney and Greater Melbourne, where small council areas are invisible on the national map.",
+  "hconcat": [
+    {
+      "width": 600,
+      "height": 500,
+      "projection": {"type": "conicEqualArea", "parallels": [-18, -36], "rotate": [-132, 0, 0]},
+      "layer": [
+        {
+          "data": {"url": "data/australia_lga_2021.topo.json", "format": {"type": "topojson", "feature": "lga"}},
+          "transform": [
+            {"calculate": "datum.properties.lga_code", "as": "lga_code"},
+            {"lookup": "lga_code", "from": {"data": {"url": "data/lga.csv", "format": {"parse": {"irsd_score": "number", "irsd_decile": "number", "aedc_vuln1_pct_2024": "number", "aedc_children_2024": "number", "y12_pct_25_34": "number", "population": "number"}}}, "key": "lga_code", "fields": ["lga_name", "state", "y12_pct_25_34", "irsd_decile"]}}
+          ],
+          "mark": {"type": "geoshape", "stroke": "#ffffff", "strokeWidth": 0.25},
+          "encoding": {
+            "color": {
+              "condition": {"test": "!(datum.y12_pct_25_34 > 0)", "value": "#e7e6e2"},
+              "field": "y12_pct_25_34", "type": "quantitative", "title": "% of 25–34 year olds who finished Year 12 (grey = not reported)",
+              "scale": {"domain": [40, 55, 70, 85, 100], "range": ["#c2541f", "#f0b394", "#ecebe7", "#86b6ef", "#104281"], "clamp": true, "interpolate": "lab"},
+              "legend": {"orient": "bottom", "direction": "horizontal", "gradientLength": 260, "titleLimit": 400, "values": [40, 55, 70, 85, 100], "labelExpr": "datum.value + '%'"}
+            },
+            "tooltip": [
+              {"field": "lga_name", "title": "Council area"},
+              {"field": "state", "title": "State"},
+              {"field": "y12_pct_25_34", "title": "Finished Year 12 (25–34 yrs)", "format": ".1f"},
+              {"field": "irsd_decile", "title": "Disadvantage decile (1 = most)"}
+            ]
+          }
+        },
+        {
+          "data": {"url": "data/australia_lga_2021.topo.json", "format": {"type": "topojson", "feature": "states"}},
+          "mark": {"type": "geoshape", "filled": false, "stroke": "#3a3a38", "strokeWidth": 0.8}
+        },
+        {
+          "data": {"values": [
+            {"lon": 151.05, "lat": -33.85, "label": "Sydney ▸"},
+            {"lon": 145.0, "lat": -37.85, "label": "Melbourne ▸"}
+          ]},
+          "mark": {"type": "text", "align": "left", "dx": 8, "fontSize": 11, "fontWeight": 700, "color": "#0b0b0b"},
+          "encoding": {"longitude": {"field": "lon", "type": "quantitative"}, "latitude": {"field": "lat", "type": "quantitative"}, "text": {"field": "label"}}
+        }
+      ]
+    },
+    {
+      "vconcat": [
+        {
+          "title": {"text": "Greater Sydney", "fontSize": 13},
+          "width": 230,
+          "height": 230,
+          "projection": {"type": "conicEqualArea", "parallels": [-18, -36], "rotate": [-151, 0, 0], "fit": {"type": "Feature", "properties": {}, "geometry": {"type": "MultiPoint", "coordinates": [[150.62, -33.55], [151.33, -34.12]]}}},
+          "data": {"url": "data/australia_lga_2021.topo.json", "format": {"type": "topojson", "feature": "lga"}},
+          "transform": [
+            {"calculate": "datum.properties.lga_code", "as": "lga_code"},
+            {"filter": "datum.properties.cx > 149.9 && datum.properties.cx < 151.8 && datum.properties.cy > -34.6 && datum.properties.cy < -33.1"},
+            {"lookup": "lga_code", "from": {"data": {"url": "data/lga.csv", "format": {"parse": {"irsd_score": "number", "irsd_decile": "number", "aedc_vuln1_pct_2024": "number", "aedc_children_2024": "number", "y12_pct_25_34": "number", "population": "number"}}}, "key": "lga_code", "fields": ["lga_name", "y12_pct_25_34", "irsd_decile"]}}
+          ],
+          "mark": {"type": "geoshape", "stroke": "#ffffff", "strokeWidth": 0.5, "clip": true},
+          "encoding": {
+            "color": {
+              "condition": {"test": "!(datum.y12_pct_25_34 > 0)", "value": "#e7e6e2"},
+              "field": "y12_pct_25_34", "type": "quantitative",
+              "scale": {"domain": [40, 55, 70, 85, 100], "range": ["#c2541f", "#f0b394", "#ecebe7", "#86b6ef", "#104281"], "clamp": true, "interpolate": "lab"}, "legend": null
+            },
+            "tooltip": [
+              {"field": "lga_name", "title": "Council area"},
+              {"field": "y12_pct_25_34", "title": "Finished Year 12 (25–34 yrs)", "format": ".1f"},
+              {"field": "irsd_decile", "title": "Disadvantage decile (1 = most)"}
+            ]
+          }
+        },
+        {
+          "title": {"text": "Greater Melbourne", "fontSize": 13},
+          "width": 230,
+          "height": 230,
+          "projection": {"type": "conicEqualArea", "parallels": [-18, -36], "rotate": [-145, 0, 0], "fit": {"type": "Feature", "properties": {}, "geometry": {"type": "MultiPoint", "coordinates": [[144.55, -37.55], [145.5, -38.15]]}}},
+          "data": {"url": "data/australia_lga_2021.topo.json", "format": {"type": "topojson", "feature": "lga"}},
+          "transform": [
+            {"calculate": "datum.properties.lga_code", "as": "lga_code"},
+            {"filter": "datum.properties.cx > 144.3 && datum.properties.cx < 145.8 && datum.properties.cy > -38.5 && datum.properties.cy < -37.3"},
+            {"lookup": "lga_code", "from": {"data": {"url": "data/lga.csv", "format": {"parse": {"irsd_score": "number", "irsd_decile": "number", "aedc_vuln1_pct_2024": "number", "aedc_children_2024": "number", "y12_pct_25_34": "number", "population": "number"}}}, "key": "lga_code", "fields": ["lga_name", "y12_pct_25_34", "irsd_decile"]}}
+          ],
+          "mark": {"type": "geoshape", "stroke": "#ffffff", "strokeWidth": 0.5, "clip": true},
+          "encoding": {
+            "color": {
+              "condition": {"test": "!(datum.y12_pct_25_34 > 0)", "value": "#e7e6e2"},
+              "field": "y12_pct_25_34", "type": "quantitative",
+              "scale": {"domain": [40, 55, 70, 85, 100], "range": ["#c2541f", "#f0b394", "#ecebe7", "#86b6ef", "#104281"], "clamp": true, "interpolate": "lab"}, "legend": null
+            },
+            "tooltip": [
+              {"field": "lga_name", "title": "Council area"},
+              {"field": "y12_pct_25_34", "title": "Finished Year 12 (25–34 yrs)", "format": ".1f"},
+              {"field": "irsd_decile", "title": "Disadvantage decile (1 = most)"}
+            ]
+          }
+        }
+      ],
+      "spacing": 18
+    }
+  ],
+  "spacing": 16
+}

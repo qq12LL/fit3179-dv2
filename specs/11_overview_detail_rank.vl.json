@@ -1,0 +1,94 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Overview + detail (brush) - all council areas ranked from highest to lowest % of children developmentally vulnerable (AEDC 2024). Brushing the small overview strip sets the x-axis domain of the large detail chart, which shows the council names. Colour = area disadvantage group (SEIFA IRSD).",
+  "data": {
+    "url": "data/lga.csv",
+    "format": {"parse": {"aedc_vuln1_pct_2024": "number", "irsd_decile": "number", "aedc_children_2024": "number"}}
+  },
+  "transform": [
+    {"filter": "datum.aedc_vuln1_pct_2024 > 0"},
+    {"window": [{"op": "row_number", "as": "rank"}], "sort": [{"field": "aedc_vuln1_pct_2024", "order": "descending"}]},
+    {"calculate": "datum.irsd_decile <= 3 ? 'Most disadvantaged (deciles 1–3)' : datum.irsd_decile <= 7 ? 'Middle (deciles 4–7)' : 'Least disadvantaged (deciles 8–10)'", "as": "dis_group"},
+    {"calculate": "datum.rank - 0.42", "as": "x0"},
+    {"calculate": "datum.rank + 0.42", "as": "x1"}
+  ],
+  "vconcat": [
+    {
+      "width": 680,
+      "height": 300,
+      "encoding": {
+        "x": {"field": "x0", "type": "quantitative", "title": "Rank (1 = highest share of vulnerable children)",
+          "scale": {"domain": {"param": "brush"}}, "axis": {"tickMinStep": 1, "format": "d", "grid": false}},
+        "y": {"field": "aedc_vuln1_pct_2024", "type": "quantitative", "title": "% of children vulnerable (2024)",
+          "scale": {"domain": [0, 100]}, "axis": {"labelExpr": "datum.value + '%'", "grid": true}}
+      },
+      "layer": [
+        {
+          "mark": {"type": "rect", "clip": true, "cornerRadiusTopLeft": 2, "cornerRadiusTopRight": 2},
+          "encoding": {
+            "x2": {"field": "x1"},
+            "y2": {"datum": 0},
+            "color": {"field": "dis_group", "type": "nominal", "title": "Area disadvantage",
+              "scale": {"domain": ["Most disadvantaged (deciles 1–3)", "Middle (deciles 4–7)", "Least disadvantaged (deciles 8–10)"],
+                        "range": ["#b8322f", "#e9a59c", "#a8c8f0"]},
+              "legend": {"orient": "top", "labelLimit": 260}},
+            "tooltip": [
+              {"field": "rank", "title": "Rank"},
+              {"field": "lga_name", "title": "Council area"},
+              {"field": "state", "title": "State"},
+              {"field": "aedc_vuln1_pct_2024", "title": "% vulnerable", "format": ".1f"},
+              {"field": "aedc_children_2024", "title": "Children assessed", "format": ","},
+              {"field": "irsd_decile", "title": "Disadvantage decile (1 = most)"}
+            ]
+          }
+        },
+        {
+          "transform": [{"filter": "datum.aedc_vuln1_pct_2024 >= 40"}],
+          "mark": {"type": "text", "clip": true, "angle": -90, "align": "right", "baseline": "middle", "dx": -5, "fontSize": 10.5, "color": "#ffffff"},
+          "encoding": {
+            "x": {"field": "rank", "type": "quantitative"},
+            "text": {"field": "lga_name"},
+            "opacity": {"condition": {"test": "brush.x0 && (brush.x0[1] - brush.x0[0]) <= 60", "value": 1}, "value": 0}
+          }
+        },
+        {
+          "transform": [{"filter": "datum.aedc_vuln1_pct_2024 < 40"}],
+          "mark": {"type": "text", "clip": true, "angle": -90, "align": "left", "baseline": "middle", "dx": 4, "fontSize": 10.5, "color": "#3a3a38"},
+          "encoding": {
+            "x": {"field": "rank", "type": "quantitative"},
+            "text": {"field": "lga_name"},
+            "opacity": {"condition": {"test": "brush.x0 && (brush.x0[1] - brush.x0[0]) <= 60", "value": 1}, "value": 0}
+          }
+        },
+        {
+          "mark": {"type": "rule", "color": "#0b0b0b", "strokeDash": [4, 3], "strokeWidth": 1},
+          "encoding": {"y": {"datum": 23.5}, "x": null}
+        },
+        {
+          "data": {"values": [{"label": "Australia: 23.5%"}]},
+          "mark": {"type": "text", "align": "right", "dy": -7, "fontSize": 11, "fontWeight": 700, "color": "#0b0b0b"},
+          "encoding": {"y": {"datum": 23.5}, "x": {"value": 676}, "text": {"field": "label"}}
+        }
+      ]
+    },
+    {
+      "width": 680,
+      "height": 60,
+      "title": {"text": "Overview: drag or resize the grey window to choose which council areas to show above", "fontSize": 12, "fontWeight": 400, "font": "'Source Sans 3', Arial, sans-serif", "color": "#52514e"},
+      "params": [
+        {"name": "brush", "select": {"type": "interval", "encodings": ["x"]}, "value": {"x": [0.5, 30.5]}}
+      ],
+      "mark": {"type": "rect"},
+      "encoding": {
+        "x": {"field": "x0", "type": "quantitative", "title": null, "scale": {"domain": [0, 451], "nice": false}, "axis": {"format": "d", "values": [1, 50, 100, 150, 200, 250, 300, 350, 400, 450], "grid": false}},
+        "x2": {"field": "x1"},
+        "y": {"field": "aedc_vuln1_pct_2024", "type": "quantitative", "axis": null, "scale": {"domain": [0, 100]}},
+        "y2": {"datum": 0},
+        "color": {"field": "dis_group", "type": "nominal", "legend": null,
+          "scale": {"domain": ["Most disadvantaged (deciles 1–3)", "Middle (deciles 4–7)", "Least disadvantaged (deciles 8–10)"],
+                    "range": ["#b8322f", "#e9a59c", "#a8c8f0"]}}
+      }
+    }
+  ],
+  "spacing": 14
+}

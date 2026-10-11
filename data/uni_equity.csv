@@ -1,0 +1,99 @@
+group,year,students,share_pct
+Low SES,2011,124393,14.2
+Low SES,2012,133681,14.51
+Low SES,2013,143680,14.78
+Low SES,2014,150078,14.8
+Low SES,2015,154634,14.93
+Low SES,2016,168417,15.96
+Low SES,2017,172113,16.06
+Low SES,2018,172058,16.05
+Low SES,2019,172093,15.98
+Low SES,2020,178944,15.91
+Low SES,2021,175759,15.24
+Low SES,2022,166093,15.18
+Low SES,2023,162216,15.24
+Low SES,2024,165883,15.43
+Regional,2011,172356,19.68
+Regional,2012,180217,19.56
+Regional,2013,188531,19.39
+Regional,2014,195557,19.29
+Regional,2015,199026,19.22
+Regional,2016,201188,19.07
+Regional,2017,204744,19.11
+Regional,2018,202469,18.89
+Regional,2019,203043,18.86
+Regional,2020,205567,18.28
+Regional,2021,201140,17.44
+Regional,2022,188512,17.23
+Regional,2023,183072,17.19
+Regional,2024,185108,17.21
+Remote,2011,7809,0.89
+Remote,2012,8121,0.88
+Remote,2013,8578,0.88
+Remote,2014,8943,0.88
+Remote,2015,9007,0.87
+Remote,2016,9286,0.88
+Remote,2017,9423,0.88
+Remote,2018,9174,0.86
+Remote,2019,9357,0.87
+Remote,2020,9346,0.83
+Remote,2021,9308,0.81
+Remote,2022,8821,0.81
+Remote,2023,8534,0.8
+Remote,2024,8560,0.8
+First Nations,2011,11753,1.34
+First Nations,2012,12595,1.37
+First Nations,2013,13723,1.41
+First Nations,2014,15043,1.48
+First Nations,2015,16108,1.56
+First Nations,2016,17800,1.69
+First Nations,2017,19237,1.8
+First Nations,2018,19935,1.86
+First Nations,2019,21033,1.95
+First Nations,2020,22897,2.04
+First Nations,2021,23967,2.08
+First Nations,2022,23249,2.12
+First Nations,2023,23309,2.19
+First Nations,2024,24561,2.28
+Disability,2011,42111,4.81
+Disability,2012,46493,5.05
+Disability,2013,50079,5.15
+Disability,2014,55605,5.48
+Disability,2015,60019,5.8
+Disability,2016,63717,6.04
+Disability,2017,68541,6.4
+Disability,2018,73235,6.83
+Disability,2019,77633,7.21
+Disability,2020,83686,7.44
+Disability,2021,108445,9.4
+Disability,2022,116422,10.64
+Disability,2023,123139,11.57
+Disability,2024,133292,12.4
+Non-English speaking background,2011,30272,3.46
+Non-English speaking background,2012,33112,3.59
+Non-English speaking background,2013,35168,3.62
+Non-English speaking background,2014,38805,3.83
+Non-English speaking background,2015,40030,3.87
+Non-English speaking background,2016,40494,3.84
+Non-English speaking background,2017,40576,3.79
+Non-English speaking background,2018,37997,3.54
+Non-English speaking background,2019,36163,3.36
+Non-English speaking background,2020,38246,3.4
+Non-English speaking background,2021,38457,3.33
+Non-English speaking background,2022,34808,3.18
+Non-English speaking background,2023,34531,3.24
+Non-English speaking background,2024,35616,3.31
+Total domestic students,2011,875913,100.0
+Total domestic students,2012,921186,100.0
+Total domestic students,2013,972292,100.0
+Total domestic students,2014,1013831,100.0
+Total domestic students,2015,1035474,100.0
+Total domestic students,2016,1055274,100.0
+Total domestic students,2017,1071448,100.0
+Total domestic students,2018,1071980,100.0
+Total domestic students,2019,1076790,100.0
+Total domestic students,2020,1124453,100.0
+Total domestic students,2021,1153550,100.0
+Total domestic students,2022,1094233,100.0
+Total domestic students,2023,1064738,100.0
+Total domestic students,2024,1075362,100.0

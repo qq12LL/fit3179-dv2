@@ -1,0 +1,56 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Multi-line chart - share of domestic university students from equity groups, 2011-2024, with the 25% 'fair share' line for low-SES students. Hover for exact values.",
+  "data": {"url": "data/uni_equity.csv"},
+  "transform": [
+    {"filter": {"field": "group", "oneOf": ["Low SES", "Regional", "First Nations", "Remote"]}},
+    {"calculate": "{'Low SES':'Low-SES areas','Regional':'Regional areas','First Nations':'First Nations','Remote':'Remote areas'}[datum.group]", "as": "series"}
+  ],
+  "width": 600,
+  "height": 300,
+  "encoding": {
+    "x": {"field": "year", "type": "ordinal", "title": null, "axis": {"labelAngle": 0, "domain": true, "grid": false}},
+    "y": {"field": "share_pct", "type": "quantitative", "title": "% of domestic university students", "scale": {"domain": [0, 30]},
+      "axis": {"grid": true, "labelExpr": "datum.value + '%'", "values": [0, 5, 10, 15, 20, 25, 30]}}
+  },
+  "layer": [
+    {
+      "mark": {"type": "rule", "strokeDash": [5, 4], "color": "#eb6834", "strokeWidth": 1.5},
+      "encoding": {"y": {"datum": 25}, "x": null}
+    },
+    {
+      "data": {"values": [{"year": 2011, "y": 25, "t": "Low-SES fair share (25%)"}]},
+      "mark": {"type": "text", "align": "left", "dy": -8, "fontSize": 11, "fontWeight": 600, "color": "#c2541f"},
+      "encoding": {"x": {"field": "year", "type": "ordinal"}, "y": {"field": "y", "type": "quantitative"}, "text": {"field": "t"}}
+    },
+    {
+      "mark": {"type": "line", "strokeWidth": 2.5, "point": {"size": 30, "filled": true}},
+      "encoding": {
+        "color": {"field": "series", "type": "nominal", "title": null,
+          "scale": {"domain": ["Low-SES areas", "Regional areas", "First Nations", "Remote areas"], "range": ["#2a78d6", "#1baf7a", "#4a3aa7", "#e87ba4"]},
+          "legend": {"orient": "top"}}
+      }
+    },
+    {
+      "transform": [{"filter": "datum.year == 2024"}],
+      "mark": {"type": "text", "align": "left", "dx": 8, "fontSize": 12, "fontWeight": 600},
+      "encoding": {
+        "text": {"field": "share_pct", "type": "quantitative", "format": ".1f"},
+        "color": {"field": "series", "type": "nominal", "legend": null}
+      }
+    },
+    {
+      "params": [{"name": "hoveryear", "select": {"type": "point", "on": "pointerover", "nearest": true, "fields": ["year"], "clear": "pointerout"}}],
+      "mark": {"type": "rule", "strokeWidth": 14, "color": "#000000"},
+      "encoding": {
+        "opacity": {"condition": {"param": "hoveryear", "empty": false, "value": 0.06}, "value": 0},
+        "y": null,
+        "tooltip": [
+          {"field": "year", "title": "Year"},
+          {"field": "series", "title": "Group"},
+          {"field": "share_pct", "title": "% of uni students", "format": ".1f"}
+        ]
+      }
+    }
+  ]
+}

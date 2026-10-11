@@ -1,0 +1,51 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Normalised stacked bar - share of all students in each sector who come from each socio-educational advantage (SEA) quarter, 2025. Each school's quarter percentages are weighted by its enrolments.",
+  "data": {"url": "data/schools.csv"},
+  "transform": [
+    {"filter": "isValid(datum.sea_bottom_pct) && isValid(datum.enrolments)"},
+    {"calculate": "datum.sea_bottom_pct * datum.enrolments / 100", "as": "Bottom quarter"},
+    {"calculate": "datum.sea_lowmid_pct * datum.enrolments / 100", "as": "Lower-middle"},
+    {"calculate": "datum.sea_upmid_pct * datum.enrolments / 100", "as": "Upper-middle"},
+    {"calculate": "datum.sea_top_pct * datum.enrolments / 100", "as": "Top quarter"},
+    {"fold": ["Bottom quarter", "Lower-middle", "Upper-middle", "Top quarter"], "as": ["quarter", "students"]},
+    {"aggregate": [{"op": "sum", "field": "students", "as": "students"}], "groupby": ["sector", "quarter"]},
+    {"joinaggregate": [{"op": "sum", "field": "students", "as": "sector_total"}], "groupby": ["sector"]},
+    {"calculate": "datum.students / datum.sector_total", "as": "share"},
+    {"calculate": "indexof(['Bottom quarter','Lower-middle','Upper-middle','Top quarter'], datum.quarter)", "as": "q_order"}
+  ],
+  "width": 560,
+  "height": 150,
+  "encoding": {
+    "y": {"field": "sector", "type": "nominal", "title": null, "sort": ["Government", "Catholic", "Independent"],
+      "axis": {"domain": false, "ticks": false, "labelPadding": 8, "labelFontWeight": 600, "labelFontSize": 13}},
+    "x": {"field": "share", "type": "quantitative", "stack": "normalize", "title": null,
+      "axis": {"format": "%", "values": [0, 0.25, 0.5, 0.75, 1], "grid": false, "domain": false}},
+    "order": {"field": "q_order"}
+  },
+  "layer": [
+    {
+      "mark": {"type": "bar", "stroke": "#fcfcfb", "strokeWidth": 2, "height": {"band": 0.72}},
+      "encoding": {
+        "color": {"field": "quarter", "type": "ordinal", "title": "Family socio-educational background",
+          "scale": {"domain": ["Bottom quarter", "Lower-middle", "Upper-middle", "Top quarter"],
+                    "range": ["#b8322f", "#e9a59c", "#86b6ef", "#1c5cab"]},
+          "legend": {"orient": "top", "labelLimit": 320, "titleLimit": 500, "columns": 4, "labelExpr": "datum.label == 'Bottom quarter' ? 'Bottom quarter (least advantaged)' : datum.label == 'Top quarter' ? 'Top quarter (most advantaged)' : datum.label"}},
+        "tooltip": [
+          {"field": "sector", "title": "Sector"},
+          {"field": "quarter", "title": "Background"},
+          {"field": "share", "title": "Share of students", "format": ".1%"},
+          {"field": "students", "title": "Students (approx.)", "format": ",.0f"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "text", "fontSize": 12, "fontWeight": 700},
+      "encoding": {
+        "x": {"field": "share", "type": "quantitative", "stack": "normalize", "bandPosition": 0.5},
+        "text": {"field": "share", "type": "quantitative", "format": ".0%"},
+        "color": {"condition": {"test": "datum.quarter == 'Bottom quarter' || datum.quarter == 'Top quarter'", "value": "#ffffff"}, "value": "#0b0b0b"}
+      }
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Postcode Lottery · Education equity in Australia</title>
+  <meta name="description" content="A data story on how where an Australian child grows up shapes their education, from starting school to university. FIT3179 Data Visualisation 2.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Vega / Vega-Lite / Vega-Embed (pinned versions) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.33.1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.23.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.29.0"></script>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">Education equity in Australia · 2021–2025 data</p>
+    <h1>The Postcode Lottery</h1>
+    <p class="dek">In Australia, the place a child grows up shapes their education at every step, from their first day of school to their chance of getting into university. This page follows those steps one at a time.</p>
+
+    <div class="stats">
+      <div class="stat">
+        <span class="stat-num">2×</span>
+        <span class="stat-label">Children in <strong>very remote</strong> Australia are twice as likely as city children to start school developmentally vulnerable (46% vs 23%).</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">712</span>
+        <span class="stat-label">Median <strong>ICSEA</strong> of very remote schools. The national average is 1,000, and major-city schools have a median of 1,049.</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">15<small>/100</small></span>
+        <span class="stat-label">Only about 15 in every 100 university students come from <strong>low-SES areas</strong>, where 25 would be a fair share.</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <aside class="guide" aria-label="Key terms">
+    <h2>A quick guide for Malaysian readers</h2>
+    <dl>
+      <div><dt>Council area (LGA)</dt><dd>Australia has about 540 local councils, a similar idea to a Malaysian <em>majlis daerah</em>. Most of the maps here colour each council area.</dd></div>
+      <div><dt>Disadvantage (SEIFA)</dt><dd>An ABS score for each area, built from Census information on income, education, jobs and housing. A lower score means a more disadvantaged area. "Decile 1" is the most disadvantaged 10% of areas.</dd></div>
+      <div><dt>Developmentally vulnerable</dt><dd>Teachers assess every child in their first year of school (about age 5) in five areas: physical health, social skills, emotional maturity, language and thinking, and communication. A child in the bottom 10% in any area is counted as "vulnerable".</dd></div>
+      <div><dt>ICSEA</dt><dd>A score for each school that reflects the education and jobs of its students' parents. The Australian average is 1,000; schools below 900 serve mostly disadvantaged families.</dd></div>
+      <div><dt>Year 12</dt><dd>The final year of secondary school, roughly equivalent to STPM or A-Levels in Malaysia.</dd></div>
+      <div><dt>Low SES</dt><dd>"Low socio-economic status": students whose home address is in the poorest quarter (25%) of neighbourhoods.</dd></div>
+    </dl>
+  </aside>
+
+  <!-- ============================================================ 1 -->
+  <section class="chapter" id="early">
+    <p class="chapter-num">01</p>
+    <h2>The gap opens before the first day of school</h2>
+    <p class="lede">By the time Australian children turn five, the place they live already predicts how ready they are for school. In 2024, <strong>23.5%</strong> of children starting school nationally were developmentally vulnerable in at least one area. That is the highest rate since the census began in 2009.</p>
+
+    <figure class="viz">
+      <figcaption>
+        <h3>Where disadvantage and childhood vulnerability overlap</h3>
+        <p>Each council area is coloured by two things at once: how disadvantaged the area is (pink, top-left of the key) and what share of its five-year-olds are developmentally vulnerable (teal, bottom-right). <strong>Dark blue areas score high on both.</strong> They cover much of northern and central Australia, where many First Nations communities live. They also appear in outer suburbs of the big cities, such as Fairfield (Sydney), Hume and Greater Dandenong (Melbourne), Logan (Brisbane) and Playford (Adelaide). Hover over an area for its figures.</p>
+      </figcaption>
+      <div id="vis01" class="chart"></div>
+      <p class="note">Grey = not published (AEDC hides results where too few children were assessed). Vulnerability groups are the thirds of all council areas: under 21%, 21–28% and over 28%. <a class="spec" href="specs/01_map_bivariate.vl.json">Vega-Lite spec</a></p>
+      <p class="source">Sources: Australian Early Development Census 2024 (Data by LGA); ABS SEIFA 2021, Index of Relative Socio-economic Disadvantage; ABS ASGS 2021 boundaries.</p>
+    </figure>
+
+    <figure class="viz">
+      <figcaption>
+        <h3>Which council areas are furthest behind?</h3>
+        <p>All 450 council areas with published results, ranked from the highest share of vulnerable children to the lowest. The top of the list is dominated by remote First Nations communities in South Australia, the Northern Territory and Queensland, where <strong>two in every three children or more</strong> start school vulnerable. <strong>27 of the top 30</strong> are among Australia's most disadvantaged areas (red). <strong>Try it:</strong> drag the grey window in the small overview strip to move along the ranking, or drag its edges to zoom in or out.</p>
+      </figcaption>
+      <div id="vis11" class="chart"></div>
+      <p class="note">Overview + detail: the strip at the bottom shows all 450 areas; the window you select sets what the main chart shows. Council names appear when 60 or fewer areas are selected. The dashed line is the national rate of 23.5%. <a class="spec" href="specs/11_overview_detail_rank.vl.json">Vega-Lite spec</a></p>
+      <p class="source">Sources: AEDC 2024 (Data by LGA); ABS SEIFA 2021 (IRSD deciles).</p>
+    </figure>
+
+    <div class="pair">
+      <figure class="viz">
+        <figcaption>
+          <h3>Poorer neighbourhoods, more vulnerable children</h3>
+          <p>Each cell shows the % of children vulnerable in one area of development. The rate rises in every row as neighbourhoods get poorer. The gap is widest for <strong>language and thinking</strong>: 15% of children in the poorest fifth of neighbourhoods, against 3.5% in the richest, a four-fold difference.</p>
+        </figcaption>
+        <div id="vis02" class="chart"></div>
+        <p class="source">Source: AEDC 2024, Data by SEIFA (national total of all states). <a class="spec" href="specs/02_heatmap_domains.vl.json">Spec</a></p>
+      </figure>
+
+      <figure class="viz">
+        <figcaption>
+          <h3>Distance makes it worse</h3>
+          <p>Each row shows one development area, with dots running from lighter (major cities) to darker (very remote). In nearly every area the dots move right as children live further from a city. Very remote children are <strong>four times</strong> as likely as city children to be vulnerable in language and thinking (28% vs 7%).</p>
+        </figcaption>
+        <div id="vis03" class="chart"></div>
+        <p class="source">Source: AEDC 2024, Data by Remoteness (national total of all states). <a class="spec" href="specs/03_dumbbell_remoteness.vl.json">Spec</a></p>
+      </figure>
+    </div>
+    <figure class="viz">
+      <figcaption>
+        <h3>Fifteen years later, the same map</h3>
+        <p>The same map repeated for every census year since 2009, on one colour scale. The national rate has barely moved (23.6% in 2009, 23.5% in 2024), and the pattern hasn't changed: the dark areas of the north and centre stay dark in every year. Of the 441 council areas with results in both 2009 and 2024, <strong>134 got at least 5 points worse</strong> and 88 improved by that much.</p>
+      </figcaption>
+      <div id="vis12" class="chart"></div>
+      <p class="note">Small multiples built with Vega-Lite's <code>repeat</code> operator: one map design, repeated once per year. Grey = not published that year. Results for every year are matched to 2021 council boundaries by the AEDC. Hover a council to see its value. <a class="spec" href="specs/12_small_multiples_years.vl.json">Vega-Lite spec</a></p>
+      <p class="source">Source: AEDC 2009–2024, Data by LGA (vulnerable on one or more domains); ABS ASGS 2021 boundaries.</p>
+    </figure>
+  </section>
+
+  <!-- ============================================================ 2 -->
+  <section class="chapter" id="schools">
+    <p class="chapter-num">02</p>
+    <h2>Then they go to very different schools</h2>
+    <p class="lede">Australia has 9,755 schools and about 4.2 million students. A school's ICSEA shows what kind of families it serves, and that changes sharply from one part of the country to another.</p>
+
+    <figure class="viz">
+      <figcaption>
+        <h3>Every school in Australia</h3>
+        <p>Each circle is a school: <strong>bigger</strong> means more students, <strong>red</strong> means more disadvantaged families and <strong>blue</strong> more advantaged families. City schools are big and mostly blue. Across the outback, schools are small and often deep red. <strong>Try it:</strong> drag across the strip chart below the map to pick an ICSEA range and see where those schools are, or use the dropdown to show one sector.</p>
+      </figcaption>
+      <div id="vis04-controls" class="controls"></div>
+      <div id="vis04" class="chart chart-tall"></div>
+      <p class="note">Black ticks and numbers show the median ICSEA for each location. The dashed line is the national average of 1,000. Double-click the strip chart to clear your selection. 132 schools without an ICSEA (mostly special schools) and a few offshore island schools are not shown. <a class="spec" href="specs/04_map_schools_strip.vl.json">Spec</a></p>
+      <p class="source">Sources: ACARA School Profile 2025 and School Location 2025.</p>
+    </figure>
+
+    <div class="pair">
+      <figure class="viz">
+        <figcaption>
+          <h3>Three sectors, three different student mixes</h3>
+          <p>Australian parents can choose government (free) schools, or Catholic and Independent schools that charge fees. Each curve shows how schools in a sector spread across ICSEA. Government schools spread widest and include almost all of the most disadvantaged schools. Independent schools sit mostly above the national average.</p>
+        </figcaption>
+        <div id="vis05" class="chart"></div>
+        <p class="source">Source: ACARA School Profile 2025. <a class="spec" href="specs/05_ridgeline_sector.vl.json">Spec</a></p>
+      </figure>
+
+      <figure class="viz">
+        <figcaption>
+          <h3>Who sits in the classroom</h3>
+          <p>Each bar splits all students in a sector by their family background. Nearly <strong>1 in 3</strong> government-school students comes from the least advantaged quarter of families, against about 1 in 9 in Independent schools. Government schools teach <strong>80%</strong> of Australia's least advantaged students.</p>
+        </figcaption>
+        <div id="vis06" class="chart"></div>
+        <p class="source">Source: ACARA School Profile 2025, with each school's figures weighted by its enrolments. <a class="spec" href="specs/06_stacked_sea_sector.vl.json">Spec</a></p>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============================================================ 3 -->
+  <section class="chapter" id="year12">
+    <p class="chapter-num">03</p>
+    <h2>Fewer young people finish school</h2>
+    <p class="lede">Finishing Year 12 opens the door to university and to most skilled jobs. Among young adults aged 25–34, about <strong>92%</strong> finished Year 12 in the most advantaged tenth of council areas, against about <strong>44%</strong> in the most disadvantaged tenth.</p>
+
+    <figure class="viz">
+      <figcaption>
+        <h3>Year 12 completion across the country</h3>
+        <p>Darker blue means more young adults finished school, and orange means fewer did. The lowest rates are in remote parts of the Northern Territory, Western Australia, Queensland and South Australia. The national map hides city detail, so the insets on the right zoom into <strong>Sydney</strong> and <strong>Melbourne</strong>. There are gaps inside cities too: completion is highest in inner and northern Sydney and inner and eastern Melbourne, and lower on the outer fringes of both cities.</p>
+      </figcaption>
+      <div id="vis07" class="chart"></div>
+      <p class="note">Grey = too few people to report reliably (fewer than 50 aged 25–34). We use ages 25–34 because they finished school recently, and because older people left school early more often in the past, which would distort an all-ages map. <a class="spec" href="specs/07_map_year12.vl.json">Spec</a></p>
+      <p class="source">Sources: ABS 2021 Census, General Community Profile table G16 (highest year of school completed); ABS ASGS 2021 boundaries.</p>
+    </figure>
+
+    <figure class="viz viz-narrow">
+      <figcaption>
+        <h3>The more disadvantaged the area, the fewer finish school</h3>
+        <p>Each circle is a council area, sized by population. The trend line climbs steadily from left to right: almost every area that scores low on disadvantage also has low Year 12 completion. The far-left areas are remote First Nations communities, where completion is often under 40%.</p>
+      </figcaption>
+      <div id="vis08" class="chart"></div>
+      <p class="source">Sources: ABS SEIFA 2021 (IRSD score); ABS 2021 Census G16. <a class="spec" href="specs/08_scatter_irsd_y12.vl.json">Spec</a></p>
+    </figure>
+  </section>
+
+  <!-- ============================================================ 4 -->
+  <section class="chapter" id="uni">
+    <p class="chapter-num">04</p>
+    <h2>And fewer make it to university</h2>
+    <p class="lede">If every group went to university in proportion to its size, a quarter of students would come from low-SES areas, because low-SES areas are defined as the poorest 25% of the country. In reality the share is far lower, and it has barely changed in more than a decade.</p>
+
+    <figure class="viz">
+      <figcaption>
+        <h3>Out of every 100 university students…</h3>
+        <p>Each square is one student out of 100. Blue squares are students from the group who are at university. Orange-outlined squares are the <strong>missing</strong> students: the gap between the group's current share and its fair share.</p>
+      </figcaption>
+      <div id="vis09" class="chart"></div>
+      <p class="note">Fair share = share of the population: 25% for low-SES areas (by definition), and 3.2% for First Nations people (2021 Census). Squares are rounded to whole students. <a class="spec" href="specs/09_waffle_uni.vl.json">Spec</a></p>
+      <p class="source">Sources: Department of Education, Higher Education Statistics 2024, Section 11 Equity Groups (table 11.1); ABS 2021 Census table G01.</p>
+    </figure>
+
+    <figure class="viz viz-narrow">
+      <figcaption>
+        <h3>Thirteen years, very little change</h3>
+        <p>The share of university students from low-SES areas has stayed between <strong>14% and 16%</strong> since 2011, well below the dashed 25% line. The share from regional areas has fallen slightly. Remote students stay below 1%. Hover for exact values.</p>
+      </figcaption>
+      <div id="vis10" class="chart"></div>
+      <p class="note">Small steps in 2016 and 2021 come from updated area classifications (new Census data), not from real changes. <a class="spec" href="specs/10_line_uni_trend.vl.json">Spec</a></p>
+      <p class="source">Source: Department of Education, Higher Education Statistics 2024, Section 11 Equity Groups (table 11.1).</p>
+    </figure>
+  </section>
+
+  <!-- ============================================================ 5 -->
+  <section class="chapter conclusion" id="end">
+    <p class="chapter-num">05</p>
+    <h2>One story, told four times</h2>
+    <ol class="takeaways">
+      <li><strong>Before school:</strong> five-year-olds in the poorest and most remote areas are already two to four times as likely to be behind.</li>
+      <li><strong>At school:</strong> disadvantaged and remote children are concentrated in a small set of schools, almost all of them government schools.</li>
+      <li><strong>Finishing school:</strong> Year 12 completion closely follows how disadvantaged an area is.</li>
+      <li><strong>University:</strong> low-SES students remain about 10 percentage points short of a fair share, with almost no progress since 2011.</li>
+    </ol>
+    <p>The gaps add up because each stage builds on the one before. Programs that reach children early, such as preschool, health checks and language support in remote and outer-suburban communities, tackle the problem where it starts.</p>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <h2>About this page</h2>
+    <div class="footer-grid">
+      <div>
+        <h3>Data sources</h3>
+        <ul>
+          <li>ACARA, <a href="https://acara.edu.au/contact-us/acara-data-access">School Profile 2025 &amp; School Location 2025</a></li>
+          <li>Australian Early Development Census, <a href="https://www.aedc.gov.au/data-hub/public-data/additional-data">Data by LGA, SEIFA and Remoteness, 2009–2024</a></li>
+          <li>ABS, <a href="https://www.abs.gov.au/statistics/people/people-and-communities/socio-economic-indexes-areas-seifa-australia/latest-release">Socio-Economic Indexes for Areas (SEIFA) 2021</a></li>
+          <li>ABS, <a href="https://www.abs.gov.au/census/find-census-data/datapacks">2021 Census General Community Profile DataPack (LGA): G01, G16</a></li>
+          <li>Department of Education, <a href="https://www.education.gov.au/higher-education-statistics/resources/2024-section-11-equity-groups">Higher Education Statistics 2024, Section 11 Equity Groups</a></li>
+          <li>Map boundaries: ABS <a href="https://digital.atlas.gov.au/datasets/digitalatlas::abs-asgs-edition-3-2021-local-government-areas/about">ASGS Edition 3 (2021) Local Government Areas</a> (CC BY 4.0), via the <a href="https://github.com/wfmackey/absmapsdata">absmapsdata</a> package, simplified with <a href="https://mapshaper.org">mapshaper</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Notes</h3>
+        <ul>
+          <li>Data years differ by source: schools 2025, early childhood and university 2024, and SEIFA and Census 2021, the latest available for each.</li>
+          <li>Maps use an Albers equal-area projection (standard parallels 18°S and 36°S), so every council area is drawn at its true relative size.</li>
+          <li>All chart specifications are in the <code>specs/</code> folder and the data-preparation script is in <code>scripts/</code> of this site's GitHub repository.</li>
+        </ul>
+      </div>
+    </div>
+    <p class="credit">FIT3179 Data Visualisation 2 · Monash University · [Your name] · 2026</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

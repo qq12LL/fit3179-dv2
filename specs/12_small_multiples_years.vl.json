@@ -1,0 +1,55 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Small multiples (repeat operator) - the same choropleth map of % of children developmentally vulnerable (1+ AEDC domains), repeated for each AEDC year from 2009 to 2024, on one shared colour scale. Hover any council to see its value in that year.",
+  "repeat": ["2009", "2012", "2015", "2018", "2021", "2024"],
+  "columns": 3,
+  "spec": {
+    "width": 290,
+    "height": 245,
+    "projection": {"type": "conicEqualArea", "parallels": [-18, -36], "rotate": [-132, 0, 0]},
+    "layer": [
+      {
+        "data": {"url": "data/australia_lga_2021.topo.json", "format": {"type": "topojson", "feature": "lga"}},
+        "mark": {"type": "geoshape", "fill": "#d9d7d1", "stroke": "#ffffff", "strokeWidth": 0.15}
+      },
+      {
+        "data": {"url": "data/australia_lga_2021.topo.json", "format": {"type": "topojson", "feature": "lga"}},
+        "transform": [
+          {"calculate": "datum.properties.lga_code", "as": "lga_code"},
+          {"calculate": "datum.properties.lga_name", "as": "lga_name"},
+          {"lookup": "lga_code",
+           "from": {"data": {"url": "data/aedc_lga_years.csv",
+                             "format": {"parse": {"2009": "number", "2012": "number", "2015": "number", "2018": "number", "2021": "number", "2024": "number"}}},
+                    "key": "lga_code", "fields": ["2009", "2012", "2015", "2018", "2021", "2024"]}}
+        ],
+        "mark": {"type": "geoshape", "stroke": "#ffffff", "strokeWidth": 0.15},
+        "encoding": {
+          "color": {
+            "field": {"repeat": "repeat"}, "type": "quantitative",
+            "title": "% of children developmentally vulnerable (grey = not published)",
+            "scale": {"domain": [10, 20, 30, 45], "range": ["#e6f0fc", "#86b6ef", "#2a78d6", "#0d366b"], "clamp": true, "interpolate": "lab"},
+            "legend": {"orient": "top", "direction": "horizontal", "gradientLength": 260, "titleLimit": 500, "values": [10, 20, 30, 40], "labelExpr": "datum.value + '%'"}
+          },
+          "tooltip": [
+            {"field": "lga_name", "title": "Council area"},
+            {"field": {"repeat": "repeat"}, "type": "quantitative", "title": "% vulnerable", "format": ".1f"}
+          ]
+        }
+      },
+      {
+        "data": {"url": "data/australia_lga_2021.topo.json", "format": {"type": "topojson", "feature": "states"}},
+        "mark": {"type": "geoshape", "filled": false, "stroke": "#3a3a38", "strokeWidth": 0.5}
+      },
+      {
+        "data": {"values": [{"lon": 114.5, "lat": -12.5}]},
+        "mark": {"type": "text", "align": "left", "fontSize": 20, "fontWeight": 700, "font": "'Source Serif 4', Georgia, serif", "color": "#0b0b0b"},
+        "encoding": {
+          "longitude": {"field": "lon", "type": "quantitative"},
+          "latitude": {"field": "lat", "type": "quantitative"},
+          "text": {"datum": {"repeat": "repeat"}}
+        }
+      }
+    ]
+  },
+  "spacing": 12
+}

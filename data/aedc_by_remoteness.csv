@@ -1,0 +1,1933 @@
+state,remoteness,domain,year,n_valid,n_vulnerable,pct_vulnerable
+Australia,All children,Communication,2009,247178,22699,9.2
+Australia,All children,Communication,2012,273855,24520,9.0
+Australia,All children,Communication,2015,286913,24475,8.5
+Australia,All children,Communication,2018,293868,24232,8.2
+Australia,All children,Communication,2021,288002,24064,8.4
+Australia,All children,Communication,2024,267833,23743,8.9
+Australia,All children,Emotional maturity,2009,246171,21822,8.9
+Australia,All children,Emotional maturity,2012,272682,20845,7.6
+Australia,All children,Emotional maturity,2015,285801,23866,8.4
+Australia,All children,Emotional maturity,2018,292806,24677,8.4
+Australia,All children,Emotional maturity,2021,286995,24271,8.5
+Australia,All children,Emotional maturity,2024,266364,26563,10.0
+Australia,All children,Language & thinking,2009,246779,21930,8.9
+Australia,All children,Language & thinking,2012,273896,18564,6.8
+Australia,All children,Language & thinking,2015,286648,18533,6.5
+Australia,All children,Language & thinking,2018,293578,19417,6.6
+Australia,All children,Language & thinking,2021,287697,21107,7.3
+Australia,All children,Language & thinking,2024,267351,20698,7.7
+Australia,All children,One or more domains,2009,246395,58029,23.6
+Australia,All children,One or more domains,2012,272282,59933,22.0
+Australia,All children,One or more domains,2015,286041,62960,22.0
+Australia,All children,One or more domains,2018,292976,63448,21.7
+Australia,All children,One or more domains,2021,287164,63264,22.0
+Australia,All children,One or more domains,2024,266711,62787,23.5
+Australia,All children,Physical health,2009,247203,23041,9.3
+Australia,All children,Physical health,2012,273922,25479,9.3
+Australia,All children,Physical health,2015,286913,27711,9.7
+Australia,All children,Physical health,2018,293894,28247,9.6
+Australia,All children,Physical health,2021,288024,28341,9.8
+Australia,All children,Physical health,2024,267862,26890,10.0
+Australia,All children,Social competence,2009,247161,23419,9.5
+Australia,All children,Social competence,2012,273534,25367,9.3
+Australia,All children,Social competence,2015,286848,28351,9.9
+Australia,All children,Social competence,2018,293878,28673,9.8
+Australia,All children,Social competence,2021,287995,27788,9.6
+Australia,All children,Social competence,2024,267774,28704,10.7
+Australia,All children,Two or more domains,2009,246845,29222,11.8
+Australia,All children,Two or more domains,2012,273275,29543,10.8
+Australia,All children,Two or more domains,2015,286616,31754,11.1
+Australia,All children,Two or more domains,2018,293619,32434,11.0
+Australia,All children,Two or more domains,2021,287737,32718,11.4
+Australia,All children,Two or more domains,2024,267396,33322,12.5
+Australia,Inner Regional Australia,Communication,2009,46283,3857,8.3
+Australia,Inner Regional Australia,Communication,2012,50331,4214,8.4
+Australia,Inner Regional Australia,Communication,2015,51310,4120,8.0
+Australia,Inner Regional Australia,Communication,2018,50497,3976,7.9
+Australia,Inner Regional Australia,Communication,2021,48997,3964,8.1
+Australia,Inner Regional Australia,Communication,2024,45661,3737,8.2
+Australia,Inner Regional Australia,Emotional maturity,2009,46120,4369,9.5
+Australia,Inner Regional Australia,Emotional maturity,2012,50264,4153,8.3
+Australia,Inner Regional Australia,Emotional maturity,2015,51179,4603,9.0
+Australia,Inner Regional Australia,Emotional maturity,2018,50387,4708,9.3
+Australia,Inner Regional Australia,Emotional maturity,2021,48858,4626,9.5
+Australia,Inner Regional Australia,Emotional maturity,2024,45494,5212,11.5
+Australia,Inner Regional Australia,Language & thinking,2009,46204,4527,9.8
+Australia,Inner Regional Australia,Language & thinking,2012,50374,3759,7.5
+Australia,Inner Regional Australia,Language & thinking,2015,51256,3626,7.1
+Australia,Inner Regional Australia,Language & thinking,2018,50436,3727,7.4
+Australia,Inner Regional Australia,Language & thinking,2021,48940,4159,8.5
+Australia,Inner Regional Australia,Language & thinking,2024,45610,3939,8.6
+Australia,Inner Regional Australia,One or more domains,2009,46138,11087,24.0
+Australia,Inner Regional Australia,One or more domains,2012,50037,11326,22.6
+Australia,Inner Regional Australia,One or more domains,2015,51176,11484,22.4
+Australia,Inner Regional Australia,One or more domains,2018,50373,11276,22.4
+Australia,Inner Regional Australia,One or more domains,2021,48860,11502,23.5
+Australia,Inner Regional Australia,One or more domains,2024,45531,11341,24.9
+Australia,Inner Regional Australia,Physical health,2009,46285,4586,9.9
+Australia,Inner Regional Australia,Physical health,2012,50310,5105,10.1
+Australia,Inner Regional Australia,Physical health,2015,51307,5424,10.6
+Australia,Inner Regional Australia,Physical health,2018,50502,5557,11.0
+Australia,Inner Regional Australia,Physical health,2021,48994,5568,11.4
+Australia,Inner Regional Australia,Physical health,2024,45663,5191,11.4
+Australia,Inner Regional Australia,Social competence,2009,46277,4611,10.0
+Australia,Inner Regional Australia,Social competence,2012,50252,4610,9.2
+Australia,Inner Regional Australia,Social competence,2015,51298,5227,10.2
+Australia,Inner Regional Australia,Social competence,2018,50503,5094,10.1
+Australia,Inner Regional Australia,Social competence,2021,48993,5082,10.4
+Australia,Inner Regional Australia,Social competence,2024,45657,5217,11.4
+Australia,Inner Regional Australia,Two or more domains,2009,46231,5747,12.4
+Australia,Inner Regional Australia,Two or more domains,2012,50219,5660,11.3
+Australia,Inner Regional Australia,Two or more domains,2015,51267,6025,11.8
+Australia,Inner Regional Australia,Two or more domains,2018,50476,6013,11.9
+Australia,Inner Regional Australia,Two or more domains,2021,48964,6164,12.6
+Australia,Inner Regional Australia,Two or more domains,2024,45609,6159,13.5
+Australia,Major Cities of Australia,Communication,2009,171062,15618,9.1
+Australia,Major Cities of Australia,Communication,2012,190539,16824,8.8
+Australia,Major Cities of Australia,Communication,2015,202414,16820,8.3
+Australia,Major Cities of Australia,Communication,2018,212150,17041,8.0
+Australia,Major Cities of Australia,Communication,2021,209379,16980,8.1
+Australia,Major Cities of Australia,Communication,2024,195186,17088,8.8
+Australia,Major Cities of Australia,Emotional maturity,2009,170416,14125,8.3
+Australia,Major Cities of Australia,Emotional maturity,2012,189585,13539,7.1
+Australia,Major Cities of Australia,Emotional maturity,2015,201585,15701,7.8
+Australia,Major Cities of Australia,Emotional maturity,2018,211293,16612,7.9
+Australia,Major Cities of Australia,Emotional maturity,2021,208628,16337,7.8
+Australia,Major Cities of Australia,Emotional maturity,2024,194051,18055,9.3
+Australia,Major Cities of Australia,Language & thinking,2009,170847,13089,7.7
+Australia,Major Cities of Australia,Language & thinking,2012,190583,11161,5.9
+Australia,Major Cities of Australia,Language & thinking,2015,202259,11370,5.6
+Australia,Major Cities of Australia,Language & thinking,2018,211974,12240,5.8
+Australia,Major Cities of Australia,Language & thinking,2021,209174,13333,6.4
+Australia,Major Cities of Australia,Language & thinking,2024,194828,13481,6.9
+Australia,Major Cities of Australia,One or more domains,2009,170561,38284,22.4
+Australia,Major Cities of Australia,One or more domains,2012,189464,39860,21.0
+Australia,Major Cities of Australia,One or more domains,2015,201797,42382,21.0
+Australia,Major Cities of Australia,One or more domains,2018,211454,43863,20.7
+Australia,Major Cities of Australia,One or more domains,2021,208759,43449,20.8
+Australia,Major Cities of Australia,One or more domains,2024,194325,43670,22.5
+Australia,Major Cities of Australia,Physical health,2009,171091,14664,8.6
+Australia,Major Cities of Australia,Physical health,2012,190619,16413,8.6
+Australia,Major Cities of Australia,Physical health,2015,202424,18036,8.9
+Australia,Major Cities of Australia,Physical health,2018,212168,18536,8.7
+Australia,Major Cities of Australia,Physical health,2021,209406,18685,8.9
+Australia,Major Cities of Australia,Physical health,2024,195216,17824,9.1
+Australia,Major Cities of Australia,Social competence,2009,171068,15213,8.9
+Australia,Major Cities of Australia,Social competence,2012,190353,16940,8.9
+Australia,Major Cities of Australia,Social competence,2015,202389,18887,9.3
+Australia,Major Cities of Australia,Social competence,2018,212158,19754,9.3
+Australia,Major Cities of Australia,Social competence,2021,209396,19069,9.1
+Australia,Major Cities of Australia,Social competence,2024,195146,19890,10.2
+Australia,Major Cities of Australia,Two or more domains,2009,170856,18746,11.0
+Australia,Major Cities of Australia,Two or more domains,2012,190173,19153,10.1
+Australia,Major Cities of Australia,Two or more domains,2015,202218,20695,10.2
+Australia,Major Cities of Australia,Two or more domains,2018,211957,21695,10.2
+Australia,Major Cities of Australia,Two or more domains,2021,209187,21892,10.5
+Australia,Major Cities of Australia,Two or more domains,2024,194859,22730,11.7
+Australia,Outer Regional Australia,Communication,2009,23123,2201,9.5
+Australia,Outer Regional Australia,Communication,2012,25682,2532,9.9
+Australia,Outer Regional Australia,Communication,2015,25938,2435,9.4
+Australia,Outer Regional Australia,Communication,2018,24382,2166,8.9
+Australia,Outer Regional Australia,Communication,2021,23251,2228,9.6
+Australia,Outer Regional Australia,Communication,2024,21136,2041,9.7
+Australia,Outer Regional Australia,Emotional maturity,2009,23012,2318,10.1
+Australia,Outer Regional Australia,Emotional maturity,2012,25622,2251,8.8
+Australia,Outer Regional Australia,Emotional maturity,2015,25881,2483,9.6
+Australia,Outer Regional Australia,Emotional maturity,2018,24335,2434,10.0
+Australia,Outer Regional Australia,Emotional maturity,2021,23177,2458,10.6
+Australia,Outer Regional Australia,Emotional maturity,2024,21041,2418,11.5
+Australia,Outer Regional Australia,Language & thinking,2009,23061,2852,12.4
+Australia,Outer Regional Australia,Language & thinking,2012,25660,2380,9.3
+Australia,Outer Regional Australia,Language & thinking,2015,25923,2246,8.7
+Australia,Outer Regional Australia,Language & thinking,2018,24342,2222,9.1
+Australia,Outer Regional Australia,Language & thinking,2021,23222,2346,10.1
+Australia,Outer Regional Australia,Language & thinking,2024,21096,2165,10.3
+Australia,Outer Regional Australia,One or more domains,2009,23032,6193,26.9
+Australia,Outer Regional Australia,One or more domains,2012,25544,6352,24.9
+Australia,Outer Regional Australia,One or more domains,2015,25895,6566,25.4
+Australia,Outer Regional Australia,One or more domains,2018,24332,5987,24.6
+Australia,Outer Regional Australia,One or more domains,2021,23202,6132,26.4
+Australia,Outer Regional Australia,One or more domains,2024,21049,5699,27.1
+Australia,Outer Regional Australia,Physical health,2009,23123,2671,11.6
+Australia,Outer Regional Australia,Physical health,2012,25698,2879,11.2
+Australia,Outer Regional Australia,Physical health,2015,25938,3003,11.6
+Australia,Outer Regional Australia,Physical health,2018,24384,2952,12.1
+Australia,Outer Regional Australia,Physical health,2021,23251,2995,12.9
+Australia,Outer Regional Australia,Physical health,2024,21134,2755,13.0
+Australia,Outer Regional Australia,Social competence,2009,23120,2581,11.2
+Australia,Outer Regional Australia,Social competence,2012,25643,2814,11.0
+Australia,Outer Regional Australia,Social competence,2015,25934,3024,11.7
+Australia,Outer Regional Australia,Social competence,2018,24382,2741,11.2
+Australia,Outer Regional Australia,Social competence,2021,23244,2636,11.3
+Australia,Outer Regional Australia,Social competence,2024,21130,2648,12.5
+Australia,Outer Regional Australia,Two or more domains,2009,23084,3262,14.1
+Australia,Outer Regional Australia,Two or more domains,2012,25618,3350,13.1
+Australia,Outer Regional Australia,Two or more domains,2015,25923,3452,13.3
+Australia,Outer Regional Australia,Two or more domains,2018,24360,3301,13.6
+Australia,Outer Regional Australia,Two or more domains,2021,23227,3346,14.4
+Australia,Outer Regional Australia,Two or more domains,2024,21111,3171,15.0
+Australia,Remote Australia,Communication,2009,3877,424,10.9
+Australia,Remote Australia,Communication,2012,4333,398,9.2
+Australia,Remote Australia,Communication,2015,4256,497,11.7
+Australia,Remote Australia,Communication,2018,4166,459,11.0
+Australia,Remote Australia,Communication,2021,3917,392,10.0
+Australia,Remote Australia,Communication,2024,3610,397,11.0
+Australia,Remote Australia,Emotional maturity,2009,3835,518,13.5
+Australia,Remote Australia,Emotional maturity,2012,4316,388,9.0
+Australia,Remote Australia,Emotional maturity,2015,4230,465,11.0
+Australia,Remote Australia,Emotional maturity,2018,4146,440,10.6
+Australia,Remote Australia,Emotional maturity,2021,3903,424,10.9
+Australia,Remote Australia,Emotional maturity,2024,3577,448,12.5
+Australia,Remote Australia,Language & thinking,2009,3855,655,17.0
+Australia,Remote Australia,Language & thinking,2012,4323,529,12.2
+Australia,Remote Australia,Language & thinking,2015,4235,533,12.6
+Australia,Remote Australia,Language & thinking,2018,4161,467,11.2
+Australia,Remote Australia,Language & thinking,2021,3914,559,14.3
+Australia,Remote Australia,Language & thinking,2024,3588,497,13.9
+Australia,Remote Australia,One or more domains,2009,3851,1227,31.9
+Australia,Remote Australia,One or more domains,2012,4307,1119,26.0
+Australia,Remote Australia,One or more domains,2015,4224,1194,28.3
+Australia,Remote Australia,One or more domains,2018,4156,1132,27.2
+Australia,Remote Australia,One or more domains,2021,3905,1062,27.2
+Australia,Remote Australia,One or more domains,2024,3580,1050,29.3
+Australia,Remote Australia,Physical health,2009,3872,537,13.9
+Australia,Remote Australia,Physical health,2012,4335,483,11.1
+Australia,Remote Australia,Physical health,2015,4257,551,12.9
+Australia,Remote Australia,Physical health,2018,4166,591,14.2
+Australia,Remote Australia,Physical health,2021,3915,498,12.7
+Australia,Remote Australia,Physical health,2024,3609,544,15.1
+Australia,Remote Australia,Social competence,2009,3872,472,12.2
+Australia,Remote Australia,Social competence,2012,4333,471,10.9
+Australia,Remote Australia,Social competence,2015,4256,536,12.6
+Australia,Remote Australia,Social competence,2018,4163,510,12.3
+Australia,Remote Australia,Social competence,2021,3910,473,12.1
+Australia,Remote Australia,Social competence,2024,3606,479,13.3
+Australia,Remote Australia,Two or more domains,2009,3859,656,17.0
+Australia,Remote Australia,Two or more domains,2012,4327,583,13.5
+Australia,Remote Australia,Two or more domains,2015,4245,696,16.4
+Australia,Remote Australia,Two or more domains,2018,4159,638,15.3
+Australia,Remote Australia,Two or more domains,2021,3909,599,15.3
+Australia,Remote Australia,Two or more domains,2024,3598,602,16.7
+Australia,Very Remote Australia,Communication,2009,2833,599,21.1
+Australia,Very Remote Australia,Communication,2012,2970,552,18.6
+Australia,Very Remote Australia,Communication,2015,2995,603,20.1
+Australia,Very Remote Australia,Communication,2018,2673,590,22.1
+Australia,Very Remote Australia,Communication,2021,2458,500,20.3
+Australia,Very Remote Australia,Communication,2024,2240,480,21.4
+Australia,Very Remote Australia,Emotional maturity,2009,2788,492,17.6
+Australia,Very Remote Australia,Emotional maturity,2012,2895,514,17.8
+Australia,Very Remote Australia,Emotional maturity,2015,2926,614,21.0
+Australia,Very Remote Australia,Emotional maturity,2018,2645,483,18.3
+Australia,Very Remote Australia,Emotional maturity,2021,2429,426,17.5
+Australia,Very Remote Australia,Emotional maturity,2024,2201,430,19.5
+Australia,Very Remote Australia,Language & thinking,2009,2812,807,28.7
+Australia,Very Remote Australia,Language & thinking,2012,2956,735,24.9
+Australia,Very Remote Australia,Language & thinking,2015,2975,758,25.5
+Australia,Very Remote Australia,Language & thinking,2018,2665,761,28.6
+Australia,Very Remote Australia,Language & thinking,2021,2447,710,29.0
+Australia,Very Remote Australia,Language & thinking,2024,2229,616,27.6
+Australia,Very Remote Australia,One or more domains,2009,2813,1238,44.0
+Australia,Very Remote Australia,One or more domains,2012,2930,1276,43.5
+Australia,Very Remote Australia,One or more domains,2015,2949,1334,45.2
+Australia,Very Remote Australia,One or more domains,2018,2661,1190,44.7
+Australia,Very Remote Australia,One or more domains,2021,2438,1119,45.9
+Australia,Very Remote Australia,One or more domains,2024,2226,1027,46.1
+Australia,Very Remote Australia,Physical health,2009,2832,583,20.6
+Australia,Very Remote Australia,Physical health,2012,2960,599,20.2
+Australia,Very Remote Australia,Physical health,2015,2987,697,23.3
+Australia,Very Remote Australia,Physical health,2018,2674,611,22.8
+Australia,Very Remote Australia,Physical health,2021,2458,595,24.2
+Australia,Very Remote Australia,Physical health,2024,2240,576,25.7
+Australia,Very Remote Australia,Social competence,2009,2824,542,19.2
+Australia,Very Remote Australia,Social competence,2012,2953,532,18.0
+Australia,Very Remote Australia,Social competence,2015,2971,677,22.8
+Australia,Very Remote Australia,Social competence,2018,2672,574,21.5
+Australia,Very Remote Australia,Social competence,2021,2452,528,21.5
+Australia,Very Remote Australia,Social competence,2024,2235,470,21.0
+Australia,Very Remote Australia,Two or more domains,2009,2815,811,28.8
+Australia,Very Remote Australia,Two or more domains,2012,2938,797,27.1
+Australia,Very Remote Australia,Two or more domains,2015,2963,886,29.9
+Australia,Very Remote Australia,Two or more domains,2018,2667,787,29.5
+Australia,Very Remote Australia,Two or more domains,2021,2450,717,29.3
+Australia,Very Remote Australia,Two or more domains,2024,2219,660,29.7
+New South Wales,All children,Physical health,2009,82960,7176,8.6
+New South Wales,All children,Physical health,2012,89481,7393,8.3
+New South Wales,All children,Physical health,2015,91262,7772,8.5
+New South Wales,All children,Physical health,2018,93551,7978,8.5
+New South Wales,All children,Physical health,2021,90430,8513,9.4
+New South Wales,All children,Physical health,2024,84420,7774,9.2
+New South Wales,Major Cities of Australia,Physical health,2009,61277,4913,8.0
+New South Wales,Major Cities of Australia,Physical health,2012,66504,5113,7.7
+New South Wales,Major Cities of Australia,Physical health,2015,68695,5490,8.0
+New South Wales,Major Cities of Australia,Physical health,2018,71448,5762,8.1
+New South Wales,Major Cities of Australia,Physical health,2021,69196,6072,8.8
+New South Wales,Major Cities of Australia,Physical health,2024,64424,5434,8.4
+New South Wales,Inner Regional Australia,Physical health,2009,16636,1681,10.1
+New South Wales,Inner Regional Australia,Physical health,2012,17534,1703,9.7
+New South Wales,Inner Regional Australia,Physical health,2015,17318,1663,9.6
+New South Wales,Inner Regional Australia,Physical health,2018,17026,1644,9.7
+New South Wales,Inner Regional Australia,Physical health,2021,16686,1849,11.1
+New South Wales,Inner Regional Australia,Physical health,2024,15691,1732,11.0
+New South Wales,Outer Regional Australia,Physical health,2009,4499,521,11.6
+New South Wales,Outer Regional Australia,Physical health,2012,4813,509,10.6
+New South Wales,Outer Regional Australia,Physical health,2015,4690,528,11.3
+New South Wales,Outer Regional Australia,Physical health,2018,4557,505,11.1
+New South Wales,Outer Regional Australia,Physical health,2021,4062,500,12.3
+New South Wales,Outer Regional Australia,Physical health,2024,3821,515,13.5
+New South Wales,Remote Australia,Physical health,2009,434,45,10.4
+New South Wales,Remote Australia,Physical health,2012,471,49,10.4
+New South Wales,Remote Australia,Physical health,2015,412,65,15.8
+New South Wales,Remote Australia,Physical health,2018,417,57,13.7
+New South Wales,Remote Australia,Physical health,2021,366,59,16.1
+New South Wales,Remote Australia,Physical health,2024,376,68,18.1
+New South Wales,Very Remote Australia,Physical health,2009,114,16,14.0
+New South Wales,Very Remote Australia,Physical health,2012,159,19,11.9
+New South Wales,Very Remote Australia,Physical health,2015,147,26,17.7
+New South Wales,Very Remote Australia,Physical health,2018,103,10,9.7
+New South Wales,Very Remote Australia,Physical health,2021,120,33,27.5
+New South Wales,Very Remote Australia,Physical health,2024,108,25,23.1
+Victoria,All children,Physical health,2009,57499,4403,7.7
+Victoria,All children,Physical health,2012,64061,4965,7.8
+Victoria,All children,Physical health,2015,67871,5335,7.9
+Victoria,All children,Physical health,2018,71892,5904,8.2
+Victoria,All children,Physical health,2021,69290,5604,8.1
+Victoria,All children,Physical health,2024,62386,5302,8.5
+Victoria,Major Cities of Australia,Physical health,2009,43272,3165,7.3
+Victoria,Major Cities of Australia,Physical health,2012,48161,3551,7.4
+Victoria,Major Cities of Australia,Physical health,2015,51887,3889,7.5
+Victoria,Major Cities of Australia,Physical health,2018,55844,4200,7.5
+Victoria,Major Cities of Australia,Physical health,2021,53802,4078,7.6
+Victoria,Major Cities of Australia,Physical health,2024,48776,3863,7.9
+Victoria,Inner Regional Australia,Physical health,2009,11651,979,8.4
+Victoria,Inner Regional Australia,Physical health,2012,12987,1113,8.6
+Victoria,Inner Regional Australia,Physical health,2015,13094,1176,9.0
+Victoria,Inner Regional Australia,Physical health,2018,13341,1390,10.4
+Victoria,Inner Regional Australia,Physical health,2021,12959,1272,9.8
+Victoria,Inner Regional Australia,Physical health,2024,11649,1239,10.6
+Victoria,Outer Regional Australia,Physical health,2009,2547,256,10.1
+Victoria,Outer Regional Australia,Physical health,2012,2877,299,10.4
+Victoria,Outer Regional Australia,Physical health,2015,2857,267,9.3
+Victoria,Outer Regional Australia,Physical health,2018,2666,304,11.4
+Victoria,Outer Regional Australia,Physical health,2021,2498,248,9.9
+Victoria,Outer Regional Australia,Physical health,2024,1936,197,10.2
+Victoria,Remote Australia,Physical health,2009,29,3,10.3
+Victoria,Remote Australia,Physical health,2012,36,2,5.6
+Victoria,Remote Australia,Physical health,2015,33,3,9.1
+Victoria,Remote Australia,Physical health,2018,41,10,24.4
+Victoria,Remote Australia,Physical health,2021,31,6,19.4
+Victoria,Remote Australia,Physical health,2024,25,3,12.0
+Queensland,All children,Physical health,2009,52761,5809,11.0
+Queensland,All children,Physical health,2012,58209,6759,11.6
+Queensland,All children,Physical health,2015,62161,7705,12.4
+Queensland,All children,Physical health,2018,61844,7581,12.3
+Queensland,All children,Physical health,2021,61441,7148,11.6
+Queensland,All children,Physical health,2024,58027,6616,11.4
+Queensland,Major Cities of Australia,Physical health,2009,32031,3341,10.4
+Queensland,Major Cities of Australia,Physical health,2012,35333,3927,11.1
+Queensland,Major Cities of Australia,Physical health,2015,38178,4453,11.7
+Queensland,Major Cities of Australia,Physical health,2018,39477,4428,11.2
+Queensland,Major Cities of Australia,Physical health,2021,39891,4136,10.4
+Queensland,Major Cities of Australia,Physical health,2024,37870,3834,10.1
+Queensland,Inner Regional Australia,Physical health,2009,10639,1206,11.3
+Queensland,Inner Regional Australia,Physical health,2012,11744,1434,12.2
+Queensland,Inner Regional Australia,Physical health,2015,12384,1702,13.7
+Queensland,Inner Regional Australia,Physical health,2018,11894,1683,14.1
+Queensland,Inner Regional Australia,Physical health,2021,11264,1571,13.9
+Queensland,Inner Regional Australia,Physical health,2024,10785,1418,13.1
+Queensland,Outer Regional Australia,Physical health,2009,8127,952,11.7
+Queensland,Outer Regional Australia,Physical health,2012,9068,1118,12.3
+Queensland,Outer Regional Australia,Physical health,2015,9535,1206,12.6
+Queensland,Outer Regional Australia,Physical health,2018,8608,1157,13.4
+Queensland,Outer Regional Australia,Physical health,2021,8521,1181,13.9
+Queensland,Outer Regional Australia,Physical health,2024,7747,1062,13.7
+Queensland,Remote Australia,Physical health,2009,1065,142,13.3
+Queensland,Remote Australia,Physical health,2012,1169,125,10.7
+Queensland,Remote Australia,Physical health,2015,1122,162,14.4
+Queensland,Remote Australia,Physical health,2018,1022,141,13.8
+Queensland,Remote Australia,Physical health,2021,1007,124,12.3
+Queensland,Remote Australia,Physical health,2024,904,141,15.6
+Queensland,Very Remote Australia,Physical health,2009,899,168,18.7
+Queensland,Very Remote Australia,Physical health,2012,895,155,17.3
+Queensland,Very Remote Australia,Physical health,2015,942,182,19.3
+Queensland,Very Remote Australia,Physical health,2018,843,172,20.4
+Queensland,Very Remote Australia,Physical health,2021,758,136,17.9
+Queensland,Very Remote Australia,Physical health,2024,721,161,22.3
+South Australia,All children,Physical health,2009,15062,1503,10.0
+South Australia,All children,Physical health,2012,17445,1783,10.2
+South Australia,All children,Physical health,2015,18530,1993,10.8
+South Australia,All children,Physical health,2018,19184,2072,10.8
+South Australia,All children,Physical health,2021,18948,2023,10.7
+South Australia,All children,Physical health,2024,17639,1921,10.9
+South Australia,Major Cities of Australia,Physical health,2009,10982,1070,9.7
+South Australia,Major Cities of Australia,Physical health,2012,12903,1262,9.8
+South Australia,Major Cities of Australia,Physical health,2015,13862,1429,10.3
+South Australia,Major Cities of Australia,Physical health,2018,14495,1428,9.9
+South Australia,Major Cities of Australia,Physical health,2021,14511,1448,10.0
+South Australia,Major Cities of Australia,Physical health,2024,13527,1402,10.4
+South Australia,Inner Regional Australia,Physical health,2009,1492,127,8.5
+South Australia,Inner Regional Australia,Physical health,2012,1541,165,10.7
+South Australia,Inner Regional Australia,Physical health,2015,1701,188,11.1
+South Australia,Inner Regional Australia,Physical health,2018,1710,220,12.9
+South Australia,Inner Regional Australia,Physical health,2021,1657,197,11.9
+South Australia,Inner Regional Australia,Physical health,2024,1519,178,11.7
+South Australia,Outer Regional Australia,Physical health,2009,1992,229,11.5
+South Australia,Outer Regional Australia,Physical health,2012,2307,260,11.3
+South Australia,Outer Regional Australia,Physical health,2015,2267,272,12.0
+South Australia,Outer Regional Australia,Physical health,2018,2262,288,12.7
+South Australia,Outer Regional Australia,Physical health,2021,2126,281,13.2
+South Australia,Outer Regional Australia,Physical health,2024,1994,252,12.6
+South Australia,Remote Australia,Physical health,2009,447,39,8.7
+South Australia,Remote Australia,Physical health,2012,502,45,9.0
+South Australia,Remote Australia,Physical health,2015,504,55,10.9
+South Australia,Remote Australia,Physical health,2018,538,95,17.7
+South Australia,Remote Australia,Physical health,2021,485,49,10.1
+South Australia,Remote Australia,Physical health,2024,451,43,9.5
+South Australia,Very Remote Australia,Physical health,2009,149,38,25.5
+South Australia,Very Remote Australia,Physical health,2012,192,51,26.6
+South Australia,Very Remote Australia,Physical health,2015,196,49,25.0
+South Australia,Very Remote Australia,Physical health,2018,179,41,22.9
+South Australia,Very Remote Australia,Physical health,2021,169,48,28.4
+South Australia,Very Remote Australia,Physical health,2024,148,46,31.1
+Western Australia,All children,Physical health,2009,26127,2646,10.1
+Western Australia,All children,Physical health,2012,30834,3012,9.8
+Western Australia,All children,Physical health,2015,32502,3206,9.9
+Western Australia,All children,Physical health,2018,32899,2929,8.9
+Western Australia,All children,Physical health,2021,33805,3178,9.4
+Western Australia,All children,Physical health,2024,32521,3412,10.5
+Western Australia,Major Cities of Australia,Physical health,2009,19331,1780,9.2
+Western Australia,Major Cities of Australia,Physical health,2012,23090,2070,9.0
+Western Australia,Major Cities of Australia,Physical health,2015,24637,2211,9.0
+Western Australia,Major Cities of Australia,Physical health,2018,25420,2052,8.1
+Western Australia,Major Cities of Australia,Physical health,2021,26471,2243,8.5
+Western Australia,Major Cities of Australia,Physical health,2024,25694,2610,10.2
+Western Australia,Inner Regional Australia,Physical health,2009,2388,279,11.7
+Western Australia,Inner Regional Australia,Physical health,2012,2806,305,10.9
+Western Australia,Inner Regional Australia,Physical health,2015,3004,335,11.2
+Western Australia,Inner Regional Australia,Physical health,2018,2802,285,10.2
+Western Australia,Inner Regional Australia,Physical health,2021,2829,302,10.7
+Western Australia,Inner Regional Australia,Physical health,2024,2686,248,9.2
+Western Australia,Outer Regional Australia,Physical health,2009,2304,309,13.4
+Western Australia,Outer Regional Australia,Physical health,2012,2589,310,12.0
+Western Australia,Outer Regional Australia,Physical health,2015,2558,308,12.0
+Western Australia,Outer Regional Australia,Physical health,2018,2382,264,11.1
+Western Australia,Outer Regional Australia,Physical health,2021,2314,295,12.7
+Western Australia,Outer Regional Australia,Physical health,2024,2170,264,12.2
+Western Australia,Remote Australia,Physical health,2009,1165,114,9.8
+Western Australia,Remote Australia,Physical health,2012,1381,123,8.9
+Western Australia,Remote Australia,Physical health,2015,1336,139,10.4
+Western Australia,Remote Australia,Physical health,2018,1405,147,10.5
+Western Australia,Remote Australia,Physical health,2021,1323,123,9.3
+Western Australia,Remote Australia,Physical health,2024,1227,131,10.7
+Western Australia,Very Remote Australia,Physical health,2009,939,164,17.5
+Western Australia,Very Remote Australia,Physical health,2012,968,204,21.1
+Western Australia,Very Remote Australia,Physical health,2015,967,213,22.0
+Western Australia,Very Remote Australia,Physical health,2018,890,181,20.3
+Western Australia,Very Remote Australia,Physical health,2021,868,215,24.8
+Western Australia,Very Remote Australia,Physical health,2024,744,159,21.4
+Tasmania,All children,Physical health,2009,5705,568,10.0
+Tasmania,All children,Physical health,2012,6121,605,9.9
+Tasmania,All children,Physical health,2015,6159,618,10.0
+Tasmania,All children,Physical health,2018,5847,554,9.5
+Tasmania,All children,Physical health,2021,5595,623,11.1
+Tasmania,All children,Physical health,2024,5247,619,11.8
+Tasmania,Inner Regional Australia,Physical health,2009,3479,314,9.0
+Tasmania,Inner Regional Australia,Physical health,2012,3698,385,10.4
+Tasmania,Inner Regional Australia,Physical health,2015,3806,360,9.5
+Tasmania,Inner Regional Australia,Physical health,2018,3729,335,9.0
+Tasmania,Inner Regional Australia,Physical health,2021,3599,377,10.5
+Tasmania,Inner Regional Australia,Physical health,2024,3333,376,11.3
+Tasmania,Outer Regional Australia,Physical health,2009,2116,239,11.3
+Tasmania,Outer Regional Australia,Physical health,2012,2305,210,9.1
+Tasmania,Outer Regional Australia,Physical health,2015,2224,233,10.5
+Tasmania,Outer Regional Australia,Physical health,2018,1997,194,9.7
+Tasmania,Outer Regional Australia,Physical health,2021,1897,225,11.9
+Tasmania,Outer Regional Australia,Physical health,2024,1827,231,12.6
+Tasmania,Remote Australia,Physical health,2009,89,13,14.6
+Tasmania,Remote Australia,Physical health,2012,97,8,8.2
+Tasmania,Remote Australia,Physical health,2015,107,18,16.8
+Tasmania,Remote Australia,Physical health,2018,84,18,21.4
+Tasmania,Remote Australia,Physical health,2021,71,16,22.5
+Tasmania,Remote Australia,Physical health,2024,65,11,16.9
+Tasmania,Very Remote Australia,Physical health,2009,21,2,9.5
+Tasmania,Very Remote Australia,Physical health,2012,21,2,9.5
+Tasmania,Very Remote Australia,Physical health,2015,22,7,31.8
+Tasmania,Very Remote Australia,Physical health,2018,37,7,18.9
+Tasmania,Very Remote Australia,Physical health,2021,28,5,17.9
+Tasmania,Very Remote Australia,Physical health,2024,22,1,4.5
+Northern Territory,All children,Physical health,2009,2891,541,18.7
+Northern Territory,All children,Physical health,2012,3143,472,15.0
+Northern Territory,All children,Physical health,2015,3263,518,15.9
+Northern Territory,All children,Physical health,2018,3193,563,17.6
+Northern Territory,All children,Physical health,2021,2980,544,18.3
+Northern Territory,All children,Physical health,2024,2697,565,20.9
+Northern Territory,Outer Regional Australia,Physical health,2009,1538,165,10.7
+Northern Territory,Outer Regional Australia,Physical health,2012,1739,173,9.9
+Northern Territory,Outer Regional Australia,Physical health,2015,1807,189,10.5
+Northern Territory,Outer Regional Australia,Physical health,2018,1912,240,12.6
+Northern Territory,Outer Regional Australia,Physical health,2021,1833,265,14.5
+Northern Territory,Outer Regional Australia,Physical health,2024,1639,234,14.3
+Northern Territory,Remote Australia,Physical health,2009,643,181,28.1
+Northern Territory,Remote Australia,Physical health,2012,679,131,19.3
+Northern Territory,Remote Australia,Physical health,2015,743,109,14.7
+Northern Territory,Remote Australia,Physical health,2018,659,123,18.7
+Northern Territory,Remote Australia,Physical health,2021,632,121,19.1
+Northern Territory,Remote Australia,Physical health,2024,561,147,26.2
+Northern Territory,Very Remote Australia,Physical health,2009,710,195,27.5
+Northern Territory,Very Remote Australia,Physical health,2012,725,168,23.2
+Northern Territory,Very Remote Australia,Physical health,2015,713,220,30.9
+Northern Territory,Very Remote Australia,Physical health,2018,622,200,32.2
+Northern Territory,Very Remote Australia,Physical health,2021,515,158,30.7
+Northern Territory,Very Remote Australia,Physical health,2024,497,184,37.0
+Australian Capital Territory,All children,Physical health,2009,4198,395,9.4
+Australian Capital Territory,All children,Physical health,2012,4628,490,10.6
+Australian Capital Territory,All children,Physical health,2015,5165,564,10.9
+Australian Capital Territory,All children,Physical health,2018,5484,666,12.1
+Australian Capital Territory,All children,Physical health,2021,5535,708,12.8
+Australian Capital Territory,All children,Physical health,2024,4925,681,13.8
+Australian Capital Territory,Major Cities of Australia,Physical health,2009,4198,395,9.4
+Australian Capital Territory,Major Cities of Australia,Physical health,2012,4628,490,10.6
+Australian Capital Territory,Major Cities of Australia,Physical health,2015,5165,564,10.9
+Australian Capital Territory,Major Cities of Australia,Physical health,2018,5484,666,12.1
+Australian Capital Territory,Major Cities of Australia,Physical health,2021,5535,708,12.8
+Australian Capital Territory,Major Cities of Australia,Physical health,2024,4925,681,13.8
+New South Wales,All children,Social competence,2009,82946,7280,8.8
+New South Wales,All children,Social competence,2012,89373,7578,8.5
+New South Wales,All children,Social competence,2015,91245,8359,9.2
+New South Wales,All children,Social competence,2018,93541,8568,9.2
+New South Wales,All children,Social competence,2021,90422,8458,9.4
+New South Wales,All children,Social competence,2024,84379,8368,9.9
+New South Wales,Major Cities of Australia,Social competence,2009,61265,5124,8.4
+New South Wales,Major Cities of Australia,Social competence,2012,66417,5476,8.2
+New South Wales,Major Cities of Australia,Social competence,2015,68682,6144,8.9
+New South Wales,Major Cities of Australia,Social competence,2018,71438,6472,9.1
+New South Wales,Major Cities of Australia,Social competence,2021,69194,6266,9.1
+New South Wales,Major Cities of Australia,Social competence,2024,64386,6220,9.7
+New South Wales,Inner Regional Australia,Social competence,2009,16635,1631,9.8
+New South Wales,Inner Regional Australia,Social competence,2012,17515,1522,8.7
+New South Wales,Inner Regional Australia,Social competence,2015,17314,1620,9.4
+New South Wales,Inner Regional Australia,Social competence,2018,17026,1564,9.2
+New South Wales,Inner Regional Australia,Social competence,2021,16686,1694,10.2
+New South Wales,Inner Regional Australia,Social competence,2024,15689,1659,10.6
+New South Wales,Outer Regional Australia,Social competence,2009,4498,473,10.5
+New South Wales,Outer Regional Australia,Social competence,2012,4811,491,10.2
+New South Wales,Outer Regional Australia,Social competence,2015,4690,516,11.0
+New South Wales,Outer Regional Australia,Social competence,2018,4557,483,10.6
+New South Wales,Outer Regional Australia,Social competence,2021,4062,416,10.2
+New South Wales,Outer Regional Australia,Social competence,2024,3820,435,11.4
+New South Wales,Remote Australia,Social competence,2009,434,35,8.1
+New South Wales,Remote Australia,Social competence,2012,471,59,12.5
+New South Wales,Remote Australia,Social competence,2015,412,59,14.3
+New South Wales,Remote Australia,Social competence,2018,417,42,10.1
+New South Wales,Remote Australia,Social competence,2021,362,49,13.5
+New South Wales,Remote Australia,Social competence,2024,376,38,10.1
+New South Wales,Very Remote Australia,Social competence,2009,114,17,14.9
+New South Wales,Very Remote Australia,Social competence,2012,159,30,18.9
+New South Wales,Very Remote Australia,Social competence,2015,147,20,13.6
+New South Wales,Very Remote Australia,Social competence,2018,103,7,6.8
+New South Wales,Very Remote Australia,Social competence,2021,118,33,28.0
+New South Wales,Very Remote Australia,Social competence,2024,108,16,14.8
+Victoria,All children,Social competence,2009,57487,4825,8.4
+Victoria,All children,Social competence,2012,63896,5151,8.1
+Victoria,All children,Social competence,2015,67860,5934,8.7
+Victoria,All children,Social competence,2018,71902,6331,8.8
+Victoria,All children,Social competence,2021,69283,6253,9.0
+Victoria,All children,Social competence,2024,62382,6600,10.6
+Victoria,Major Cities of Australia,Social competence,2009,43264,3518,8.1
+Victoria,Major Cities of Australia,Social competence,2012,48049,3810,7.9
+Victoria,Major Cities of Australia,Social competence,2015,51878,4425,8.5
+Victoria,Major Cities of Australia,Social competence,2018,55851,4712,8.4
+Victoria,Major Cities of Australia,Social competence,2021,53797,4710,8.8
+Victoria,Major Cities of Australia,Social competence,2024,48771,5052,10.4
+Victoria,Inner Regional Australia,Social competence,2009,11647,1052,9.0
+Victoria,Inner Regional Australia,Social competence,2012,12959,1083,8.4
+Victoria,Inner Regional Australia,Social competence,2015,13092,1248,9.5
+Victoria,Inner Regional Australia,Social competence,2018,13344,1325,9.9
+Victoria,Inner Regional Australia,Social competence,2021,12959,1305,10.1
+Victoria,Inner Regional Australia,Social competence,2024,11649,1336,11.5
+Victoria,Outer Regional Australia,Social competence,2009,2547,252,9.9
+Victoria,Outer Regional Australia,Social competence,2012,2852,254,8.9
+Victoria,Outer Regional Australia,Social competence,2015,2857,260,9.1
+Victoria,Outer Regional Australia,Social competence,2018,2666,292,11.0
+Victoria,Outer Regional Australia,Social competence,2021,2496,235,9.4
+Victoria,Outer Regional Australia,Social competence,2024,1937,208,10.7
+Victoria,Remote Australia,Social competence,2009,29,3,10.3
+Victoria,Remote Australia,Social competence,2012,36,4,11.1
+Victoria,Remote Australia,Social competence,2015,33,1,3.0
+Victoria,Remote Australia,Social competence,2018,41,2,4.9
+Victoria,Remote Australia,Social competence,2021,31,3,9.7
+Victoria,Remote Australia,Social competence,2024,25,4,16.0
+Queensland,All children,Social competence,2009,52755,6398,12.1
+Queensland,All children,Social competence,2012,58186,6717,11.5
+Queensland,All children,Social competence,2015,62136,7719,12.4
+Queensland,All children,Social competence,2018,61838,7388,11.9
+Queensland,All children,Social competence,2021,61435,6536,10.6
+Queensland,All children,Social competence,2024,58017,6714,11.6
+Queensland,Major Cities of Australia,Social competence,2009,32032,3748,11.7
+Queensland,Major Cities of Australia,Social competence,2012,35330,3984,11.3
+Queensland,Major Cities of Australia,Social competence,2015,38172,4460,11.7
+Queensland,Major Cities of Australia,Social competence,2018,39473,4569,11.6
+Queensland,Major Cities of Australia,Social competence,2021,39891,3933,9.9
+Queensland,Major Cities of Australia,Social competence,2024,37864,4090,10.8
+Queensland,Inner Regional Australia,Social competence,2009,10637,1315,12.4
+Queensland,Inner Regional Australia,Social competence,2012,11735,1308,11.1
+Queensland,Inner Regional Australia,Social competence,2015,12382,1618,13.1
+Queensland,Inner Regional Australia,Social competence,2018,11894,1490,12.5
+Queensland,Inner Regional Australia,Social competence,2021,11263,1334,11.8
+Queensland,Inner Regional Australia,Social competence,2024,10781,1385,12.8
+Queensland,Outer Regional Australia,Social competence,2009,8122,1037,12.8
+Queensland,Outer Regional Australia,Social competence,2012,9060,1160,12.8
+Queensland,Outer Regional Australia,Social competence,2015,9531,1311,13.8
+Queensland,Outer Regional Australia,Social competence,2018,8607,1072,12.5
+Queensland,Outer Regional Australia,Social competence,2021,8517,1040,12.2
+Queensland,Outer Regional Australia,Social competence,2024,7746,993,12.8
+Queensland,Remote Australia,Social competence,2009,1066,132,12.4
+Queensland,Remote Australia,Social competence,2012,1168,129,11.0
+Queensland,Remote Australia,Social competence,2015,1122,145,12.9
+Queensland,Remote Australia,Social competence,2018,1022,105,10.3
+Queensland,Remote Australia,Social competence,2021,1007,108,10.7
+Queensland,Remote Australia,Social competence,2024,904,123,13.6
+Queensland,Very Remote Australia,Social competence,2009,898,166,18.5
+Queensland,Very Remote Australia,Social competence,2012,893,136,15.2
+Queensland,Very Remote Australia,Social competence,2015,929,185,19.9
+Queensland,Very Remote Australia,Social competence,2018,842,152,18.1
+Queensland,Very Remote Australia,Social competence,2021,757,121,16.0
+Queensland,Very Remote Australia,Social competence,2024,722,123,17.0
+South Australia,All children,Social competence,2009,15059,1518,10.1
+South Australia,All children,Social competence,2012,17418,1965,11.3
+South Australia,All children,Social competence,2015,18528,2004,10.8
+South Australia,All children,Social competence,2018,19181,2200,11.5
+South Australia,All children,Social competence,2021,18947,2125,11.2
+South Australia,All children,Social competence,2024,17638,1978,11.2
+South Australia,Major Cities of Australia,Social competence,2009,10979,1079,9.8
+South Australia,Major Cities of Australia,Social competence,2012,12879,1406,10.9
+South Australia,Major Cities of Australia,Social competence,2015,13860,1445,10.4
+South Australia,Major Cities of Australia,Social competence,2018,14494,1576,10.9
+South Australia,Major Cities of Australia,Social competence,2021,14511,1575,10.9
+South Australia,Major Cities of Australia,Social competence,2024,13526,1431,10.6
+South Australia,Inner Regional Australia,Social competence,2009,1492,149,10.0
+South Australia,Inner Regional Australia,Social competence,2012,1539,169,11.0
+South Australia,Inner Regional Australia,Social competence,2015,1701,164,9.6
+South Australia,Inner Regional Australia,Social competence,2018,1710,198,11.6
+South Australia,Inner Regional Australia,Social competence,2021,1657,208,12.6
+South Australia,Inner Regional Australia,Social competence,2024,1519,194,12.8
+South Australia,Outer Regional Australia,Social competence,2009,1993,211,10.6
+South Australia,Outer Regional Australia,Social competence,2012,2305,277,12.0
+South Australia,Outer Regional Australia,Social competence,2015,2267,296,13.1
+South Australia,Outer Regional Australia,Social competence,2018,2260,290,12.8
+South Australia,Outer Regional Australia,Social competence,2021,2126,246,11.6
+South Australia,Outer Regional Australia,Social competence,2024,1994,283,14.2
+South Australia,Remote Australia,Social competence,2009,447,44,9.8
+South Australia,Remote Australia,Social competence,2012,503,68,13.5
+South Australia,Remote Australia,Social competence,2015,504,53,10.5
+South Australia,Remote Australia,Social competence,2018,538,97,18.0
+South Australia,Remote Australia,Social competence,2021,484,60,12.4
+South Australia,Remote Australia,Social competence,2024,451,40,8.9
+South Australia,Very Remote Australia,Social competence,2009,148,35,23.6
+South Australia,Very Remote Australia,Social competence,2012,192,45,23.4
+South Australia,Very Remote Australia,Social competence,2015,196,46,23.5
+South Australia,Very Remote Australia,Social competence,2018,179,39,21.8
+South Australia,Very Remote Australia,Social competence,2021,169,36,21.3
+South Australia,Very Remote Australia,Social competence,2024,148,30,20.3
+Western Australia,All children,Social competence,2009,26125,2014,7.7
+Western Australia,All children,Social competence,2012,30799,2589,8.4
+Western Australia,All children,Social competence,2015,32496,2721,8.4
+Western Australia,All children,Social competence,2018,32894,2431,7.4
+Western Australia,All children,Social competence,2021,33802,2577,7.6
+Western Australia,All children,Social competence,2024,32499,3221,9.9
+Western Australia,Major Cities of Australia,Social competence,2009,19331,1372,7.1
+Western Australia,Major Cities of Australia,Social competence,2012,23059,1868,8.1
+Western Australia,Major Cities of Australia,Social competence,2015,24633,1930,7.8
+Western Australia,Major Cities of Australia,Social competence,2018,25418,1751,6.9
+Western Australia,Major Cities of Australia,Social competence,2021,26469,1910,7.2
+Western Australia,Major Cities of Australia,Social competence,2024,25679,2529,9.8
+Western Australia,Inner Regional Australia,Social competence,2009,2387,165,6.9
+Western Australia,Inner Regional Australia,Social competence,2012,2807,231,8.2
+Western Australia,Inner Regional Australia,Social competence,2015,3003,256,8.5
+Western Australia,Inner Regional Australia,Social competence,2018,2800,207,7.4
+Western Australia,Inner Regional Australia,Social competence,2021,2829,228,8.1
+Western Australia,Inner Regional Australia,Social competence,2024,2686,214,8.0
+Western Australia,Outer Regional Australia,Social competence,2009,2306,244,10.6
+Western Australia,Outer Regional Australia,Social competence,2012,2588,249,9.6
+Western Australia,Outer Regional Australia,Social competence,2015,2558,233,9.1
+Western Australia,Outer Regional Australia,Social competence,2018,2382,177,7.4
+Western Australia,Outer Regional Australia,Social competence,2021,2313,208,9.0
+Western Australia,Outer Regional Australia,Social competence,2024,2169,226,10.4
+Western Australia,Remote Australia,Social competence,2009,1164,97,8.3
+Western Australia,Remote Australia,Social competence,2012,1380,90,6.5
+Western Australia,Remote Australia,Social competence,2015,1335,138,10.3
+Western Australia,Remote Australia,Social competence,2018,1404,133,9.5
+Western Australia,Remote Australia,Social competence,2021,1323,96,7.3
+Western Australia,Remote Australia,Social competence,2024,1225,110,9.0
+Western Australia,Very Remote Australia,Social competence,2009,937,136,14.5
+Western Australia,Very Remote Australia,Social competence,2012,965,151,15.6
+Western Australia,Very Remote Australia,Social competence,2015,967,164,17.0
+Western Australia,Very Remote Australia,Social competence,2018,890,163,18.3
+Western Australia,Very Remote Australia,Social competence,2021,868,135,15.6
+Western Australia,Very Remote Australia,Social competence,2024,740,142,19.2
+Tasmania,All children,Social competence,2009,5706,495,8.7
+Tasmania,All children,Social competence,2012,6104,503,8.2
+Tasmania,All children,Social competence,2015,6159,528,8.6
+Tasmania,All children,Social competence,2018,5848,513,8.8
+Tasmania,All children,Social competence,2021,5595,519,9.3
+Tasmania,All children,Social competence,2024,5247,663,12.6
+Tasmania,Inner Regional Australia,Social competence,2009,3479,299,8.6
+Tasmania,Inner Regional Australia,Social competence,2012,3697,297,8.0
+Tasmania,Inner Regional Australia,Social competence,2015,3806,321,8.4
+Tasmania,Inner Regional Australia,Social competence,2018,3729,310,8.3
+Tasmania,Inner Regional Australia,Social competence,2021,3599,313,8.7
+Tasmania,Inner Regional Australia,Social competence,2024,3333,429,12.9
+Tasmania,Outer Regional Australia,Social competence,2009,2117,191,9.0
+Tasmania,Outer Regional Australia,Social competence,2012,2289,192,8.4
+Tasmania,Outer Regional Australia,Social competence,2015,2224,190,8.5
+Tasmania,Outer Regional Australia,Social competence,2018,1998,192,9.6
+Tasmania,Outer Regional Australia,Social competence,2021,1897,191,10.1
+Tasmania,Outer Regional Australia,Social competence,2024,1827,221,12.1
+Tasmania,Remote Australia,Social competence,2009,89,5,5.6
+Tasmania,Remote Australia,Social competence,2012,97,11,11.3
+Tasmania,Remote Australia,Social competence,2015,107,15,14.0
+Tasmania,Remote Australia,Social competence,2018,84,9,10.7
+Tasmania,Remote Australia,Social competence,2021,71,12,16.9
+Tasmania,Remote Australia,Social competence,2024,65,12,18.5
+Tasmania,Very Remote Australia,Social competence,2009,21,0,0.0
+Tasmania,Very Remote Australia,Social competence,2012,21,3,14.3
+Tasmania,Very Remote Australia,Social competence,2015,22,2,9.1
+Tasmania,Very Remote Australia,Social competence,2018,37,2,5.4
+Tasmania,Very Remote Australia,Social competence,2021,28,3,10.7
+Tasmania,Very Remote Australia,Social competence,2024,22,1,4.5
+Northern Territory,All children,Social competence,2009,2886,517,17.9
+Northern Territory,All children,Social competence,2012,3139,468,14.9
+Northern Territory,All children,Social competence,2015,3260,603,18.5
+Northern Territory,All children,Social competence,2018,3190,568,17.8
+Northern Territory,All children,Social competence,2021,2977,645,21.7
+Northern Territory,All children,Social competence,2024,2692,592,22.0
+Northern Territory,Outer Regional Australia,Social competence,2009,1537,173,11.3
+Northern Territory,Outer Regional Australia,Social competence,2012,1738,191,11.0
+Northern Territory,Outer Regional Australia,Social competence,2015,1807,218,12.1
+Northern Territory,Outer Regional Australia,Social competence,2018,1912,235,12.3
+Northern Territory,Outer Regional Australia,Social competence,2021,1833,300,16.4
+Northern Territory,Outer Regional Australia,Social competence,2024,1637,282,17.2
+Northern Territory,Remote Australia,Social competence,2009,643,156,24.3
+Northern Territory,Remote Australia,Social competence,2012,678,110,16.2
+Northern Territory,Remote Australia,Social competence,2015,743,125,16.8
+Northern Territory,Remote Australia,Social competence,2018,657,122,18.6
+Northern Territory,Remote Australia,Social competence,2021,632,145,22.9
+Northern Territory,Remote Australia,Social competence,2024,560,152,27.1
+Northern Territory,Very Remote Australia,Social competence,2009,706,188,26.6
+Northern Territory,Very Remote Australia,Social competence,2012,723,167,23.1
+Northern Territory,Very Remote Australia,Social competence,2015,710,260,36.6
+Northern Territory,Very Remote Australia,Social competence,2018,621,211,34.0
+Northern Territory,Very Remote Australia,Social competence,2021,512,200,39.1
+Northern Territory,Very Remote Australia,Social competence,2024,495,158,31.9
+Australian Capital Territory,All children,Social competence,2009,4197,372,8.9
+Australian Capital Territory,All children,Social competence,2012,4619,396,8.6
+Australian Capital Territory,All children,Social competence,2015,5164,483,9.4
+Australian Capital Territory,All children,Social competence,2018,5484,674,12.3
+Australian Capital Territory,All children,Social competence,2021,5534,675,12.2
+Australian Capital Territory,All children,Social competence,2024,4920,568,11.5
+Australian Capital Territory,Major Cities of Australia,Social competence,2009,4197,372,8.9
+Australian Capital Territory,Major Cities of Australia,Social competence,2012,4619,396,8.6
+Australian Capital Territory,Major Cities of Australia,Social competence,2015,5164,483,9.4
+Australian Capital Territory,Major Cities of Australia,Social competence,2018,5484,674,12.3
+Australian Capital Territory,Major Cities of Australia,Social competence,2021,5534,675,12.2
+Australian Capital Territory,Major Cities of Australia,Social competence,2024,4920,568,11.5
+New South Wales,All children,Emotional maturity,2009,82616,6144,7.4
+New South Wales,All children,Emotional maturity,2012,88988,5487,6.2
+New South Wales,All children,Emotional maturity,2015,90803,6176,6.8
+New South Wales,All children,Emotional maturity,2018,93167,6306,6.8
+New South Wales,All children,Emotional maturity,2021,90053,6550,7.3
+New South Wales,All children,Emotional maturity,2024,83827,6784,8.1
+New South Wales,Major Cities of Australia,Emotional maturity,2009,61030,4207,6.9
+New South Wales,Major Cities of Australia,Emotional maturity,2012,66068,3787,5.7
+New South Wales,Major Cities of Australia,Emotional maturity,2015,68324,4378,6.4
+New South Wales,Major Cities of Australia,Emotional maturity,2018,71112,4604,6.5
+New South Wales,Major Cities of Australia,Emotional maturity,2021,68914,4745,6.9
+New South Wales,Major Cities of Australia,Emotional maturity,2024,63967,4829,7.5
+New South Wales,Inner Regional Australia,Emotional maturity,2009,16563,1453,8.8
+New South Wales,Inner Regional Australia,Emotional maturity,2012,17504,1242,7.1
+New South Wales,Inner Regional Australia,Emotional maturity,2015,17260,1315,7.6
+New South Wales,Inner Regional Australia,Emotional maturity,2018,16988,1261,7.4
+New South Wales,Inner Regional Australia,Emotional maturity,2021,16621,1416,8.5
+New South Wales,Inner Regional Australia,Emotional maturity,2024,15616,1517,9.7
+New South Wales,Outer Regional Australia,Emotional maturity,2009,4480,436,9.7
+New South Wales,Outer Regional Australia,Emotional maturity,2012,4791,384,8.0
+New South Wales,Outer Regional Australia,Emotional maturity,2015,4672,422,9.0
+New South Wales,Outer Regional Australia,Emotional maturity,2018,4548,388,8.5
+New South Wales,Outer Regional Australia,Emotional maturity,2021,4045,336,8.3
+New South Wales,Outer Regional Australia,Emotional maturity,2024,3775,394,10.4
+New South Wales,Remote Australia,Emotional maturity,2009,432,39,9.0
+New South Wales,Remote Australia,Emotional maturity,2012,467,47,10.1
+New South Wales,Remote Australia,Emotional maturity,2015,408,41,10.0
+New South Wales,Remote Australia,Emotional maturity,2018,416,39,9.4
+New South Wales,Remote Australia,Emotional maturity,2021,359,32,8.9
+New South Wales,Remote Australia,Emotional maturity,2024,369,33,8.9
+New South Wales,Very Remote Australia,Emotional maturity,2009,111,9,8.1
+New South Wales,Very Remote Australia,Emotional maturity,2012,158,27,17.1
+New South Wales,Very Remote Australia,Emotional maturity,2015,139,20,14.4
+New South Wales,Very Remote Australia,Emotional maturity,2018,103,14,13.6
+New South Wales,Very Remote Australia,Emotional maturity,2021,114,21,18.4
+New South Wales,Very Remote Australia,Emotional maturity,2024,100,11,11.0
+Victoria,All children,Emotional maturity,2009,57222,4734,8.3
+Victoria,All children,Emotional maturity,2012,63775,4566,7.2
+Victoria,All children,Emotional maturity,2015,67617,5408,8.0
+Victoria,All children,Emotional maturity,2018,71609,5791,8.1
+Victoria,All children,Emotional maturity,2021,69003,5342,7.7
+Victoria,All children,Emotional maturity,2024,62028,6128,9.9
+Victoria,Major Cities of Australia,Emotional maturity,2009,43046,3437,8.0
+Victoria,Major Cities of Australia,Emotional maturity,2012,47888,3289,6.9
+Victoria,Major Cities of Australia,Emotional maturity,2015,51671,3896,7.5
+Victoria,Major Cities of Australia,Emotional maturity,2018,55592,4220,7.6
+Victoria,Major Cities of Australia,Emotional maturity,2021,53559,3899,7.3
+Victoria,Major Cities of Australia,Emotional maturity,2024,48453,4515,9.3
+Victoria,Inner Regional Australia,Emotional maturity,2009,11607,1052,9.1
+Victoria,Inner Regional Australia,Emotional maturity,2012,12975,1044,8.0
+Victoria,Inner Regional Australia,Emotional maturity,2015,13060,1244,9.5
+Victoria,Inner Regional Australia,Emotional maturity,2018,13314,1291,9.7
+Victoria,Inner Regional Australia,Emotional maturity,2021,12926,1216,9.4
+Victoria,Inner Regional Australia,Emotional maturity,2024,11616,1392,12.0
+Victoria,Outer Regional Australia,Emotional maturity,2009,2540,240,9.4
+Victoria,Outer Regional Australia,Emotional maturity,2012,2876,228,7.9
+Victoria,Outer Regional Australia,Emotional maturity,2015,2853,267,9.4
+Victoria,Outer Regional Australia,Emotional maturity,2018,2663,277,10.4
+Victoria,Outer Regional Australia,Emotional maturity,2021,2487,220,8.8
+Victoria,Outer Regional Australia,Emotional maturity,2024,1934,218,11.3
+Victoria,Remote Australia,Emotional maturity,2009,29,5,17.2
+Victoria,Remote Australia,Emotional maturity,2012,36,5,13.9
+Victoria,Remote Australia,Emotional maturity,2015,33,1,3.0
+Victoria,Remote Australia,Emotional maturity,2018,40,3,7.5
+Victoria,Remote Australia,Emotional maturity,2021,31,7,22.6
+Victoria,Remote Australia,Emotional maturity,2024,25,3,12.0
+Queensland,All children,Emotional maturity,2009,52588,5802,11.0
+Queensland,All children,Emotional maturity,2012,57988,5368,9.3
+Queensland,All children,Emotional maturity,2015,61959,6266,10.1
+Queensland,All children,Emotional maturity,2018,61628,6448,10.5
+Queensland,All children,Emotional maturity,2021,61244,6110,10.0
+Queensland,All children,Emotional maturity,2024,57789,6662,11.5
+Queensland,Major Cities of Australia,Emotional maturity,2009,31974,3398,10.6
+Queensland,Major Cities of Australia,Emotional maturity,2012,35204,3139,8.9
+Queensland,Major Cities of Australia,Emotional maturity,2015,38064,3709,9.7
+Queensland,Major Cities of Australia,Emotional maturity,2018,39323,4001,10.2
+Queensland,Major Cities of Australia,Emotional maturity,2021,39754,3714,9.3
+Queensland,Major Cities of Australia,Emotional maturity,2024,37721,4107,10.9
+Queensland,Inner Regional Australia,Emotional maturity,2009,10607,1208,11.4
+Queensland,Inner Regional Australia,Emotional maturity,2012,11714,1166,10.0
+Queensland,Inner Regional Australia,Emotional maturity,2015,12365,1276,10.3
+Queensland,Inner Regional Australia,Emotional maturity,2018,11870,1330,11.2
+Queensland,Inner Regional Australia,Emotional maturity,2021,11240,1210,10.8
+Queensland,Inner Regional Australia,Emotional maturity,2024,10744,1449,13.5
+Queensland,Outer Regional Australia,Emotional maturity,2009,8067,917,11.4
+Queensland,Outer Regional Australia,Emotional maturity,2012,9032,852,9.4
+Queensland,Outer Regional Australia,Emotional maturity,2015,9516,979,10.3
+Queensland,Outer Regional Australia,Emotional maturity,2018,8592,877,10.2
+Queensland,Outer Regional Australia,Emotional maturity,2021,8494,988,11.6
+Queensland,Outer Regional Australia,Emotional maturity,2024,7717,879,11.4
+Queensland,Remote Australia,Emotional maturity,2009,1053,129,12.3
+Queensland,Remote Australia,Emotional maturity,2012,1168,106,9.1
+Queensland,Remote Australia,Emotional maturity,2015,1107,131,11.8
+Queensland,Remote Australia,Emotional maturity,2018,1018,105,10.3
+Queensland,Remote Australia,Emotional maturity,2021,1006,97,9.6
+Queensland,Remote Australia,Emotional maturity,2024,902,117,13.0
+Queensland,Very Remote Australia,Emotional maturity,2009,887,150,16.9
+Queensland,Very Remote Australia,Emotional maturity,2012,870,105,12.1
+Queensland,Very Remote Australia,Emotional maturity,2015,907,171,18.9
+Queensland,Very Remote Australia,Emotional maturity,2018,825,135,16.4
+Queensland,Very Remote Australia,Emotional maturity,2021,750,101,13.5
+Queensland,Very Remote Australia,Emotional maturity,2024,705,110,15.6
+South Australia,All children,Emotional maturity,2009,14988,1541,10.3
+South Australia,All children,Emotional maturity,2012,17370,1610,9.3
+South Australia,All children,Emotional maturity,2015,18472,1793,9.7
+South Australia,All children,Emotional maturity,2018,19114,2064,10.8
+South Australia,All children,Emotional maturity,2021,18885,1950,10.3
+South Australia,All children,Emotional maturity,2024,17575,1998,11.4
+South Australia,Major Cities of Australia,Emotional maturity,2009,10921,1106,10.1
+South Australia,Major Cities of Australia,Emotional maturity,2012,12839,1127,8.8
+South Australia,Major Cities of Australia,Emotional maturity,2015,13811,1320,9.6
+South Australia,Major Cities of Australia,Emotional maturity,2018,14435,1443,10.0
+South Australia,Major Cities of Australia,Emotional maturity,2021,14460,1426,9.9
+South Australia,Major Cities of Australia,Emotional maturity,2024,13472,1474,10.9
+South Australia,Inner Regional Australia,Emotional maturity,2009,1490,156,10.5
+South Australia,Inner Regional Australia,Emotional maturity,2012,1542,162,10.5
+South Australia,Inner Regional Australia,Emotional maturity,2015,1700,156,9.2
+South Australia,Inner Regional Australia,Emotional maturity,2018,1707,225,13.2
+South Australia,Inner Regional Australia,Emotional maturity,2021,1653,206,12.5
+South Australia,Inner Regional Australia,Emotional maturity,2024,1514,199,13.1
+South Australia,Outer Regional Australia,Emotional maturity,2009,1984,195,9.8
+South Australia,Outer Regional Australia,Emotional maturity,2012,2297,226,9.8
+South Australia,Outer Regional Australia,Emotional maturity,2015,2263,232,10.3
+South Australia,Outer Regional Australia,Emotional maturity,2018,2256,295,13.1
+South Australia,Outer Regional Australia,Emotional maturity,2021,2120,244,11.5
+South Australia,Outer Regional Australia,Emotional maturity,2024,1992,254,12.8
+South Australia,Remote Australia,Emotional maturity,2009,446,48,10.8
+South Australia,Remote Australia,Emotional maturity,2012,501,50,10.0
+South Australia,Remote Australia,Emotional maturity,2015,502,50,10.0
+South Australia,Remote Australia,Emotional maturity,2018,537,65,12.1
+South Australia,Remote Australia,Emotional maturity,2021,484,42,8.7
+South Australia,Remote Australia,Emotional maturity,2024,449,37,8.2
+South Australia,Very Remote Australia,Emotional maturity,2009,147,36,24.5
+South Australia,Very Remote Australia,Emotional maturity,2012,191,45,23.6
+South Australia,Very Remote Australia,Emotional maturity,2015,196,35,17.9
+South Australia,Very Remote Australia,Emotional maturity,2018,179,36,20.1
+South Australia,Very Remote Australia,Emotional maturity,2021,168,32,19.0
+South Australia,Very Remote Australia,Emotional maturity,2024,148,34,23.0
+Western Australia,All children,Emotional maturity,2009,26021,2301,8.8
+Western Australia,All children,Emotional maturity,2012,30678,2559,8.3
+Western Australia,All children,Emotional maturity,2015,32393,2751,8.5
+Western Australia,All children,Emotional maturity,2018,32798,2518,7.7
+Western Australia,All children,Emotional maturity,2021,33736,2635,7.8
+Western Australia,All children,Emotional maturity,2024,32342,3316,10.3
+Western Australia,Major Cities of Australia,Emotional maturity,2009,19257,1601,8.3
+Western Australia,Major Cities of Australia,Emotional maturity,2012,22966,1864,8.1
+Western Australia,Major Cities of Australia,Emotional maturity,2015,24563,1975,8.0
+Western Australia,Major Cities of Australia,Emotional maturity,2018,25351,1801,7.1
+Western Australia,Major Cities of Australia,Emotional maturity,2021,26421,1968,7.4
+Western Australia,Major Cities of Australia,Emotional maturity,2024,25540,2564,10.0
+Western Australia,Inner Regional Australia,Emotional maturity,2009,2380,215,9.0
+Western Australia,Inner Regional Australia,Emotional maturity,2012,2802,234,8.4
+Western Australia,Inner Regional Australia,Emotional maturity,2015,2989,283,9.5
+Western Australia,Inner Regional Australia,Emotional maturity,2018,2788,257,9.2
+Western Australia,Inner Regional Australia,Emotional maturity,2021,2822,226,8.0
+Western Australia,Inner Regional Australia,Emotional maturity,2024,2676,263,9.8
+Western Australia,Outer Regional Australia,Emotional maturity,2009,2298,205,8.9
+Western Australia,Outer Regional Australia,Emotional maturity,2012,2587,234,9.0
+Western Australia,Outer Regional Australia,Emotional maturity,2015,2547,200,7.9
+Western Australia,Outer Regional Australia,Emotional maturity,2018,2374,217,9.1
+Western Australia,Outer Regional Australia,Emotional maturity,2021,2310,212,9.2
+Western Australia,Outer Regional Australia,Emotional maturity,2024,2164,228,10.5
+Western Australia,Remote Australia,Emotional maturity,2009,1154,132,11.4
+Western Australia,Remote Australia,Emotional maturity,2012,1371,74,5.4
+Western Australia,Remote Australia,Emotional maturity,2015,1330,126,9.5
+Western Australia,Remote Australia,Emotional maturity,2018,1397,113,8.1
+Western Australia,Remote Australia,Emotional maturity,2021,1321,100,7.6
+Western Australia,Remote Australia,Emotional maturity,2024,1224,120,9.8
+Western Australia,Very Remote Australia,Emotional maturity,2009,932,148,15.9
+Western Australia,Very Remote Australia,Emotional maturity,2012,952,153,16.1
+Western Australia,Very Remote Australia,Emotional maturity,2015,964,167,17.3
+Western Australia,Very Remote Australia,Emotional maturity,2018,888,130,14.6
+Western Australia,Very Remote Australia,Emotional maturity,2021,862,129,15.0
+Western Australia,Very Remote Australia,Emotional maturity,2024,738,141,19.1
+Tasmania,All children,Emotional maturity,2009,5690,484,8.5
+Tasmania,All children,Emotional maturity,2012,6149,501,8.1
+Tasmania,All children,Emotional maturity,2015,6158,545,8.9
+Tasmania,All children,Emotional maturity,2018,5836,535,9.2
+Tasmania,All children,Emotional maturity,2021,5590,573,10.3
+Tasmania,All children,Emotional maturity,2024,5239,616,11.8
+Tasmania,Inner Regional Australia,Emotional maturity,2009,3473,285,8.2
+Tasmania,Inner Regional Australia,Emotional maturity,2012,3727,305,8.2
+Tasmania,Inner Regional Australia,Emotional maturity,2015,3805,329,8.6
+Tasmania,Inner Regional Australia,Emotional maturity,2018,3720,344,9.2
+Tasmania,Inner Regional Australia,Emotional maturity,2021,3596,352,9.8
+Tasmania,Inner Regional Australia,Emotional maturity,2024,3328,392,11.8
+Tasmania,Outer Regional Australia,Emotional maturity,2009,2107,187,8.9
+Tasmania,Outer Regional Australia,Emotional maturity,2012,2304,188,8.2
+Tasmania,Outer Regional Australia,Emotional maturity,2015,2224,197,8.9
+Tasmania,Outer Regional Australia,Emotional maturity,2018,1995,177,8.9
+Tasmania,Outer Regional Australia,Emotional maturity,2021,1895,202,10.7
+Tasmania,Outer Regional Australia,Emotional maturity,2024,1824,212,11.6
+Tasmania,Remote Australia,Emotional maturity,2009,89,12,13.5
+Tasmania,Remote Australia,Emotional maturity,2012,97,6,6.2
+Tasmania,Remote Australia,Emotional maturity,2015,107,14,13.1
+Tasmania,Remote Australia,Emotional maturity,2018,84,11,13.1
+Tasmania,Remote Australia,Emotional maturity,2021,71,16,22.5
+Tasmania,Remote Australia,Emotional maturity,2024,65,11,16.9
+Tasmania,Very Remote Australia,Emotional maturity,2009,21,0,0.0
+Tasmania,Very Remote Australia,Emotional maturity,2012,21,2,9.5
+Tasmania,Very Remote Australia,Emotional maturity,2015,22,5,22.7
+Tasmania,Very Remote Australia,Emotional maturity,2018,37,3,8.1
+Tasmania,Very Remote Australia,Emotional maturity,2021,28,3,10.7
+Tasmania,Very Remote Australia,Emotional maturity,2024,22,1,4.5
+Northern Territory,All children,Emotional maturity,2009,2858,440,15.4
+Northern Territory,All children,Emotional maturity,2012,3114,421,13.5
+Northern Territory,All children,Emotional maturity,2015,3247,504,15.5
+Northern Territory,All children,Emotional maturity,2018,3174,472,14.9
+Northern Territory,All children,Emotional maturity,2021,2964,526,17.7
+Northern Territory,All children,Emotional maturity,2024,2666,493,18.5
+Northern Territory,Outer Regional Australia,Emotional maturity,2009,1536,138,9.0
+Northern Territory,Outer Regional Australia,Emotional maturity,2012,1735,139,8.0
+Northern Territory,Outer Regional Australia,Emotional maturity,2015,1806,186,10.3
+Northern Territory,Outer Regional Australia,Emotional maturity,2018,1907,203,10.6
+Northern Territory,Outer Regional Australia,Emotional maturity,2021,1826,256,14.0
+Northern Territory,Outer Regional Australia,Emotional maturity,2024,1635,233,14.3
+Northern Territory,Remote Australia,Emotional maturity,2009,632,153,24.2
+Northern Territory,Remote Australia,Emotional maturity,2012,676,100,14.8
+Northern Territory,Remote Australia,Emotional maturity,2015,743,102,13.7
+Northern Territory,Remote Australia,Emotional maturity,2018,654,104,15.9
+Northern Territory,Remote Australia,Emotional maturity,2021,631,130,20.6
+Northern Territory,Remote Australia,Emotional maturity,2024,543,127,23.4
+Northern Territory,Very Remote Australia,Emotional maturity,2009,690,149,21.6
+Northern Territory,Very Remote Australia,Emotional maturity,2012,703,182,25.9
+Northern Territory,Very Remote Australia,Emotional maturity,2015,698,216,30.9
+Northern Territory,Very Remote Australia,Emotional maturity,2018,613,165,26.9
+Northern Territory,Very Remote Australia,Emotional maturity,2021,507,140,27.6
+Northern Territory,Very Remote Australia,Emotional maturity,2024,488,133,27.3
+Australian Capital Territory,All children,Emotional maturity,2009,4188,376,9.0
+Australian Capital Territory,All children,Emotional maturity,2012,4620,333,7.2
+Australian Capital Territory,All children,Emotional maturity,2015,5152,423,8.2
+Australian Capital Territory,All children,Emotional maturity,2018,5480,543,9.9
+Australian Capital Territory,All children,Emotional maturity,2021,5520,585,10.6
+Australian Capital Territory,All children,Emotional maturity,2024,4898,566,11.6
+Australian Capital Territory,Major Cities of Australia,Emotional maturity,2009,4188,376,9.0
+Australian Capital Territory,Major Cities of Australia,Emotional maturity,2012,4620,333,7.2
+Australian Capital Territory,Major Cities of Australia,Emotional maturity,2015,5152,423,8.2
+Australian Capital Territory,Major Cities of Australia,Emotional maturity,2018,5480,543,9.9
+Australian Capital Territory,Major Cities of Australia,Emotional maturity,2021,5520,585,10.6
+Australian Capital Territory,Major Cities of Australia,Emotional maturity,2024,4898,566,11.6
+New South Wales,All children,Language & thinking,2009,82899,4855,5.9
+New South Wales,All children,Language & thinking,2012,89450,4251,4.8
+New South Wales,All children,Language & thinking,2015,91199,4360,4.8
+New South Wales,All children,Language & thinking,2018,93491,4884,5.2
+New South Wales,All children,Language & thinking,2021,90344,5576,6.2
+New South Wales,All children,Language & thinking,2024,84264,5867,7.0
+New South Wales,Major Cities of Australia,Language & thinking,2009,61234,3183,5.2
+New South Wales,Major Cities of Australia,Language & thinking,2012,66504,2812,4.2
+New South Wales,Major Cities of Australia,Language & thinking,2015,68653,3064,4.5
+New South Wales,Major Cities of Australia,Language & thinking,2018,71415,3529,4.9
+New South Wales,Major Cities of Australia,Language & thinking,2021,69134,3856,5.6
+New South Wales,Major Cities of Australia,Language & thinking,2024,64313,4116,6.4
+New South Wales,Inner Regional Australia,Language & thinking,2009,16626,1201,7.2
+New South Wales,Inner Regional Australia,Language & thinking,2012,17516,972,5.5
+New South Wales,Inner Regional Australia,Language & thinking,2015,17305,903,5.2
+New South Wales,Inner Regional Australia,Language & thinking,2018,17001,958,5.6
+New South Wales,Inner Regional Australia,Language & thinking,2021,16681,1281,7.7
+New South Wales,Inner Regional Australia,Language & thinking,2024,15671,1296,8.3
+New South Wales,Outer Regional Australia,Language & thinking,2009,4492,405,9.0
+New South Wales,Outer Regional Australia,Language & thinking,2012,4800,396,8.2
+New South Wales,Outer Regional Australia,Language & thinking,2015,4682,348,7.4
+New South Wales,Outer Regional Australia,Language & thinking,2018,4556,349,7.7
+New South Wales,Outer Regional Australia,Language & thinking,2021,4048,358,8.8
+New South Wales,Outer Regional Australia,Language & thinking,2024,3809,390,10.2
+New South Wales,Remote Australia,Language & thinking,2009,433,43,9.9
+New South Wales,Remote Australia,Language & thinking,2012,471,53,11.3
+New South Wales,Remote Australia,Language & thinking,2015,412,31,7.5
+New South Wales,Remote Australia,Language & thinking,2018,416,38,9.1
+New South Wales,Remote Australia,Language & thinking,2021,363,53,14.6
+New South Wales,Remote Australia,Language & thinking,2024,363,47,12.9
+New South Wales,Very Remote Australia,Language & thinking,2009,114,23,20.2
+New South Wales,Very Remote Australia,Language & thinking,2012,159,18,11.3
+New South Wales,Very Remote Australia,Language & thinking,2015,147,14,9.5
+New South Wales,Very Remote Australia,Language & thinking,2018,103,10,9.7
+New South Wales,Very Remote Australia,Language & thinking,2021,118,28,23.7
+New South Wales,Very Remote Australia,Language & thinking,2024,108,18,16.7
+Victoria,All children,Language & thinking,2009,57424,3512,6.1
+Victoria,All children,Language & thinking,2012,64195,3915,6.1
+Victoria,All children,Language & thinking,2015,67828,4292,6.3
+Victoria,All children,Language & thinking,2018,71848,4608,6.4
+Victoria,All children,Language & thinking,2021,69231,4993,7.2
+Victoria,All children,Language & thinking,2024,62278,4562,7.3
+Victoria,Major Cities of Australia,Language & thinking,2009,43228,2505,5.8
+Victoria,Major Cities of Australia,Language & thinking,2012,48233,2778,5.8
+Victoria,Major Cities of Australia,Language & thinking,2015,51850,3039,5.9
+Victoria,Major Cities of Australia,Language & thinking,2018,55809,3341,6.0
+Victoria,Major Cities of Australia,Language & thinking,2021,53750,3668,6.8
+Victoria,Major Cities of Australia,Language & thinking,2024,48678,3456,7.1
+Victoria,Inner Regional Australia,Language & thinking,2009,11620,828,7.1
+Victoria,Inner Regional Australia,Language & thinking,2012,13034,915,7.0
+Victoria,Inner Regional Australia,Language & thinking,2015,13088,1001,7.6
+Victoria,Inner Regional Australia,Language & thinking,2018,13335,1042,7.8
+Victoria,Inner Regional Australia,Language & thinking,2021,12954,1083,8.4
+Victoria,Inner Regional Australia,Language & thinking,2024,11639,937,8.1
+Victoria,Outer Regional Australia,Language & thinking,2009,2547,179,7.0
+Victoria,Outer Regional Australia,Language & thinking,2012,2892,219,7.6
+Victoria,Outer Regional Australia,Language & thinking,2015,2857,249,8.7
+Victoria,Outer Regional Australia,Language & thinking,2018,2663,224,8.4
+Victoria,Outer Regional Australia,Language & thinking,2021,2496,238,9.5
+Victoria,Outer Regional Australia,Language & thinking,2024,1936,165,8.5
+Victoria,Remote Australia,Language & thinking,2009,29,0,0.0
+Victoria,Remote Australia,Language & thinking,2012,36,3,8.3
+Victoria,Remote Australia,Language & thinking,2015,33,3,9.1
+Victoria,Remote Australia,Language & thinking,2018,41,1,2.4
+Victoria,Remote Australia,Language & thinking,2021,31,4,12.9
+Victoria,Remote Australia,Language & thinking,2024,25,4,16.0
+Queensland,All children,Language & thinking,2009,52590,8184,15.6
+Queensland,All children,Language & thinking,2012,58122,5304,9.1
+Queensland,All children,Language & thinking,2015,62126,5000,8.0
+Queensland,All children,Language & thinking,2018,61781,4947,8.0
+Queensland,All children,Language & thinking,2021,61387,5127,8.4
+Queensland,All children,Language & thinking,2024,57966,4849,8.4
+Queensland,Major Cities of Australia,Language & thinking,2009,31944,4429,13.9
+Queensland,Major Cities of Australia,Language & thinking,2012,35281,2816,8.0
+Queensland,Major Cities of Australia,Language & thinking,2015,38166,2765,7.2
+Queensland,Major Cities of Australia,Language & thinking,2018,39440,2681,6.8
+Queensland,Major Cities of Australia,Language & thinking,2021,39863,2826,7.1
+Queensland,Major Cities of Australia,Language & thinking,2024,37833,2693,7.1
+Queensland,Inner Regional Australia,Language & thinking,2009,10601,1868,17.6
+Queensland,Inner Regional Australia,Language & thinking,2012,11742,1296,11.0
+Queensland,Inner Regional Australia,Language & thinking,2015,12377,1100,8.9
+Queensland,Inner Regional Australia,Language & thinking,2018,11887,1127,9.5
+Queensland,Inner Regional Australia,Language & thinking,2021,11243,1126,10.0
+Queensland,Inner Regional Australia,Language & thinking,2024,10773,1108,10.3
+Queensland,Outer Regional Australia,Language & thinking,2009,8089,1425,17.6
+Queensland,Outer Regional Australia,Language & thinking,2012,9042,924,10.2
+Queensland,Outer Regional Australia,Language & thinking,2015,9528,851,8.9
+Queensland,Outer Regional Australia,Language & thinking,2018,8592,841,9.8
+Queensland,Outer Regional Australia,Language & thinking,2021,8513,883,10.4
+Queensland,Outer Regional Australia,Language & thinking,2024,7741,781,10.1
+Queensland,Remote Australia,Language & thinking,2009,1059,192,18.1
+Queensland,Remote Australia,Language & thinking,2012,1167,130,11.1
+Queensland,Remote Australia,Language & thinking,2015,1120,135,12.1
+Queensland,Remote Australia,Language & thinking,2018,1022,118,11.5
+Queensland,Remote Australia,Language & thinking,2021,1008,150,14.9
+Queensland,Remote Australia,Language & thinking,2024,904,135,14.9
+Queensland,Very Remote Australia,Language & thinking,2009,897,270,30.1
+Queensland,Very Remote Australia,Language & thinking,2012,890,138,15.5
+Queensland,Very Remote Australia,Language & thinking,2015,935,149,15.9
+Queensland,Very Remote Australia,Language & thinking,2018,840,180,21.4
+Queensland,Very Remote Australia,Language & thinking,2021,760,142,18.7
+Queensland,Very Remote Australia,Language & thinking,2024,715,132,18.5
+South Australia,All children,Language & thinking,2009,15040,923,6.1
+South Australia,All children,Language & thinking,2012,17432,1188,6.8
+South Australia,All children,Language & thinking,2015,18466,1263,6.8
+South Australia,All children,Language & thinking,2018,19108,1375,7.2
+South Australia,All children,Language & thinking,2021,18890,1494,7.9
+South Australia,All children,Language & thinking,2024,17596,1299,7.4
+South Australia,Major Cities of Australia,Language & thinking,2009,10962,624,5.7
+South Australia,Major Cities of Australia,Language & thinking,2012,12892,835,6.5
+South Australia,Major Cities of Australia,Language & thinking,2015,13805,850,6.2
+South Australia,Major Cities of Australia,Language & thinking,2018,14429,945,6.5
+South Australia,Major Cities of Australia,Language & thinking,2021,14459,1021,7.1
+South Australia,Major Cities of Australia,Language & thinking,2024,13491,936,6.9
+South Australia,Inner Regional Australia,Language & thinking,2009,1493,84,5.6
+South Australia,Inner Regional Australia,Language & thinking,2012,1542,81,5.3
+South Australia,Inner Regional Australia,Language & thinking,2015,1694,115,6.8
+South Australia,Inner Regional Australia,Language & thinking,2018,1703,127,7.5
+South Australia,Inner Regional Australia,Language & thinking,2021,1652,132,8.0
+South Australia,Inner Regional Australia,Language & thinking,2024,1515,115,7.6
+South Australia,Outer Regional Australia,Language & thinking,2009,1989,156,7.8
+South Australia,Outer Regional Australia,Language & thinking,2012,2305,190,8.2
+South Australia,Outer Regional Australia,Language & thinking,2015,2267,217,9.6
+South Australia,Outer Regional Australia,Language & thinking,2018,2259,219,9.7
+South Australia,Outer Regional Australia,Language & thinking,2021,2126,241,11.3
+South Australia,Outer Regional Australia,Language & thinking,2024,1993,189,9.5
+South Australia,Remote Australia,Language & thinking,2009,448,29,6.5
+South Australia,Remote Australia,Language & thinking,2012,502,39,7.8
+South Australia,Remote Australia,Language & thinking,2015,504,33,6.5
+South Australia,Remote Australia,Language & thinking,2018,538,50,9.3
+South Australia,Remote Australia,Language & thinking,2021,485,55,11.3
+South Australia,Remote Australia,Language & thinking,2024,450,22,4.9
+South Australia,Very Remote Australia,Language & thinking,2009,148,30,20.3
+South Australia,Very Remote Australia,Language & thinking,2012,191,43,22.5
+South Australia,Very Remote Australia,Language & thinking,2015,196,48,24.5
+South Australia,Very Remote Australia,Language & thinking,2018,179,34,19.0
+South Australia,Very Remote Australia,Language & thinking,2021,168,45,26.8
+South Australia,Very Remote Australia,Language & thinking,2024,147,37,25.2
+Western Australia,All children,Language & thinking,2009,26079,3132,12.0
+Western Australia,All children,Language & thinking,2012,30798,2636,8.6
+Western Australia,All children,Language & thinking,2015,32459,2153,6.6
+Western Australia,All children,Language & thinking,2018,32860,2158,6.6
+Western Australia,All children,Language & thinking,2021,33751,2416,7.2
+Western Australia,All children,Language & thinking,2024,32454,2700,8.3
+Western Australia,Major Cities of Australia,Language & thinking,2009,19296,2110,10.9
+Western Australia,Major Cities of Australia,Language & thinking,2012,23064,1738,7.5
+Western Australia,Major Cities of Australia,Language & thinking,2015,24621,1349,5.5
+Western Australia,Major Cities of Australia,Language & thinking,2018,25402,1392,5.5
+Western Australia,Major Cities of Australia,Language & thinking,2021,26439,1605,6.1
+Western Australia,Major Cities of Australia,Language & thinking,2024,25653,1927,7.5
+Western Australia,Inner Regional Australia,Language & thinking,2009,2385,288,12.1
+Western Australia,Inner Regional Australia,Language & thinking,2012,2800,249,8.9
+Western Australia,Inner Regional Australia,Language & thinking,2015,2986,242,8.1
+Western Australia,Inner Regional Australia,Language & thinking,2018,2787,194,7.0
+Western Australia,Inner Regional Australia,Language & thinking,2021,2814,229,8.1
+Western Australia,Inner Regional Australia,Language & thinking,2024,2682,177,6.6
+Western Australia,Outer Regional Australia,Language & thinking,2009,2303,353,15.3
+Western Australia,Outer Regional Australia,Language & thinking,2012,2583,301,11.7
+Western Australia,Outer Regional Australia,Language & thinking,2015,2559,234,9.1
+Western Australia,Outer Regional Australia,Language & thinking,2018,2377,225,9.5
+Western Australia,Outer Regional Australia,Language & thinking,2021,2310,241,10.4
+Western Australia,Outer Regional Australia,Language & thinking,2024,2156,281,13.0
+Western Australia,Remote Australia,Language & thinking,2009,1161,173,14.9
+Western Australia,Remote Australia,Language & thinking,2012,1379,128,9.3
+Western Australia,Remote Australia,Language & thinking,2015,1328,152,11.4
+Western Australia,Remote Australia,Language & thinking,2018,1404,126,9.0
+Western Australia,Remote Australia,Language & thinking,2021,1324,140,10.6
+Western Australia,Remote Australia,Language & thinking,2024,1222,127,10.4
+Western Australia,Very Remote Australia,Language & thinking,2009,934,208,22.3
+Western Australia,Very Remote Australia,Language & thinking,2012,972,220,22.6
+Western Australia,Very Remote Australia,Language & thinking,2015,965,176,18.2
+Western Australia,Very Remote Australia,Language & thinking,2018,890,221,24.8
+Western Australia,Very Remote Australia,Language & thinking,2021,864,201,23.3
+Western Australia,Very Remote Australia,Language & thinking,2024,741,188,25.4
+Tasmania,All children,Language & thinking,2009,5704,442,7.7
+Tasmania,All children,Language & thinking,2012,6166,439,7.1
+Tasmania,All children,Language & thinking,2015,6159,465,7.5
+Tasmania,All children,Language & thinking,2018,5829,468,8.0
+Tasmania,All children,Language & thinking,2021,5592,514,9.2
+Tasmania,All children,Language & thinking,2024,5239,479,9.1
+Tasmania,Inner Regional Australia,Language & thinking,2009,3479,258,7.4
+Tasmania,Inner Regional Australia,Language & thinking,2012,3740,246,6.6
+Tasmania,Inner Regional Australia,Language & thinking,2015,3806,265,7.0
+Tasmania,Inner Regional Australia,Language & thinking,2018,3723,279,7.5
+Tasmania,Inner Regional Australia,Language & thinking,2021,3596,308,8.6
+Tasmania,Inner Regional Australia,Language & thinking,2024,3330,306,9.2
+Tasmania,Outer Regional Australia,Language & thinking,2009,2115,174,8.2
+Tasmania,Outer Regional Australia,Language & thinking,2012,2309,183,7.9
+Tasmania,Outer Regional Australia,Language & thinking,2015,2224,190,8.5
+Tasmania,Outer Regional Australia,Language & thinking,2018,1985,179,9.0
+Tasmania,Outer Regional Australia,Language & thinking,2021,1897,189,10.0
+Tasmania,Outer Regional Australia,Language & thinking,2024,1822,165,9.1
+Tasmania,Remote Australia,Language & thinking,2009,89,7,7.9
+Tasmania,Remote Australia,Language & thinking,2012,96,5,5.2
+Tasmania,Remote Australia,Language & thinking,2015,107,7,6.5
+Tasmania,Remote Australia,Language & thinking,2018,84,5,6.0
+Tasmania,Remote Australia,Language & thinking,2021,71,14,19.7
+Tasmania,Remote Australia,Language & thinking,2024,65,8,12.3
+Tasmania,Very Remote Australia,Language & thinking,2009,21,3,14.3
+Tasmania,Very Remote Australia,Language & thinking,2012,21,5,23.8
+Tasmania,Very Remote Australia,Language & thinking,2015,22,3,13.6
+Tasmania,Very Remote Australia,Language & thinking,2018,37,5,13.5
+Tasmania,Very Remote Australia,Language & thinking,2021,28,3,10.7
+Tasmania,Very Remote Australia,Language & thinking,2024,22,0,0.0
+Northern Territory,All children,Language & thinking,2009,2860,644,22.5
+Northern Territory,All children,Language & thinking,2012,3124,649,20.8
+Northern Territory,All children,Language & thinking,2015,3247,697,21.5
+Northern Territory,All children,Language & thinking,2018,3182,625,19.6
+Northern Territory,All children,Language & thinking,2021,2973,630,21.2
+Northern Territory,All children,Language & thinking,2024,2694,589,21.9
+Northern Territory,Outer Regional Australia,Language & thinking,2009,1526,160,10.5
+Northern Territory,Outer Regional Australia,Language & thinking,2012,1729,167,9.7
+Northern Territory,Outer Regional Australia,Language & thinking,2015,1806,157,8.7
+Northern Territory,Outer Regional Australia,Language & thinking,2018,1910,185,9.7
+Northern Territory,Outer Regional Australia,Language & thinking,2021,1832,196,10.7
+Northern Territory,Outer Regional Australia,Language & thinking,2024,1639,194,11.8
+Northern Territory,Remote Australia,Language & thinking,2009,636,211,33.2
+Northern Territory,Remote Australia,Language & thinking,2012,672,171,25.4
+Northern Territory,Remote Australia,Language & thinking,2015,731,172,23.5
+Northern Territory,Remote Australia,Language & thinking,2018,656,129,19.7
+Northern Territory,Remote Australia,Language & thinking,2021,632,143,22.6
+Northern Territory,Remote Australia,Language & thinking,2024,559,154,27.5
+Northern Territory,Very Remote Australia,Language & thinking,2009,698,273,39.1
+Northern Territory,Very Remote Australia,Language & thinking,2012,723,311,43.0
+Northern Territory,Very Remote Australia,Language & thinking,2015,710,368,51.8
+Northern Territory,Very Remote Australia,Language & thinking,2018,616,311,50.5
+Northern Territory,Very Remote Australia,Language & thinking,2021,509,291,57.2
+Northern Territory,Very Remote Australia,Language & thinking,2024,496,241,48.6
+Australian Capital Territory,All children,Language & thinking,2009,4183,238,5.7
+Australian Capital Territory,All children,Language & thinking,2012,4609,182,3.9
+Australian Capital Territory,All children,Language & thinking,2015,5164,303,5.9
+Australian Capital Territory,All children,Language & thinking,2018,5479,352,6.4
+Australian Capital Territory,All children,Language & thinking,2021,5529,357,6.5
+Australian Capital Territory,All children,Language & thinking,2024,4860,353,7.3
+Australian Capital Territory,Major Cities of Australia,Language & thinking,2009,4183,238,5.7
+Australian Capital Territory,Major Cities of Australia,Language & thinking,2012,4609,182,3.9
+Australian Capital Territory,Major Cities of Australia,Language & thinking,2015,5164,303,5.9
+Australian Capital Territory,Major Cities of Australia,Language & thinking,2018,5479,352,6.4
+Australian Capital Territory,Major Cities of Australia,Language & thinking,2021,5529,357,6.5
+Australian Capital Territory,Major Cities of Australia,Language & thinking,2024,4860,353,7.3
+New South Wales,All children,Communication,2009,82948,7599,9.2
+New South Wales,All children,Communication,2012,89460,7590,8.5
+New South Wales,All children,Communication,2015,91263,7360,8.1
+New South Wales,All children,Communication,2018,93541,7448,8.0
+New South Wales,All children,Communication,2021,90427,7618,8.4
+New South Wales,All children,Communication,2024,84398,7350,8.7
+New South Wales,Major Cities of Australia,Communication,2009,61265,5710,9.3
+New South Wales,Major Cities of Australia,Communication,2012,66473,5670,8.5
+New South Wales,Major Cities of Australia,Communication,2015,68691,5662,8.2
+New South Wales,Major Cities of Australia,Communication,2018,71439,5844,8.2
+New South Wales,Major Cities of Australia,Communication,2021,69195,5890,8.5
+New South Wales,Major Cities of Australia,Communication,2024,64407,5693,8.8
+New South Wales,Inner Regional Australia,Communication,2009,16635,1374,8.3
+New South Wales,Inner Regional Australia,Communication,2012,17540,1372,7.8
+New South Wales,Inner Regional Australia,Communication,2015,17323,1244,7.2
+New South Wales,Inner Regional Australia,Communication,2018,17025,1192,7.0
+New South Wales,Inner Regional Australia,Communication,2021,16684,1305,7.8
+New South Wales,Inner Regional Australia,Communication,2024,15688,1231,7.8
+New South Wales,Outer Regional Australia,Communication,2009,4499,464,10.3
+New South Wales,Outer Regional Australia,Communication,2012,4818,472,9.8
+New South Wales,Outer Regional Australia,Communication,2015,4690,386,8.2
+New South Wales,Outer Regional Australia,Communication,2018,4557,363,8.0
+New South Wales,Outer Regional Australia,Communication,2021,4062,366,9.0
+New South Wales,Outer Regional Australia,Communication,2024,3819,363,9.5
+New South Wales,Remote Australia,Communication,2009,434,26,6.0
+New South Wales,Remote Australia,Communication,2012,470,53,11.3
+New South Wales,Remote Australia,Communication,2015,412,49,11.9
+New South Wales,Remote Australia,Communication,2018,417,45,10.8
+New South Wales,Remote Australia,Communication,2021,366,35,9.6
+New South Wales,Remote Australia,Communication,2024,376,44,11.7
+New South Wales,Very Remote Australia,Communication,2009,115,25,21.7
+New South Wales,Very Remote Australia,Communication,2012,159,23,14.5
+New South Wales,Very Remote Australia,Communication,2015,147,19,12.9
+New South Wales,Very Remote Australia,Communication,2018,103,4,3.9
+New South Wales,Very Remote Australia,Communication,2021,120,22,18.3
+New South Wales,Very Remote Australia,Communication,2024,108,19,17.6
+Victoria,All children,Communication,2009,57491,4773,8.3
+Victoria,All children,Communication,2012,64038,5110,8.0
+Victoria,All children,Communication,2015,67864,5131,7.6
+Victoria,All children,Communication,2018,71893,5312,7.4
+Victoria,All children,Communication,2021,69275,5134,7.4
+Victoria,All children,Communication,2024,62382,5137,8.2
+Victoria,Major Cities of Australia,Communication,2009,43263,3703,8.6
+Victoria,Major Cities of Australia,Communication,2012,48131,3895,8.1
+Victoria,Major Cities of Australia,Communication,2015,51880,3956,7.6
+Victoria,Major Cities of Australia,Communication,2018,55844,4126,7.4
+Victoria,Major Cities of Australia,Communication,2021,53788,4030,7.5
+Victoria,Major Cities of Australia,Communication,2024,48771,4100,8.4
+Victoria,Inner Regional Australia,Communication,2009,11651,839,7.2
+Victoria,Inner Regional Australia,Communication,2012,12995,957,7.4
+Victoria,Inner Regional Australia,Communication,2015,13094,961,7.3
+Victoria,Inner Regional Australia,Communication,2018,13341,978,7.3
+Victoria,Inner Regional Australia,Communication,2021,12958,924,7.1
+Victoria,Inner Regional Australia,Communication,2024,11649,876,7.5
+Victoria,Outer Regional Australia,Communication,2009,2548,229,9.0
+Victoria,Outer Regional Australia,Communication,2012,2876,254,8.8
+Victoria,Outer Regional Australia,Communication,2015,2857,213,7.5
+Victoria,Outer Regional Australia,Communication,2018,2667,205,7.7
+Victoria,Outer Regional Australia,Communication,2021,2498,175,7.0
+Victoria,Outer Regional Australia,Communication,2024,1937,158,8.2
+Victoria,Remote Australia,Communication,2009,29,2,6.9
+Victoria,Remote Australia,Communication,2012,36,4,11.1
+Victoria,Remote Australia,Communication,2015,33,1,3.0
+Victoria,Remote Australia,Communication,2018,41,3,7.3
+Victoria,Remote Australia,Communication,2021,31,5,16.1
+Victoria,Remote Australia,Communication,2024,25,3,12.0
+Queensland,All children,Communication,2009,52754,5523,10.5
+Queensland,All children,Communication,2012,58203,6239,10.7
+Queensland,All children,Communication,2015,62163,6533,10.5
+Queensland,All children,Communication,2018,61833,6248,10.1
+Queensland,All children,Communication,2021,61450,5596,9.1
+Queensland,All children,Communication,2024,58029,5147,8.9
+Queensland,Major Cities of Australia,Communication,2009,32032,3247,10.1
+Queensland,Major Cities of Australia,Communication,2012,35332,3654,10.3
+Queensland,Major Cities of Australia,Communication,2015,38182,3775,9.9
+Queensland,Major Cities of Australia,Communication,2018,39471,3756,9.5
+Queensland,Major Cities of Australia,Communication,2021,39888,3307,8.3
+Queensland,Major Cities of Australia,Communication,2024,37867,3052,8.1
+Queensland,Inner Regional Australia,Communication,2009,10635,1141,10.7
+Queensland,Inner Regional Australia,Communication,2012,11746,1290,11.0
+Queensland,Inner Regional Australia,Communication,2015,12381,1351,10.9
+Queensland,Inner Regional Australia,Communication,2018,11891,1277,10.7
+Queensland,Inner Regional Australia,Communication,2021,11271,1153,10.2
+Queensland,Inner Regional Australia,Communication,2024,10786,1074,10.0
+Queensland,Outer Regional Australia,Communication,2009,8124,836,10.3
+Queensland,Outer Regional Australia,Communication,2012,9061,1039,11.5
+Queensland,Outer Regional Australia,Communication,2015,9534,1112,11.7
+Queensland,Outer Regional Australia,Communication,2018,8607,930,10.8
+Queensland,Outer Regional Australia,Communication,2021,8521,908,10.7
+Queensland,Outer Regional Australia,Communication,2024,7750,808,10.4
+Queensland,Remote Australia,Communication,2009,1064,122,11.5
+Queensland,Remote Australia,Communication,2012,1169,121,10.4
+Queensland,Remote Australia,Communication,2015,1122,164,14.6
+Queensland,Remote Australia,Communication,2018,1022,108,10.6
+Queensland,Remote Australia,Communication,2021,1009,105,10.4
+Queensland,Remote Australia,Communication,2024,903,103,11.4
+Queensland,Very Remote Australia,Communication,2009,899,177,19.7
+Queensland,Very Remote Australia,Communication,2012,895,135,15.1
+Queensland,Very Remote Australia,Communication,2015,944,131,13.9
+Queensland,Very Remote Australia,Communication,2018,842,177,21.0
+Queensland,Very Remote Australia,Communication,2021,761,123,16.2
+Queensland,Very Remote Australia,Communication,2024,723,110,15.2
+South Australia,All children,Communication,2009,15061,1200,8.0
+South Australia,All children,Communication,2012,17439,1552,8.9
+South Australia,All children,Communication,2015,18527,1518,8.2
+South Australia,All children,Communication,2018,19181,1620,8.4
+South Australia,All children,Communication,2021,18942,1622,8.6
+South Australia,All children,Communication,2024,17637,1548,8.8
+South Australia,Major Cities of Australia,Communication,2009,10978,886,8.1
+South Australia,Major Cities of Australia,Communication,2012,12897,1163,9.0
+South Australia,Major Cities of Australia,Communication,2015,13859,1129,8.1
+South Australia,Major Cities of Australia,Communication,2018,14494,1183,8.2
+South Australia,Major Cities of Australia,Communication,2021,14506,1223,8.4
+South Australia,Major Cities of Australia,Communication,2024,13526,1202,8.9
+South Australia,Inner Regional Australia,Communication,2009,1493,93,6.2
+South Australia,Inner Regional Australia,Communication,2012,1541,119,7.7
+South Australia,Inner Regional Australia,Communication,2015,1701,105,6.2
+South Australia,Inner Regional Australia,Communication,2018,1710,144,8.4
+South Australia,Inner Regional Australia,Communication,2021,1657,124,7.5
+South Australia,Inner Regional Australia,Communication,2024,1518,122,8.0
+South Australia,Outer Regional Australia,Communication,2009,1992,162,8.1
+South Australia,Outer Regional Australia,Communication,2012,2305,200,8.7
+South Australia,Outer Regional Australia,Communication,2015,2267,196,8.6
+South Australia,Outer Regional Australia,Communication,2018,2260,204,9.0
+South Australia,Outer Regional Australia,Communication,2021,2126,204,9.6
+South Australia,Outer Regional Australia,Communication,2024,1994,172,8.6
+South Australia,Remote Australia,Communication,2009,449,21,4.7
+South Australia,Remote Australia,Communication,2012,503,27,5.4
+South Australia,Remote Australia,Communication,2015,504,36,7.1
+South Australia,Remote Australia,Communication,2018,538,54,10.0
+South Australia,Remote Australia,Communication,2021,484,42,8.7
+South Australia,Remote Australia,Communication,2024,451,36,8.0
+South Australia,Very Remote Australia,Communication,2009,149,38,25.5
+South Australia,Very Remote Australia,Communication,2012,193,43,22.3
+South Australia,Very Remote Australia,Communication,2015,196,52,26.5
+South Australia,Very Remote Australia,Communication,2018,179,35,19.6
+South Australia,Very Remote Australia,Communication,2021,169,29,17.2
+South Australia,Very Remote Australia,Communication,2024,148,16,10.8
+Western Australia,All children,Communication,2009,26130,2325,8.9
+Western Australia,All children,Communication,2012,30837,2797,9.1
+Western Australia,All children,Communication,2015,32505,2612,8.0
+Western Australia,All children,Communication,2018,32897,2311,7.0
+Western Australia,All children,Communication,2021,33805,2717,8.0
+Western Australia,All children,Communication,2024,32520,3157,9.7
+Western Australia,Major Cities of Australia,Communication,2009,19330,1697,8.8
+Western Australia,Major Cities of Australia,Communication,2012,23084,2066,8.9
+Western Australia,Major Cities of Australia,Communication,2015,24637,1901,7.7
+Western Australia,Major Cities of Australia,Communication,2018,25418,1705,6.7
+Western Australia,Major Cities of Australia,Communication,2021,26469,2023,7.6
+Western Australia,Major Cities of Australia,Communication,2024,25691,2515,9.8
+Western Australia,Inner Regional Australia,Communication,2009,2389,178,7.5
+Western Australia,Inner Regional Australia,Communication,2012,2810,236,8.4
+Western Australia,Inner Regional Australia,Communication,2015,3005,216,7.2
+Western Australia,Inner Regional Australia,Communication,2018,2802,177,6.3
+Western Australia,Inner Regional Australia,Communication,2021,2829,223,7.9
+Western Australia,Inner Regional Australia,Communication,2024,2688,180,6.7
+Western Australia,Outer Regional Australia,Communication,2009,2306,217,9.4
+Western Australia,Outer Regional Australia,Communication,2012,2588,245,9.5
+Western Australia,Outer Regional Australia,Communication,2015,2559,222,8.7
+Western Australia,Outer Regional Australia,Communication,2018,2382,186,7.8
+Western Australia,Outer Regional Australia,Communication,2021,2314,224,9.7
+Western Australia,Outer Regional Australia,Communication,2024,2171,219,10.1
+Western Australia,Remote Australia,Communication,2009,1166,87,7.5
+Western Australia,Remote Australia,Communication,2012,1378,88,6.4
+Western Australia,Remote Australia,Communication,2015,1335,121,9.1
+Western Australia,Remote Australia,Communication,2018,1405,110,7.8
+Western Australia,Remote Australia,Communication,2021,1324,101,7.6
+Western Australia,Remote Australia,Communication,2024,1228,91,7.4
+Western Australia,Very Remote Australia,Communication,2009,939,146,15.5
+Western Australia,Very Remote Australia,Communication,2012,977,162,16.6
+Western Australia,Very Remote Australia,Communication,2015,969,152,15.7
+Western Australia,Very Remote Australia,Communication,2018,890,133,14.9
+Western Australia,Very Remote Australia,Communication,2021,869,146,16.8
+Western Australia,Very Remote Australia,Communication,2024,742,152,20.5
+Tasmania,All children,Communication,2009,5707,397,7.0
+Tasmania,All children,Communication,2012,6114,402,6.6
+Tasmania,All children,Communication,2015,6159,394,6.4
+Tasmania,All children,Communication,2018,5846,334,5.7
+Tasmania,All children,Communication,2021,5594,370,6.6
+Tasmania,All children,Communication,2024,5246,391,7.5
+Tasmania,Inner Regional Australia,Communication,2009,3480,232,6.7
+Tasmania,Inner Regional Australia,Communication,2012,3699,240,6.5
+Tasmania,Inner Regional Australia,Communication,2015,3806,243,6.4
+Tasmania,Inner Regional Australia,Communication,2018,3728,208,5.6
+Tasmania,Inner Regional Australia,Communication,2021,3598,235,6.5
+Tasmania,Inner Regional Australia,Communication,2024,3332,254,7.6
+Tasmania,Outer Regional Australia,Communication,2009,2117,159,7.5
+Tasmania,Outer Regional Australia,Communication,2012,2297,156,6.8
+Tasmania,Outer Regional Australia,Communication,2015,2224,143,6.4
+Tasmania,Outer Regional Australia,Communication,2018,1997,114,5.7
+Tasmania,Outer Regional Australia,Communication,2021,1897,124,6.5
+Tasmania,Outer Regional Australia,Communication,2024,1827,127,7.0
+Tasmania,Remote Australia,Communication,2009,89,5,5.6
+Tasmania,Remote Australia,Communication,2012,97,4,4.1
+Tasmania,Remote Australia,Communication,2015,107,5,4.7
+Tasmania,Remote Australia,Communication,2018,84,10,11.9
+Tasmania,Remote Australia,Communication,2021,71,9,12.7
+Tasmania,Remote Australia,Communication,2024,65,10,15.4
+Tasmania,Very Remote Australia,Communication,2009,21,1,4.8
+Tasmania,Very Remote Australia,Communication,2012,21,2,9.5
+Tasmania,Very Remote Australia,Communication,2015,22,3,13.6
+Tasmania,Very Remote Australia,Communication,2018,37,2,5.4
+Tasmania,Very Remote Australia,Communication,2021,28,2,7.1
+Tasmania,Very Remote Australia,Communication,2024,22,0,0.0
+Northern Territory,All children,Communication,2009,2893,507,17.5
+Northern Territory,All children,Communication,2012,3142,454,14.4
+Northern Territory,All children,Communication,2015,3267,530,16.2
+Northern Territory,All children,Communication,2018,3193,532,16.7
+Northern Territory,All children,Communication,2021,2976,500,16.8
+Northern Territory,All children,Communication,2024,2697,487,18.1
+Northern Territory,Outer Regional Australia,Communication,2009,1537,134,8.7
+Northern Territory,Outer Regional Australia,Communication,2012,1737,166,9.6
+Northern Territory,Outer Regional Australia,Communication,2015,1807,163,9.0
+Northern Territory,Outer Regional Australia,Communication,2018,1912,164,8.6
+Northern Territory,Outer Regional Australia,Communication,2021,1833,227,12.4
+Northern Territory,Outer Regional Australia,Communication,2024,1638,194,11.8
+Northern Territory,Remote Australia,Communication,2009,646,161,24.9
+Northern Territory,Remote Australia,Communication,2012,680,101,14.9
+Northern Territory,Remote Australia,Communication,2015,743,121,16.3
+Northern Territory,Remote Australia,Communication,2018,659,129,19.6
+Northern Territory,Remote Australia,Communication,2021,632,95,15.0
+Northern Territory,Remote Australia,Communication,2024,562,110,19.6
+Northern Territory,Very Remote Australia,Communication,2009,710,212,29.9
+Northern Territory,Very Remote Australia,Communication,2012,725,187,25.8
+Northern Territory,Very Remote Australia,Communication,2015,717,246,34.3
+Northern Territory,Very Remote Australia,Communication,2018,622,239,38.4
+Northern Territory,Very Remote Australia,Communication,2021,511,178,34.8
+Northern Territory,Very Remote Australia,Communication,2024,497,183,36.8
+Australian Capital Territory,All children,Communication,2009,4194,375,8.9
+Australian Capital Territory,All children,Communication,2012,4622,376,8.1
+Australian Capital Territory,All children,Communication,2015,5165,397,7.7
+Australian Capital Territory,All children,Communication,2018,5484,427,7.8
+Australian Capital Territory,All children,Communication,2021,5533,507,9.2
+Australian Capital Territory,All children,Communication,2024,4924,526,10.7
+Australian Capital Territory,Major Cities of Australia,Communication,2009,4194,375,8.9
+Australian Capital Territory,Major Cities of Australia,Communication,2012,4622,376,8.1
+Australian Capital Territory,Major Cities of Australia,Communication,2015,5165,397,7.7
+Australian Capital Territory,Major Cities of Australia,Communication,2018,5484,427,7.8
+Australian Capital Territory,Major Cities of Australia,Communication,2021,5533,507,9.2
+Australian Capital Territory,Major Cities of Australia,Communication,2024,4924,526,10.7
+New South Wales,All children,One or more domains,2009,82710,17652,21.3
+New South Wales,All children,One or more domains,2012,88921,17722,19.9
+New South Wales,All children,One or more domains,2015,90956,18378,20.2
+New South Wales,All children,One or more domains,2018,93245,18583,19.9
+New South Wales,All children,One or more domains,2021,90137,19067,21.2
+New South Wales,All children,One or more domains,2024,83968,18329,21.8
+New South Wales,Major Cities of Australia,One or more domains,2009,61101,12612,20.6
+New South Wales,Major Cities of Australia,One or more domains,2012,66079,12743,19.3
+New South Wales,Major Cities of Australia,One or more domains,2015,68468,13572,19.8
+New South Wales,Major Cities of Australia,One or more domains,2018,71189,14049,19.7
+New South Wales,Major Cities of Australia,One or more domains,2021,68979,14109,20.5
+New South Wales,Major Cities of Australia,One or more domains,2024,64093,13522,21.1
+New South Wales,Inner Regional Australia,One or more domains,2009,16582,3799,22.9
+New South Wales,Inner Regional Australia,One or more domains,2012,17433,3695,21.2
+New South Wales,Inner Regional Australia,One or more domains,2015,17266,3515,20.4
+New South Wales,Inner Regional Australia,One or more domains,2018,16986,3368,19.8
+New South Wales,Inner Regional Australia,One or more domains,2021,16635,3801,22.8
+New South Wales,Inner Regional Australia,One or more domains,2024,15634,3657,23.4
+New South Wales,Outer Regional Australia,One or more domains,2009,4483,1097,24.5
+New South Wales,Outer Regional Australia,One or more domains,2012,4783,1105,23.1
+New South Wales,Outer Regional Australia,One or more domains,2015,4674,1132,24.2
+New South Wales,Outer Regional Australia,One or more domains,2018,4551,1037,22.8
+New South Wales,Outer Regional Australia,One or more domains,2021,4046,984,24.3
+New South Wales,Outer Regional Australia,One or more domains,2024,3776,1009,26.7
+New South Wales,Remote Australia,One or more domains,2009,432,99,22.9
+New South Wales,Remote Australia,One or more domains,2012,468,125,26.7
+New South Wales,Remote Australia,One or more domains,2015,409,115,28.1
+New South Wales,Remote Australia,One or more domains,2018,416,104,25.0
+New South Wales,Remote Australia,One or more domains,2021,360,111,30.8
+New South Wales,Remote Australia,One or more domains,2024,363,99,27.3
+New South Wales,Very Remote Australia,One or more domains,2009,112,45,40.2
+New South Wales,Very Remote Australia,One or more domains,2012,158,54,34.2
+New South Wales,Very Remote Australia,One or more domains,2015,139,44,31.7
+New South Wales,Very Remote Australia,One or more domains,2018,103,25,24.3
+New South Wales,Very Remote Australia,One or more domains,2021,117,62,53.0
+New South Wales,Very Remote Australia,One or more domains,2024,102,42,41.2
+Victoria,All children,One or more domains,2009,57277,11641,20.3
+Victoria,All children,One or more domains,2012,63584,12407,19.5
+Victoria,All children,One or more domains,2015,67670,13465,19.9
+Victoria,All children,One or more domains,2018,71671,14232,19.9
+Victoria,All children,One or more domains,2021,69068,13777,19.9
+Victoria,All children,One or more domains,2024,62121,13858,22.3
+Victoria,Major Cities of Australia,One or more domains,2009,43108,8668,20.1
+Victoria,Major Cities of Australia,One or more domains,2012,47806,9157,19.2
+Victoria,Major Cities of Australia,One or more domains,2015,51716,10042,19.4
+Victoria,Major Cities of Australia,One or more domains,2018,55645,10737,19.3
+Victoria,Major Cities of Australia,One or more domains,2021,53613,10361,19.3
+Victoria,Major Cities of Australia,One or more domains,2024,48535,10565,21.8
+Victoria,Inner Regional Australia,One or more domains,2009,11598,2410,20.8
+Victoria,Inner Regional Australia,One or more domains,2012,12896,2637,20.4
+Victoria,Inner Regional Australia,One or more domains,2015,13067,2775,21.2
+Victoria,Inner Regional Australia,One or more domains,2018,13319,2855,21.4
+Victoria,Inner Regional Australia,One or more domains,2021,12933,2837,21.9
+Victoria,Inner Regional Australia,One or more domains,2024,11625,2818,24.2
+Victoria,Outer Regional Australia,One or more domains,2009,2542,556,21.9
+Victoria,Outer Regional Australia,One or more domains,2012,2846,604,21.2
+Victoria,Outer Regional Australia,One or more domains,2015,2854,642,22.5
+Victoria,Outer Regional Australia,One or more domains,2018,2666,627,23.5
+Victoria,Outer Regional Australia,One or more domains,2021,2491,568,22.8
+Victoria,Outer Regional Australia,One or more domains,2024,1936,468,24.2
+Victoria,Remote Australia,One or more domains,2009,29,7,24.1
+Victoria,Remote Australia,One or more domains,2012,36,9,25.0
+Victoria,Remote Australia,One or more domains,2015,33,6,18.2
+Victoria,Remote Australia,One or more domains,2018,41,13,31.7
+Victoria,Remote Australia,One or more domains,2021,31,11,35.5
+Victoria,Remote Australia,One or more domains,2024,25,7,28.0
+Queensland,All children,One or more domains,2009,52603,15593,29.6
+Queensland,All children,One or more domains,2012,57994,15217,26.2
+Queensland,All children,One or more domains,2015,62027,16220,26.1
+Queensland,All children,One or more domains,2018,61673,15954,25.9
+Queensland,All children,One or more domains,2021,61279,15143,24.7
+Queensland,All children,One or more domains,2024,57860,14675,25.4
+Queensland,Major Cities of Australia,One or more domains,2009,31964,9063,28.4
+Queensland,Major Cities of Australia,One or more domains,2012,35230,8885,25.2
+Queensland,Major Cities of Australia,One or more domains,2015,38108,9494,24.9
+Queensland,Major Cities of Australia,One or more domains,2018,39365,9741,24.7
+Queensland,Major Cities of Australia,One or more domains,2021,39784,9098,22.9
+Queensland,Major Cities of Australia,One or more domains,2024,37763,8939,23.7
+Queensland,Inner Regional Australia,One or more domains,2009,10607,3247,30.6
+Queensland,Inner Regional Australia,One or more domains,2012,11698,3216,27.5
+Queensland,Inner Regional Australia,One or more domains,2015,12368,3366,27.2
+Queensland,Inner Regional Australia,One or more domains,2018,11874,3301,27.8
+Queensland,Inner Regional Australia,One or more domains,2021,11234,3094,27.5
+Queensland,Inner Regional Australia,One or more domains,2024,10751,3036,28.2
+Queensland,Outer Regional Australia,One or more domains,2009,8081,2528,31.3
+Queensland,Outer Regional Australia,One or more domains,2012,9018,2497,27.7
+Queensland,Outer Regional Australia,One or more domains,2015,9523,2649,27.8
+Queensland,Outer Regional Australia,One or more domains,2018,8585,2304,26.8
+Queensland,Outer Regional Australia,One or more domains,2021,8506,2400,28.2
+Queensland,Outer Regional Australia,One or more domains,2024,7726,2138,27.7
+Queensland,Remote Australia,One or more domains,2009,1058,338,31.9
+Queensland,Remote Australia,One or more domains,2012,1166,303,26.0
+Queensland,Remote Australia,One or more domains,2015,1112,341,30.7
+Queensland,Remote Australia,One or more domains,2018,1019,272,26.7
+Queensland,Remote Australia,One or more domains,2021,1006,277,27.5
+Queensland,Remote Australia,One or more domains,2024,903,280,31.0
+Queensland,Very Remote Australia,One or more domains,2009,893,417,46.7
+Queensland,Very Remote Australia,One or more domains,2012,882,316,35.8
+Queensland,Very Remote Australia,One or more domains,2015,916,370,40.4
+Queensland,Very Remote Australia,One or more domains,2018,830,336,40.5
+Queensland,Very Remote Australia,One or more domains,2021,749,274,36.6
+Queensland,Very Remote Australia,One or more domains,2024,717,282,39.3
+South Australia,All children,One or more domains,2009,15009,3419,22.8
+South Australia,All children,One or more domains,2012,17355,4115,23.7
+South Australia,All children,One or more domains,2015,18451,4338,23.5
+South Australia,All children,One or more domains,2018,19092,4564,23.9
+South Australia,All children,One or more domains,2021,18881,4490,23.8
+South Australia,All children,One or more domains,2024,17580,4299,24.5
+South Australia,Major Cities of Australia,One or more domains,2009,10938,2477,22.6
+South Australia,Major Cities of Australia,One or more domains,2012,12826,2993,23.3
+South Australia,Major Cities of Australia,One or more domains,2015,13791,3183,23.1
+South Australia,Major Cities of Australia,One or more domains,2018,14413,3315,23.0
+South Australia,Major Cities of Australia,One or more domains,2021,14454,3325,23.0
+South Australia,Major Cities of Australia,One or more domains,2024,13477,3193,23.7
+South Australia,Inner Regional Australia,One or more domains,2009,1490,312,20.9
+South Australia,Inner Regional Australia,One or more domains,2012,1536,349,22.7
+South Australia,Inner Regional Australia,One or more domains,2015,1695,370,21.8
+South Australia,Inner Regional Australia,One or more domains,2018,1702,434,25.5
+South Australia,Inner Regional Australia,One or more domains,2021,1652,397,24.0
+South Australia,Inner Regional Australia,One or more domains,2024,1515,397,26.2
+South Australia,Outer Regional Australia,One or more domains,2009,1987,469,23.6
+South Australia,Outer Regional Australia,One or more domains,2012,2301,572,24.9
+South Australia,Outer Regional Australia,One or more domains,2015,2267,597,26.3
+South Australia,Outer Regional Australia,One or more domains,2018,2260,579,25.6
+South Australia,Outer Regional Australia,One or more domains,2021,2123,587,27.6
+South Australia,Outer Regional Australia,One or more domains,2024,1993,551,27.6
+South Australia,Remote Australia,One or more domains,2009,446,99,22.2
+South Australia,Remote Australia,One or more domains,2012,500,113,22.6
+South Australia,Remote Australia,One or more domains,2015,502,105,20.9
+South Australia,Remote Australia,One or more domains,2018,538,162,30.1
+South Australia,Remote Australia,One or more domains,2021,483,108,22.4
+South Australia,Remote Australia,One or more domains,2024,448,94,21.0
+South Australia,Very Remote Australia,One or more domains,2009,148,62,41.9
+South Australia,Very Remote Australia,One or more domains,2012,192,88,45.8
+South Australia,Very Remote Australia,One or more domains,2015,196,83,42.3
+South Australia,Very Remote Australia,One or more domains,2018,179,74,41.3
+South Australia,Very Remote Australia,One or more domains,2021,169,73,43.2
+South Australia,Very Remote Australia,One or more domains,2024,147,64,43.5
+Western Australia,All children,One or more domains,2009,26052,6445,24.7
+Western Australia,All children,One or more domains,2012,30631,7048,23.0
+Western Australia,All children,One or more domains,2015,32373,6895,21.3
+Western Australia,All children,One or more domains,2018,32798,6369,19.4
+Western Australia,All children,One or more domains,2021,33716,6852,20.3
+Western Australia,All children,One or more domains,2024,32387,7807,24.1
+Western Australia,Major Cities of Australia,One or more domains,2009,19270,4537,23.5
+Western Australia,Major Cities of Australia,One or more domains,2012,22929,5072,22.1
+Western Australia,Major Cities of Australia,One or more domains,2015,24557,4930,20.1
+Western Australia,Major Cities of Australia,One or more domains,2018,25360,4671,18.4
+Western Australia,Major Cities of Australia,One or more domains,2021,26408,5082,19.2
+Western Australia,Major Cities of Australia,One or more domains,2024,25581,6083,23.8
+Western Australia,Inner Regional Australia,One or more domains,2009,2384,594,24.9
+Western Australia,Inner Regional Australia,One or more domains,2012,2788,649,23.3
+Western Australia,Inner Regional Australia,One or more domains,2015,2974,685,23.0
+Western Australia,Inner Regional Australia,One or more domains,2018,2774,547,19.7
+Western Australia,Inner Regional Australia,One or more domains,2021,2811,579,20.6
+Western Australia,Inner Regional Australia,One or more domains,2024,2680,564,21.0
+Western Australia,Outer Regional Australia,One or more domains,2009,2301,666,28.9
+Western Australia,Outer Regional Australia,One or more domains,2012,2583,662,25.6
+Western Australia,Outer Regional Australia,One or more domains,2015,2548,597,23.4
+Western Australia,Outer Regional Australia,One or more domains,2018,2375,507,21.3
+Western Australia,Outer Regional Australia,One or more domains,2021,2312,572,24.7
+Western Australia,Outer Regional Australia,One or more domains,2024,2161,563,26.1
+Western Australia,Remote Australia,One or more domains,2009,1160,317,27.3
+Western Australia,Remote Australia,One or more domains,2012,1371,292,21.3
+Western Australia,Remote Australia,One or more domains,2015,1329,319,24.0
+Western Australia,Remote Australia,One or more domains,2018,1399,301,21.5
+Western Australia,Remote Australia,One or more domains,2021,1323,269,20.3
+Western Australia,Remote Australia,One or more domains,2024,1223,283,23.1
+Western Australia,Very Remote Australia,One or more domains,2009,937,331,35.3
+Western Australia,Very Remote Australia,One or more domains,2012,960,373,38.9
+Western Australia,Very Remote Australia,One or more domains,2015,965,364,37.7
+Western Australia,Very Remote Australia,One or more domains,2018,890,343,38.5
+Western Australia,Very Remote Australia,One or more domains,2021,862,350,40.6
+Western Australia,Very Remote Australia,One or more domains,2024,742,314,42.3
+Tasmania,All children,One or more domains,2009,5699,1243,21.8
+Tasmania,All children,One or more domains,2012,6086,1308,21.5
+Tasmania,All children,One or more domains,2015,6159,1296,21.0
+Tasmania,All children,One or more domains,2018,5825,1255,21.5
+Tasmania,All children,One or more domains,2021,5589,1297,23.2
+Tasmania,All children,One or more domains,2024,5234,1355,25.9
+Tasmania,Inner Regional Australia,One or more domains,2009,3477,725,20.9
+Tasmania,Inner Regional Australia,One or more domains,2012,3686,780,21.2
+Tasmania,Inner Regional Australia,One or more domains,2015,3806,773,20.3
+Tasmania,Inner Regional Australia,One or more domains,2018,3718,771,20.7
+Tasmania,Inner Regional Australia,One or more domains,2021,3595,794,22.1
+Tasmania,Inner Regional Australia,One or more domains,2024,3326,869,26.1
+Tasmania,Outer Regional Australia,One or more domains,2009,2112,491,23.2
+Tasmania,Outer Regional Australia,One or more domains,2012,2283,498,21.8
+Tasmania,Outer Regional Australia,One or more domains,2015,2224,486,21.9
+Tasmania,Outer Regional Australia,One or more domains,2018,1986,446,22.5
+Tasmania,Outer Regional Australia,One or more domains,2021,1895,465,24.5
+Tasmania,Outer Regional Australia,One or more domains,2024,1821,458,25.2
+Tasmania,Remote Australia,One or more domains,2009,89,24,27.0
+Tasmania,Remote Australia,One or more domains,2012,96,20,20.8
+Tasmania,Remote Australia,One or more domains,2015,107,28,26.2
+Tasmania,Remote Australia,One or more domains,2018,84,28,33.3
+Tasmania,Remote Australia,One or more domains,2021,71,30,42.3
+Tasmania,Remote Australia,One or more domains,2024,65,27,41.5
+Tasmania,Very Remote Australia,One or more domains,2009,21,3,14.3
+Tasmania,Very Remote Australia,One or more domains,2012,21,10,47.6
+Tasmania,Very Remote Australia,One or more domains,2015,22,9,40.9
+Tasmania,Very Remote Australia,One or more domains,2018,37,10,27.0
+Tasmania,Very Remote Australia,One or more domains,2021,28,8,28.6
+Tasmania,Very Remote Australia,One or more domains,2024,22,1,4.5
+Northern Territory,All children,One or more domains,2009,2865,1109,38.7
+Northern Territory,All children,One or more domains,2012,3117,1106,35.5
+Northern Territory,All children,One or more domains,2015,3248,1207,37.2
+Northern Territory,All children,One or more domains,2018,3190,1141,35.8
+Northern Territory,All children,One or more domains,2021,2973,1164,39.2
+Northern Territory,All children,One or more domains,2024,2685,1096,40.8
+Northern Territory,Outer Regional Australia,One or more domains,2009,1526,386,25.3
+Northern Territory,Outer Regional Australia,One or more domains,2012,1730,414,23.9
+Northern Territory,Outer Regional Australia,One or more domains,2015,1805,463,25.7
+Northern Territory,Outer Regional Australia,One or more domains,2018,1909,487,25.5
+Northern Territory,Outer Regional Australia,One or more domains,2021,1829,556,30.4
+Northern Territory,Outer Regional Australia,One or more domains,2024,1636,512,31.3
+Northern Territory,Remote Australia,One or more domains,2009,637,343,53.8
+Northern Territory,Remote Australia,One or more domains,2012,670,257,38.4
+Northern Territory,Remote Australia,One or more domains,2015,732,280,38.3
+Northern Territory,Remote Australia,One or more domains,2018,659,252,38.2
+Northern Territory,Remote Australia,One or more domains,2021,631,256,40.6
+Northern Territory,Remote Australia,One or more domains,2024,553,260,47.0
+Northern Territory,Very Remote Australia,One or more domains,2009,702,380,54.1
+Northern Territory,Very Remote Australia,One or more domains,2012,717,435,60.7
+Northern Territory,Very Remote Australia,One or more domains,2015,711,464,65.3
+Northern Territory,Very Remote Australia,One or more domains,2018,622,402,64.6
+Northern Territory,Very Remote Australia,One or more domains,2021,513,352,68.6
+Northern Territory,Very Remote Australia,One or more domains,2024,496,324,65.3
+Australian Capital Territory,All children,One or more domains,2009,4180,927,22.2
+Australian Capital Territory,All children,One or more domains,2012,4594,1010,22.0
+Australian Capital Territory,All children,One or more domains,2015,5157,1161,22.5
+Australian Capital Territory,All children,One or more domains,2018,5482,1350,24.6
+Australian Capital Territory,All children,One or more domains,2021,5521,1474,26.7
+Australian Capital Territory,All children,One or more domains,2024,4876,1368,28.1
+Australian Capital Territory,Major Cities of Australia,One or more domains,2009,4180,927,22.2
+Australian Capital Territory,Major Cities of Australia,One or more domains,2012,4594,1010,22.0
+Australian Capital Territory,Major Cities of Australia,One or more domains,2015,5157,1161,22.5
+Australian Capital Territory,Major Cities of Australia,One or more domains,2018,5482,1350,24.6
+Australian Capital Territory,Major Cities of Australia,One or more domains,2021,5521,1474,26.7
+Australian Capital Territory,Major Cities of Australia,One or more domains,2024,4876,1368,28.1
+New South Wales,All children,Two or more domains,2009,82866,8526,10.3
+New South Wales,All children,Two or more domains,2012,89260,8189,9.2
+New South Wales,All children,Two or more domains,2015,91143,8733,9.6
+New South Wales,All children,Two or more domains,2018,93468,9001,9.6
+New South Wales,All children,Two or more domains,2021,90331,9510,10.5
+New South Wales,All children,Two or more domains,2024,84259,9459,11.2
+New South Wales,Major Cities of Australia,Two or more domains,2009,61201,5907,9.7
+New South Wales,Major Cities of Australia,Two or more domains,2012,66326,5738,8.7
+New South Wales,Major Cities of Australia,Two or more domains,2015,68597,6293,9.2
+New South Wales,Major Cities of Australia,Two or more domains,2018,71381,6679,9.4
+New South Wales,Major Cities of Australia,Two or more domains,2021,69120,6935,10.0
+New South Wales,Major Cities of Australia,Two or more domains,2024,64301,6869,10.7
+New South Wales,Inner Regional Australia,Two or more domains,2009,16624,1946,11.7
+New South Wales,Inner Regional Australia,Two or more domains,2012,17503,1774,10.1
+New South Wales,Inner Regional Australia,Two or more domains,2015,17303,1757,10.2
+New South Wales,Inner Regional Australia,Two or more domains,2018,17012,1713,10.1
+New South Wales,Inner Regional Australia,Two or more domains,2021,16674,1978,11.9
+New South Wales,Inner Regional Australia,Two or more domains,2024,15667,1948,12.4
+New South Wales,Outer Regional Australia,Two or more domains,2009,4493,601,13.4
+New South Wales,Outer Regional Australia,Two or more domains,2012,4802,574,12.0
+New South Wales,Outer Regional Australia,Two or more domains,2015,4685,588,12.6
+New South Wales,Outer Regional Australia,Two or more domains,2018,4555,544,11.9
+New South Wales,Outer Regional Australia,Two or more domains,2021,4059,508,12.5
+New South Wales,Outer Regional Australia,Two or more domains,2024,3813,561,14.7
+New South Wales,Remote Australia,Two or more domains,2009,434,46,10.6
+New South Wales,Remote Australia,Two or more domains,2012,470,69,14.7
+New South Wales,Remote Australia,Two or more domains,2015,411,68,16.5
+New South Wales,Remote Australia,Two or more domains,2018,417,53,12.7
+New South Wales,Remote Australia,Two or more domains,2021,361,53,14.7
+New South Wales,Remote Australia,Two or more domains,2024,371,57,15.4
+New South Wales,Very Remote Australia,Two or more domains,2009,114,26,22.8
+New South Wales,Very Remote Australia,Two or more domains,2012,159,34,21.4
+New South Wales,Very Remote Australia,Two or more domains,2015,147,27,18.4
+New South Wales,Very Remote Australia,Two or more domains,2018,103,12,11.7
+New South Wales,Very Remote Australia,Two or more domains,2021,117,36,30.8
+New South Wales,Very Remote Australia,Two or more domains,2024,107,24,22.4
+Victoria,All children,Two or more domains,2009,57420,5736,10.0
+Victoria,All children,Two or more domains,2012,63889,6053,9.5
+Victoria,All children,Two or more domains,2015,67812,6707,9.9
+Victoria,All children,Two or more domains,2018,71828,7231,10.1
+Victoria,All children,Two or more domains,2021,69217,7085,10.2
+Victoria,All children,Two or more domains,2024,62275,7360,11.8
+Victoria,Major Cities of Australia,Two or more domains,2009,43210,4180,9.7
+Victoria,Major Cities of Australia,Two or more domains,2012,48040,4396,9.2
+Victoria,Major Cities of Australia,Two or more domains,2015,51835,4903,9.5
+Victoria,Major Cities of Australia,Two or more domains,2018,55786,5299,9.5
+Victoria,Major Cities of Australia,Two or more domains,2021,53739,5275,9.8
+Victoria,Major Cities of Australia,Two or more domains,2024,48672,5571,11.4
+Victoria,Inner Regional Australia,Two or more domains,2009,11636,1242,10.7
+Victoria,Inner Regional Australia,Two or more domains,2012,12952,1319,10.2
+Victoria,Inner Regional Australia,Two or more domains,2015,13087,1480,11.3
+Victoria,Inner Regional Australia,Two or more domains,2018,13338,1570,11.8
+Victoria,Inner Regional Australia,Two or more domains,2021,12953,1514,11.7
+Victoria,Inner Regional Australia,Two or more domains,2024,11643,1540,13.2
+Victoria,Outer Regional Australia,Two or more domains,2009,2545,309,12.1
+Victoria,Outer Regional Australia,Two or more domains,2012,2861,331,11.6
+Victoria,Outer Regional Australia,Two or more domains,2015,2857,322,11.3
+Victoria,Outer Regional Australia,Two or more domains,2018,2664,359,13.5
+Victoria,Outer Regional Australia,Two or more domains,2021,2494,289,11.6
+Victoria,Outer Regional Australia,Two or more domains,2024,1935,244,12.6
+Victoria,Remote Australia,Two or more domains,2009,29,5,17.2
+Victoria,Remote Australia,Two or more domains,2012,36,7,19.4
+Victoria,Remote Australia,Two or more domains,2015,33,2,6.1
+Victoria,Remote Australia,Two or more domains,2018,40,3,7.5
+Victoria,Remote Australia,Two or more domains,2021,31,7,22.6
+Victoria,Remote Australia,Two or more domains,2024,25,5,20.0
+Queensland,All children,Two or more domains,2009,52670,8307,15.8
+Queensland,All children,Two or more domains,2012,58107,8001,13.8
+Queensland,All children,Two or more domains,2015,62103,8713,14.0
+Queensland,All children,Two or more domains,2018,61781,8576,13.9
+Queensland,All children,Two or more domains,2021,61385,8088,13.2
+Queensland,All children,Two or more domains,2024,57956,7898,13.6
+Queensland,Major Cities of Australia,Two or more domains,2009,31991,4770,14.9
+Queensland,Major Cities of Australia,Two or more domains,2012,35281,4614,13.1
+Queensland,Major Cities of Australia,Two or more domains,2015,38159,4982,13.1
+Queensland,Major Cities of Australia,Two or more domains,2018,39428,5109,13.0
+Queensland,Major Cities of Australia,Two or more domains,2021,39854,4720,11.8
+Queensland,Major Cities of Australia,Two or more domains,2024,37830,4693,12.4
+Queensland,Inner Regional Australia,Two or more domains,2009,10617,1751,16.5
+Queensland,Inner Regional Australia,Two or more domains,2012,11728,1708,14.6
+Queensland,Inner Regional Australia,Two or more domains,2015,12373,1874,15.1
+Queensland,Inner Regional Australia,Two or more domains,2018,11892,1833,15.4
+Queensland,Inner Regional Australia,Two or more domains,2021,11256,1719,15.3
+Queensland,Inner Regional Australia,Two or more domains,2024,10771,1698,15.8
+Queensland,Outer Regional Australia,Two or more domains,2009,8106,1334,16.5
+Queensland,Outer Regional Australia,Two or more domains,2012,9045,1343,14.8
+Queensland,Outer Regional Australia,Two or more domains,2015,9528,1437,15.1
+Queensland,Outer Regional Australia,Two or more domains,2018,8599,1285,14.9
+Queensland,Outer Regional Australia,Two or more domains,2021,8511,1330,15.6
+Queensland,Outer Regional Australia,Two or more domains,2024,7742,1185,15.3
+Queensland,Remote Australia,Two or more domains,2009,1060,193,18.2
+Queensland,Remote Australia,Two or more domains,2012,1168,157,13.4
+Queensland,Remote Australia,Two or more domains,2015,1118,193,17.3
+Queensland,Remote Australia,Two or more domains,2018,1021,137,13.4
+Queensland,Remote Australia,Two or more domains,2021,1007,148,14.7
+Queensland,Remote Australia,Two or more domains,2024,903,157,17.4
+Queensland,Very Remote Australia,Two or more domains,2009,896,259,28.9
+Queensland,Very Remote Australia,Two or more domains,2012,885,179,20.2
+Queensland,Very Remote Australia,Two or more domains,2015,925,227,24.5
+Queensland,Very Remote Australia,Two or more domains,2018,841,212,25.2
+Queensland,Very Remote Australia,Two or more domains,2021,757,171,22.6
+Queensland,Very Remote Australia,Two or more domains,2024,710,165,23.2
+South Australia,All children,Two or more domains,2009,15031,1730,11.5
+South Australia,All children,Two or more domains,2012,17399,2126,12.2
+South Australia,All children,Two or more domains,2015,18509,2259,12.2
+South Australia,All children,Two or more domains,2018,19157,2490,13.0
+South Australia,All children,Two or more domains,2021,18921,2411,12.7
+South Australia,All children,Two or more domains,2024,17612,2321,13.2
+South Australia,Major Cities of Australia,Two or more domains,2009,10955,1224,11.2
+South Australia,Major Cities of Australia,Two or more domains,2012,12866,1524,11.8
+South Australia,Major Cities of Australia,Two or more domains,2015,13844,1626,11.7
+South Australia,Major Cities of Australia,Two or more domains,2018,14473,1752,12.1
+South Australia,Major Cities of Australia,Two or more domains,2021,14487,1749,12.1
+South Australia,Major Cities of Australia,Two or more domains,2024,13504,1703,12.6
+South Australia,Inner Regional Australia,Two or more domains,2009,1492,168,11.3
+South Australia,Inner Regional Australia,Two or more domains,2012,1539,180,11.7
+South Australia,Inner Regional Australia,Two or more domains,2015,1700,185,10.9
+South Australia,Inner Regional Australia,Two or more domains,2018,1709,250,14.6
+South Australia,Inner Regional Australia,Two or more domains,2021,1656,231,13.9
+South Australia,Inner Regional Australia,Two or more domains,2024,1516,227,15.0
+South Australia,Outer Regional Australia,Two or more domains,2009,1989,254,12.8
+South Australia,Outer Regional Australia,Two or more domains,2012,2300,305,13.3
+South Australia,Outer Regional Australia,Two or more domains,2015,2265,322,14.2
+South Australia,Outer Regional Australia,Two or more domains,2018,2259,346,15.3
+South Australia,Outer Regional Australia,Two or more domains,2021,2125,316,14.9
+South Australia,Outer Regional Australia,Two or more domains,2024,1993,299,15.0
+South Australia,Remote Australia,Two or more domains,2009,447,40,8.9
+South Australia,Remote Australia,Two or more domains,2012,502,56,11.2
+South Australia,Remote Australia,Two or more domains,2015,504,66,13.1
+South Australia,Remote Australia,Two or more domains,2018,537,92,17.1
+South Australia,Remote Australia,Two or more domains,2021,484,67,13.8
+South Australia,Remote Australia,Two or more domains,2024,451,51,11.3
+South Australia,Very Remote Australia,Two or more domains,2009,148,44,29.7
+South Australia,Very Remote Australia,Two or more domains,2012,192,61,31.8
+South Australia,Very Remote Australia,Two or more domains,2015,196,60,30.6
+South Australia,Very Remote Australia,Two or more domains,2018,179,50,27.9
+South Australia,Very Remote Australia,Two or more domains,2021,169,48,28.4
+South Australia,Very Remote Australia,Two or more domains,2024,148,41,27.7
+Western Australia,All children,Two or more domains,2009,26091,3177,12.2
+Western Australia,All children,Two or more domains,2012,30770,3449,11.2
+Western Australia,All children,Two or more domains,2015,32478,3403,10.5
+Western Australia,All children,Two or more domains,2018,32880,3086,9.4
+Western Australia,All children,Two or more domains,2021,33782,3457,10.2
+Western Australia,All children,Two or more domains,2024,32462,4086,12.6
+Western Australia,Major Cities of Australia,Two or more domains,2009,19309,2209,11.4
+Western Australia,Major Cities of Australia,Two or more domains,2012,23044,2427,10.5
+Western Australia,Major Cities of Australia,Two or more domains,2015,24625,2360,9.6
+Western Australia,Major Cities of Australia,Two or more domains,2018,25408,2176,8.6
+Western Australia,Major Cities of Australia,Two or more domains,2021,26455,2478,9.4
+Western Australia,Major Cities of Australia,Two or more domains,2024,25650,3166,12.3
+Western Australia,Inner Regional Australia,Two or more domains,2009,2384,281,11.8
+Western Australia,Inner Regional Australia,Two or more domains,2012,2803,310,11.1
+Western Australia,Inner Regional Australia,Two or more domains,2015,2999,337,11.2
+Western Australia,Inner Regional Australia,Two or more domains,2018,2799,269,9.6
+Western Australia,Inner Regional Australia,Two or more domains,2021,2827,319,11.3
+Western Australia,Inner Regional Australia,Two or more domains,2024,2681,272,10.1
+Western Australia,Outer Regional Australia,Two or more domains,2009,2303,330,14.3
+Western Australia,Outer Regional Australia,Two or more domains,2012,2583,348,13.5
+Western Australia,Outer Regional Australia,Two or more domains,2015,2557,299,11.7
+Western Australia,Outer Regional Australia,Two or more domains,2018,2380,268,11.3
+Western Australia,Outer Regional Australia,Two or more domains,2021,2310,309,13.4
+Western Australia,Outer Regional Australia,Two or more domains,2024,2166,306,14.1
+Western Australia,Remote Australia,Two or more domains,2009,1161,143,12.3
+Western Australia,Remote Australia,Two or more domains,2012,1377,123,8.9
+Western Australia,Remote Australia,Two or more domains,2015,1331,184,13.8
+Western Australia,Remote Australia,Two or more domains,2018,1403,166,11.8
+Western Australia,Remote Australia,Two or more domains,2021,1323,141,10.7
+Western Australia,Remote Australia,Two or more domains,2024,1225,142,11.6
+Western Australia,Very Remote Australia,Two or more domains,2009,934,214,22.9
+Western Australia,Very Remote Australia,Two or more domains,2012,963,241,25.0
+Western Australia,Very Remote Australia,Two or more domains,2015,966,223,23.1
+Western Australia,Very Remote Australia,Two or more domains,2018,890,207,23.3
+Western Australia,Very Remote Australia,Two or more domains,2021,867,210,24.2
+Western Australia,Very Remote Australia,Two or more domains,2024,740,200,27.0
+Tasmania,All children,Two or more domains,2009,5699,617,10.8
+Tasmania,All children,Two or more domains,2012,6104,618,10.1
+Tasmania,All children,Two or more domains,2015,6158,657,10.7
+Tasmania,All children,Two or more domains,2018,5840,625,10.7
+Tasmania,All children,Two or more domains,2021,5594,668,11.9
+Tasmania,All children,Two or more domains,2024,5244,748,14.3
+Tasmania,Inner Regional Australia,Two or more domains,2009,3478,359,10.3
+Tasmania,Inner Regional Australia,Two or more domains,2012,3694,369,10.0
+Tasmania,Inner Regional Australia,Two or more domains,2015,3805,392,10.3
+Tasmania,Inner Regional Australia,Two or more domains,2018,3726,378,10.1
+Tasmania,Inner Regional Australia,Two or more domains,2021,3598,403,11.2
+Tasmania,Inner Regional Australia,Two or more domains,2024,3331,474,14.2
+Tasmania,Outer Regional Australia,Two or more domains,2009,2111,245,11.6
+Tasmania,Outer Regional Australia,Two or more domains,2012,2292,238,10.4
+Tasmania,Outer Regional Australia,Two or more domains,2015,2224,244,11.0
+Tasmania,Outer Regional Australia,Two or more domains,2018,1993,226,11.3
+Tasmania,Outer Regional Australia,Two or more domains,2021,1897,240,12.7
+Tasmania,Outer Regional Australia,Two or more domains,2024,1826,259,14.2
+Tasmania,Remote Australia,Two or more domains,2009,89,10,11.2
+Tasmania,Remote Australia,Two or more domains,2012,97,8,8.2
+Tasmania,Remote Australia,Two or more domains,2015,107,14,13.1
+Tasmania,Remote Australia,Two or more domains,2018,84,16,19.0
+Tasmania,Remote Australia,Two or more domains,2021,71,21,29.6
+Tasmania,Remote Australia,Two or more domains,2024,65,14,21.5
+Tasmania,Very Remote Australia,Two or more domains,2009,21,3,14.3
+Tasmania,Very Remote Australia,Two or more domains,2012,21,3,14.3
+Tasmania,Very Remote Australia,Two or more domains,2015,22,7,31.8
+Tasmania,Very Remote Australia,Two or more domains,2018,37,5,13.5
+Tasmania,Very Remote Australia,Two or more domains,2021,28,4,14.3
+Tasmania,Very Remote Australia,Two or more domains,2024,22,1,4.5
+Northern Territory,All children,Two or more domains,2009,2878,673,23.4
+Northern Territory,All children,Two or more domains,2012,3130,653,20.9
+Northern Territory,All children,Two or more domains,2015,3255,751,23.1
+Northern Territory,All children,Two or more domains,2018,3184,745,23.4
+Northern Territory,All children,Two or more domains,2021,2975,764,25.7
+Northern Territory,All children,Two or more domains,2024,2686,722,26.9
+Northern Territory,Outer Regional Australia,Two or more domains,2009,1537,189,12.3
+Northern Territory,Outer Regional Australia,Two or more domains,2012,1735,211,12.2
+Northern Territory,Outer Regional Australia,Two or more domains,2015,1807,240,13.3
+Northern Territory,Outer Regional Australia,Two or more domains,2018,1910,273,14.3
+Northern Territory,Outer Regional Australia,Two or more domains,2021,1831,354,19.3
+Northern Territory,Outer Regional Australia,Two or more domains,2024,1636,317,19.4
+Northern Territory,Remote Australia,Two or more domains,2009,639,219,34.3
+Northern Territory,Remote Australia,Two or more domains,2012,677,163,24.1
+Northern Territory,Remote Australia,Two or more domains,2015,741,169,22.8
+Northern Territory,Remote Australia,Two or more domains,2018,657,171,26.0
+Northern Territory,Remote Australia,Two or more domains,2021,632,162,25.6
+Northern Territory,Remote Australia,Two or more domains,2024,558,176,31.5
+Northern Territory,Very Remote Australia,Two or more domains,2009,702,265,37.7
+Northern Territory,Very Remote Australia,Two or more domains,2012,718,279,38.9
+Northern Territory,Very Remote Australia,Two or more domains,2015,707,342,48.4
+Northern Territory,Very Remote Australia,Two or more domains,2018,617,301,48.8
+Northern Territory,Very Remote Australia,Two or more domains,2021,512,248,48.4
+Northern Territory,Very Remote Australia,Two or more domains,2024,492,229,46.5
+Australian Capital Territory,All children,Two or more domains,2009,4190,456,10.9
+Australian Capital Territory,All children,Two or more domains,2012,4616,454,9.8
+Australian Capital Territory,All children,Two or more domains,2015,5158,531,10.3
+Australian Capital Territory,All children,Two or more domains,2018,5481,680,12.4
+Australian Capital Territory,All children,Two or more domains,2021,5532,735,13.3
+Australian Capital Territory,All children,Two or more domains,2024,4902,728,14.9
+Australian Capital Territory,Major Cities of Australia,Two or more domains,2009,4190,456,10.9
+Australian Capital Territory,Major Cities of Australia,Two or more domains,2012,4616,454,9.8
+Australian Capital Territory,Major Cities of Australia,Two or more domains,2015,5158,531,10.3
+Australian Capital Territory,Major Cities of Australia,Two or more domains,2018,5481,680,12.4
+Australian Capital Territory,Major Cities of Australia,Two or more domains,2021,5532,735,13.3
+Australian Capital Territory,Major Cities of Australia,Two or more domains,2024,4902,728,14.9

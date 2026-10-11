@@ -1,0 +1,43 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Heatmap - % of children developmentally vulnerable in each of the five AEDC domains, by neighbourhood disadvantage quintile, Australia 2024.",
+  "data": {"url": "data/aedc_by_seifa.csv"},
+  "transform": [
+    {"filter": "datum.state == 'Australia' && datum.year == 2024 && datum.seifa_quintile != 'All children'"},
+    {"filter": {"field": "domain", "oneOf": ["Physical health", "Social competence", "Emotional maturity", "Language & thinking", "Communication"]}},
+    {"calculate": "toNumber(substring(datum.seifa_quintile, 9, 10))", "as": "q"},
+    {"calculate": "['', 'Most disadvantaged', '2', '3', '4', 'Least disadvantaged'][datum.q]", "as": "q_label"}
+  ],
+  "width": 560,
+  "height": 230,
+  "encoding": {
+    "x": {"field": "q_label", "type": "ordinal", "sort": {"field": "q"}, "title": "Neighbourhood disadvantage (fifths of Australia)",
+      "axis": {"labelAngle": 0, "orient": "top", "domain": false, "ticks": false, "labelPadding": 6}},
+    "y": {"field": "domain", "type": "nominal", "title": null,
+      "sort": ["Language & thinking", "Physical health", "Social competence", "Communication", "Emotional maturity"],
+      "axis": {"domain": false, "ticks": false, "labelPadding": 8}}
+  },
+  "layer": [
+    {
+      "mark": {"type": "rect", "stroke": "#fcfcfb", "strokeWidth": 2, "cornerRadius": 3},
+      "encoding": {
+        "color": {"field": "pct_vulnerable", "type": "quantitative", "title": "% of children vulnerable",
+          "scale": {"range": ["#e6f0fc", "#86b6ef", "#2a78d6", "#104281"], "domain": [3, 9, 13, 17]},
+          "legend": {"orient": "bottom", "gradientLength": 220, "format": ".0f"}},
+        "tooltip": [
+          {"field": "domain", "title": "Development area"},
+          {"field": "q_label", "title": "Neighbourhood"},
+          {"field": "pct_vulnerable", "title": "% vulnerable", "format": ".1f"},
+          {"field": "n_vulnerable", "title": "Children vulnerable", "format": ","}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "text", "fontSize": 13, "fontWeight": 600},
+      "encoding": {
+        "text": {"field": "pct_vulnerable", "type": "quantitative", "format": ".1f"},
+        "color": {"condition": {"test": "datum.pct_vulnerable >= 11", "value": "#ffffff"}, "value": "#0b0b0b"}
+      }
+    }
+  ]
+}

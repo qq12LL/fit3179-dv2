@@ -1,0 +1,36 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Waffle chart - out of every 100 Australian domestic university students in 2024, how many come from low-SES areas or are First Nations, compared with their 'fair share' (share of the population). Each square = 1 student in 100.",
+  "data": {"url": "data/uni_share_2024.csv"},
+  "transform": [
+    {"calculate": "sequence(1, 101)", "as": "cell"},
+    {"flatten": ["cell"]},
+    {"calculate": "(datum.cell - 1) % 10", "as": "col"},
+    {"calculate": "floor((datum.cell - 1) / 10)", "as": "row"},
+    {"calculate": "datum.cell <= round(datum.uni_share_pct) ? 'At university' : datum.cell <= round(datum.population_share_pct) ? 'Missing (gap to fair share)' : 'All other students'", "as": "status"},
+    {"calculate": "datum.label + '|' + datum.uni_share_pct + ' in 100  ·  fair share: ' + datum.population_share_pct", "as": "header"}
+  ],
+  "facet": {
+    "column": {"field": "header", "type": "nominal", "title": null, "sort": {"field": "group", "order": "descending"},
+      "header": {"labelExpr": "split(datum.value, '|')", "labelFontSize": 13, "labelFontWeight": 600, "labelLimit": 0, "labelPadding": 10, "labelAlign": "left", "labelAnchor": "start"}}
+  },
+  "spec": {
+    "width": 230,
+    "height": 230,
+    "mark": {"type": "rect", "cornerRadius": 2, "strokeWidth": 1.5},
+    "encoding": {
+      "x": {"field": "col", "type": "ordinal", "axis": null, "scale": {"paddingInner": 0.18}},
+      "y": {"field": "row", "type": "ordinal", "axis": null, "sort": "descending", "scale": {"paddingInner": 0.18}},
+      "color": {"field": "status", "type": "nominal", "title": null,
+        "scale": {"domain": ["At university", "Missing (gap to fair share)", "All other students"], "range": ["#2a78d6", "#fbe1d6", "#e3e2de"]},
+        "legend": {"orient": "top"}},
+      "stroke": {"condition": {"test": "datum.status == 'Missing (gap to fair share)'", "value": "#eb6834"}, "value": null},
+      "tooltip": [
+        {"field": "label", "title": "Group"},
+        {"field": "uni_share_pct", "title": "% of uni students (2024)"},
+        {"field": "population_share_pct", "title": "% of population (fair share)"}
+      ]
+    }
+  },
+  "spacing": 72
+}
