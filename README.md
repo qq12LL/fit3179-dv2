@@ -28,18 +28,18 @@ raw/                        (not committed) original downloads, see "Data source
 | # | Spec | Idiom | What it shows |
 |---|------|-------|---------------|
 | 1 | `01_map_bivariate.vl.json` | **Bivariate choropleth map** | Area disadvantage × % of 5-year-olds developmentally vulnerable, by council area |
-| 2 | `02_heatmap_domains.vl.json` | Heatmap | % vulnerable in 5 development areas × 5 disadvantage quintiles |
-| 3 | `03_dumbbell_remoteness.vl.json` | Dumbbell / dot strip | % vulnerable from major cities to very remote, per development area |
-| 4 | `04_map_schools_strip.vl.json` (top) | **Proportional symbol map** | Every school: size = enrolments, colour = ICSEA |
-| 5 | `04_map_schools_strip.vl.json` (bottom) | Jittered strip plot + medians | School ICSEA by remoteness; **brushing filters the map**, dropdown filters sector |
-| 6 | `05_ridgeline_sector.vl.json` | Ridgeline (density) plot | ICSEA distribution for Government, Catholic and Independent schools |
-| 7 | `06_stacked_sea_sector.vl.json` | Normalised stacked bar | Students' family-background quarters by sector (enrolment-weighted) |
-| 8 | `07_map_year12.vl.json` | **Choropleth map + city insets** | % of 25–34 year olds who finished Year 12, by council area; Sydney and Melbourne insets |
-| 9 | `08_scatter_irsd_y12.vl.json` | Scatterplot + LOESS trend | Area disadvantage vs Year 12 completion |
-| 10 | `09_waffle_uni.vl.json` | Waffle chart | Low-SES and First Nations students per 100 university students vs fair share |
-| 11 | `10_line_uni_trend.vl.json` | Multi-line chart | Equity-group shares of university students, 2011–2024 |
-| 12 | `11_overview_detail_rank.vl.json` | **Overview + detail (brush)** ranked bar chart | All 450 council areas ranked by % of children vulnerable; brushing the overview strip sets the detail chart's x-scale domain |
-| 13 | `12_small_multiples_years.vl.json` | **Small-multiple choropleth maps** (`repeat` operator) | % of children vulnerable by council area, one map per AEDC year 2009–2024, shared colour scale |
+| 2 | `02_overview_detail_rank.vl.json` | **Overview + detail (brush)** ranked bar chart | All 450 council areas ranked by % of children vulnerable; brushing the overview strip sets the detail chart's x-scale domain |
+| 3 | `03_heatmap_domains.vl.json` | Heatmap | % vulnerable in 5 development areas × 5 disadvantage quintiles |
+| 4 | `04_dumbbell_remoteness.vl.json` | Dumbbell / dot strip | % vulnerable from major cities to very remote, per development area |
+| 5 | `05_small_multiples_years.vl.json` | **Small-multiple choropleth maps** (`repeat` operator) | % of children vulnerable by council area, one map per AEDC year 2009–2024, shared colour scale |
+| 6 | `06_map_schools_strip.vl.json` (top) | **Proportional symbol map** | Every school: size = enrolments, colour = ICSEA |
+| 7 | `06_map_schools_strip.vl.json` (bottom) | Jittered strip plot + medians | School ICSEA by remoteness; **brushing filters the map**, dropdown filters sector |
+| 8 | `07_ridgeline_sector.vl.json` | Ridgeline (density) plot | ICSEA distribution for Government, Catholic and Independent schools |
+| 9 | `08_stacked_sea_sector.vl.json` | Normalised stacked bar | Students' family-background quarters by sector (enrolment-weighted) |
+| 10 | `09_map_year12.vl.json` | **Choropleth map + city insets** | % of 25–34 year olds who finished Year 12, by council area; Sydney and Melbourne insets |
+| 11 | `10_scatter_irsd_y12.vl.json` | Scatterplot + LOESS trend | Area disadvantage vs Year 12 completion |
+| 12 | `11_waffle_uni.vl.json` | Waffle chart | Low-SES and First Nations students per 100 university students vs fair share |
+| 13 | `12_line_uni_trend.vl.json` | Multi-line chart | Equity-group shares of university students, 2011–2024 |
 
 All maps use an **Albers equal-area conic projection** (`conicEqualArea`, standard parallels 18°S and 36°S, the Australian convention), so council areas are compared at their true relative size.
 
