@@ -28,7 +28,8 @@
         "legend": {"orient": "top", "columns": 2, "symbolStrokeColor": "#4a3b2e", "symbolStrokeWidth": 1}},
       "stroke": {"condition": {"test": "datum.status == 'Missing compared with fair share'", "value": "#4a3b2e"}, "value": null},
       "tooltip": [
-        {"field": "Group", "title": "Group"},
+        {"field": "status", "title": "This square"},
+        {"field": "Group", "title": "Waffle"},
         {"field": "uni_share_pct", "title": "Share of university students in 2024 (%)"},
         {"field": "population_share_pct", "title": "Share of the population (%)"}
       ]
