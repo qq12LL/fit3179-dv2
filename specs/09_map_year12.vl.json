@@ -458,7 +458,7 @@
             "lineBreak": "|",
             "lineHeight": 16,
             "baseline": "bottom",
-            "dy": -24,
+            "dy": -16,
             "align": {
               "expr": "datum.align"
             }
