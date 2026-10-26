@@ -159,4 +159,6 @@ section { scroll-margin-top: 64px; }
 @media (max-width: 760px) {
   .row-3, .row-4, .footer-grid { grid-template-columns: 1fr; }
 }
-.dek, .lede, .closing { text-align: left; }
+
+/* intro paragraphs: centred, max two lines, line breaks set in the HTML */
+.dek, .lede, .closing { max-width: none; text-align: center; }
