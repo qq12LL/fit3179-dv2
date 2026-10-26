@@ -1,0 +1,320 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Mosaic (Marimekko) chart - each sector's bar height is its share of all students in Australia, and each bar is split into the share of its students from each family background quarter, 2025, weighted by enrolments. Purple-to-navy order (same as the school advantage colours): least to most advantaged.",
+  "data": {
+    "url": "data/schools.csv"
+  },
+  "transform": [
+    {
+      "filter": "isValid(datum.sea_bottom_pct) && isValid(datum.enrolments)"
+    },
+    {
+      "calculate": "datum.sea_bottom_pct * datum.enrolments / 100",
+      "as": "Least advantaged quarter"
+    },
+    {
+      "calculate": "datum.sea_lowmid_pct * datum.enrolments / 100",
+      "as": "Lower-middle quarter"
+    },
+    {
+      "calculate": "datum.sea_upmid_pct * datum.enrolments / 100",
+      "as": "Upper-middle quarter"
+    },
+    {
+      "calculate": "datum.sea_top_pct * datum.enrolments / 100",
+      "as": "Most advantaged quarter"
+    },
+    {
+      "fold": [
+        "Least advantaged quarter",
+        "Lower-middle quarter",
+        "Upper-middle quarter",
+        "Most advantaged quarter"
+      ],
+      "as": [
+        "quarter",
+        "students"
+      ]
+    },
+    {
+      "aggregate": [
+        {
+          "op": "sum",
+          "field": "students",
+          "as": "students"
+        }
+      ],
+      "groupby": [
+        "sector",
+        "quarter"
+      ]
+    },
+    {
+      "calculate": "indexof(['Government','Catholic','Independent'], datum.sector)",
+      "as": "s_order"
+    },
+    {
+      "calculate": "indexof(['Least advantaged quarter','Lower-middle quarter','Upper-middle quarter','Most advantaged quarter'], datum.quarter)",
+      "as": "q_order"
+    },
+    {
+      "joinaggregate": [
+        {
+          "op": "sum",
+          "field": "students",
+          "as": "sector_total"
+        }
+      ],
+      "groupby": [
+        "sector"
+      ]
+    },
+    {
+      "joinaggregate": [
+        {
+          "op": "sum",
+          "field": "students",
+          "as": "all_students"
+        }
+      ]
+    },
+    {
+      "calculate": "datum.students / datum.sector_total",
+      "as": "share"
+    },
+    {
+      "calculate": "datum.sector_total / datum.all_students",
+      "as": "sector_share"
+    },
+    {
+      "stack": "students",
+      "groupby": [],
+      "sort": [
+        {
+          "field": "s_order"
+        },
+        {
+          "field": "q_order"
+        }
+      ],
+      "offset": "normalize",
+      "as": [
+        "s0",
+        "s1"
+      ]
+    },
+    {
+      "window": [
+        {
+          "op": "min",
+          "field": "s0",
+          "as": "y0"
+        },
+        {
+          "op": "max",
+          "field": "s1",
+          "as": "y1"
+        }
+      ],
+      "groupby": [
+        "sector"
+      ],
+      "frame": [
+        null,
+        null
+      ]
+    },
+    {
+      "stack": "students",
+      "groupby": [
+        "sector"
+      ],
+      "sort": [
+        {
+          "field": "q_order"
+        }
+      ],
+      "offset": "normalize",
+      "as": [
+        "x0",
+        "x1"
+      ]
+    },
+    {
+      "calculate": "(datum.x0 + datum.x1) / 2",
+      "as": "x_mid"
+    },
+    {
+      "calculate": "(datum.y0 + datum.y1) / 2",
+      "as": "y_mid"
+    },
+    {
+      "calculate": "datum.sector + '|' + format(datum.sector_share, '.0%') + ' of students'",
+      "as": "sector_label"
+    }
+  ],
+  "width": 430,
+  "height": 300,
+  "encoding": {
+    "y": {
+      "field": "y0",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          0,
+          1
+        ],
+        "reverse": true
+      },
+      "axis": null
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rect",
+        "stroke": "#fffbf4",
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "x": {
+          "field": "x0",
+          "type": "quantitative",
+          "title": "Share of the sector's students",
+          "axis": {
+            "format": "%",
+            "values": [
+              0,
+              0.25,
+              0.5,
+              0.75,
+              1
+            ],
+            "grid": false,
+            "domain": false
+          }
+        },
+        "x2": {
+          "field": "x1"
+        },
+        "y2": {
+          "field": "y1"
+        },
+        "color": {
+          "field": "quarter",
+          "type": "ordinal",
+          "title": "Family background of students",
+          "scale": {
+            "domain": [
+              "Least advantaged quarter",
+              "Lower-middle quarter",
+              "Upper-middle quarter",
+              "Most advantaged quarter"
+            ],
+            "range": [
+              "#4b2f80",
+              "#b8a8d8",
+              "#8fb2dc",
+              "#1f4f8c"
+            ]
+          },
+          "legend": {
+            "orient": "top",
+            "columns": 2,
+            "labelLimit": 300
+          }
+        },
+        "tooltip": [
+          {
+            "field": "sector",
+            "title": "Sector"
+          },
+          {
+            "field": "sector_share",
+            "title": "Sector's share of all students",
+            "format": ".0%"
+          },
+          {
+            "field": "quarter",
+            "title": "Family background"
+          },
+          {
+            "field": "share",
+            "title": "Share of the sector's students",
+            "format": ".1%"
+          },
+          {
+            "field": "students",
+            "title": "Approximate number of students",
+            "format": ",.0f"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 14,
+        "fontWeight": 700
+      },
+      "encoding": {
+        "x": {
+          "field": "x_mid",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "y_mid",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "share",
+          "type": "quantitative",
+          "format": ".0%"
+        },
+        "color": {
+          "condition": {
+            "test": "datum.q_order == 0 || datum.q_order == 3",
+            "value": "#ffffff"
+          },
+          "value": "#2b2118"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.q_order == 0"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -10,
+        "fontSize": 14,
+        "lineBreak": "|",
+        "lineHeight": 17,
+        "color": "#2b2118",
+        "fontWeight": 600
+      },
+      "encoding": {
+        "x": {
+          "datum": 0,
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "y_mid",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "sector_label"
+        }
+      }
+    }
+  ],
+  "padding": {
+    "left": 125,
+    "right": 22,
+    "top": 5,
+    "bottom": 5
+  }
+}

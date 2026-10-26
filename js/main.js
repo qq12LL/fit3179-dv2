@@ -7,9 +7,9 @@
     ["#vis03", "specs/04_dumbbell_remoteness.vl.json"],
     ["#vis04", "specs/06_map_schools_strip.vl.json", "canvas", "#vis04-controls"], // ~9,600 points: canvas is faster
     ["#vis05", "specs/07_ridgeline_sector.vl.json"],
-    ["#vis06", "specs/08_stacked_sea_sector.vl.json"],
+    ["#vis06", "specs/08_mosaic_sea_sector.vl.json"],
     ["#vis07", "specs/09_map_year12.vl.json"],
-    ["#vis08", "specs/10_scatter_irsd_y12.vl.json"],
+    ["#vis08", "specs/10_boxplot_irsd_y12.vl.json"],
     ["#vis09", "specs/11_waffle_uni.vl.json"],
     ["#vis10", "specs/12_line_uni_trend.vl.json"],
     ["#vis11", "specs/02_overview_detail_rank.vl.json"],             // overview + detail (brush)
@@ -39,7 +39,7 @@
   }
 
   for (const [el, spec, renderer, bind] of charts) {
-    vegaEmbed(el, spec, {
+    vegaEmbed(el, spec + "?v=" + Date.now(), {
       config,
       patch: makeDecorationNonInteractive,
       bind: bind || undefined, // where to put dropdowns (above the chart)

@@ -1,0 +1,321 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Box plot - Year 12 completion among 25-34 year olds (2021 Census) for the council areas in each area disadvantage decile (ABS SEIFA IRSD 2021, 1 = most disadvantaged). Boxes show the middle half of council areas, the white line is the median, whiskers reach 1.5 times the box height, and dots are outliers. Navy = Year 12 completion (same colour as the Year 12 map).",
+  "data": {
+    "url": "data/lga.csv",
+    "format": {
+      "parse": {
+        "irsd_score": "number",
+        "irsd_decile": "number",
+        "y12_pct_25_34": "number",
+        "population": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "filter": "datum.y12_pct_25_34 > 0 && datum.irsd_decile > 0"
+    },
+    {
+      "calculate": "{'NSW':'New South Wales','VIC':'Victoria','QLD':'Queensland','SA':'South Australia','WA':'Western Australia','TAS':'Tasmania','NT':'Northern Territory','ACT':'Australian Capital Territory'}[datum.state]",
+      "as": "State"
+    }
+  ],
+  "width": 560,
+  "height": 380,
+  "encoding": {
+    "x": {
+      "field": "irsd_decile",
+      "type": "ordinal",
+      "title": "Area disadvantage decile (1 is the most disadvantaged tenth)",
+      "axis": {
+        "labelAngle": 0,
+        "labelFontSize": 14
+      }
+    },
+    "y": {
+      "field": "y12_pct_25_34",
+      "type": "quantitative",
+      "title": "Young adults who finished Year 12 (%)",
+      "scale": {
+        "domain": [
+          0,
+          100
+        ]
+      },
+      "axis": {
+        "grid": true,
+        "labelExpr": "datum.value + '%'",
+        "values": [
+          0,
+          20,
+          40,
+          60,
+          80,
+          100
+        ]
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "boxplot",
+        "extent": 1.5,
+        "size": 34,
+        "color": "#2a5f9e",
+        "median": {
+          "color": "#ffffff",
+          "thickness": 3
+        },
+        "rule": {
+          "color": "#4a3b2e"
+        },
+        "ticks": false,
+        "outliers": false
+      }
+    },
+    {
+      "transform": [
+        {
+          "joinaggregate": [
+            {
+              "op": "median",
+              "field": "y12_pct_25_34",
+              "as": "med"
+            },
+            {
+              "op": "q1",
+              "field": "y12_pct_25_34",
+              "as": "lo"
+            },
+            {
+              "op": "q3",
+              "field": "y12_pct_25_34",
+              "as": "hi"
+            },
+            {
+              "op": "count",
+              "as": "n"
+            }
+          ],
+          "groupby": [
+            "irsd_decile"
+          ]
+        },
+        {
+          "filter": "datum.y12_pct_25_34 >= datum.lo - 1.5 * (datum.hi - datum.lo) && datum.y12_pct_25_34 <= datum.hi + 1.5 * (datum.hi - datum.lo)"
+        },
+        {
+          "aggregate": [
+            {
+              "op": "min",
+              "field": "y12_pct_25_34",
+              "as": "bottom"
+            },
+            {
+              "op": "max",
+              "field": "y12_pct_25_34",
+              "as": "top"
+            }
+          ],
+          "groupby": [
+            "irsd_decile",
+            "med",
+            "lo",
+            "hi",
+            "n"
+          ]
+        }
+      ],
+      "mark": {
+        "type": "bar",
+        "size": 34,
+        "opacity": 0
+      },
+      "encoding": {
+        "y": {
+          "field": "bottom",
+          "type": "quantitative"
+        },
+        "y2": {
+          "field": "top"
+        },
+        "tooltip": [
+          {
+            "field": "irsd_decile",
+            "title": "Disadvantage decile"
+          },
+          {
+            "field": "n",
+            "title": "Council areas"
+          },
+          {
+            "field": "med",
+            "title": "Median completion (%)",
+            "format": ".1f"
+          },
+          {
+            "field": "lo",
+            "title": "Middle half from (%)",
+            "format": ".1f"
+          },
+          {
+            "field": "hi",
+            "title": "Middle half to (%)",
+            "format": ".1f"
+          }
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "joinaggregate": [
+            {
+              "op": "q1",
+              "field": "y12_pct_25_34",
+              "as": "lo"
+            },
+            {
+              "op": "q3",
+              "field": "y12_pct_25_34",
+              "as": "hi"
+            }
+          ],
+          "groupby": [
+            "irsd_decile"
+          ]
+        },
+        {
+          "filter": "datum.y12_pct_25_34 < datum.lo - 1.5 * (datum.hi - datum.lo) || datum.y12_pct_25_34 > datum.hi + 1.5 * (datum.hi - datum.lo)"
+        }
+      ],
+      "mark": {
+        "type": "point",
+        "filled": false,
+        "color": "#2a5f9e",
+        "size": 40,
+        "strokeWidth": 1.6
+      },
+      "encoding": {
+        "tooltip": [
+          {
+            "field": "lga_name",
+            "title": "Council area"
+          },
+          {
+            "field": "State",
+            "title": "State"
+          },
+          {
+            "field": "irsd_decile",
+            "title": "Disadvantage decile"
+          },
+          {
+            "field": "y12_pct_25_34",
+            "title": "Aged 25 to 34 who finished Year 12 (%)",
+            "format": ".1f"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "d": 10,
+            "y": 98,
+            "t": "Median 92%"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 13,
+        "fontWeight": 700,
+        "color": "#12305a"
+      },
+      "encoding": {
+        "x": {
+          "field": "d",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "t"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "d": 2,
+            "y": 97,
+            "t": "Migrant city suburbs, such as Brimbank: high completion"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "fontSize": 13,
+        "fontStyle": "italic",
+        "color": "#4a3b2e",
+        "dx": -8
+      },
+      "encoding": {
+        "x": {
+          "field": "d",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "t"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "d": 1,
+            "y": 15,
+            "t": "Median 44%|Lowest: remote First Nations communities"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "fontSize": 13,
+        "fontStyle": "italic",
+        "color": "#4a3b2e",
+        "dx": -12,
+        "dy": 0,
+        "lineBreak": "|",
+        "lineHeight": 16
+      },
+      "encoding": {
+        "x": {
+          "field": "d",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "t"
+        }
+      }
+    }
+  ]
+}
