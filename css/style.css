@@ -50,7 +50,7 @@ h1 {
 
 /* ---------- card grids ---------- */
 .row-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin: 0 0 32px; }
-.row-4 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; margin: 0 0 32px; }
+.row-4 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; max-width: 860px; margin: 0 auto 32px; }
 .card {
   background: var(--card);
   border-left: 4px solid var(--accent);
